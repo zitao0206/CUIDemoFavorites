@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## CUIDemoFavorites
+## CUIDemoElements
 
 Copyright (c) 2021 Leon0206 <63437613@qq.com>
 
@@ -24,7 +24,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## CUIUserGuide
+## CUIDemoExamples
 
 Copyright (c) 2021 Leon0206 <63437613@qq.com>
 

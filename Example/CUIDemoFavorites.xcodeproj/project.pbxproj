@@ -24,15 +24,13 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		D8E8B3CF26132114003BD3DB /* CUIRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B3CD26132114003BD3DB /* CUIRuleViewController.m */; };
-		D8E8B40F2613259B003BD3DB /* cui_multi_label.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E8B40B2613259B003BD3DB /* cui_multi_label.png */; };
-		D8E8B4102613259B003BD3DB /* cui_image_text.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E8B40C2613259B003BD3DB /* cui_image_text.png */; };
-		D8E8B4112613259B003BD3DB /* cui_fold_number.mov in Resources */ = {isa = PBXBuildFile; fileRef = D8E8B40E2613259B003BD3DB /* cui_fold_number.mov */; };
-		D8E8B423261328A4003BD3DB /* CUICollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B415261328A4003BD3DB /* CUICollectionViewLayout.m */; };
 		D8E8B424261328A4003BD3DB /* CUIHallListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B418261328A4003BD3DB /* CUIHallListViewController.m */; };
-		D8E8B425261328A4003BD3DB /* CUIDemoCellItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B41C261328A4003BD3DB /* CUIDemoCellItemModel.m */; };
-		D8E8B426261328A4003BD3DB /* CUIDemoData.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B41D261328A4003BD3DB /* CUIDemoData.m */; };
-		D8E8B427261328A4003BD3DB /* CUICollectionViewBigCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B41F261328A4003BD3DB /* CUICollectionViewBigCell.m */; };
-		D8E8B428261328A4003BD3DB /* CUICollectionViewSmallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B420261328A4003BD3DB /* CUICollectionViewSmallCell.m */; };
+		D8E8B4DB26134076003BD3DB /* CUIHallViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B4D626134076003BD3DB /* CUIHallViewAnimationViewController.m */; };
+		D8E8B4DC26134076003BD3DB /* CUIHallViewControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B4D926134076003BD3DB /* CUIHallViewControlViewController.m */; };
+		D8E8B5292613452E003BD3DB /* CUICollectionViewVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B5272613452E003BD3DB /* CUICollectionViewVideoCell.m */; };
+		D8E8B52E26134537003BD3DB /* CUICollectionViewImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B52D26134537003BD3DB /* CUICollectionViewImageCell.m */; };
+		D8E8B55326134A96003BD3DB /* CUIViewControlCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B55226134A96003BD3DB /* CUIViewControlCollectionViewLayout.m */; };
+		D8E8B55C26134AC5003BD3DB /* CUIViewAnimationCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B55B26134AC5003BD3DB /* CUIViewAnimationCollectionViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,21 +70,20 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8E8B3CD26132114003BD3DB /* CUIRuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIRuleViewController.m; sourceTree = "<group>"; };
 		D8E8B3CE26132114003BD3DB /* CUIRuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIRuleViewController.h; sourceTree = "<group>"; };
-		D8E8B40B2613259B003BD3DB /* cui_multi_label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cui_multi_label.png; sourceTree = "<group>"; };
-		D8E8B40C2613259B003BD3DB /* cui_image_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cui_image_text.png; sourceTree = "<group>"; };
-		D8E8B40E2613259B003BD3DB /* cui_fold_number.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = cui_fold_number.mov; sourceTree = "<group>"; };
-		D8E8B415261328A4003BD3DB /* CUICollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUICollectionViewLayout.m; sourceTree = "<group>"; };
 		D8E8B416261328A4003BD3DB /* CUIHallListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIHallListViewController.h; sourceTree = "<group>"; };
-		D8E8B417261328A4003BD3DB /* CUICollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUICollectionViewLayout.h; sourceTree = "<group>"; };
 		D8E8B418261328A4003BD3DB /* CUIHallListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIHallListViewController.m; sourceTree = "<group>"; };
-		D8E8B41A261328A4003BD3DB /* CUIDemoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIDemoData.h; sourceTree = "<group>"; };
-		D8E8B41B261328A4003BD3DB /* CUIDemoCellItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIDemoCellItemModel.h; sourceTree = "<group>"; };
-		D8E8B41C261328A4003BD3DB /* CUIDemoCellItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIDemoCellItemModel.m; sourceTree = "<group>"; };
-		D8E8B41D261328A4003BD3DB /* CUIDemoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIDemoData.m; sourceTree = "<group>"; };
-		D8E8B41F261328A4003BD3DB /* CUICollectionViewBigCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUICollectionViewBigCell.m; sourceTree = "<group>"; };
-		D8E8B420261328A4003BD3DB /* CUICollectionViewSmallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUICollectionViewSmallCell.m; sourceTree = "<group>"; };
-		D8E8B421261328A4003BD3DB /* CUICollectionViewSmallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUICollectionViewSmallCell.h; sourceTree = "<group>"; };
-		D8E8B422261328A4003BD3DB /* CUICollectionViewBigCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUICollectionViewBigCell.h; sourceTree = "<group>"; };
+		D8E8B4D626134076003BD3DB /* CUIHallViewAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIHallViewAnimationViewController.m; sourceTree = "<group>"; };
+		D8E8B4D726134076003BD3DB /* CUIHallViewAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIHallViewAnimationViewController.h; sourceTree = "<group>"; };
+		D8E8B4D926134076003BD3DB /* CUIHallViewControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIHallViewControlViewController.m; sourceTree = "<group>"; };
+		D8E8B4DA26134076003BD3DB /* CUIHallViewControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIHallViewControlViewController.h; sourceTree = "<group>"; };
+		D8E8B5272613452E003BD3DB /* CUICollectionViewVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUICollectionViewVideoCell.m; sourceTree = "<group>"; };
+		D8E8B5282613452E003BD3DB /* CUICollectionViewVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUICollectionViewVideoCell.h; sourceTree = "<group>"; };
+		D8E8B52C26134537003BD3DB /* CUICollectionViewImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUICollectionViewImageCell.h; sourceTree = "<group>"; };
+		D8E8B52D26134537003BD3DB /* CUICollectionViewImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUICollectionViewImageCell.m; sourceTree = "<group>"; };
+		D8E8B55126134A96003BD3DB /* CUIViewControlCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIViewControlCollectionViewLayout.h; sourceTree = "<group>"; };
+		D8E8B55226134A96003BD3DB /* CUIViewControlCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIViewControlCollectionViewLayout.m; sourceTree = "<group>"; };
+		D8E8B55726134A9F003BD3DB /* CUIViewAnimationCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIViewAnimationCollectionViewLayout.h; sourceTree = "<group>"; };
+		D8E8B55B26134AC5003BD3DB /* CUIViewAnimationCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIViewAnimationCollectionViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* CUIAppDelegate.h */,
-				D8E8B4092613259B003BD3DB /* Resources */,
 				6003F59D195388D20070C39A /* CUIAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CUIViewController.h */,
@@ -214,65 +210,41 @@
 			path = Rule;
 			sourceTree = "<group>";
 		};
-		D8E8B4092613259B003BD3DB /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D8E8B40A2613259B003BD3DB /* Images */,
-				D8E8B40D2613259B003BD3DB /* Videos */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		D8E8B40A2613259B003BD3DB /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				D8E8B40B2613259B003BD3DB /* cui_multi_label.png */,
-				D8E8B40C2613259B003BD3DB /* cui_image_text.png */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
-		D8E8B40D2613259B003BD3DB /* Videos */ = {
-			isa = PBXGroup;
-			children = (
-				D8E8B40E2613259B003BD3DB /* cui_fold_number.mov */,
-			);
-			path = Videos;
-			sourceTree = "<group>";
-		};
 		D8E8B414261328A4003BD3DB /* HallList */ = {
 			isa = PBXGroup;
 			children = (
-				D8E8B415261328A4003BD3DB /* CUICollectionViewLayout.m */,
+				D8E8B4D526134076003BD3DB /* ViewAnimation */,
+				D8E8B4D826134076003BD3DB /* ViewControl */,
 				D8E8B416261328A4003BD3DB /* CUIHallListViewController.h */,
-				D8E8B417261328A4003BD3DB /* CUICollectionViewLayout.h */,
 				D8E8B418261328A4003BD3DB /* CUIHallListViewController.m */,
-				D8E8B419261328A4003BD3DB /* Data */,
-				D8E8B41E261328A4003BD3DB /* Views */,
 			);
 			path = HallList;
 			sourceTree = "<group>";
 		};
-		D8E8B419261328A4003BD3DB /* Data */ = {
+		D8E8B4D526134076003BD3DB /* ViewAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				D8E8B41A261328A4003BD3DB /* CUIDemoData.h */,
-				D8E8B41B261328A4003BD3DB /* CUIDemoCellItemModel.h */,
-				D8E8B41C261328A4003BD3DB /* CUIDemoCellItemModel.m */,
-				D8E8B41D261328A4003BD3DB /* CUIDemoData.m */,
+				D8E8B5282613452E003BD3DB /* CUICollectionViewVideoCell.h */,
+				D8E8B55B26134AC5003BD3DB /* CUIViewAnimationCollectionViewLayout.m */,
+				D8E8B55726134A9F003BD3DB /* CUIViewAnimationCollectionViewLayout.h */,
+				D8E8B5272613452E003BD3DB /* CUICollectionViewVideoCell.m */,
+				D8E8B4D626134076003BD3DB /* CUIHallViewAnimationViewController.m */,
+				D8E8B4D726134076003BD3DB /* CUIHallViewAnimationViewController.h */,
 			);
-			path = Data;
+			path = ViewAnimation;
 			sourceTree = "<group>";
 		};
-		D8E8B41E261328A4003BD3DB /* Views */ = {
+		D8E8B4D826134076003BD3DB /* ViewControl */ = {
 			isa = PBXGroup;
 			children = (
-				D8E8B41F261328A4003BD3DB /* CUICollectionViewBigCell.m */,
-				D8E8B420261328A4003BD3DB /* CUICollectionViewSmallCell.m */,
-				D8E8B421261328A4003BD3DB /* CUICollectionViewSmallCell.h */,
-				D8E8B422261328A4003BD3DB /* CUICollectionViewBigCell.h */,
+				D8E8B55126134A96003BD3DB /* CUIViewControlCollectionViewLayout.h */,
+				D8E8B55226134A96003BD3DB /* CUIViewControlCollectionViewLayout.m */,
+				D8E8B52C26134537003BD3DB /* CUICollectionViewImageCell.h */,
+				D8E8B52D26134537003BD3DB /* CUICollectionViewImageCell.m */,
+				D8E8B4D926134076003BD3DB /* CUIHallViewControlViewController.m */,
+				D8E8B4DA26134076003BD3DB /* CUIHallViewControlViewController.h */,
 			);
-			path = Views;
+			path = ViewControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,10 +329,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				D8E8B4112613259B003BD3DB /* cui_fold_number.mov in Resources */,
-				D8E8B4102613259B003BD3DB /* cui_image_text.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				D8E8B40F2613259B003BD3DB /* cui_multi_label.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,12 +352,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CUIDemoFavorites_Example/Pods-CUIDemoFavorites_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoFavorites/CUIDemoFavorites.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CUIUserGuide/CUIDemoFavorites.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoElements/CUIDemoElements.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoExamples/CUIDemoExamples.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoFavorites.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoElements.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoExamples.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -424,14 +394,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8E8B426261328A4003BD3DB /* CUIDemoData.m in Sources */,
 				6003F59E195388D20070C39A /* CUIAppDelegate.m in Sources */,
+				D8E8B55C26134AC5003BD3DB /* CUIViewAnimationCollectionViewLayout.m in Sources */,
+				D8E8B4DC26134076003BD3DB /* CUIHallViewControlViewController.m in Sources */,
+				D8E8B4DB26134076003BD3DB /* CUIHallViewAnimationViewController.m in Sources */,
+				D8E8B5292613452E003BD3DB /* CUICollectionViewVideoCell.m in Sources */,
 				6003F5A7195388D20070C39A /* CUIViewController.m in Sources */,
-				D8E8B427261328A4003BD3DB /* CUICollectionViewBigCell.m in Sources */,
-				D8E8B423261328A4003BD3DB /* CUICollectionViewLayout.m in Sources */,
+				D8E8B52E26134537003BD3DB /* CUICollectionViewImageCell.m in Sources */,
 				D8E8B424261328A4003BD3DB /* CUIHallListViewController.m in Sources */,
-				D8E8B428261328A4003BD3DB /* CUICollectionViewSmallCell.m in Sources */,
-				D8E8B425261328A4003BD3DB /* CUIDemoCellItemModel.m in Sources */,
+				D8E8B55326134A96003BD3DB /* CUIViewControlCollectionViewLayout.m in Sources */,
 				D8E8B3CF26132114003BD3DB /* CUIRuleViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

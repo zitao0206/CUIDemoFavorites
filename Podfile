@@ -5,6 +5,6 @@ workspace 'CUIDemoFavorites'
 project 'Example/CUIDemoFavorites'
 
 target 'CUIDemoFavorites_Example' do
-  pod 'CUIUserGuide', :path => './', :inhibit_warnings => false
-  pod 'CUIDemoFavorites', :path => './', :inhibit_warnings => false
+  pod 'CUIDemoExamples', :path => './', :inhibit_warnings => false
+  pod 'CUIDemoElements', :path => './', :inhibit_warnings => false
 end

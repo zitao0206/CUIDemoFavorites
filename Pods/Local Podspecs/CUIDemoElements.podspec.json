@@ -1,0 +1,33 @@
+{
+  "name": "CUIDemoElements",
+  "version": "0.1.0",
+  "summary": "A short description of CUIDemoElements.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Leon/CUIDemoFavorites",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Leon": "63437613@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Leon/CUIDemoFavorites.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CUIDemoElements/Classes/**/*",
+  "prefix_header_file": "CUIDemoElements/CUIDemoElements.pch",
+  "resource_bundles": {
+    "CUIDemoElements": [
+      "CUIDemoElements/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}

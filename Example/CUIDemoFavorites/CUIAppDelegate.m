@@ -2,8 +2,8 @@
 //  CUIAppDelegate.m
 //  CUIDemoFavorites
 //
-//  Created by Leon0206 on 03/30/2021.
-//  Copyright (c) 2021 Leon0206. All rights reserved.
+//  Created by Leon on 03/30/2021.
+//  Copyright (c) 2021 Leon. All rights reserved.
 //
 
 #import "CUIAppDelegate.h"

@@ -4,22 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CUIDemoFavorites-CUIDemoFavorites.xcscheme</key>
+		<key>CUIDemoElements-CUIDemoElements.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>CUIDemoFavorites.xcscheme</key>
+		<key>CUIDemoElements.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>CUIUserGuide-CUIDemoFavorites.xcscheme</key>
+		<key>CUIDemoExamples-CUIDemoExamples.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>CUIUserGuide.xcscheme</key>
+		<key>CUIDemoExamples.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

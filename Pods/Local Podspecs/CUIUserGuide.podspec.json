@@ -20,8 +20,9 @@
   },
   "source_files": "CUIUserGuide/Classes/**/*",
   "resource_bundles": {
-    "CUIDemoFavorites": [
-      "CUIUserGuide/Assets/*.png"
+    "CUIUserGuide": [
+      "CUIUserGuide/Assets/Images/*.*",
+      "CUIUserGuide/Assets/Videos/*.*"
     ]
   },
   "dependencies": {

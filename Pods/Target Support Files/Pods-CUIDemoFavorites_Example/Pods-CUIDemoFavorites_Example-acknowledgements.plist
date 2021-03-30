@@ -37,7 +37,7 @@ THE SOFTWARE.
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>CUIDemoFavorites</string>
+			<string>CUIDemoElements</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
@@ -66,7 +66,7 @@ THE SOFTWARE.
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>CUIUserGuide</string>
+			<string>CUIDemoExamples</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
