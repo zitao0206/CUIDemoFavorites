@@ -1,9 +1,9 @@
-# ReactiveDataBoard
+# CUIDemoFavorites
 
-[![CI Status](https://img.shields.io/travis/leon0206/ReactiveDataBoard.svg?style=flat)](https://travis-ci.org/leon0206/ReactiveDataBoard)
-[![Version](https://img.shields.io/cocoapods/v/ReactiveDataBoard.svg?style=flat)](https://cocoapods.org/pods/ReactiveDataBoard)
-[![License](https://img.shields.io/cocoapods/l/ReactiveDataBoard.svg?style=flat)](https://cocoapods.org/pods/ReactiveDataBoard)
-[![Platform](https://img.shields.io/cocoapods/p/ReactiveDataBoard.svg?style=flat)](https://cocoapods.org/pods/ReactiveDataBoard)
+[![CI Status](https://img.shields.io/travis/Leon0206/CUIDemoFavorites.svg?style=flat)](https://travis-ci.org/Leon0206/CUIDemoFavorites)
+[![Version](https://img.shields.io/cocoapods/v/CUIDemoFavorites.svg?style=flat)](https://cocoapods.org/pods/CUIDemoFavorites)
+[![License](https://img.shields.io/cocoapods/l/CUIDemoFavorites.svg?style=flat)](https://cocoapods.org/pods/CUIDemoFavorites)
+[![Platform](https://img.shields.io/cocoapods/p/CUIDemoFavorites.svg?style=flat)](https://cocoapods.org/pods/CUIDemoFavorites)
 
 ## Example
 
@@ -13,17 +13,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-ReactiveDataBoard is available through [CocoaPods](https://cocoapods.org). To install
+CUIDemoFavorites is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ReactiveDataBoard'
+pod 'CUIDemoFavorites'
 ```
 
 ## Author
 
-leon0206, zitao.li@quvideo.com
+Leon0206, 63437613@qq.com
 
 ## License
 
-ReactiveDataBoard is available under the MIT license. See the LICENSE file for more info.
+CUIDemoFavorites is available under the MIT license. See the LICENSE file for more info.

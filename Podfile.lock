@@ -1,0 +1,16 @@
+PODS:
+  - CUIDemoFavorites (0.1.0)
+
+DEPENDENCIES:
+  - CUIDemoFavorites (from `./`)
+
+EXTERNAL SOURCES:
+  CUIDemoFavorites:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  CUIDemoFavorites: f47f60c1e1cee4fe83a43fefc4f50ab8ae5f25de
+
+PODFILE CHECKSUM: 17ca62d4b63b4a4ed7fe1ef73856fb49632a673d
+
+COCOAPODS: 1.10.0

@@ -1,9 +1,9 @@
 //
-//  ReactiveDataBoardTests.m
-//  ReactiveDataBoardTests
+//  CUIDemoFavoritesTests.m
+//  CUIDemoFavoritesTests
 //
-//  Created by leon0206 on 10/18/2019.
-//  Copyright (c) 2019 leon0206. All rights reserved.
+//  Created by Leon0206 on 03/30/2021.
+//  Copyright (c) 2021 Leon0206. All rights reserved.
 //
 
 @import XCTest;
