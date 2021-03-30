@@ -1,16 +1,29 @@
 PODS:
-  - CUIDemoFavorites (0.1.0)
+  - CUIDemoFavorites (0.1.0):
+    - Masonry
+  - CUIUserGuide (0.1.0):
+    - CUIDemoFavorites
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - CUIDemoFavorites (from `./`)
+  - CUIUserGuide (from `./`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   CUIDemoFavorites:
     :path: "./"
+  CUIUserGuide:
+    :path: "./"
 
 SPEC CHECKSUMS:
-  CUIDemoFavorites: f47f60c1e1cee4fe83a43fefc4f50ab8ae5f25de
+  CUIDemoFavorites: 3a93eb8c871023ab1aa708767a13d9968424c95d
+  CUIUserGuide: 720541d832884411c66a600ed338147e88306f00
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 17ca62d4b63b4a4ed7fe1ef73856fb49632a673d
+PODFILE CHECKSUM: 720c80eb98554f25dd56710e1f1159ddea9ece7c
 
 COCOAPODS: 1.10.0

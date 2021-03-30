@@ -18,5 +18,15 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "CUIDemoFavorites/Classes/**/*"
+  "source_files": "CUIDemoFavorites/Classes/**/*",
+  "resource_bundles": {
+    "CUIDemoFavorites": [
+      "CUIDemoFavorites/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
 }

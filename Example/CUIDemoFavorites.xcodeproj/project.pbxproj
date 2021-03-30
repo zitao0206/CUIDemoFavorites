@@ -23,6 +23,16 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D8E8B3CF26132114003BD3DB /* CUIRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B3CD26132114003BD3DB /* CUIRuleViewController.m */; };
+		D8E8B40F2613259B003BD3DB /* cui_multi_label.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E8B40B2613259B003BD3DB /* cui_multi_label.png */; };
+		D8E8B4102613259B003BD3DB /* cui_image_text.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E8B40C2613259B003BD3DB /* cui_image_text.png */; };
+		D8E8B4112613259B003BD3DB /* cui_fold_number.mov in Resources */ = {isa = PBXBuildFile; fileRef = D8E8B40E2613259B003BD3DB /* cui_fold_number.mov */; };
+		D8E8B423261328A4003BD3DB /* CUICollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B415261328A4003BD3DB /* CUICollectionViewLayout.m */; };
+		D8E8B424261328A4003BD3DB /* CUIHallListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B418261328A4003BD3DB /* CUIHallListViewController.m */; };
+		D8E8B425261328A4003BD3DB /* CUIDemoCellItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B41C261328A4003BD3DB /* CUIDemoCellItemModel.m */; };
+		D8E8B426261328A4003BD3DB /* CUIDemoData.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B41D261328A4003BD3DB /* CUIDemoData.m */; };
+		D8E8B427261328A4003BD3DB /* CUICollectionViewBigCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B41F261328A4003BD3DB /* CUICollectionViewBigCell.m */; };
+		D8E8B428261328A4003BD3DB /* CUICollectionViewSmallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B420261328A4003BD3DB /* CUICollectionViewSmallCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0078F71F5E4C2C3649D7F4BD /* Pods-CUIDemoFavorites_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CUIDemoFavorites_Example.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-CUIDemoFavorites_Example/Pods-CUIDemoFavorites_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		06475A937E02D6B8C3834B45 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		09964403FEFFB0BD877FBB5E /* Pods-CUIDemoFavorites_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CUIDemoFavorites_Example.debug.xcconfig"; path = "Target Support Files/Pods-CUIDemoFavorites_Example/Pods-CUIDemoFavorites_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		197F47D570F8FCE498C01B40 /* libPods-CUIDemoFavorites_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CUIDemoFavorites_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		451C51C6DE5157F5C5A8E8EE /* Pods-CUIDemoFavorites_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CUIDemoFavorites_Example.release.xcconfig"; path = "Target Support Files/Pods-CUIDemoFavorites_Example/Pods-CUIDemoFavorites_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CUIDemoFavorites_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CUIDemoFavorites_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,9 +70,23 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AF0C9FCFDFBAB0D88F9585CC /* Pods-CUIDemoFavorites_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CUIDemoFavorites_Example.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-CUIDemoFavorites_Example/Pods-CUIDemoFavorites_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B9D56134D8618388AFD04F1B /* CUIDemoFavorites.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CUIDemoFavorites.podspec; path = ../CUIDemoFavorites.podspec; sourceTree = "<group>"; };
-		D3C2DB00E51EE9FEF4BF32E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D8E8B3CD26132114003BD3DB /* CUIRuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIRuleViewController.m; sourceTree = "<group>"; };
+		D8E8B3CE26132114003BD3DB /* CUIRuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIRuleViewController.h; sourceTree = "<group>"; };
+		D8E8B40B2613259B003BD3DB /* cui_multi_label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cui_multi_label.png; sourceTree = "<group>"; };
+		D8E8B40C2613259B003BD3DB /* cui_image_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cui_image_text.png; sourceTree = "<group>"; };
+		D8E8B40E2613259B003BD3DB /* cui_fold_number.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = cui_fold_number.mov; sourceTree = "<group>"; };
+		D8E8B415261328A4003BD3DB /* CUICollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUICollectionViewLayout.m; sourceTree = "<group>"; };
+		D8E8B416261328A4003BD3DB /* CUIHallListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIHallListViewController.h; sourceTree = "<group>"; };
+		D8E8B417261328A4003BD3DB /* CUICollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUICollectionViewLayout.h; sourceTree = "<group>"; };
+		D8E8B418261328A4003BD3DB /* CUIHallListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIHallListViewController.m; sourceTree = "<group>"; };
+		D8E8B41A261328A4003BD3DB /* CUIDemoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIDemoData.h; sourceTree = "<group>"; };
+		D8E8B41B261328A4003BD3DB /* CUIDemoCellItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIDemoCellItemModel.h; sourceTree = "<group>"; };
+		D8E8B41C261328A4003BD3DB /* CUIDemoCellItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIDemoCellItemModel.m; sourceTree = "<group>"; };
+		D8E8B41D261328A4003BD3DB /* CUIDemoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIDemoData.m; sourceTree = "<group>"; };
+		D8E8B41F261328A4003BD3DB /* CUICollectionViewBigCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUICollectionViewBigCell.m; sourceTree = "<group>"; };
+		D8E8B420261328A4003BD3DB /* CUICollectionViewSmallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUICollectionViewSmallCell.m; sourceTree = "<group>"; };
+		D8E8B421261328A4003BD3DB /* CUICollectionViewSmallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUICollectionViewSmallCell.h; sourceTree = "<group>"; };
+		D8E8B422261328A4003BD3DB /* CUICollectionViewBigCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUICollectionViewBigCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,25 +114,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		58B812F21FDCC584749A3E68 /* Pods */ = {
+		0E1F0E75487E2B695E0FC30D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0078F71F5E4C2C3649D7F4BD /* Pods-CUIDemoFavorites_Example.debug.xcconfig */,
-				AF0C9FCFDFBAB0D88F9585CC /* Pods-CUIDemoFavorites_Example.release.xcconfig */,
+				09964403FEFFB0BD877FBB5E /* Pods-CUIDemoFavorites_Example.debug.xcconfig */,
+				451C51C6DE5157F5C5A8E8EE /* Pods-CUIDemoFavorites_Example.release.xcconfig */,
 			);
 			name = Pods;
-			path = Pods;
+			path = ../Pods;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for CUIDemoFavorites */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				58B812F21FDCC584749A3E68 /* Pods */,
+				0E1F0E75487E2B695E0FC30D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,10 +160,13 @@
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* CUIAppDelegate.h */,
+				D8E8B4092613259B003BD3DB /* Resources */,
 				6003F59D195388D20070C39A /* CUIAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CUIViewController.h */,
 				6003F5A6195388D20070C39A /* CUIViewController.m */,
+				D8E8B414261328A4003BD3DB /* HallList */,
+				D8E8B3CC26132114003BD3DB /* Rule */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -179,14 +205,74 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+		D8E8B3CC26132114003BD3DB /* Rule */ = {
 			isa = PBXGroup;
 			children = (
-				B9D56134D8618388AFD04F1B /* CUIDemoFavorites.podspec */,
-				06475A937E02D6B8C3834B45 /* README.md */,
-				D3C2DB00E51EE9FEF4BF32E1 /* LICENSE */,
+				D8E8B3CD26132114003BD3DB /* CUIRuleViewController.m */,
+				D8E8B3CE26132114003BD3DB /* CUIRuleViewController.h */,
 			);
-			name = "Podspec Metadata";
+			path = Rule;
+			sourceTree = "<group>";
+		};
+		D8E8B4092613259B003BD3DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8E8B40A2613259B003BD3DB /* Images */,
+				D8E8B40D2613259B003BD3DB /* Videos */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D8E8B40A2613259B003BD3DB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D8E8B40B2613259B003BD3DB /* cui_multi_label.png */,
+				D8E8B40C2613259B003BD3DB /* cui_image_text.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D8E8B40D2613259B003BD3DB /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				D8E8B40E2613259B003BD3DB /* cui_fold_number.mov */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		D8E8B414261328A4003BD3DB /* HallList */ = {
+			isa = PBXGroup;
+			children = (
+				D8E8B415261328A4003BD3DB /* CUICollectionViewLayout.m */,
+				D8E8B416261328A4003BD3DB /* CUIHallListViewController.h */,
+				D8E8B417261328A4003BD3DB /* CUICollectionViewLayout.h */,
+				D8E8B418261328A4003BD3DB /* CUIHallListViewController.m */,
+				D8E8B419261328A4003BD3DB /* Data */,
+				D8E8B41E261328A4003BD3DB /* Views */,
+			);
+			path = HallList;
+			sourceTree = "<group>";
+		};
+		D8E8B419261328A4003BD3DB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D8E8B41A261328A4003BD3DB /* CUIDemoData.h */,
+				D8E8B41B261328A4003BD3DB /* CUIDemoCellItemModel.h */,
+				D8E8B41C261328A4003BD3DB /* CUIDemoCellItemModel.m */,
+				D8E8B41D261328A4003BD3DB /* CUIDemoData.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D8E8B41E261328A4003BD3DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8E8B41F261328A4003BD3DB /* CUICollectionViewBigCell.m */,
+				D8E8B420261328A4003BD3DB /* CUICollectionViewSmallCell.m */,
+				D8E8B421261328A4003BD3DB /* CUICollectionViewSmallCell.h */,
+				D8E8B422261328A4003BD3DB /* CUICollectionViewBigCell.h */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +286,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				5F94BD5A29734016AED87D34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +335,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -269,7 +357,10 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				D8E8B4112613259B003BD3DB /* cui_fold_number.mov in Resources */,
+				D8E8B4102613259B003BD3DB /* cui_image_text.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				D8E8B40F2613259B003BD3DB /* cui_multi_label.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +376,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5F94BD5A29734016AED87D34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CUIDemoFavorites_Example/Pods-CUIDemoFavorites_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoFavorites/CUIDemoFavorites.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIUserGuide/CUIDemoFavorites.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoFavorites.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CUIDemoFavorites_Example/Pods-CUIDemoFavorites_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		EB1E09D7E5DDA711FF783571 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,8 +424,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8E8B426261328A4003BD3DB /* CUIDemoData.m in Sources */,
 				6003F59E195388D20070C39A /* CUIAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CUIViewController.m in Sources */,
+				D8E8B427261328A4003BD3DB /* CUICollectionViewBigCell.m in Sources */,
+				D8E8B423261328A4003BD3DB /* CUICollectionViewLayout.m in Sources */,
+				D8E8B424261328A4003BD3DB /* CUIHallListViewController.m in Sources */,
+				D8E8B428261328A4003BD3DB /* CUICollectionViewSmallCell.m in Sources */,
+				D8E8B425261328A4003BD3DB /* CUIDemoCellItemModel.m in Sources */,
+				D8E8B3CF26132114003BD3DB /* CUIRuleViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,7 +558,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0078F71F5E4C2C3649D7F4BD /* Pods-CUIDemoFavorites_Example.debug.xcconfig */;
+			baseConfigurationReference = 09964403FEFFB0BD877FBB5E /* Pods-CUIDemoFavorites_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -457,7 +574,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF0C9FCFDFBAB0D88F9585CC /* Pods-CUIDemoFavorites_Example.release.xcconfig */;
+			baseConfigurationReference = 451C51C6DE5157F5C5A8E8EE /* Pods-CUIDemoFavorites_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
