@@ -12,8 +12,8 @@
 #import "CUIDemoCellItemModel.h"
 #import "CUIDemoViewAnimationData.h"
 
-#define SmallCellHeight   120
-#define BigCellHeight   242
+#define ImageCellHeight   120
+#define VideoCellHeight   242
 #define Cellwidth (ScreenWidth - 2) / 2.0;
 
 @interface CUIHallViewAnimationViewController () <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
@@ -79,15 +79,24 @@
 //cell显示的内容
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *cellIdentifier = @"CUICollectionViewVideoCell";;
+    static NSString *cellIdentifier = @"";
     NSInteger row = indexPath.row;
     if (row < self.items.count) {
         CUIDemoCellItemModel *item = [self.items objectAtIndex:row];
-        CUICollectionViewVideoCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
-        [cell refreshData:item];
-        return cell;
+        if (ImageItemCellType == item.cellType) {
+            cellIdentifier = @"CUICollectionViewImageCell";
+            CUICollectionViewImageCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
+            [cell refreshData:item];
+            return cell;
+        } else {
+            cellIdentifier = @"CUICollectionViewVideoCell";
+            CUICollectionViewVideoCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
+            [cell refreshData:item];
+            return cell;
+        }
+     
     }
-    return [CUICollectionViewImageCell new];
+    return [UICollectionViewCell new];
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath

@@ -9,8 +9,8 @@
 #import "CUIHallViewControlViewController.h"
 #import "CUIHallViewAnimationViewController.h"
 
-#define SmallCellHeight   120
-#define BigCellHeight   242
+#define ImageCellHeight   120
+#define VideoCellHeight   242
 #define Cellwidth (kScreenWidth - 2) / 2.0;
 
 @interface CUIHallListViewController () <UITableViewDelegate, UITableViewDataSource>
@@ -36,8 +36,9 @@
 {
     self.titleArr = [NSMutableArray new];
     NSArray *array = @[
-        @"控件视图",
+        @"简单的控件视图",
         @"动画视图",
+        @"其他",
     ];
     [self.titleArr addObjectsFromArray:array];
 }

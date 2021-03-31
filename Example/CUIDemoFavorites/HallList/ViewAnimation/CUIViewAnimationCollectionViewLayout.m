@@ -14,8 +14,8 @@ static const CGFloat RowMagin = 2;
 static const CGFloat ColumnMagin = 2;
 static const UIEdgeInsets edge = {0,0,0,0};
 
-#define SmallCellHeight   120
-#define BigCellHeight   242
+#define ImageCellHeight   120
+#define VideoCellHeight   242
 #define CellWidth   (self.collectionView.frame.size.width - 2) / 2.0
 
 @interface CUIViewAnimationCollectionViewLayout()
@@ -93,9 +93,9 @@ static const UIEdgeInsets edge = {0,0,0,0};
     if (row < self.items.count) {
        CUIDemoCellItemModel *item = [self.items objectAtIndex:row];
        if (item.cellType == ImageItemCellType) {
-           h = SmallCellHeight;
+           h = ImageCellHeight;
        } else {
-           h = BigCellHeight;
+           h = VideoCellHeight;
        }
     }
     // 假如最短的那列为第0列
