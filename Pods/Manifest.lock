@@ -1,9 +1,11 @@
 PODS:
   - CUIDemoElements (0.1.0):
     - Masonry
+    - SVProgressHUD
   - CUIDemoExamples (0.1.0):
     - CUIDemoElements
   - Masonry (1.1.0)
+  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - CUIDemoElements (from `./`)
@@ -12,6 +14,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Masonry
+    - SVProgressHUD
 
 EXTERNAL SOURCES:
   CUIDemoElements:
@@ -20,9 +23,10 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  CUIDemoElements: 4b54cb1c3a82adb9fa9faca636e66c18dbc0e726
-  CUIDemoExamples: 086436d7f77a2ed0cfb264eed178fc7176d06366
+  CUIDemoElements: 5b52519d874cea11ef5eb3c88bad05aa6e05c612
+  CUIDemoExamples: 8ee7e44b4d0ded36372156019f4860f41ade2701
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
 PODFILE CHECKSUM: 2fd665e9f141f2d57d37413550c3108f3c80c8c1
 

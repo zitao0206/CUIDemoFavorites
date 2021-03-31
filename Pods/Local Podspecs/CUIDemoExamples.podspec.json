@@ -16,7 +16,10 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "__CUI_MODULE_NAME__=\\\"CUIDemoExamples\\\" CUI_MODULE_NAME=@\\\"CUIDemoExamples\\\""
   },
   "source_files": "CUIDemoExamples/Classes/**/*",
   "prefix_header_file": "CUIDemoExamples/CUIDemoExamples.pch",

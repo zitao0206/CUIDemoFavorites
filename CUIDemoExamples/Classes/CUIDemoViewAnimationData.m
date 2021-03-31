@@ -24,6 +24,17 @@
         item.descrip = @"滚动的数字";
         [array addObject:item];
     }
+    {
+        CUIDemoCellItemModel *item = [CUIDemoCellItemModel new];
+        item.cellType = VideoItemCellType;
+        item.className = @"GravityCollisionView";
+        item.imageName = @"cui_gravity_collision";
+        item.imageType = @"mov";
+        item.author = @"Leon";
+        item.detailVCName = @"CUIGravityCollisionViewController";
+        item.descrip = @"仿重力碰撞的动画";
+        [array addObject:item];
+    }
     return array;
 }
 

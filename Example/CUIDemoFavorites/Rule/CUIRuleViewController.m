@@ -6,11 +6,11 @@
 //
 
 #import "CUIRuleViewController.h"
+#import <WebKit/WebKit.h>
 
 @interface CUIRuleViewController ()
-@property (nonatomic, strong) UILabel *titleLabel;
-@property (nonatomic, strong) UILabel *contentLabel;
-@property (nonatomic, strong) UIButton *savedButton;
+@property (nonatomic, strong) WKWebView *webView;
+
 @end
 
 @implementation CUIRuleViewController
@@ -18,74 +18,28 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    [self.view addSubview:self.webView];
     self.view.backgroundColor = [UIColor whiteColor];
-    
-    [self.view addSubview:self.titleLabel];
-    [self.view addSubview:self.contentLabel];
-    [self.view addSubview:self.savedButton];
 }
 
-- (void)buttonAction
-{
-    UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
-    pasteboard.string = self.contentLabel.text;
-}
 
 - (void)viewDidLayoutSubviews
 {
     [super viewDidLayoutSubviews];
-    [self.titleLabel sizeToFit];
-    self.titleLabel.size = CGSizeMake(self.view.width, 40);
-    self.titleLabel.top = 200;
-    
-    [self.contentLabel sizeToFit];
-    self.contentLabel.size = CGSizeMake(self.view.width, 40);
-    self.contentLabel.top = self.titleLabel.bottom + 30;
-    
-    [self.savedButton sizeToFit];
-    self.savedButton.size = CGSizeMake(60, 40);
-    self.savedButton.top = self.contentLabel.bottom + 10;
-    self.savedButton.centerX = self.view.centerX;
+    self.webView.top = 0;
+    self.webView.left = 0;
 }
 
-- (UILabel *)titleLabel
+- (WKWebView *)webView
 {
-    if (!_titleLabel) {
-        _titleLabel = [[UILabel alloc] init];
-        _titleLabel.textColor = [UIColor blueColor];
-        _titleLabel.font = [UIFont fontWithName:@"Arial"size:15.0];
-        _titleLabel.backgroundColor = [UIColor clearColor];
-        _titleLabel.text = @"详细介绍在这里:";
-        _titleLabel.textAlignment = NSTextAlignmentCenter;
-        
+    if (!_webView) {
+        WKWebViewConfiguration *conf = [[WKWebViewConfiguration alloc] init];
+        conf.preferences = [[WKPreferences alloc]init];
+        conf.preferences.minimumFontSize = 10;
+        _webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight) configuration:conf];
+        [_webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://github.com/Leon0206/CUIDemoFavorites/blob/master/README.md"]]];
     }
-    return _titleLabel;
+    return _webView;
 }
-
-- (UILabel *)contentLabel
-{
-    if (!_contentLabel) {
-        _contentLabel = [[UILabel alloc] init];
-        _contentLabel.textColor = [UIColor blueColor];
-        _contentLabel.font = [UIFont fontWithName:@"Arial"size:11.0];
-        _contentLabel.backgroundColor = [UIColor clearColor];
-        _contentLabel.text = @"";
-        _contentLabel.textAlignment = NSTextAlignmentCenter;
-    }
-    return _contentLabel;
-}
-
-- (UIButton *)savedButton
-{
-    if (!_savedButton) {
-        _savedButton = [UIButton buttonWithType:UIButtonTypeSystem];
-        [_savedButton setTitle:@"复制" forState:UIControlStateNormal];
-        _savedButton.titleLabel.font = [UIFont systemFontOfSize:13];
-        [_savedButton addTarget:self action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
-    }
-    return _savedButton;
-}
-
 
 @end

@@ -28,7 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Leon/CUIDemoFavorites.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
+
+  s.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '__CUI_MODULE_NAME__=\"CUIDemoExamples\" CUI_MODULE_NAME=@\"CUIDemoExamples\"' }
 
   s.source_files = 'CUIDemoExamples/Classes/**/*'
   

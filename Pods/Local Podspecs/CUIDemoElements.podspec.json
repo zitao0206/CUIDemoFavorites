@@ -16,17 +16,23 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "__CUI_MODULE_NAME__=\\\"CUIDemoElements\\\" CUI_MODULE_NAME=@\\\"CUIDemoElements\\\""
   },
   "source_files": "CUIDemoElements/Classes/**/*",
   "prefix_header_file": "CUIDemoElements/CUIDemoElements.pch",
   "resource_bundles": {
     "CUIDemoElements": [
-      "CUIDemoElements/Assets/*.png"
+      "CUIDemoElements/Assets/**/*"
     ]
   },
   "dependencies": {
     "Masonry": [
+
+    ],
+    "SVProgressHUD": [
 
     ]
   }

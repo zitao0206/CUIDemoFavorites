@@ -29,6 +29,6 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 代码基本都来自作者的实际自己开发中，部分代码可能来自其他平台的“模改”，如有侵权，请及时告知，会及时删除。
 
-## 作者与邮件
+## 作者与Email
 
 Leon0206, 634376133@qq.com

@@ -24,17 +24,6 @@
         item.descrip = @"多标签展示";
         [array addObject:item];
     }
-    {
-         CUIDemoCellItemModel *item = [CUIDemoCellItemModel new];
-         item.cellType = ImageItemCellType;
-         item.className = @"CUIImageTextView";
-         item.imageName = @"cui_image_text";
-         item.imageType = @"png";
-         item.author = @"Leon";
-         item.detailVCName = @"CUIImageTextViewController";
-         item.descrip = @"多功能显示标签";
-         [array addObject:item];
-     }
     return array;
 }
 @end

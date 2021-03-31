@@ -46,7 +46,7 @@
 - (void)ruleBtnClickAction
 {
     CUIRuleViewController *vc = [[CUIRuleViewController alloc]init];
-    vc.title = @"入库方法";
+    vc.title = @"ReadMe";
     [self.navigationController pushViewController:vc animated:YES];
 }
 
@@ -54,6 +54,7 @@
 {
     if (!_demoBtn) {
         _demoBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+        _demoBtn.titleLabel.font = [UIFont systemFontOfSize:20.0 weight:UIFontWeightRegular];
         [_demoBtn setTitle:@"Demos" forState:UIControlStateNormal];
         [_demoBtn addTarget:self action:@selector(demoBtnClickAction) forControlEvents:UIControlEventTouchUpInside];
     }
@@ -64,7 +65,8 @@
 {
     if (!_ruleBtn) {
         _ruleBtn = [UIButton buttonWithType:UIButtonTypeSystem];
-        [_ruleBtn setTitle:@"入库方法" forState:UIControlStateNormal];
+        _ruleBtn.titleLabel.font = [UIFont systemFontOfSize:20.0 weight:UIFontWeightRegular];
+        [_ruleBtn setTitle:@"ReadMe" forState:UIControlStateNormal];
         [_ruleBtn addTarget:self action:@selector(ruleBtnClickAction) forControlEvents:UIControlEventTouchUpInside];
     }
     return _ruleBtn;
