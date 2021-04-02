@@ -10,13 +10,13 @@
 #import "CUIDemoViewAnimationData.h"
 
 static const NSInteger ColumnCount = 2;
-static const CGFloat RowMagin = 2;
-static const CGFloat ColumnMagin = 2;
-static const UIEdgeInsets edge = {0,0,0,0};
+static const CGFloat RowMagin = 5;
+static const CGFloat ColumnMagin = 5;
+static const UIEdgeInsets edge = {0,5,0,5};
 
-#define ImageCellHeight   120
-#define VideoCellHeight   242
-#define CellWidth   (self.collectionView.frame.size.width - 2) / 2.0
+#define CellWidth   (kScreenWidth - 15) / 2.0
+#define VideoCellHeight   CellWidth * 1000/750
+#define ImageCellHeight   VideoCellHeight
 
 @interface CUIViewAnimationCollectionViewLayout()
 @property (strong, nonatomic) NSArray <CUIDemoCellItemModel *> *items;

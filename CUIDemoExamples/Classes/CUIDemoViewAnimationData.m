@@ -27,12 +27,23 @@
     {
         CUIDemoCellItemModel *item = [CUIDemoCellItemModel new];
         item.cellType = VideoItemCellType;
-        item.className = @"GravityCollisionView";
+        item.className = @"CUIGravityCollisionView";
         item.imageName = @"cui_gravity_collision";
         item.imageType = @"mov";
         item.author = @"Leon";
         item.detailVCName = @"CUIGravityCollisionViewController";
         item.descrip = @"仿重力碰撞的动画";
+        [array addObject:item];
+    }
+    {
+        CUIDemoCellItemModel *item = [CUIDemoCellItemModel new];
+        item.cellType = VideoItemCellType;
+        item.className = @"CUIProgressCircleView";
+        item.imageName = @"cui_progress_circle";
+        item.imageType = @"mov";
+        item.author = @"Leon";
+        item.detailVCName = @"CUIProgressCircleViewController";
+        item.descrip = @"简易的圆形进度条";
         [array addObject:item];
     }
     return array;

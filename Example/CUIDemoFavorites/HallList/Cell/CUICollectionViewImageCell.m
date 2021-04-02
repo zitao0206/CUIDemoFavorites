@@ -22,12 +22,6 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self.contentView addSubview:self.imageView];
-        [self.imageView mas_makeConstraints:^(MASConstraintMaker *make) {
-           make.left.mas_equalTo(0);
-           make.top.mas_equalTo(0);
-           make.width.mas_equalTo(self.contentView);
-           make.height.mas_equalTo(self.contentView.height);
-        }];
         [self.contentView addSubview:self.titleLabel];
         [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.mas_equalTo(0);
@@ -62,11 +56,19 @@
     }
 }
 
+- (void)layoutSubviews
+{
+    [super layoutSubviews];
+    self.imageView.frame = self.contentView.bounds;
+}
+
 - (UIImageView *)imageView
 {
     if (!_imageView) {
         _imageView = [[UIImageView alloc]init];
-        _imageView.size = CGSizeMake(self.contentView.width, self.contentView.height);
+        [_imageView setContentScaleFactor:[[UIScreen mainScreen] scale]];
+        _imageView.contentMode = UIViewContentModeScaleAspectFill;
+        _imageView.clipsToBounds = YES;
     }
     return _imageView;
 }

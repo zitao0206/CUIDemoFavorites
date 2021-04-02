@@ -120,7 +120,7 @@
     if (!_collectionView) {
         CUIViewControlCollectionViewLayout *layout = [[CUIViewControlCollectionViewLayout alloc] init];
         _collectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight) collectionViewLayout:layout];
-        _collectionView.backgroundColor = [UIColor colorWithHexString:@"ff2c55" alpha:0.5];
+        _collectionView.backgroundColor = [[UIColor brownColor]colorWithAlphaComponent:0.2];
         _collectionView.delegate = self;
         _collectionView.dataSource = self;
         [_collectionView registerClass:[CUICollectionViewImageCell class] forCellWithReuseIdentifier:@"CUICollectionViewImageCell"];

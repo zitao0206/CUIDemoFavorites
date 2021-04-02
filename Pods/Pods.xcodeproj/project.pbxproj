@@ -7,256 +7,264 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02745B64D2D2621DA648E3E93C73C10E /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9860BCC6A3E4BE58E3993A0981CDA91C /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0AEF1A1FFDF6D4C247F4338A907A55B1 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C95E7CAD3107021937073344057EEE /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0C0396FE20C6A27C03073EF0278885A9 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AF259208C311ADC8F814118A820F37A8 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		114F4C33649866F05FAB423DBFE500B7 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C1EB0D5D6B15686E3F93238873B4016F /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		17D20D1C66DDD0A8693B61F7699D62A3 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 178386CE973094C52B8C4DEE9491490D /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		17F46247E0462EA81351CB1F6507CC99 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A728AF69A8AC66FDEE651A1FA586E620 /* SVRadialGradientLayer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1BA2A527982CCD8040C76FC7B399F404 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B25B2F7BEF66CAAACE57D0D6EBDA7E00 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1D81A9956918535FF01DE287C52BB1BA /* CUIDemoElements-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB13FAD4AB298F952298FC28F6BD8F3 /* CUIDemoElements-dummy.m */; };
-		1EE4B17CEC8962514BBE9C98504488F6 /* CUISenderGravityCollisionView.h in Headers */ = {isa = PBXBuildFile; fileRef = D28098773CEA24FE9F09BA94F26137A2 /* CUISenderGravityCollisionView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1FE2B4AEBA1F78FDC27DBF6960755E3D /* CUIFoldLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E5A23B064F596A946D391AD6A086B57 /* CUIFoldLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		20DF1685D9E17F3E9477EC375FA065DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E536571A636035CD8E010548C8A3FC5E /* Images.xcassets */; };
-		240539B493B501834482213160062366 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9446BEB8DD6899831C1438D30F1217F2 /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		24C7BF54BD216ECEBCF4E7E6EF8F6FD1 /* cui_multi_label.png in Resources */ = {isa = PBXBuildFile; fileRef = B33D40B3F867A8360DDC12421CC2793A /* cui_multi_label.png */; };
-		2C35B4CF048A3B93F359FFC49562B148 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AC2C091EC6FF0A0B2695633684FC91 /* Masonry-dummy.m */; };
-		2C67D7561DAF206D6E30A499B9501F19 /* UIImage+CUIBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = E73AD8DBB36AF4C42794A2A6D2553AD2 /* UIImage+CUIBundle.m */; };
-		346AB572F8274342F1D60CE96093E351 /* UIImage+CUIBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BDC6D31B84E26BB715129CC6517ED8C /* UIImage+CUIBundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3EA1ADAFDC0825CDCE2EEBE65669EAD6 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE0F99324E79AE454C31C78D097539E /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3ED574CAF423E5783789C4372AFB7031 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E36D218C1805B3FDB588BD79467D87 /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		449FFF71DCA93A494DD6EE8BDE1BB63D /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 404116FA33F189FAAB4B4AFCB0483FE8 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4A88D8CE0BFC89006EA257DBB1519DCD /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A114BC32F6B393EF33875E7908DE92D /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		580F2355D9EB92C6D2F968884463453A /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3843F442347F3386AB35B0C4D36AAF14 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		59CD129025881241DDAF23676E5BFDB4 /* CUIDemoCellItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E16221D1DE75138C56B4A8F50371859 /* CUIDemoCellItemModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5F6F076497ED26E4C528445AB9288C9F /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F1EFFD0B132B23DAA2CA2E411C4F88 /* SVIndefiniteAnimatedView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5FFB48E934E2E3AC2B80240AA3554A43 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B41AE76C26724BCF8EC745ACF7B240 /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		661130EF2E5C96A16526CA9D85356043 /* CUIFoldNumberViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4290F7DB5A301A6F346D3491A6C035D4 /* CUIFoldNumberViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6B565C9F247FB9920563A53D4A287B4C /* CUIGravityCollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 647DC8F3787BD9268C6AC0353B5CFCEA /* CUIGravityCollisionViewController.m */; };
-		6C1B6CF72E4E3E8EF3CB3A9DF4EEF2DD /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2880183692A539052CAB43E54D5B1E8A /* MASLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		6CC5ED7CA7036E125ABA1A6B621869AB /* CUIDemoViewControlData.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E41DF5D344356D27BBF0AC94B0C611 /* CUIDemoViewControlData.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		737A55079E728BB25732A1198761CB8F /* CUIDemoExamples-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E5D83EDC08C173AED0CD0E0524F9F9 /* CUIDemoExamples-dummy.m */; };
-		775667F9816800019E1BBF6145991B98 /* cui_image_text.png in Resources */ = {isa = PBXBuildFile; fileRef = C12673106B62424A0EAA66A488796538 /* cui_image_text.png */; };
-		78ED43D0915A4C4B91BBF3311CC719AB /* UIColor+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2927EAC82FC8ABE55D2B6E25EAB17EDC /* UIColor+Ext.m */; };
-		7B2158ABC45EF2D6570F2EB5367D2596 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 371576E4AEB49E632068EC1B7403C071 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		824E4CC2E196D5192B4459C3DB268A14 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2EDEC1013F9690A3CE8F92F2EE5EFB /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		82DA6061EE9AD1A3428289525FD36009 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2508B23595B39F9F43F4C23DC95941C /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8607F4DD62489FD1DEF53B03F693B490 /* UIView+EasyLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A672FA8A6464060EB1B502510C499B /* UIView+EasyLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		03E66E48380921F4990EFA327BFB69FB /* CUIGravityCollisionItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9C66954780808FE67A7EF04C5E4435 /* CUIGravityCollisionItemView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		059BC44A163E64A95DE0A40790809D0B /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F1EFFD0B132B23DAA2CA2E411C4F88 /* SVIndefiniteAnimatedView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		06C050CA4311532F635F18FB1D314F10 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F74D0D066E9A1C494996740166E165 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09C402F66B8C43AC63196E87B99ECBCF /* CUIDemoViewControlData.h in Headers */ = {isa = PBXBuildFile; fileRef = 01316E5AA9574B44D34635F3462CD450 /* CUIDemoViewControlData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0BEF27CAC53A31159D70DF7075BEFFD5 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D04E707D418C7315004147389F0F6FB5 /* SVProgressHUD-dummy.m */; };
+		0D4FB26618B915547AC4D3AFD15EC5BB /* UIImage+CUIBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C367737612223715905ADF3A9FCF9C7 /* UIImage+CUIBundle.m */; };
+		0FB34316BB7B8E1C10E33B6388525662 /* CUIGravityCollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A52E4E4303BF83AC27B49CBC4BBF70F /* CUIGravityCollisionViewController.m */; };
+		108A619C2843EEE885B393A90C094837 /* CUIProgressCircleViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398AA5E01FF49F340ADF6A3F5B3B905 /* CUIProgressCircleViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B78F2A285BE4AFA6562DD2F068E9B49 /* CUISenderGravityCollisionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617F9742DD1849BB3E57EDDA7768B3E /* CUISenderGravityCollisionView.m */; };
+		1D340D5DDA7B42940F58311CC709A503 /* CUIMultiLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D893C958178CCA606ABFD583619AEF /* CUIMultiLabelViewController.m */; };
+		1D7B45948742E58302D0115C44BAF37E /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3843F442347F3386AB35B0C4D36AAF14 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1ECEE44C0C4C8B74B7AF09AB5D0F0F47 /* CUIGravityCollisionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C48FF771D06E55EB7AF7AB8F86945035 /* CUIGravityCollisionViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1FDDD749A10053629C26DCD07E407136 /* cui_fold_number.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8C4ACE386DECF6BB82E22AD0458FBE1E /* cui_fold_number.mov */; };
+		201FB5CABF13B35F0313E7DAF3F2732D /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BC1977F57DCC5F80D3D7A84302E5B1 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2306771E59A4368857BA27212B913894 /* CUIFoldLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 303A88384D37418DA6B8BE0DC45E19CD /* CUIFoldLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24FB0135AC586DC64DCE5486610CBF5D /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AC2C091EC6FF0A0B2695633684FC91 /* Masonry-dummy.m */; };
+		28AA6ABEB8BF2E51E52B4534ACB7CC78 /* UIColor+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBA2C0EB803774BD5FFC79596816098 /* UIColor+Ext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D0F733CC8288C3492757B0E0915275E /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9446BEB8DD6899831C1438D30F1217F2 /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		303B51808D88E83893544A23217D9CD3 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CD27E9A0BC819073DA6CE3DECE16C5 /* MASCompositeConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		34F335C98BFB1DF386D83028825AE956 /* NSBundle+CUIBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = D1439BBD1F7E21A4F6A16C1CBBF6FBAF /* NSBundle+CUIBundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3ABA2154450E950104696782D43B7C50 /* CUIMultiLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD148D71436CB0DF29ECE028277E5AF /* CUIMultiLabelView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44A52E92E8DB19C7D39FFF8689937B98 /* CUIFoldNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57BCFE4769D59225A514D8F3206B0B /* CUIFoldNumberView.m */; };
+		484EFDE1C6198FADE0E70C919117253C /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C95E7CAD3107021937073344057EEE /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B6FFAADFC77C773D3A7235275BDBAE7 /* CUIFoldNumberViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A943AAC95B78FF360A04FB0759AB09E1 /* CUIFoldNumberViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B82858DC8E6142E975412B1F595CE0F /* cui_progress_circle.mov in Resources */ = {isa = PBXBuildFile; fileRef = 812711070649284C55FAB30487DDCB5A /* cui_progress_circle.mov */; };
+		4E6355E064C7B241B163C8B48DA87C17 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 404116FA33F189FAAB4B4AFCB0483FE8 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F9422389337261A820B65723246E924 /* CUIFoldNumberView.h in Headers */ = {isa = PBXBuildFile; fileRef = 58F07ED39E565E84953D068D0CBD2ECC /* CUIFoldNumberView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FFF650BC0619EC2B02707516717B4DD /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6BC8A1A6E78F8D6FB66C962FF1775C /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		54371A04B27312694DF5CD6EBFC3CB73 /* CUIDemoCellItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EAFF98CBC93624798A615CF7E955 /* CUIDemoCellItemModel.m */; };
+		5EFF2D0F2C19EA052EC878BF86D793AA /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7564110C24710E37E6B8F1643F98B79 /* SVProgressAnimatedView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		62921977791EE2927E3130B263418674 /* UIImage+CUIBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B256B18461877262F4FA5B7C446402 /* UIImage+CUIBundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66F02BE3087F7DC4E28D63E9515F4A09 /* CUIFoldLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1203DACE35CDECE279A5F0AA7D07A32B /* CUIFoldLabel.m */; };
+		6B6278A27E658A7E55FF2D08FB959ACB /* CUIProgressCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990FE5AF1D6B43047B580BF3A21569C4 /* CUIProgressCircleView.m */; };
+		6BD27B13FF810ED9E3D1E7ED99561D41 /* CUIDemoViewAnimationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 77867D0EA2C4E69D0196862820C25E79 /* CUIDemoViewAnimationData.m */; };
+		72E84BB6AC0CB8970B477176136A5FD2 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 11BE960A0B9F943B23BAD51DA11C656C /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78354B55DBE54759E41BEE8FBF6F683C /* CUIDemoViewControlData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4413D302E8D7341E19A02590175AA37B /* CUIDemoViewControlData.m */; };
+		7D63BF13F641B0E23CA120F6A1A6F0A9 /* CUIDemoExamples-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB454C7313027DAD5368645780B49AC /* CUIDemoExamples-dummy.m */; };
+		7E927AE89E4F60C959CCBBD2D9BB0455 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B41AE76C26724BCF8EC745ACF7B240 /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		801E4CEA8591EE23EF25B673F94D5B25 /* CUISenderGravityCollisionView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2E699267F3F807D231DF32EA2C7C3FE /* CUISenderGravityCollisionView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		80BCE93C75076E37E7C601F52044BF12 /* UIView+EasyLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 26381FF1B40AB09C97D9C8BDDCE0754B /* UIView+EasyLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		841442B934576C6D522705516E60FF5D /* CUIGravityCollisionItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = D733B98E08FACAD31F8239B329E8E8F6 /* CUIGravityCollisionItemView.m */; };
+		857448469A2302BF5888C8260BD8BB50 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E36D218C1805B3FDB588BD79467D87 /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		866624F166C399F655003D92C75E7164 /* CUIFoldNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF27360003F19B29680E52917272731 /* CUIFoldNumberViewController.m */; };
 		870EA19036D13775F50AC37AB0178876 /* Pods-CUIDemoFavorites_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E700CDF6D33B87D41EFADC6EE9826E7 /* Pods-CUIDemoFavorites_Example-dummy.m */; };
-		89130220F4B89F404D97D31CB938CD3E /* CUISenderGravityCollisionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A82485926A4C5A2989B5BDFE936D9133 /* CUISenderGravityCollisionView.m */; };
-		8BA2BC38094E953F89294C7773161D98 /* CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D2FD7147AF2F7B4372C61068C74CB583 /* CommonKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8D866544EEE38C4DC79C8325129F4DF2 /* CUIFoldNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6312D02408D753205F38AE966CDB09B6 /* CUIFoldNumberViewController.m */; };
-		925A1610D759792D1920ACD2F15CD8C3 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 816DC325FCF8BB097A12FAFA9CC5B1E4 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		94A5375ECF10A2B0BB447E2BA49A2391 /* cui_fold_number.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3E3161DA3D89AF9B4C8935B21DA61603 /* cui_fold_number.mov */; };
-		974C3B76552D42F9139A45748BD354AD /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CD27E9A0BC819073DA6CE3DECE16C5 /* MASCompositeConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		999F230348A000C1E814C360C389FE79 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A20AEC2F50AC2B544B695304CE5D274E /* MASConstraintMaker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9E521C7E3CFF1299EA2ED3FCFA97C5A6 /* CUIMultiLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F34D7DE12F7AA615D59A117959178A8 /* CUIMultiLabelView.m */; };
-		9F326A9F0FD347B83D2E047B8E486274 /* NSBundle+CUIBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = D533B93B7F60A794CA24929B8F028871 /* NSBundle+CUIBundle.m */; };
-		A43EED7E975883249CB400EB422FE2A6 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A1182C3588EBFC9E1A4BD558BE03C2 /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AA2A4A4BB0CCFB509A4E98FDC730BED5 /* UIView+EasyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A187785C54E18DE84669BFDF006FE6E /* UIView+EasyLayout.m */; };
-		B0178C2466C001843F702FCC22330B6B /* CUIGravityCollisionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DAD68E25C4E36449B15C3D5A482E297 /* CUIGravityCollisionViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B628EA9C5CDD24063B667BD0B01AAB0A /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D04E707D418C7315004147389F0F6FB5 /* SVProgressHUD-dummy.m */; };
-		B9CF1D686AE4BA3431528FE4DF369910 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F050D9BD9E704556A43761061299D356 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BED604992491E2099BED6A7F060444FD /* CUIFoldNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FEEB1DDDC3C90BDD7235DD68818B67 /* CUIFoldNumberView.m */; };
-		C7C982FF7B5386DA6B2D91121D31AB41 /* NSBundle+CUIBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 288F4242B350EA0873910BA198C92A8E /* NSBundle+CUIBundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CBD070A0E0678B0E4E7D97F54743129A /* CUIFoldNumberView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3753173138D0B80EA0BF4B4A50E38E70 /* CUIFoldNumberView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CC2181661DDB5A0C6D644885869A47D3 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = BD318603A04FA7F8CE0413B0458ECBFF /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CC9CDC3B3292CF1419C9D90D0CC7A204 /* CUIDemoViewControlData.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F05CA6B2CF38F6CCF03C816E24BBC1 /* CUIDemoViewControlData.m */; };
-		CCE71F2707508378D4092AEAFD17251A /* cui_gravity_collision.mov in Resources */ = {isa = PBXBuildFile; fileRef = 0CBB238EE074BE21B63709629957E9F7 /* cui_gravity_collision.mov */; };
-		CD10DD2FF08573BDBC7ADD8420786F3B /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE3ECA37FA06FB3946869F0B6CA4FF7 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CDD22DD99CA3C72429DF0C95CD3646FA /* CUIDemoCellItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA39CEC2ED82B87828DF1610E00F0F /* CUIDemoCellItemModel.m */; };
-		D19EEA19AE7A25C4146B821A3A939E78 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6BC8A1A6E78F8D6FB66C962FF1775C /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D1B054E99CA2896C31C118A54168A335 /* CUIGravityCollisionItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC13F55B862958E8F60E8035059A5D3 /* CUIGravityCollisionItemView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D30121A404AFB07335E6E6FE608FC18B /* UIColor+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 7167270DDF4EE6A63C108177DED345A4 /* UIColor+Ext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D3D80D418286F443E97109B1CBB7B6A3 /* CUIGravityCollisionItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0AE4726057DC7F15F314BAEF15825D /* CUIGravityCollisionItemView.m */; };
-		DCE138674B315E3AFCC7F6D5112042B0 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0D447940AC4B80762EB15B88F0C082 /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E3C83FD4F750DD10FC8F3DC61AC77527 /* CUIMultiLabelViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7C7199EAFF2A76FA061A69E5834B3B /* CUIMultiLabelViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E4A34720676DFE36B0AFA8EB3D2BFC41 /* CUIDemoViewAnimationData.m in Sources */ = {isa = PBXBuildFile; fileRef = B04E373558A510580AED64555736614A /* CUIDemoViewAnimationData.m */; };
-		E5A8B225599C3D31E133314BE2AE9B02 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2A0F777F2B276713F22BE9C03AF26 /* SVProgressHUD.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E6D581743D5B970276D89FFA9A69111B /* CUIMultiLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFE0594345293F5BCAFD397C438F414 /* CUIMultiLabelView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EA488E012760FDFFA831C50FF116FA13 /* CUIFoldLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4BE3650376DA564B3FF0CB6C40154 /* CUIFoldLabel.m */; };
-		ECEB79BC34A71634EBC522D3CE5F5D22 /* CUIDemoViewAnimationData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6845E2AAE9B44258B04565168BA152A8 /* CUIDemoViewAnimationData.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F04710FB71BCD45C48266D944102E360 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F74D0D066E9A1C494996740166E165 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F11CF26AF028F371032C68067CDC82BE /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7564110C24710E37E6B8F1643F98B79 /* SVProgressAnimatedView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F13623AA9F2C49ABE1FD70660F64B237 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BC1977F57DCC5F80D3D7A84302E5B1 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F267F1AE0875440CC1823B9B6341D5AA /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 11BE960A0B9F943B23BAD51DA11C656C /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F7B00C342179DDC3D1807E4F25896FC0 /* CUIMultiLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8BC3710021516A2D6FAD1481F2EA8 /* CUIMultiLabelViewController.m */; };
+		8D436E7F5A5A13068B8D73F1D4E5F333 /* cui_multi_label.png in Resources */ = {isa = PBXBuildFile; fileRef = 1467CECDAF3B3F934176D292E93CCCAA /* cui_multi_label.png */; };
+		8FD08E3295913FFF394C6BFA7E049507 /* CUIMultiLabelViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F93F3CD3933064B0CEC9FA15C7A2A5 /* CUIMultiLabelViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91AE2B062FB24C832B54088C991E8600 /* CUIMultiLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8BC18A7A3707356FC15547FBCF3171 /* CUIMultiLabelView.m */; };
+		91B437E038C14E2F3ED74278F2CCE83A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A1182C3588EBFC9E1A4BD558BE03C2 /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		94052AD8A1A950997161A4E702E86597 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2A0F777F2B276713F22BE9C03AF26 /* SVProgressHUD.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9762E241E06345548A39832AC146A0D4 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2EDEC1013F9690A3CE8F92F2EE5EFB /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E686E19B1A1F0EC8834522CC8DDEC0D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2508B23595B39F9F43F4C23DC95941C /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A0F13975ED79B89F2186E0D6F57F3AB8 /* CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D95B19D5EDD1C021B97F0A0BDA22E956 /* CommonKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A61BEFF8365B10D2257B6D1D116BEAE1 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2880183692A539052CAB43E54D5B1E8A /* MASLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ABBE02D402F9FF138B42B53141952A70 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 178386CE973094C52B8C4DEE9491490D /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ACCD794505758167F4FE3380C300540E /* CUIDemoElements-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E47734A17BB59F2952C8EDF44679F16 /* CUIDemoElements-dummy.m */; };
+		AE517DFB5ABF59A9F7024DAFAA2B8FD8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AF259208C311ADC8F814118A820F37A8 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B57ABE099420EA805ADF7366DD334021 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EAB3B01640530BC72376C2E5362FB2E /* Images.xcassets */; };
+		BD0D27A89980B6A4043B18C17E397FDA /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A20AEC2F50AC2B544B695304CE5D274E /* MASConstraintMaker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BE18D7341328D42A7F0A8B8D35A0426D /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0D447940AC4B80762EB15B88F0C082 /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BE5037D6AAE5F6A64DCD9B6512703CBC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C1EB0D5D6B15686E3F93238873B4016F /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0812C1DD88656CA39FDC9E0435747E6 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 816DC325FCF8BB097A12FAFA9CC5B1E4 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D24EEF2254C2FF394026D26347F19BA4 /* CUIProgressCircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 34706B58B59DCD47E0900052662BCE0B /* CUIProgressCircleView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D31E804EB96C5DC838728D0381B34678 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A114BC32F6B393EF33875E7908DE92D /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D63763360421C33270672B5E17F9AE10 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE3ECA37FA06FB3946869F0B6CA4FF7 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6F5CB113AAFC85C86987AB17A4B72D8 /* CUIDemoCellItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 81FD8615157B516EEC1CFDAF3BC5894A /* CUIDemoCellItemModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8332F75E2F9B0C2179D3A720AD97B61 /* CUIDemoViewAnimationData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EE4E7B9683B7C8018366ABA20ED7C14 /* CUIDemoViewAnimationData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D88063184CE2CBC1161C615013869060 /* UIView+EasyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDD95A0E894F40661667E45B5AE7C16 /* UIView+EasyLayout.m */; };
+		DB684BF06E1F09BA9C24938FF60CD28F /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE0F99324E79AE454C31C78D097539E /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE25B069F7219CE59CEF3A48C1AEA156 /* UIColor+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA4AEEFCE156CBA9692F4813CAA9720 /* UIColor+Ext.m */; };
+		E34FE44E642CC0679E4B55CB82F72CBA /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A728AF69A8AC66FDEE651A1FA586E620 /* SVRadialGradientLayer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E5D973EB98A5589F09B414F5A78E128A /* cui_gravity_collision.mov in Resources */ = {isa = PBXBuildFile; fileRef = F5572FB0B82BF2C3F4AB1D50DC12660E /* cui_gravity_collision.mov */; };
+		E5F1467CFB90753AFE40F1FFD2AB0D47 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9860BCC6A3E4BE58E3993A0981CDA91C /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E7F3F7FC2DA089A77227BBC56F767EC1 /* NSBundle+CUIBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4B066F842760E208ED98EF64176604 /* NSBundle+CUIBundle.m */; };
+		E8EF0B6C2A2A1F28C8257ECA42C43821 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = BD318603A04FA7F8CE0413B0458ECBFF /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4D1B7A2CC356EC09311798AF2468EDA /* CUIProgressCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576260F231F845840A347B10C29CE255 /* CUIProgressCircleViewController.m */; };
+		F77B2279CD67693BB4DEEE86B8A6C2EF /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F050D9BD9E704556A43761061299D356 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8872539DD8469CCA6B6C66C31C61B3E /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B25B2F7BEF66CAAACE57D0D6EBDA7E00 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE95A2D5A43C0BF58063D839915B2E85 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 371576E4AEB49E632068EC1B7403C071 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		17639D18B5294790FABC4A2FEDB17B9F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
-		18C77D90E5D75688B230372E54BF7511 /* PBXContainerItemProxy */ = {
+		13186B55746AFEBDFC21C7CD31B9515B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
 			remoteInfo = SVProgressHUD;
 		};
-		4D4962E218BDA8D6074993099F4FA811 /* PBXContainerItemProxy */ = {
+		16416246038A8DD07AB422B7D36D2ED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		28CDC31DCC9103AE4F077E88041D5B50 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D5B7B69FB2FA1FE7A43904C2F8A2EA6D;
 			remoteInfo = "CUIDemoElements-CUIDemoElements";
 		};
-		5A9F0E673F2B8DC781CEA387057B8D36 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
-			remoteInfo = SVProgressHUD;
-		};
-		5F27101E40212BDEC116CA7E0665AB9C /* PBXContainerItemProxy */ = {
+		972A3D96F70F6CEC1C888537DBED6E34 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3E871472620497BDB90A51415731DF46;
 			remoteInfo = CUIDemoExamples;
 		};
-		A6CB03AF937B940DA859AA9B99C6EEDF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 250A819199C136363F65619C43735474;
-			remoteInfo = "CUIDemoExamples-CUIDemoExamples";
-		};
-		B7F49490611F7C44CD086104E6E9F374 /* PBXContainerItemProxy */ = {
+		97B247629F048303174BDD0CA89B15E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2FBAD7EE174D6355E2EB97879561D0D6;
 			remoteInfo = CUIDemoElements;
 		};
-		F597BAB4B96B63DB71C255CC48A6A126 /* PBXContainerItemProxy */ = {
+		9C634EA1305D1A77B4885A087FA6E517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBAD7EE174D6355E2EB97879561D0D6;
+			remoteInfo = CUIDemoElements;
+		};
+		C645E4833D0AC90F91AECE4710D9DCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
-		F80710764AE690E69E4DDFD9BAB2A407 /* PBXContainerItemProxy */ = {
+		D9AD145CAFE7C9EA6A6D38DDA238C24C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2FBAD7EE174D6355E2EB97879561D0D6;
-			remoteInfo = CUIDemoElements;
+			remoteGlobalIDString = 250A819199C136363F65619C43735474;
+			remoteInfo = "CUIDemoExamples-CUIDemoExamples";
+		};
+		E2ED4844A2CFF7F5B37641441A8BF000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		003ADD8F8556C1CAD1DDA53209E1F87B /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
-		016B5EDDA8206D6B08F58363F10E968D /* CUIDemoExamples-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CUIDemoExamples-prefix.pch"; sourceTree = "<group>"; };
+		007CDD4E71A9E36995AEDCC6704AB077 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		01316E5AA9574B44D34635F3462CD450 /* CUIDemoViewControlData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CUIDemoViewControlData.h; path = CUIDemoExamples/Classes/CUIDemoViewControlData.h; sourceTree = "<group>"; };
 		02AC2C091EC6FF0A0B2695633684FC91 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		06F74D0D066E9A1C494996740166E165 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		073E4CEEB0AD2BC1D253606DA5302435 /* libCUIDemoExamples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCUIDemoExamples.a; path = libCUIDemoExamples.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C7C7199EAFF2A76FA061A69E5834B3B /* CUIMultiLabelViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIMultiLabelViewController.h; sourceTree = "<group>"; };
-		0CBB238EE074BE21B63709629957E9F7 /* cui_gravity_collision.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; path = cui_gravity_collision.mov; sourceTree = "<group>"; };
-		0FDA39CEC2ED82B87828DF1610E00F0F /* CUIDemoCellItemModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CUIDemoCellItemModel.m; path = CUIDemoExamples/Classes/CUIDemoCellItemModel.m; sourceTree = "<group>"; };
+		0C367737612223715905ADF3A9FCF9C7 /* UIImage+CUIBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CUIBundle.m"; sourceTree = "<group>"; };
+		0E47734A17BB59F2952C8EDF44679F16 /* CUIDemoElements-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CUIDemoElements-dummy.m"; sourceTree = "<group>"; };
 		11BE960A0B9F943B23BAD51DA11C656C /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		1203DACE35CDECE279A5F0AA7D07A32B /* CUIFoldLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIFoldLabel.m; sourceTree = "<group>"; };
+		1467CECDAF3B3F934176D292E93CCCAA /* cui_multi_label.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = cui_multi_label.png; sourceTree = "<group>"; };
 		178386CE973094C52B8C4DEE9491490D /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		18BFD8BC29E9F178860AE4BA95A074BA /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		1A026F7158C5E9A1220099EC47889800 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
 		1A114BC32F6B393EF33875E7908DE92D /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		1A187785C54E18DE84669BFDF006FE6E /* UIView+EasyLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyLayout.m"; sourceTree = "<group>"; };
-		1E16221D1DE75138C56B4A8F50371859 /* CUIDemoCellItemModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CUIDemoCellItemModel.h; path = CUIDemoExamples/Classes/CUIDemoCellItemModel.h; sourceTree = "<group>"; };
-		1E5A23B064F596A946D391AD6A086B57 /* CUIFoldLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIFoldLabel.h; sourceTree = "<group>"; };
+		1AD148D71436CB0DF29ECE028277E5AF /* CUIMultiLabelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIMultiLabelView.h; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		21A672FA8A6464060EB1B502510C499B /* UIView+EasyLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyLayout.h"; sourceTree = "<group>"; };
-		21E41DF5D344356D27BBF0AC94B0C611 /* CUIDemoViewControlData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CUIDemoViewControlData.h; path = CUIDemoExamples/Classes/CUIDemoViewControlData.h; sourceTree = "<group>"; };
-		25F05CA6B2CF38F6CCF03C816E24BBC1 /* CUIDemoViewControlData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CUIDemoViewControlData.m; path = CUIDemoExamples/Classes/CUIDemoViewControlData.m; sourceTree = "<group>"; };
+		2617F9742DD1849BB3E57EDDA7768B3E /* CUISenderGravityCollisionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUISenderGravityCollisionView.m; sourceTree = "<group>"; };
+		26381FF1B40AB09C97D9C8BDDCE0754B /* UIView+EasyLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyLayout.h"; sourceTree = "<group>"; };
 		2880183692A539052CAB43E54D5B1E8A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		288F4242B350EA0873910BA198C92A8E /* NSBundle+CUIBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+CUIBundle.h"; sourceTree = "<group>"; };
-		2927EAC82FC8ABE55D2B6E25EAB17EDC /* UIColor+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Ext.m"; sourceTree = "<group>"; };
 		2AAC6C5F22B92BFE75A1B0D5F58F75E0 /* CUIDemoElements.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CUIDemoElements.bundle; path = "CUIDemoElements-CUIDemoElements.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AB8BC3710021516A2D6FAD1481F2EA8 /* CUIMultiLabelViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIMultiLabelViewController.m; sourceTree = "<group>"; };
-		2B3A8D19626C44597DD653C2C5C83EED /* CUIDemoElements.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CUIDemoElements.release.xcconfig; sourceTree = "<group>"; };
 		2C0D447940AC4B80762EB15B88F0C082 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		303A88384D37418DA6B8BE0DC45E19CD /* CUIFoldLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIFoldLabel.h; sourceTree = "<group>"; };
 		31C95E7CAD3107021937073344057EEE /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		34706B58B59DCD47E0900052662BCE0B /* CUIProgressCircleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIProgressCircleView.h; sourceTree = "<group>"; };
 		371576E4AEB49E632068EC1B7403C071 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		3753173138D0B80EA0BF4B4A50E38E70 /* CUIFoldNumberView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIFoldNumberView.h; sourceTree = "<group>"; };
 		3843F442347F3386AB35B0C4D36AAF14 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		3E3161DA3D89AF9B4C8935B21DA61603 /* cui_fold_number.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; path = cui_fold_number.mov; sourceTree = "<group>"; };
-		3F34D7DE12F7AA615D59A117959178A8 /* CUIMultiLabelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIMultiLabelView.m; sourceTree = "<group>"; };
+		3CA4AEEFCE156CBA9692F4813CAA9720 /* UIColor+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Ext.m"; sourceTree = "<group>"; };
+		3D3B566AE4D3BA461235A7953A2393AA /* ResourceBundle-CUIDemoExamples-CUIDemoExamples-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CUIDemoExamples-CUIDemoExamples-Info.plist"; sourceTree = "<group>"; };
 		3F406FE0FED18607864741F5D67802D5 /* Pods-CUIDemoFavorites_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CUIDemoFavorites_Example-resources.sh"; sourceTree = "<group>"; };
 		3FEB6620261F09B85709B32C85BEB4D5 /* Pods-CUIDemoFavorites_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CUIDemoFavorites_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		404116FA33F189FAAB4B4AFCB0483FE8 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		409656F4C9A049218B0DB242879FF0FC /* CUIDemoElements-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CUIDemoElements-prefix.pch"; sourceTree = "<group>"; };
-		4290F7DB5A301A6F346D3491A6C035D4 /* CUIFoldNumberViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIFoldNumberViewController.h; sourceTree = "<group>"; };
-		44E5D83EDC08C173AED0CD0E0524F9F9 /* CUIDemoExamples-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CUIDemoExamples-dummy.m"; sourceTree = "<group>"; };
+		40D893C958178CCA606ABFD583619AEF /* CUIMultiLabelViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIMultiLabelViewController.m; sourceTree = "<group>"; };
+		4413D302E8D7341E19A02590175AA37B /* CUIDemoViewControlData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CUIDemoViewControlData.m; path = CUIDemoExamples/Classes/CUIDemoViewControlData.m; sourceTree = "<group>"; };
 		46AD835E498B21990ED5F7A618AFD2EE /* libPods-CUIDemoFavorites_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CUIDemoFavorites_Example.a"; path = "libPods-CUIDemoFavorites_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4ACFB6DC105607B61FFB5F58789E3678 /* ResourceBundle-CUIDemoExamples-CUIDemoExamples-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CUIDemoExamples-CUIDemoExamples-Info.plist"; sourceTree = "<group>"; };
-		4BDC6D31B84E26BB715129CC6517ED8C /* UIImage+CUIBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CUIBundle.h"; sourceTree = "<group>"; };
+		4CDD95A0E894F40661667E45B5AE7C16 /* UIView+EasyLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyLayout.m"; sourceTree = "<group>"; };
+		4EAB3B01640530BC72376C2E5362FB2E /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CUIDemoElements/Assets/Images.xcassets; sourceTree = "<group>"; };
+		4EE4E7B9683B7C8018366ABA20ED7C14 /* CUIDemoViewAnimationData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CUIDemoViewAnimationData.h; path = CUIDemoExamples/Classes/CUIDemoViewAnimationData.h; sourceTree = "<group>"; };
+		5055D164FF8655155BDF4DA9DA1C4EEF /* CUIDemoExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CUIDemoExamples.release.xcconfig; sourceTree = "<group>"; };
 		50BA3BA9B9328173F8EF7B0622B1D482 /* Pods-CUIDemoFavorites_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CUIDemoFavorites_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5BCDC406BE7D402658D4E0C7F14D015B /* ResourceBundle-CUIDemoElements-CUIDemoElements-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CUIDemoElements-CUIDemoElements-Info.plist"; sourceTree = "<group>"; };
+		55E6EAFF98CBC93624798A615CF7E955 /* CUIDemoCellItemModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CUIDemoCellItemModel.m; path = CUIDemoExamples/Classes/CUIDemoCellItemModel.m; sourceTree = "<group>"; };
+		576260F231F845840A347B10C29CE255 /* CUIProgressCircleViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIProgressCircleViewController.m; sourceTree = "<group>"; };
+		58F07ED39E565E84953D068D0CBD2ECC /* CUIFoldNumberView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIFoldNumberView.h; sourceTree = "<group>"; };
+		5A52E4E4303BF83AC27B49CBC4BBF70F /* CUIGravityCollisionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIGravityCollisionViewController.m; sourceTree = "<group>"; };
+		5BF27360003F19B29680E52917272731 /* CUIFoldNumberViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIFoldNumberViewController.m; sourceTree = "<group>"; };
 		5ED2A0F777F2B276713F22BE9C03AF26 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		61E4BE3650376DA564B3FF0CB6C40154 /* CUIFoldLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIFoldLabel.m; sourceTree = "<group>"; };
-		6312D02408D753205F38AE966CDB09B6 /* CUIFoldNumberViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIFoldNumberViewController.m; sourceTree = "<group>"; };
-		647DC8F3787BD9268C6AC0353B5CFCEA /* CUIGravityCollisionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIGravityCollisionViewController.m; sourceTree = "<group>"; };
-		6845E2AAE9B44258B04565168BA152A8 /* CUIDemoViewAnimationData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CUIDemoViewAnimationData.h; path = CUIDemoExamples/Classes/CUIDemoViewAnimationData.h; sourceTree = "<group>"; };
+		68F93F3CD3933064B0CEC9FA15C7A2A5 /* CUIMultiLabelViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIMultiLabelViewController.h; sourceTree = "<group>"; };
+		6ABFD0E6AB8EDFC93F97C7D065586D1A /* CUIDemoExamples.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CUIDemoExamples.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6BC72AE41F821AB8F75322D25724FEB7 /* libCUIDemoElements.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCUIDemoElements.a; path = libCUIDemoElements.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7167270DDF4EE6A63C108177DED345A4 /* UIColor+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Ext.h"; sourceTree = "<group>"; };
-		71745DAAFB6A741403994F2C6B4DDE11 /* CUIDemoElements.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CUIDemoElements.pch; path = CUIDemoElements/CUIDemoElements.pch; sourceTree = "<group>"; };
-		782A42B1E465AA0D2184EE138FC5F9E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6CA624C139B6FDB5900718683674DA11 /* CUIDemoExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CUIDemoExamples.debug.xcconfig; sourceTree = "<group>"; };
+		77867D0EA2C4E69D0196862820C25E79 /* CUIDemoViewAnimationData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CUIDemoViewAnimationData.m; path = CUIDemoExamples/Classes/CUIDemoViewAnimationData.m; sourceTree = "<group>"; };
+		78B256B18461877262F4FA5B7C446402 /* UIImage+CUIBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CUIBundle.h"; sourceTree = "<group>"; };
 		7C43AFBB0DD54BCA8F9E327025723F5B /* CUIDemoExamples.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CUIDemoExamples.bundle; path = "CUIDemoExamples-CUIDemoExamples.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C59C88C8975EAA631E90F46A9BCEED9 /* Pods-CUIDemoFavorites_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CUIDemoFavorites_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		812711070649284C55FAB30487DDCB5A /* cui_progress_circle.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; path = cui_progress_circle.mov; sourceTree = "<group>"; };
 		816DC325FCF8BB097A12FAFA9CC5B1E4 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		845C3BE4DDD68EE16F39CC0E297D037D /* CUIDemoExamples.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CUIDemoExamples.pch; path = CUIDemoExamples/CUIDemoExamples.pch; sourceTree = "<group>"; };
+		81FD8615157B516EEC1CFDAF3BC5894A /* CUIDemoCellItemModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CUIDemoCellItemModel.h; path = CUIDemoExamples/Classes/CUIDemoCellItemModel.h; sourceTree = "<group>"; };
 		87A1182C3588EBFC9E1A4BD558BE03C2 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		8D036274011520E6A487A5BFF792090F /* CUIDemoExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CUIDemoExamples.debug.xcconfig; sourceTree = "<group>"; };
+		8989909695D7A250398BAB67359F2252 /* CUIDemoElements.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CUIDemoElements.release.xcconfig; sourceTree = "<group>"; };
+		8C4ACE386DECF6BB82E22AD0458FBE1E /* cui_fold_number.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; path = cui_fold_number.mov; sourceTree = "<group>"; };
+		8C78B223465F5B3EEC1F8418F336677E /* CUIDemoExamples-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CUIDemoExamples-prefix.pch"; sourceTree = "<group>"; };
 		8E700CDF6D33B87D41EFADC6EE9826E7 /* Pods-CUIDemoFavorites_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CUIDemoFavorites_Example-dummy.m"; sourceTree = "<group>"; };
-		8EFE0594345293F5BCAFD397C438F414 /* CUIMultiLabelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIMultiLabelView.h; sourceTree = "<group>"; };
+		8FA640749FBFF3E14258A54CCF4923A6 /* CUIDemoElements-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CUIDemoElements-prefix.pch"; sourceTree = "<group>"; };
 		914FD8296D6FEC529B040177E2A15A3E /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		9398AA5E01FF49F340ADF6A3F5B3B905 /* CUIProgressCircleViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIProgressCircleViewController.h; sourceTree = "<group>"; };
 		9446BEB8DD6899831C1438D30F1217F2 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		9552EE8708ADC94D0545A9B63A846E26 /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		9860BCC6A3E4BE58E3993A0981CDA91C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		9BE11EC37D7F2C3DCFC5AE3FE8E04206 /* CUIDemoExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CUIDemoExamples.release.xcconfig; sourceTree = "<group>"; };
+		990FE5AF1D6B43047B580BF3A21569C4 /* CUIProgressCircleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIProgressCircleView.m; sourceTree = "<group>"; };
+		9CB454C7313027DAD5368645780B49AC /* CUIDemoExamples-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CUIDemoExamples-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DAD68E25C4E36449B15C3D5A482E297 /* CUIGravityCollisionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIGravityCollisionViewController.h; sourceTree = "<group>"; };
 		9E6BC8A1A6E78F8D6FB66C962FF1775C /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		9EFC7B27CFB9BFDB41AEFD97E309D7B7 /* CUIDemoExamples.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CUIDemoExamples.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F0AE4726057DC7F15F314BAEF15825D /* CUIGravityCollisionItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIGravityCollisionItemView.m; sourceTree = "<group>"; };
 		9FE0F99324E79AE454C31C78D097539E /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		A20AEC2F50AC2B544B695304CE5D274E /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		A728AF69A8AC66FDEE651A1FA586E620 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		A82485926A4C5A2989B5BDFE936D9133 /* CUISenderGravityCollisionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUISenderGravityCollisionView.m; sourceTree = "<group>"; };
 		A8BC1977F57DCC5F80D3D7A84302E5B1 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		A8F1EFFD0B132B23DAA2CA2E411C4F88 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		AAC13F55B862958E8F60E8035059A5D3 /* CUIGravityCollisionItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIGravityCollisionItemView.h; sourceTree = "<group>"; };
+		A943AAC95B78FF360A04FB0759AB09E1 /* CUIFoldNumberViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIFoldNumberViewController.h; sourceTree = "<group>"; };
 		AF259208C311ADC8F814118A820F37A8 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		B04E373558A510580AED64555736614A /* CUIDemoViewAnimationData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CUIDemoViewAnimationData.m; path = CUIDemoExamples/Classes/CUIDemoViewAnimationData.m; sourceTree = "<group>"; };
 		B0E36D218C1805B3FDB588BD79467D87 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		B1975EFD311446EFBED74130D7CBEFF5 /* Pods-CUIDemoFavorites_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CUIDemoFavorites_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B2102082200276C5930CB22158226C06 /* CUIDemoElements.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CUIDemoElements.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B25B2F7BEF66CAAACE57D0D6EBDA7E00 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		B33D40B3F867A8360DDC12421CC2793A /* cui_multi_label.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = cui_multi_label.png; sourceTree = "<group>"; };
 		BD318603A04FA7F8CE0413B0458ECBFF /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		C12673106B62424A0EAA66A488796538 /* cui_image_text.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = cui_image_text.png; sourceTree = "<group>"; };
+		BF57BCFE4769D59225A514D8F3206B0B /* CUIFoldNumberView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIFoldNumberView.m; sourceTree = "<group>"; };
 		C1EB0D5D6B15686E3F93238873B4016F /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		C2E699267F3F807D231DF32EA2C7C3FE /* CUISenderGravityCollisionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUISenderGravityCollisionView.h; sourceTree = "<group>"; };
 		C3B41AE76C26724BCF8EC745ACF7B240 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		C41D169029C31644B97D8A544AF654EF /* CUIDemoElements.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CUIDemoElements.pch; path = CUIDemoElements/CUIDemoElements.pch; sourceTree = "<group>"; };
 		C479BA202FC8241C74C6CBC3D2777B15 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		C48FF771D06E55EB7AF7AB8F86945035 /* CUIGravityCollisionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIGravityCollisionViewController.h; sourceTree = "<group>"; };
 		C7564110C24710E37E6B8F1643F98B79 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		C8CD27E9A0BC819073DA6CE3DECE16C5 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		CEE3ECA37FA06FB3946869F0B6CA4FF7 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		D036381CF53038AC40FF93744366F103 /* ResourceBundle-CUIDemoElements-CUIDemoElements-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CUIDemoElements-CUIDemoElements-Info.plist"; sourceTree = "<group>"; };
 		D04E707D418C7315004147389F0F6FB5 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		D28098773CEA24FE9F09BA94F26137A2 /* CUISenderGravityCollisionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUISenderGravityCollisionView.h; sourceTree = "<group>"; };
-		D2FD7147AF2F7B4372C61068C74CB583 /* CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CommonKit.h; sourceTree = "<group>"; };
-		D533B93B7F60A794CA24929B8F028871 /* NSBundle+CUIBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+CUIBundle.m"; sourceTree = "<group>"; };
+		D1439BBD1F7E21A4F6A16C1CBBF6FBAF /* NSBundle+CUIBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+CUIBundle.h"; sourceTree = "<group>"; };
+		D733B98E08FACAD31F8239B329E8E8F6 /* CUIGravityCollisionItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIGravityCollisionItemView.m; sourceTree = "<group>"; };
 		D792DBC856ECF97C5CC82523F8F8F7AB /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		DDB1DBB8B1CC0F42C3A89CF44A75D2D8 /* CUIDemoElements.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CUIDemoElements.debug.xcconfig; sourceTree = "<group>"; };
-		E536571A636035CD8E010548C8A3FC5E /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CUIDemoElements/Assets/Images.xcassets; sourceTree = "<group>"; };
-		E73AD8DBB36AF4C42794A2A6D2553AD2 /* UIImage+CUIBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CUIBundle.m"; sourceTree = "<group>"; };
+		D95B19D5EDD1C021B97F0A0BDA22E956 /* CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CommonKit.h; sourceTree = "<group>"; };
+		E55268466F7FD4CFA124E65C8F3111A9 /* CUIDemoElements.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CUIDemoElements.debug.xcconfig; sourceTree = "<group>"; };
+		E73F8670A2A0A363B0AD3B779A285E69 /* CUIDemoExamples.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CUIDemoExamples.pch; path = CUIDemoExamples/CUIDemoExamples.pch; sourceTree = "<group>"; };
 		E97D43C46A45EE515A4DA3AF94398441 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC384AD5B94321BA249F840D797CD00 /* CUIDemoElements.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CUIDemoElements.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED8BC18A7A3707356FC15547FBCF3171 /* CUIMultiLabelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIMultiLabelView.m; sourceTree = "<group>"; };
+		EEBA2C0EB803774BD5FFC79596816098 /* UIColor+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Ext.h"; sourceTree = "<group>"; };
+		EF9C66954780808FE67A7EF04C5E4435 /* CUIGravityCollisionItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIGravityCollisionItemView.h; sourceTree = "<group>"; };
 		F050D9BD9E704556A43761061299D356 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		F0FEEB1DDDC3C90BDD7235DD68818B67 /* CUIFoldNumberView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIFoldNumberView.m; sourceTree = "<group>"; };
 		F2508B23595B39F9F43F4C23DC95941C /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		FAB13FAD4AB298F952298FC28F6BD8F3 /* CUIDemoElements-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CUIDemoElements-dummy.m"; sourceTree = "<group>"; };
+		F5572FB0B82BF2C3F4AB1D50DC12660E /* cui_gravity_collision.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; path = cui_gravity_collision.mov; sourceTree = "<group>"; };
 		FD2EDEC1013F9690A3CE8F92F2EE5EFB /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		FF4B066F842760E208ED98EF64176604 /* NSBundle+CUIBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+CUIBundle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,42 +275,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28E0374F29FC472BF2B5AAD0BEF33C51 /* Frameworks */ = {
+		58E0368EF7A3D67C671399AAF547661A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50A86D0FA9019BAABD3AE55A10EECD09 /* Frameworks */ = {
+		6C56AC9270A507C54F3F902124F2C0AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8524CA38A2B8E99CDDD5630CF9BF6691 /* Frameworks */ = {
+		81136C787AC12D19D3B263795FAA18BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE2090835E753333285CB2878A446813 /* Frameworks */ = {
+		C8F72DB3DEEBFF8A7EEF0A050B24BBBA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC11A1C707C9AF5A4132592A219C4BD8 /* Frameworks */ = {
+		D2F9563B511E6A35B3CA3BB82B647910 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9923822E16D1E7D4932E8F68CFD957B /* Frameworks */ = {
+		E5D6EFAF6C567C5BCE55B4EB46F776A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -312,142 +320,150 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08EDAAC575DD804C3C85E9902A0D1FE1 /* ViewAnimation */ = {
+		0272EA2391A9D5BE12A1A0E28864ABBC /* Videos */ = {
 			isa = PBXGroup;
 			children = (
-				E23FCA79CCB55D2E5CC0451690C33EBB /* FoldNumberView */,
-				2094C8ABDC3E3B9262225C3CE7505975 /* GravityCollisionView */,
+				8C4ACE386DECF6BB82E22AD0458FBE1E /* cui_fold_number.mov */,
+				F5572FB0B82BF2C3F4AB1D50DC12660E /* cui_gravity_collision.mov */,
+				812711070649284C55FAB30487DDCB5A /* cui_progress_circle.mov */,
 			);
-			name = ViewAnimation;
-			path = CUIDemoElements/Classes/ViewAnimation;
+			name = Videos;
+			path = CUIDemoExamples/Assets/Videos;
 			sourceTree = "<group>";
 		};
-		098C7CBB59D7E3C99CA72C1ADE582D3F /* ViewControl */ = {
+		037FD05AFF5113509DEB5F399C1B8714 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				5A613C50C8A638977CAED730C3BA55DE /* MultiLabelView */,
+				D1439BBD1F7E21A4F6A16C1CBBF6FBAF /* NSBundle+CUIBundle.h */,
+				FF4B066F842760E208ED98EF64176604 /* NSBundle+CUIBundle.m */,
+				EEBA2C0EB803774BD5FFC79596816098 /* UIColor+Ext.h */,
+				3CA4AEEFCE156CBA9692F4813CAA9720 /* UIColor+Ext.m */,
+				78B256B18461877262F4FA5B7C446402 /* UIImage+CUIBundle.h */,
+				0C367737612223715905ADF3A9FCF9C7 /* UIImage+CUIBundle.m */,
+				26381FF1B40AB09C97D9C8BDDCE0754B /* UIView+EasyLayout.h */,
+				4CDD95A0E894F40661667E45B5AE7C16 /* UIView+EasyLayout.m */,
 			);
-			name = ViewControl;
-			path = CUIDemoElements/Classes/ViewControl;
+			name = Extension;
+			path = Extension;
 			sourceTree = "<group>";
 		};
-		1E34BDC5665D912F8005EA25870C580C /* ViewAnimation */ = {
+		0427419EA2F466009F9D55ABF942528B /* CUIDemoElements */ = {
 			isa = PBXGroup;
 			children = (
-				353D054B8DA331D7F8BE698150FC6B49 /* FoldNumber */,
-				72029634AC90E6E86916C80D682E1EC3 /* GravityCollisionView */,
-			);
-			name = ViewAnimation;
-			path = CUIDemoExamples/Classes/ViewAnimation;
-			sourceTree = "<group>";
-		};
-		2094C8ABDC3E3B9262225C3CE7505975 /* GravityCollisionView */ = {
-			isa = PBXGroup;
-			children = (
-				AAC13F55B862958E8F60E8035059A5D3 /* CUIGravityCollisionItemView.h */,
-				9F0AE4726057DC7F15F314BAEF15825D /* CUIGravityCollisionItemView.m */,
-				D28098773CEA24FE9F09BA94F26137A2 /* CUISenderGravityCollisionView.h */,
-				A82485926A4C5A2989B5BDFE936D9133 /* CUISenderGravityCollisionView.m */,
-			);
-			name = GravityCollisionView;
-			path = GravityCollisionView;
-			sourceTree = "<group>";
-		};
-		2B73CBCA0D68D8F2CB9A689D330D9DC4 /* MultiLabelView */ = {
-			isa = PBXGroup;
-			children = (
-				0C7C7199EAFF2A76FA061A69E5834B3B /* CUIMultiLabelViewController.h */,
-				2AB8BC3710021516A2D6FAD1481F2EA8 /* CUIMultiLabelViewController.m */,
-			);
-			name = MultiLabelView;
-			path = MultiLabelView;
-			sourceTree = "<group>";
-		};
-		353D054B8DA331D7F8BE698150FC6B49 /* FoldNumber */ = {
-			isa = PBXGroup;
-			children = (
-				4290F7DB5A301A6F346D3491A6C035D4 /* CUIFoldNumberViewController.h */,
-				6312D02408D753205F38AE966CDB09B6 /* CUIFoldNumberViewController.m */,
-			);
-			name = FoldNumber;
-			path = FoldNumber;
-			sourceTree = "<group>";
-		};
-		35C67E972ABF658352DE846E67595530 /* CUIDemoElements */ = {
-			isa = PBXGroup;
-			children = (
-				E536571A636035CD8E010548C8A3FC5E /* Images.xcassets */,
-				5FBD1C36E6BE65D0C10A8EB501D3C428 /* Common */,
-				FB6F2D0DB97C1D7784E38A950B84BD35 /* Pod */,
-				AC2FB9201DAC65635D6F1CB5467EE90B /* Support Files */,
-				08EDAAC575DD804C3C85E9902A0D1FE1 /* ViewAnimation */,
-				098C7CBB59D7E3C99CA72C1ADE582D3F /* ViewControl */,
+				4EAB3B01640530BC72376C2E5362FB2E /* Images.xcassets */,
+				9AF940C1D1148E7C0A06D19731ACC636 /* Common */,
+				C593E6EC199EF99DFB7E034848AB9471 /* Pod */,
+				F8D92172E86702597D814421355E3C0E /* Support Files */,
+				774C4003503131D69A4B81C3831A3A5A /* ViewAnimation */,
+				6764C923C469CFEDD3939967205E1EFD /* ViewControl */,
 			);
 			name = CUIDemoElements;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		41036ACEC1A4BECEFD5E7ADF2EDA7697 /* Support Files */ = {
+		14436561064A9C72F91CCD3C644E411F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				44E5D83EDC08C173AED0CD0E0524F9F9 /* CUIDemoExamples-dummy.m */,
-				016B5EDDA8206D6B08F58363F10E968D /* CUIDemoExamples-prefix.pch */,
-				8D036274011520E6A487A5BFF792090F /* CUIDemoExamples.debug.xcconfig */,
-				9BE11EC37D7F2C3DCFC5AE3FE8E04206 /* CUIDemoExamples.release.xcconfig */,
-				4ACFB6DC105607B61FFB5F58789E3678 /* ResourceBundle-CUIDemoExamples-CUIDemoExamples-Info.plist */,
+				9CB454C7313027DAD5368645780B49AC /* CUIDemoExamples-dummy.m */,
+				8C78B223465F5B3EEC1F8418F336677E /* CUIDemoExamples-prefix.pch */,
+				6CA624C139B6FDB5900718683674DA11 /* CUIDemoExamples.debug.xcconfig */,
+				5055D164FF8655155BDF4DA9DA1C4EEF /* CUIDemoExamples.release.xcconfig */,
+				3D3B566AE4D3BA461235A7953A2393AA /* ResourceBundle-CUIDemoExamples-CUIDemoExamples-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Pods/Target Support Files/CUIDemoExamples";
 			sourceTree = "<group>";
 		};
-		5A613C50C8A638977CAED730C3BA55DE /* MultiLabelView */ = {
+		26508953C84F4291F16FACFA4F3D3378 /* MultiLabelView */ = {
 			isa = PBXGroup;
 			children = (
-				8EFE0594345293F5BCAFD397C438F414 /* CUIMultiLabelView.h */,
-				3F34D7DE12F7AA615D59A117959178A8 /* CUIMultiLabelView.m */,
+				1AD148D71436CB0DF29ECE028277E5AF /* CUIMultiLabelView.h */,
+				ED8BC18A7A3707356FC15547FBCF3171 /* CUIMultiLabelView.m */,
 			);
 			name = MultiLabelView;
 			path = MultiLabelView;
 			sourceTree = "<group>";
 		};
-		5BBA63113899FF1E59BC855D40CE17BD /* CUIDemoExamples */ = {
+		2CB16FB766EA40B83FBA68CF09DA281E /* ProgressCircleView */ = {
 			isa = PBXGroup;
 			children = (
-				1E16221D1DE75138C56B4A8F50371859 /* CUIDemoCellItemModel.h */,
-				0FDA39CEC2ED82B87828DF1610E00F0F /* CUIDemoCellItemModel.m */,
-				6845E2AAE9B44258B04565168BA152A8 /* CUIDemoViewAnimationData.h */,
-				B04E373558A510580AED64555736614A /* CUIDemoViewAnimationData.m */,
-				21E41DF5D344356D27BBF0AC94B0C611 /* CUIDemoViewControlData.h */,
-				25F05CA6B2CF38F6CCF03C816E24BBC1 /* CUIDemoViewControlData.m */,
-				C23C4E8DD4ED82F0E290B9B2148F6582 /* Images */,
-				EB7FB2C3C618DCC08519DC42CDD1D4F0 /* Pod */,
-				41036ACEC1A4BECEFD5E7ADF2EDA7697 /* Support Files */,
-				84F6196CAB0FAC58D89F186BCBE77D10 /* Videos */,
-				1E34BDC5665D912F8005EA25870C580C /* ViewAnimation */,
-				938BB4BC8B27701DA120F3DF3ACBDFCB /* ViewControl */,
+				34706B58B59DCD47E0900052662BCE0B /* CUIProgressCircleView.h */,
+				990FE5AF1D6B43047B580BF3A21569C4 /* CUIProgressCircleView.m */,
 			);
-			name = CUIDemoExamples;
-			path = ..;
+			name = ProgressCircleView;
+			path = ProgressCircleView;
 			sourceTree = "<group>";
 		};
-		5FBD1C36E6BE65D0C10A8EB501D3C428 /* Common */ = {
+		3A767B37F0DFE322325879784AF3EA42 /* ViewAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				D2FD7147AF2F7B4372C61068C74CB583 /* CommonKit.h */,
-				9F0988B497CBEDDA3B0CB81C47F18331 /* Extension */,
+				896141A8913601043BA168A26A880D6E /* FoldNumber */,
+				3F01945E203AD6D365D02996E127BF1F /* GravityCollisionView */,
+				4D992B5A315F49CC6D857F230CA5A820 /* ProgressCircleView */,
 			);
-			name = Common;
-			path = CUIDemoElements/Classes/Common;
+			name = ViewAnimation;
+			path = CUIDemoExamples/Classes/ViewAnimation;
 			sourceTree = "<group>";
 		};
-		72029634AC90E6E86916C80D682E1EC3 /* GravityCollisionView */ = {
+		3F01945E203AD6D365D02996E127BF1F /* GravityCollisionView */ = {
 			isa = PBXGroup;
 			children = (
-				9DAD68E25C4E36449B15C3D5A482E297 /* CUIGravityCollisionViewController.h */,
-				647DC8F3787BD9268C6AC0353B5CFCEA /* CUIGravityCollisionViewController.m */,
+				C48FF771D06E55EB7AF7AB8F86945035 /* CUIGravityCollisionViewController.h */,
+				5A52E4E4303BF83AC27B49CBC4BBF70F /* CUIGravityCollisionViewController.m */,
 			);
 			name = GravityCollisionView;
 			path = GravityCollisionView;
+			sourceTree = "<group>";
+		};
+		4BCA097A704E01716BF6A6E35B958E02 /* GravityCollisionView */ = {
+			isa = PBXGroup;
+			children = (
+				EF9C66954780808FE67A7EF04C5E4435 /* CUIGravityCollisionItemView.h */,
+				D733B98E08FACAD31F8239B329E8E8F6 /* CUIGravityCollisionItemView.m */,
+				C2E699267F3F807D231DF32EA2C7C3FE /* CUISenderGravityCollisionView.h */,
+				2617F9742DD1849BB3E57EDDA7768B3E /* CUISenderGravityCollisionView.m */,
+			);
+			name = GravityCollisionView;
+			path = GravityCollisionView;
+			sourceTree = "<group>";
+		};
+		4D992B5A315F49CC6D857F230CA5A820 /* ProgressCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				9398AA5E01FF49F340ADF6A3F5B3B905 /* CUIProgressCircleViewController.h */,
+				576260F231F845840A347B10C29CE255 /* CUIProgressCircleViewController.m */,
+			);
+			name = ProgressCircleView;
+			path = ProgressCircleView;
+			sourceTree = "<group>";
+		};
+		6764C923C469CFEDD3939967205E1EFD /* ViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				26508953C84F4291F16FACFA4F3D3378 /* MultiLabelView */,
+			);
+			name = ViewControl;
+			path = CUIDemoElements/Classes/ViewControl;
+			sourceTree = "<group>";
+		};
+		6D665BBAFADB375732DFB120A480DA83 /* CUIDemoExamples */ = {
+			isa = PBXGroup;
+			children = (
+				81FD8615157B516EEC1CFDAF3BC5894A /* CUIDemoCellItemModel.h */,
+				55E6EAFF98CBC93624798A615CF7E955 /* CUIDemoCellItemModel.m */,
+				4EE4E7B9683B7C8018366ABA20ED7C14 /* CUIDemoViewAnimationData.h */,
+				77867D0EA2C4E69D0196862820C25E79 /* CUIDemoViewAnimationData.m */,
+				01316E5AA9574B44D34635F3462CD450 /* CUIDemoViewControlData.h */,
+				4413D302E8D7341E19A02590175AA37B /* CUIDemoViewControlData.m */,
+				8A81826A0E01803B73BFB0B26576B7C4 /* Images */,
+				905DAE949996F6AEE6DA0B48D945B1F9 /* Pod */,
+				14436561064A9C72F91CCD3C644E411F /* Support Files */,
+				0272EA2391A9D5BE12A1A0E28864ABBC /* Videos */,
+				3A767B37F0DFE322325879784AF3EA42 /* ViewAnimation */,
+				F779AB8372E8C2466106F2FECBE64DDA /* ViewControl */,
+			);
+			name = CUIDemoExamples;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		74E58823BB800D46869DA563EF988E61 /* Pods */ = {
@@ -459,6 +475,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		774C4003503131D69A4B81C3831A3A5A /* ViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				E158FB3F6B94EDD4636C2A43BE9216EE /* FoldNumberView */,
+				4BCA097A704E01716BF6A6E35B958E02 /* GravityCollisionView */,
+				2CB16FB766EA40B83FBA68CF09DA281E /* ProgressCircleView */,
+			);
+			name = ViewAnimation;
+			path = CUIDemoElements/Classes/ViewAnimation;
+			sourceTree = "<group>";
+		};
 		7C8ECA2FEA1E74D556ACC61A570E9896 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -467,14 +494,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		84F6196CAB0FAC58D89F186BCBE77D10 /* Videos */ = {
+		896141A8913601043BA168A26A880D6E /* FoldNumber */ = {
 			isa = PBXGroup;
 			children = (
-				3E3161DA3D89AF9B4C8935B21DA61603 /* cui_fold_number.mov */,
-				0CBB238EE074BE21B63709629957E9F7 /* cui_gravity_collision.mov */,
+				A943AAC95B78FF360A04FB0759AB09E1 /* CUIFoldNumberViewController.h */,
+				5BF27360003F19B29680E52917272731 /* CUIFoldNumberViewController.m */,
 			);
-			name = Videos;
-			path = CUIDemoExamples/Assets/Videos;
+			name = FoldNumber;
+			path = FoldNumber;
 			sourceTree = "<group>";
 		};
 		8A1EFCF8883286AA9C3B145B78DB4F14 /* Support Files */ = {
@@ -489,29 +516,42 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		938BB4BC8B27701DA120F3DF3ACBDFCB /* ViewControl */ = {
+		8A81826A0E01803B73BFB0B26576B7C4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				2B73CBCA0D68D8F2CB9A689D330D9DC4 /* MultiLabelView */,
+				1467CECDAF3B3F934176D292E93CCCAA /* cui_multi_label.png */,
 			);
-			name = ViewControl;
-			path = CUIDemoExamples/Classes/ViewControl;
+			name = Images;
+			path = CUIDemoExamples/Assets/Images;
 			sourceTree = "<group>";
 		};
-		9F0988B497CBEDDA3B0CB81C47F18331 /* Extension */ = {
+		905DAE949996F6AEE6DA0B48D945B1F9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				288F4242B350EA0873910BA198C92A8E /* NSBundle+CUIBundle.h */,
-				D533B93B7F60A794CA24929B8F028871 /* NSBundle+CUIBundle.m */,
-				7167270DDF4EE6A63C108177DED345A4 /* UIColor+Ext.h */,
-				2927EAC82FC8ABE55D2B6E25EAB17EDC /* UIColor+Ext.m */,
-				4BDC6D31B84E26BB715129CC6517ED8C /* UIImage+CUIBundle.h */,
-				E73AD8DBB36AF4C42794A2A6D2553AD2 /* UIImage+CUIBundle.m */,
-				21A672FA8A6464060EB1B502510C499B /* UIView+EasyLayout.h */,
-				1A187785C54E18DE84669BFDF006FE6E /* UIView+EasyLayout.m */,
+				E73F8670A2A0A363B0AD3B779A285E69 /* CUIDemoExamples.pch */,
+				6ABFD0E6AB8EDFC93F97C7D065586D1A /* CUIDemoExamples.podspec */,
 			);
-			name = Extension;
-			path = Extension;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9AF940C1D1148E7C0A06D19731ACC636 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D95B19D5EDD1C021B97F0A0BDA22E956 /* CommonKit.h */,
+				037FD05AFF5113509DEB5F399C1B8714 /* Extension */,
+			);
+			name = Common;
+			path = CUIDemoElements/Classes/Common;
+			sourceTree = "<group>";
+		};
+		A0721FD9B19996830AF2E63D2A6FE3DF /* MultiLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				68F93F3CD3933064B0CEC9FA15C7A2A5 /* CUIMultiLabelViewController.h */,
+				40D893C958178CCA606ABFD583619AEF /* CUIMultiLabelViewController.m */,
+			);
+			name = MultiLabelView;
+			path = MultiLabelView;
 			sourceTree = "<group>";
 		};
 		A7459826F0A7C94B19206C5FA13774B1 /* Masonry */ = {
@@ -556,19 +596,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		AC2FB9201DAC65635D6F1CB5467EE90B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FAB13FAD4AB298F952298FC28F6BD8F3 /* CUIDemoElements-dummy.m */,
-				409656F4C9A049218B0DB242879FF0FC /* CUIDemoElements-prefix.pch */,
-				DDB1DBB8B1CC0F42C3A89CF44A75D2D8 /* CUIDemoElements.debug.xcconfig */,
-				2B3A8D19626C44597DD653C2C5C83EED /* CUIDemoElements.release.xcconfig */,
-				5BCDC406BE7D402658D4E0C7F14D015B /* ResourceBundle-CUIDemoElements-CUIDemoElements-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/CUIDemoElements";
-			sourceTree = "<group>";
-		};
 		ADB63A4C42DD562663E198E26149E5AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -586,8 +613,8 @@
 		B472BBBA204F1D26BB843106D7B8D0C7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				35C67E972ABF658352DE846E67595530 /* CUIDemoElements */,
-				5BBA63113899FF1E59BC855D40CE17BD /* CUIDemoExamples */,
+				0427419EA2F466009F9D55ABF942528B /* CUIDemoElements */,
+				6D665BBAFADB375732DFB120A480DA83 /* CUIDemoExamples */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -604,14 +631,14 @@
 			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
-		C23C4E8DD4ED82F0E290B9B2148F6582 /* Images */ = {
+		C593E6EC199EF99DFB7E034848AB9471 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C12673106B62424A0EAA66A488796538 /* cui_image_text.png */,
-				B33D40B3F867A8360DDC12421CC2793A /* cui_multi_label.png */,
+				C41D169029C31644B97D8A544AF654EF /* CUIDemoElements.pch */,
+				EAC384AD5B94321BA249F840D797CD00 /* CUIDemoElements.podspec */,
+				007CDD4E71A9E36995AEDCC6704AB077 /* LICENSE */,
 			);
-			name = Images;
-			path = CUIDemoExamples/Assets/Images;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -647,25 +674,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E23FCA79CCB55D2E5CC0451690C33EBB /* FoldNumberView */ = {
+		E158FB3F6B94EDD4636C2A43BE9216EE /* FoldNumberView */ = {
 			isa = PBXGroup;
 			children = (
-				1E5A23B064F596A946D391AD6A086B57 /* CUIFoldLabel.h */,
-				61E4BE3650376DA564B3FF0CB6C40154 /* CUIFoldLabel.m */,
-				3753173138D0B80EA0BF4B4A50E38E70 /* CUIFoldNumberView.h */,
-				F0FEEB1DDDC3C90BDD7235DD68818B67 /* CUIFoldNumberView.m */,
+				303A88384D37418DA6B8BE0DC45E19CD /* CUIFoldLabel.h */,
+				1203DACE35CDECE279A5F0AA7D07A32B /* CUIFoldLabel.m */,
+				58F07ED39E565E84953D068D0CBD2ECC /* CUIFoldNumberView.h */,
+				BF57BCFE4769D59225A514D8F3206B0B /* CUIFoldNumberView.m */,
 			);
 			name = FoldNumberView;
 			path = FoldNumberView;
-			sourceTree = "<group>";
-		};
-		EB7FB2C3C618DCC08519DC42CDD1D4F0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				845C3BE4DDD68EE16F39CC0E297D037D /* CUIDemoExamples.pch */,
-				9EFC7B27CFB9BFDB41AEFD97E309D7B7 /* CUIDemoExamples.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		EEE5EB68F4DBC104FE15BEAE9AB1DBDC /* SVProgressHUD */ = {
@@ -686,79 +704,93 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
-		FB6F2D0DB97C1D7784E38A950B84BD35 /* Pod */ = {
+		F779AB8372E8C2466106F2FECBE64DDA /* ViewControl */ = {
 			isa = PBXGroup;
 			children = (
-				71745DAAFB6A741403994F2C6B4DDE11 /* CUIDemoElements.pch */,
-				B2102082200276C5930CB22158226C06 /* CUIDemoElements.podspec */,
-				782A42B1E465AA0D2184EE138FC5F9E4 /* LICENSE */,
+				A0721FD9B19996830AF2E63D2A6FE3DF /* MultiLabelView */,
 			);
-			name = Pod;
+			name = ViewControl;
+			path = CUIDemoExamples/Classes/ViewControl;
+			sourceTree = "<group>";
+		};
+		F8D92172E86702597D814421355E3C0E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E47734A17BB59F2952C8EDF44679F16 /* CUIDemoElements-dummy.m */,
+				8FA640749FBFF3E14258A54CCF4923A6 /* CUIDemoElements-prefix.pch */,
+				E55268466F7FD4CFA124E65C8F3111A9 /* CUIDemoElements.debug.xcconfig */,
+				8989909695D7A250398BAB67359F2252 /* CUIDemoElements.release.xcconfig */,
+				D036381CF53038AC40FF93744366F103 /* ResourceBundle-CUIDemoElements-CUIDemoElements-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/CUIDemoElements";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0316024C035D23AD171D1C77C0D8B4E9 /* Headers */ = {
+		2066CEB503CF516192072924CE10A98B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				449FFF71DCA93A494DD6EE8BDE1BB63D /* MASCompositeConstraint.h in Headers */,
-				0C0396FE20C6A27C03073EF0278885A9 /* MASConstraint+Private.h in Headers */,
-				F04710FB71BCD45C48266D944102E360 /* MASConstraint.h in Headers */,
-				17D20D1C66DDD0A8693B61F7699D62A3 /* MASConstraintMaker.h in Headers */,
-				114F4C33649866F05FAB423DBFE500B7 /* MASLayoutConstraint.h in Headers */,
-				F267F1AE0875440CC1823B9B6341D5AA /* Masonry.h in Headers */,
-				824E4CC2E196D5192B4459C3DB268A14 /* MASUtilities.h in Headers */,
-				F13623AA9F2C49ABE1FD70660F64B237 /* MASViewAttribute.h in Headers */,
-				CD10DD2FF08573BDBC7ADD8420786F3B /* MASViewConstraint.h in Headers */,
-				3EA1ADAFDC0825CDCE2EEBE65669EAD6 /* NSArray+MASAdditions.h in Headers */,
-				1BA2A527982CCD8040C76FC7B399F404 /* NSArray+MASShorthandAdditions.h in Headers */,
-				0AEF1A1FFDF6D4C247F4338A907A55B1 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				925A1610D759792D1920ACD2F15CD8C3 /* View+MASAdditions.h in Headers */,
-				B9CF1D686AE4BA3431528FE4DF369910 /* View+MASShorthandAdditions.h in Headers */,
-				4A88D8CE0BFC89006EA257DBB1519DCD /* ViewController+MASAdditions.h in Headers */,
+				D6F5CB113AAFC85C86987AB17A4B72D8 /* CUIDemoCellItemModel.h in Headers */,
+				D8332F75E2F9B0C2179D3A720AD97B61 /* CUIDemoViewAnimationData.h in Headers */,
+				09C402F66B8C43AC63196E87B99ECBCF /* CUIDemoViewControlData.h in Headers */,
+				4B6FFAADFC77C773D3A7235275BDBAE7 /* CUIFoldNumberViewController.h in Headers */,
+				1ECEE44C0C4C8B74B7AF09AB5D0F0F47 /* CUIGravityCollisionViewController.h in Headers */,
+				8FD08E3295913FFF394C6BFA7E049507 /* CUIMultiLabelViewController.h in Headers */,
+				108A619C2843EEE885B393A90C094837 /* CUIProgressCircleViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1C7BD608FD0E93C40003263F9DFB7DEC /* Headers */ = {
+		3111521F771C1BEEFBF8DA614B259F86 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59CD129025881241DDAF23676E5BFDB4 /* CUIDemoCellItemModel.h in Headers */,
-				ECEB79BC34A71634EBC522D3CE5F5D22 /* CUIDemoViewAnimationData.h in Headers */,
-				6CC5ED7CA7036E125ABA1A6B621869AB /* CUIDemoViewControlData.h in Headers */,
-				661130EF2E5C96A16526CA9D85356043 /* CUIFoldNumberViewController.h in Headers */,
-				B0178C2466C001843F702FCC22330B6B /* CUIGravityCollisionViewController.h in Headers */,
-				E3C83FD4F750DD10FC8F3DC61AC77527 /* CUIMultiLabelViewController.h in Headers */,
+				4E6355E064C7B241B163C8B48DA87C17 /* MASCompositeConstraint.h in Headers */,
+				AE517DFB5ABF59A9F7024DAFAA2B8FD8 /* MASConstraint+Private.h in Headers */,
+				06C050CA4311532F635F18FB1D314F10 /* MASConstraint.h in Headers */,
+				ABBE02D402F9FF138B42B53141952A70 /* MASConstraintMaker.h in Headers */,
+				BE5037D6AAE5F6A64DCD9B6512703CBC /* MASLayoutConstraint.h in Headers */,
+				72E84BB6AC0CB8970B477176136A5FD2 /* Masonry.h in Headers */,
+				9762E241E06345548A39832AC146A0D4 /* MASUtilities.h in Headers */,
+				201FB5CABF13B35F0313E7DAF3F2732D /* MASViewAttribute.h in Headers */,
+				D63763360421C33270672B5E17F9AE10 /* MASViewConstraint.h in Headers */,
+				DB684BF06E1F09BA9C24938FF60CD28F /* NSArray+MASAdditions.h in Headers */,
+				F8872539DD8469CCA6B6C66C31C61B3E /* NSArray+MASShorthandAdditions.h in Headers */,
+				484EFDE1C6198FADE0E70C919117253C /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				C0812C1DD88656CA39FDC9E0435747E6 /* View+MASAdditions.h in Headers */,
+				F77B2279CD67693BB4DEEE86B8A6C2EF /* View+MASShorthandAdditions.h in Headers */,
+				D31E804EB96C5DC838728D0381B34678 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AE3B6344F3A75CA9B882874C4AB4AF4 /* Headers */ = {
+		33E6644DE90A0DB76775BFA079288B4C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D19EEA19AE7A25C4146B821A3A939E78 /* SVIndefiniteAnimatedView.h in Headers */,
-				CC2181661DDB5A0C6D644885869A47D3 /* SVProgressAnimatedView.h in Headers */,
-				7B2158ABC45EF2D6570F2EB5367D2596 /* SVProgressHUD.h in Headers */,
-				580F2355D9EB92C6D2F968884463453A /* SVRadialGradientLayer.h in Headers */,
+				A0F13975ED79B89F2186E0D6F57F3AB8 /* CommonKit.h in Headers */,
+				2306771E59A4368857BA27212B913894 /* CUIFoldLabel.h in Headers */,
+				4F9422389337261A820B65723246E924 /* CUIFoldNumberView.h in Headers */,
+				03E66E48380921F4990EFA327BFB69FB /* CUIGravityCollisionItemView.h in Headers */,
+				3ABA2154450E950104696782D43B7C50 /* CUIMultiLabelView.h in Headers */,
+				D24EEF2254C2FF394026D26347F19BA4 /* CUIProgressCircleView.h in Headers */,
+				801E4CEA8591EE23EF25B673F94D5B25 /* CUISenderGravityCollisionView.h in Headers */,
+				34F335C98BFB1DF386D83028825AE956 /* NSBundle+CUIBundle.h in Headers */,
+				28AA6ABEB8BF2E51E52B4534ACB7CC78 /* UIColor+Ext.h in Headers */,
+				62921977791EE2927E3130B263418674 /* UIImage+CUIBundle.h in Headers */,
+				80BCE93C75076E37E7C601F52044BF12 /* UIView+EasyLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		412DAC1C8BDF25893C70D20A95F9E3D9 /* Headers */ = {
+		4E74248A89BB50D891E80D5B5D04F88A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BA2BC38094E953F89294C7773161D98 /* CommonKit.h in Headers */,
-				1FE2B4AEBA1F78FDC27DBF6960755E3D /* CUIFoldLabel.h in Headers */,
-				CBD070A0E0678B0E4E7D97F54743129A /* CUIFoldNumberView.h in Headers */,
-				D1B054E99CA2896C31C118A54168A335 /* CUIGravityCollisionItemView.h in Headers */,
-				E6D581743D5B970276D89FFA9A69111B /* CUIMultiLabelView.h in Headers */,
-				1EE4B17CEC8962514BBE9C98504488F6 /* CUISenderGravityCollisionView.h in Headers */,
-				C7C982FF7B5386DA6B2D91121D31AB41 /* NSBundle+CUIBundle.h in Headers */,
-				D30121A404AFB07335E6E6FE608FC18B /* UIColor+Ext.h in Headers */,
-				346AB572F8274342F1D60CE96093E351 /* UIImage+CUIBundle.h in Headers */,
-				8607F4DD62489FD1DEF53B03F693B490 /* UIView+EasyLayout.h in Headers */,
+				4FFF650BC0619EC2B02707516717B4DD /* SVIndefiniteAnimatedView.h in Headers */,
+				E8EF0B6C2A2A1F28C8257ECA42C43821 /* SVProgressAnimatedView.h in Headers */,
+				FE95A2D5A43C0BF58063D839915B2E85 /* SVProgressHUD.h in Headers */,
+				1D7B45948742E58302D0115C44BAF37E /* SVRadialGradientLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -774,11 +806,11 @@
 /* Begin PBXNativeTarget section */
 		1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51717D8C062DBBCE3CB8BC17038EBF1B /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildConfigurationList = 07319E1D9D38DD3BDD7D3199D1D75A3B /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
 			buildPhases = (
-				3AE3B6344F3A75CA9B882874C4AB4AF4 /* Headers */,
-				050BEA04A96667427C8B210DE4DA8AD8 /* Sources */,
-				28E0374F29FC472BF2B5AAD0BEF33C51 /* Frameworks */,
+				4E74248A89BB50D891E80D5B5D04F88A /* Headers */,
+				EF1A245FFEE0E5456DABE0DCAF26F88E /* Sources */,
+				81136C787AC12D19D3B263795FAA18BD /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -791,11 +823,11 @@
 		};
 		250A819199C136363F65619C43735474 /* CUIDemoExamples-CUIDemoExamples */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A25AA0B4A8734DA6F37CB2A7E786547F /* Build configuration list for PBXNativeTarget "CUIDemoExamples-CUIDemoExamples" */;
+			buildConfigurationList = D53CDAC79B364AB4E59D357D9BA0850A /* Build configuration list for PBXNativeTarget "CUIDemoExamples-CUIDemoExamples" */;
 			buildPhases = (
-				F19A3AF4010CEA17B48AD05CA4BCF603 /* Sources */,
-				D9923822E16D1E7D4932E8F68CFD957B /* Frameworks */,
-				B8E076203B2F51EC8C02C841157BD524 /* Resources */,
+				0C177C2EC9E1CA37D72247C8D09FB6F9 /* Sources */,
+				C8F72DB3DEEBFF8A7EEF0A050B24BBBA /* Frameworks */,
+				3D6A8A34BBC0C501C7DA2A80C267076A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -808,18 +840,18 @@
 		};
 		2FBAD7EE174D6355E2EB97879561D0D6 /* CUIDemoElements */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 520EF8EF4812E092FED2605400D3B17E /* Build configuration list for PBXNativeTarget "CUIDemoElements" */;
+			buildConfigurationList = F32DB7E6EC490B3B66CDA69787976410 /* Build configuration list for PBXNativeTarget "CUIDemoElements" */;
 			buildPhases = (
-				412DAC1C8BDF25893C70D20A95F9E3D9 /* Headers */,
-				6757966B86EB97942C2F9BAE775702B3 /* Sources */,
-				8524CA38A2B8E99CDDD5630CF9BF6691 /* Frameworks */,
+				33E6644DE90A0DB76775BFA079288B4C /* Headers */,
+				85BFFF49ACAD552D2491CDD714C3242E /* Sources */,
+				E5D6EFAF6C567C5BCE55B4EB46F776A7 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				314CA1F28515B32749F90CE3FDC090BF /* PBXTargetDependency */,
-				4374EBF5A644A3AC94ECA89154AA1DCC /* PBXTargetDependency */,
-				977EA0A13EEEE620E21587B39EAE43C3 /* PBXTargetDependency */,
+				0743A4B0D24AC00FCCD89A2191B83782 /* PBXTargetDependency */,
+				DADF772219AF1475533E691F44D2E8AA /* PBXTargetDependency */,
+				AE2A6FCEF1AF66300153D9A57B87B230 /* PBXTargetDependency */,
 			);
 			name = CUIDemoElements;
 			productName = CUIDemoElements;
@@ -828,17 +860,17 @@
 		};
 		3E871472620497BDB90A51415731DF46 /* CUIDemoExamples */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDF6E4A05534FEAB23F1A38C294B936A /* Build configuration list for PBXNativeTarget "CUIDemoExamples" */;
+			buildConfigurationList = E544574E5086E9113D8E01F3B5F5D19F /* Build configuration list for PBXNativeTarget "CUIDemoExamples" */;
 			buildPhases = (
-				1C7BD608FD0E93C40003263F9DFB7DEC /* Headers */,
-				C9C9653AB52DEC49A12FD3D9FB0C64DB /* Sources */,
-				CC11A1C707C9AF5A4132592A219C4BD8 /* Frameworks */,
+				2066CEB503CF516192072924CE10A98B /* Headers */,
+				88A1F9B4674DB2C2CCC9E332E6E2E740 /* Sources */,
+				58E0368EF7A3D67C671399AAF547661A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0D57C6FB7241394DB70CB33389A98FC1 /* PBXTargetDependency */,
-				E5497F1E255A4BFF5CD6D48B72D753F7 /* PBXTargetDependency */,
+				5870F7F1F989CDD7A6475A18CED62966 /* PBXTargetDependency */,
+				ACA4386C8EE6C6910F2D62CF86A32140 /* PBXTargetDependency */,
 			);
 			name = CUIDemoExamples;
 			productName = CUIDemoExamples;
@@ -847,11 +879,11 @@
 		};
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20AE21E0D23885C8485825D917DD1DEE /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = 5F7D74671B24F248CFF2E12248C9F8E7 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				0316024C035D23AD171D1C77C0D8B4E9 /* Headers */,
-				DC34AA0CBF4BA169C5DCE5CA1A98D1C9 /* Sources */,
-				BE2090835E753333285CB2878A446813 /* Frameworks */,
+				3111521F771C1BEEFBF8DA614B259F86 /* Headers */,
+				5DFB1D97A04F8135388A7407051DEF11 /* Sources */,
+				6C56AC9270A507C54F3F902124F2C0AC /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -873,10 +905,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				BBE033279E8A9D4A7FEBCE2D780282AB /* PBXTargetDependency */,
-				273CAC439E108C276EC9D1B9077F6282 /* PBXTargetDependency */,
-				69CD3707E99597976C207D4BE582C7B3 /* PBXTargetDependency */,
-				73152F263A1B35507CA3F321356D6E4B /* PBXTargetDependency */,
+				B3FCF5C56E2933DBCA77B34D3C8567E1 /* PBXTargetDependency */,
+				A361CE3E0D7E7049C9F3CE266F8A99DC /* PBXTargetDependency */,
+				9339D172D68633C0F5566E5E1F3B0CAD /* PBXTargetDependency */,
+				491AFF3654EC30C83DE77B5CB6085D79 /* PBXTargetDependency */,
 			);
 			name = "Pods-CUIDemoFavorites_Example";
 			productName = "Pods-CUIDemoFavorites_Example";
@@ -885,11 +917,11 @@
 		};
 		D5B7B69FB2FA1FE7A43904C2F8A2EA6D /* CUIDemoElements-CUIDemoElements */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1AA4391C3DDD5C500EB5F87CF3CB5D69 /* Build configuration list for PBXNativeTarget "CUIDemoElements-CUIDemoElements" */;
+			buildConfigurationList = 071CFBF7D1ABDCBC6AC672EB61D6CF5E /* Build configuration list for PBXNativeTarget "CUIDemoElements-CUIDemoElements" */;
 			buildPhases = (
-				4D40C8F10C0125C770196DFD8CFBD94D /* Sources */,
-				50A86D0FA9019BAABD3AE55A10EECD09 /* Frameworks */,
-				BA6128A15E243D4671F3B737327F18D7 /* Resources */,
+				095427500EA8F384BBEA29CD011B8029 /* Sources */,
+				D2F9563B511E6A35B3CA3BB82B647910 /* Frameworks */,
+				3D60EC26460BAE3117F301BCCFB0BFCA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -934,61 +966,90 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B8E076203B2F51EC8C02C841157BD524 /* Resources */ = {
+		3D60EC26460BAE3117F301BCCFB0BFCA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94A5375ECF10A2B0BB447E2BA49A2391 /* cui_fold_number.mov in Resources */,
-				CCE71F2707508378D4092AEAFD17251A /* cui_gravity_collision.mov in Resources */,
-				775667F9816800019E1BBF6145991B98 /* cui_image_text.png in Resources */,
-				24C7BF54BD216ECEBCF4E7E6EF8F6FD1 /* cui_multi_label.png in Resources */,
+				B57ABE099420EA805ADF7366DD334021 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA6128A15E243D4671F3B737327F18D7 /* Resources */ = {
+		3D6A8A34BBC0C501C7DA2A80C267076A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20DF1685D9E17F3E9477EC375FA065DD /* Images.xcassets in Resources */,
+				1FDDD749A10053629C26DCD07E407136 /* cui_fold_number.mov in Resources */,
+				E5D973EB98A5589F09B414F5A78E128A /* cui_gravity_collision.mov in Resources */,
+				8D436E7F5A5A13068B8D73F1D4E5F333 /* cui_multi_label.png in Resources */,
+				4B82858DC8E6142E975412B1F595CE0F /* cui_progress_circle.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		050BEA04A96667427C8B210DE4DA8AD8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F6F076497ED26E4C528445AB9288C9F /* SVIndefiniteAnimatedView.m in Sources */,
-				F11CF26AF028F371032C68067CDC82BE /* SVProgressAnimatedView.m in Sources */,
-				B628EA9C5CDD24063B667BD0B01AAB0A /* SVProgressHUD-dummy.m in Sources */,
-				E5A8B225599C3D31E133314BE2AE9B02 /* SVProgressHUD.m in Sources */,
-				17F46247E0462EA81351CB1F6507CC99 /* SVRadialGradientLayer.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D40C8F10C0125C770196DFD8CFBD94D /* Sources */ = {
+		095427500EA8F384BBEA29CD011B8029 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6757966B86EB97942C2F9BAE775702B3 /* Sources */ = {
+		0C177C2EC9E1CA37D72247C8D09FB6F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D81A9956918535FF01DE287C52BB1BA /* CUIDemoElements-dummy.m in Sources */,
-				EA488E012760FDFFA831C50FF116FA13 /* CUIFoldLabel.m in Sources */,
-				BED604992491E2099BED6A7F060444FD /* CUIFoldNumberView.m in Sources */,
-				D3D80D418286F443E97109B1CBB7B6A3 /* CUIGravityCollisionItemView.m in Sources */,
-				9E521C7E3CFF1299EA2ED3FCFA97C5A6 /* CUIMultiLabelView.m in Sources */,
-				89130220F4B89F404D97D31CB938CD3E /* CUISenderGravityCollisionView.m in Sources */,
-				9F326A9F0FD347B83D2E047B8E486274 /* NSBundle+CUIBundle.m in Sources */,
-				78ED43D0915A4C4B91BBF3311CC719AB /* UIColor+Ext.m in Sources */,
-				2C67D7561DAF206D6E30A499B9501F19 /* UIImage+CUIBundle.m in Sources */,
-				AA2A4A4BB0CCFB509A4E98FDC730BED5 /* UIView+EasyLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFB1D97A04F8135388A7407051DEF11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303B51808D88E83893544A23217D9CD3 /* MASCompositeConstraint.m in Sources */,
+				857448469A2302BF5888C8260BD8BB50 /* MASConstraint.m in Sources */,
+				BD0D27A89980B6A4043B18C17E397FDA /* MASConstraintMaker.m in Sources */,
+				A61BEFF8365B10D2257B6D1D116BEAE1 /* MASLayoutConstraint.m in Sources */,
+				24FB0135AC586DC64DCE5486610CBF5D /* Masonry-dummy.m in Sources */,
+				BE18D7341328D42A7F0A8B8D35A0426D /* MASViewAttribute.m in Sources */,
+				91B437E038C14E2F3ED74278F2CCE83A /* MASViewConstraint.m in Sources */,
+				E5F1467CFB90753AFE40F1FFD2AB0D47 /* NSArray+MASAdditions.m in Sources */,
+				9E686E19B1A1F0EC8834522CC8DDEC0D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				7E927AE89E4F60C959CCBBD2D9BB0455 /* View+MASAdditions.m in Sources */,
+				2D0F733CC8288C3492757B0E0915275E /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85BFFF49ACAD552D2491CDD714C3242E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCD794505758167F4FE3380C300540E /* CUIDemoElements-dummy.m in Sources */,
+				66F02BE3087F7DC4E28D63E9515F4A09 /* CUIFoldLabel.m in Sources */,
+				44A52E92E8DB19C7D39FFF8689937B98 /* CUIFoldNumberView.m in Sources */,
+				841442B934576C6D522705516E60FF5D /* CUIGravityCollisionItemView.m in Sources */,
+				91AE2B062FB24C832B54088C991E8600 /* CUIMultiLabelView.m in Sources */,
+				6B6278A27E658A7E55FF2D08FB959ACB /* CUIProgressCircleView.m in Sources */,
+				1B78F2A285BE4AFA6562DD2F068E9B49 /* CUISenderGravityCollisionView.m in Sources */,
+				E7F3F7FC2DA089A77227BBC56F767EC1 /* NSBundle+CUIBundle.m in Sources */,
+				DE25B069F7219CE59CEF3A48C1AEA156 /* UIColor+Ext.m in Sources */,
+				0D4FB26618B915547AC4D3AFD15EC5BB /* UIImage+CUIBundle.m in Sources */,
+				D88063184CE2CBC1161C615013869060 /* UIView+EasyLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A1F9B4674DB2C2CCC9E332E6E2E740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54371A04B27312694DF5CD6EBFC3CB73 /* CUIDemoCellItemModel.m in Sources */,
+				7D63BF13F641B0E23CA120F6A1A6F0A9 /* CUIDemoExamples-dummy.m in Sources */,
+				6BD27B13FF810ED9E3D1E7ED99561D41 /* CUIDemoViewAnimationData.m in Sources */,
+				78354B55DBE54759E41BEE8FBF6F683C /* CUIDemoViewControlData.m in Sources */,
+				866624F166C399F655003D92C75E7164 /* CUIFoldNumberViewController.m in Sources */,
+				0FB34316BB7B8E1C10E33B6388525662 /* CUIGravityCollisionViewController.m in Sources */,
+				1D340D5DDA7B42940F58311CC709A503 /* CUIMultiLabelViewController.m in Sources */,
+				F4D1B7A2CC356EC09311798AF2468EDA /* CUIProgressCircleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1000,140 +1061,81 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9C9653AB52DEC49A12FD3D9FB0C64DB /* Sources */ = {
+		EF1A245FFEE0E5456DABE0DCAF26F88E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDD22DD99CA3C72429DF0C95CD3646FA /* CUIDemoCellItemModel.m in Sources */,
-				737A55079E728BB25732A1198761CB8F /* CUIDemoExamples-dummy.m in Sources */,
-				E4A34720676DFE36B0AFA8EB3D2BFC41 /* CUIDemoViewAnimationData.m in Sources */,
-				CC9CDC3B3292CF1419C9D90D0CC7A204 /* CUIDemoViewControlData.m in Sources */,
-				8D866544EEE38C4DC79C8325129F4DF2 /* CUIFoldNumberViewController.m in Sources */,
-				6B565C9F247FB9920563A53D4A287B4C /* CUIGravityCollisionViewController.m in Sources */,
-				F7B00C342179DDC3D1807E4F25896FC0 /* CUIMultiLabelViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC34AA0CBF4BA169C5DCE5CA1A98D1C9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				974C3B76552D42F9139A45748BD354AD /* MASCompositeConstraint.m in Sources */,
-				3ED574CAF423E5783789C4372AFB7031 /* MASConstraint.m in Sources */,
-				999F230348A000C1E814C360C389FE79 /* MASConstraintMaker.m in Sources */,
-				6C1B6CF72E4E3E8EF3CB3A9DF4EEF2DD /* MASLayoutConstraint.m in Sources */,
-				2C35B4CF048A3B93F359FFC49562B148 /* Masonry-dummy.m in Sources */,
-				DCE138674B315E3AFCC7F6D5112042B0 /* MASViewAttribute.m in Sources */,
-				A43EED7E975883249CB400EB422FE2A6 /* MASViewConstraint.m in Sources */,
-				02745B64D2D2621DA648E3E93C73C10E /* NSArray+MASAdditions.m in Sources */,
-				82DA6061EE9AD1A3428289525FD36009 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				5FFB48E934E2E3AC2B80240AA3554A43 /* View+MASAdditions.m in Sources */,
-				240539B493B501834482213160062366 /* ViewController+MASAdditions.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F19A3AF4010CEA17B48AD05CA4BCF603 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				059BC44A163E64A95DE0A40790809D0B /* SVIndefiniteAnimatedView.m in Sources */,
+				5EFF2D0F2C19EA052EC878BF86D793AA /* SVProgressAnimatedView.m in Sources */,
+				0BEF27CAC53A31159D70DF7075BEFFD5 /* SVProgressHUD-dummy.m in Sources */,
+				94052AD8A1A950997161A4E702E86597 /* SVProgressHUD.m in Sources */,
+				E34FE44E642CC0679E4B55CB82F72CBA /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0D57C6FB7241394DB70CB33389A98FC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CUIDemoElements;
-			target = 2FBAD7EE174D6355E2EB97879561D0D6 /* CUIDemoElements */;
-			targetProxy = B7F49490611F7C44CD086104E6E9F374 /* PBXContainerItemProxy */;
-		};
-		273CAC439E108C276EC9D1B9077F6282 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CUIDemoExamples;
-			target = 3E871472620497BDB90A51415731DF46 /* CUIDemoExamples */;
-			targetProxy = 5F27101E40212BDEC116CA7E0665AB9C /* PBXContainerItemProxy */;
-		};
-		314CA1F28515B32749F90CE3FDC090BF /* PBXTargetDependency */ = {
+		0743A4B0D24AC00FCCD89A2191B83782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CUIDemoElements-CUIDemoElements";
 			target = D5B7B69FB2FA1FE7A43904C2F8A2EA6D /* CUIDemoElements-CUIDemoElements */;
-			targetProxy = 4D4962E218BDA8D6074993099F4FA811 /* PBXContainerItemProxy */;
+			targetProxy = 28CDC31DCC9103AE4F077E88041D5B50 /* PBXContainerItemProxy */;
 		};
-		4374EBF5A644A3AC94ECA89154AA1DCC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = F597BAB4B96B63DB71C255CC48A6A126 /* PBXContainerItemProxy */;
-		};
-		69CD3707E99597976C207D4BE582C7B3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 17639D18B5294790FABC4A2FEDB17B9F /* PBXContainerItemProxy */;
-		};
-		73152F263A1B35507CA3F321356D6E4B /* PBXTargetDependency */ = {
+		491AFF3654EC30C83DE77B5CB6085D79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
 			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
-			targetProxy = 18C77D90E5D75688B230372E54BF7511 /* PBXContainerItemProxy */;
+			targetProxy = E2ED4844A2CFF7F5B37641441A8BF000 /* PBXContainerItemProxy */;
 		};
-		977EA0A13EEEE620E21587B39EAE43C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
-			targetProxy = 5A9F0E673F2B8DC781CEA387057B8D36 /* PBXContainerItemProxy */;
-		};
-		BBE033279E8A9D4A7FEBCE2D780282AB /* PBXTargetDependency */ = {
+		5870F7F1F989CDD7A6475A18CED62966 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CUIDemoElements;
 			target = 2FBAD7EE174D6355E2EB97879561D0D6 /* CUIDemoElements */;
-			targetProxy = F80710764AE690E69E4DDFD9BAB2A407 /* PBXContainerItemProxy */;
+			targetProxy = 9C634EA1305D1A77B4885A087FA6E517 /* PBXContainerItemProxy */;
 		};
-		E5497F1E255A4BFF5CD6D48B72D753F7 /* PBXTargetDependency */ = {
+		9339D172D68633C0F5566E5E1F3B0CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = C645E4833D0AC90F91AECE4710D9DCF6 /* PBXContainerItemProxy */;
+		};
+		A361CE3E0D7E7049C9F3CE266F8A99DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CUIDemoExamples;
+			target = 3E871472620497BDB90A51415731DF46 /* CUIDemoExamples */;
+			targetProxy = 972A3D96F70F6CEC1C888537DBED6E34 /* PBXContainerItemProxy */;
+		};
+		ACA4386C8EE6C6910F2D62CF86A32140 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CUIDemoExamples-CUIDemoExamples";
 			target = 250A819199C136363F65619C43735474 /* CUIDemoExamples-CUIDemoExamples */;
-			targetProxy = A6CB03AF937B940DA859AA9B99C6EEDF /* PBXContainerItemProxy */;
+			targetProxy = D9AD145CAFE7C9EA6A6D38DDA238C24C /* PBXContainerItemProxy */;
+		};
+		AE2A6FCEF1AF66300153D9A57B87B230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = 13186B55746AFEBDFC21C7CD31B9515B /* PBXContainerItemProxy */;
+		};
+		B3FCF5C56E2933DBCA77B34D3C8567E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CUIDemoElements;
+			target = 2FBAD7EE174D6355E2EB97879561D0D6 /* CUIDemoElements */;
+			targetProxy = 97B247629F048303174BDD0CA89B15E3 /* PBXContainerItemProxy */;
+		};
+		DADF772219AF1475533E691F44D2E8AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 16416246038A8DD07AB422B7D36D2ED4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2239A35B7474F552B01CB1690ADA2F70 /* Release */ = {
+		02CB306468D3256946817E061C8CE430 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B3A8D19626C44597DD653C2C5C83EED /* CUIDemoElements.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CUIDemoElements";
-				IBSC_MODULE = CUIDemoElements;
-				INFOPLIST_FILE = "Target Support Files/CUIDemoElements/ResourceBundle-CUIDemoElements-CUIDemoElements-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = CUIDemoElements;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		346950C715E35FA30E122BDC7AC6CF6D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D036274011520E6A487A5BFF792090F /* CUIDemoExamples.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CUIDemoExamples";
-				IBSC_MODULE = CUIDemoExamples;
-				INFOPLIST_FILE = "Target Support Files/CUIDemoExamples/ResourceBundle-CUIDemoExamples-CUIDemoExamples-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = CUIDemoExamples;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		39D231711121B3B4C6DD83D08ADF6DFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDB1DBB8B1CC0F42C3A89CF44A75D2D8 /* CUIDemoElements.debug.xcconfig */;
+			baseConfigurationReference = 8989909695D7A250398BAB67359F2252 /* CUIDemoElements.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1152,10 +1154,75 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		062884364C053121C057E6C5BA1741B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5055D164FF8655155BDF4DA9DA1C4EEF /* CUIDemoExamples.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CUIDemoExamples";
+				IBSC_MODULE = CUIDemoExamples;
+				INFOPLIST_FILE = "Target Support Files/CUIDemoExamples/ResourceBundle-CUIDemoExamples-CUIDemoExamples-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CUIDemoExamples;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1B464F4E6652BC290D473942E313A0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9552EE8708ADC94D0545A9B63A846E26 /* SVProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		69A73A9C88D765B1948D7168B68BC592 /* Release */ = {
+		36978F10A7A044F420BC6C410E11D42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5055D164FF8655155BDF4DA9DA1C4EEF /* CUIDemoExamples.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CUIDemoExamples/CUIDemoExamples-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CUIDemoExamples;
+				PRODUCT_NAME = CUIDemoExamples;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		696D19C42DD933EA682738E17ACECB2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 003ADD8F8556C1CAD1DDA53209E1F87B /* Masonry.release.xcconfig */;
 			buildSettings = {
@@ -1178,6 +1245,22 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		75045C6C18C6C7249374A0D39E0EAAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA624C139B6FDB5900718683674DA11 /* CUIDemoExamples.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CUIDemoExamples";
+				IBSC_MODULE = CUIDemoExamples;
+				INFOPLIST_FILE = "Target Support Files/CUIDemoExamples/ResourceBundle-CUIDemoExamples-CUIDemoExamples-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CUIDemoExamples;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		754F3E3905F9A3D7D4D5318598C98339 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1284,7 +1367,31 @@
 			};
 			name = Release;
 		};
-		9CB278D075B26E0E165CE01A12A57A42 /* Release */ = {
+		807672043AD05AC4990A7D7C89C60472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA624C139B6FDB5900718683674DA11 /* CUIDemoExamples.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CUIDemoExamples/CUIDemoExamples-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CUIDemoExamples;
+				PRODUCT_NAME = CUIDemoExamples;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83BEF462709BE589FCB16D7ABC638DA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18BFD8BC29E9F178860AE4BA95A074BA /* SVProgressHUD.release.xcconfig */;
 			buildSettings = {
@@ -1308,104 +1415,23 @@
 			};
 			name = Release;
 		};
-		A849D08CD8B1CB814E531B97EEC06BF6 /* Debug */ = {
+		9D4BD6AE585239E34C519849F5E2208B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9552EE8708ADC94D0545A9B63A846E26 /* SVProgressHUD.debug.xcconfig */;
+			baseConfigurationReference = E55268466F7FD4CFA124E65C8F3111A9 /* CUIDemoElements.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SVProgressHUD;
-				PRODUCT_NAME = SVProgressHUD;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AC810C7164E1DEAF0458ACEDF7EF5C9B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BE11EC37D7F2C3DCFC5AE3FE8E04206 /* CUIDemoExamples.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CUIDemoExamples/CUIDemoExamples-prefix.pch";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CUIDemoElements";
+				IBSC_MODULE = CUIDemoElements;
+				INFOPLIST_FILE = "Target Support Files/CUIDemoElements/ResourceBundle-CUIDemoElements-CUIDemoElements-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CUIDemoExamples;
-				PRODUCT_NAME = CUIDemoExamples;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B4E24BD7678258C83BC2B49CBE9070B7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D036274011520E6A487A5BFF792090F /* CUIDemoExamples.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CUIDemoExamples/CUIDemoExamples-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CUIDemoExamples;
-				PRODUCT_NAME = CUIDemoExamples;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BCBBB6EDC5BB50148D2E90114CDE4E2F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B3A8D19626C44597DD653C2C5C83EED /* CUIDemoElements.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CUIDemoElements/CUIDemoElements-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CUIDemoElements;
 				PRODUCT_NAME = CUIDemoElements;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		BF07A9329201B1193DC33755A65A2FF3 /* Debug */ = {
+		C35E81E56A38615BE4458125A2D13E47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1A026F7158C5E9A1220099EC47889800 /* Masonry.debug.xcconfig */;
 			buildSettings = {
@@ -1425,22 +1451,6 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C1A28E0D8713D593026B1C6AB4EE6164 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDB1DBB8B1CC0F42C3A89CF44A75D2D8 /* CUIDemoElements.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CUIDemoElements";
-				IBSC_MODULE = CUIDemoElements;
-				INFOPLIST_FILE = "Target Support Files/CUIDemoElements/ResourceBundle-CUIDemoElements-CUIDemoElements-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = CUIDemoElements;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -1510,15 +1520,39 @@
 			};
 			name = Debug;
 		};
-		E886D79A60FCBEE3D064FCBD79C36344 /* Release */ = {
+		DDC5649D4AD8BD96EB029E6C085FB955 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BE11EC37D7F2C3DCFC5AE3FE8E04206 /* CUIDemoExamples.release.xcconfig */;
+			baseConfigurationReference = E55268466F7FD4CFA124E65C8F3111A9 /* CUIDemoElements.debug.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CUIDemoExamples";
-				IBSC_MODULE = CUIDemoExamples;
-				INFOPLIST_FILE = "Target Support Files/CUIDemoExamples/ResourceBundle-CUIDemoExamples-CUIDemoExamples-Info.plist";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CUIDemoElements/CUIDemoElements-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = CUIDemoExamples;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CUIDemoElements;
+				PRODUCT_NAME = CUIDemoElements;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA1814F2862C1FE153046C79E599A05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8989909695D7A250398BAB67359F2252 /* CUIDemoElements.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CUIDemoElements";
+				IBSC_MODULE = CUIDemoElements;
+				INFOPLIST_FILE = "Target Support Files/CUIDemoElements/ResourceBundle-CUIDemoElements-CUIDemoElements-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CUIDemoElements;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1529,20 +1563,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1AA4391C3DDD5C500EB5F87CF3CB5D69 /* Build configuration list for PBXNativeTarget "CUIDemoElements-CUIDemoElements" */ = {
+		071CFBF7D1ABDCBC6AC672EB61D6CF5E /* Build configuration list for PBXNativeTarget "CUIDemoElements-CUIDemoElements" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1A28E0D8713D593026B1C6AB4EE6164 /* Debug */,
-				2239A35B7474F552B01CB1690ADA2F70 /* Release */,
+				9D4BD6AE585239E34C519849F5E2208B /* Debug */,
+				EA1814F2862C1FE153046C79E599A05E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20AE21E0D23885C8485825D917DD1DEE /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		07319E1D9D38DD3BDD7D3199D1D75A3B /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF07A9329201B1193DC33755A65A2FF3 /* Debug */,
-				69A73A9C88D765B1948D7168B68BC592 /* Release */,
+				1B464F4E6652BC290D473942E313A0ED /* Debug */,
+				83BEF462709BE589FCB16D7ABC638DA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1556,38 +1590,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51717D8C062DBBCE3CB8BC17038EBF1B /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+		5F7D74671B24F248CFF2E12248C9F8E7 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A849D08CD8B1CB814E531B97EEC06BF6 /* Debug */,
-				9CB278D075B26E0E165CE01A12A57A42 /* Release */,
+				C35E81E56A38615BE4458125A2D13E47 /* Debug */,
+				696D19C42DD933EA682738E17ACECB2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		520EF8EF4812E092FED2605400D3B17E /* Build configuration list for PBXNativeTarget "CUIDemoElements" */ = {
+		D53CDAC79B364AB4E59D357D9BA0850A /* Build configuration list for PBXNativeTarget "CUIDemoExamples-CUIDemoExamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39D231711121B3B4C6DD83D08ADF6DFA /* Debug */,
-				BCBBB6EDC5BB50148D2E90114CDE4E2F /* Release */,
+				75045C6C18C6C7249374A0D39E0EAAEF /* Debug */,
+				062884364C053121C057E6C5BA1741B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A25AA0B4A8734DA6F37CB2A7E786547F /* Build configuration list for PBXNativeTarget "CUIDemoExamples-CUIDemoExamples" */ = {
+		E544574E5086E9113D8E01F3B5F5D19F /* Build configuration list for PBXNativeTarget "CUIDemoExamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				346950C715E35FA30E122BDC7AC6CF6D /* Debug */,
-				E886D79A60FCBEE3D064FCBD79C36344 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CDF6E4A05534FEAB23F1A38C294B936A /* Build configuration list for PBXNativeTarget "CUIDemoExamples" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B4E24BD7678258C83BC2B49CBE9070B7 /* Debug */,
-				AC810C7164E1DEAF0458ACEDF7EF5C9B /* Release */,
+				807672043AD05AC4990A7D7C89C60472 /* Debug */,
+				36978F10A7A044F420BC6C410E11D42E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1597,6 +1622,15 @@
 			buildConfigurations = (
 				754F3E3905F9A3D7D4D5318598C98339 /* Debug */,
 				786D06078EAC71810F13FE22E5B04505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32DB7E6EC490B3B66CDA69787976410 /* Build configuration list for PBXNativeTarget "CUIDemoElements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC5649D4AD8BD96EB029E6C085FB955 /* Debug */,
+				02CB306468D3256946817E061C8CE430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
