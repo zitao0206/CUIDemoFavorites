@@ -13,40 +13,26 @@
 + (NSArray <CUIDemoCellItemModel *> *)obtainData
 {
     NSMutableArray *array = [[NSMutableArray alloc]init];
-    {
-        CUIDemoCellItemModel *item = [CUIDemoCellItemModel new];
-        item.cellType = VideoItemCellType;
-        item.className = @"CUIFoldNumberView";
-        item.imageName = @"cui_fold_number";
-        item.imageType = @"mov";
-        item.author = @"Leon";
-        item.detailVCName = @"CUIFoldNumberViewController";
-        item.descrip = @"滚动的数字";
-        [array addObject:item];
-    }
-    {
-        CUIDemoCellItemModel *item = [CUIDemoCellItemModel new];
-        item.cellType = VideoItemCellType;
-        item.className = @"CUIGravityCollisionView";
-        item.imageName = @"cui_gravity_collision";
-        item.imageType = @"mov";
-        item.author = @"Leon";
-        item.detailVCName = @"CUIGravityCollisionViewController";
-        item.descrip = @"仿重力碰撞的动画";
-        [array addObject:item];
-    }
-    {
-        CUIDemoCellItemModel *item = [CUIDemoCellItemModel new];
-        item.cellType = VideoItemCellType;
-        item.className = @"CUIProgressCircleView";
-        item.imageName = @"cui_progress_circle";
-        item.imageType = @"mov";
-        item.author = @"Leon";
-        item.detailVCName = @"CUIProgressCircleViewController";
-        item.descrip = @"简易的圆形进度条";
-        [array addObject:item];
-    }
+    [array addObject:[self.class obtainItemDataWithKeyName:@"FoldNumber" descrip:@"滚动的数字"]];
+    [array addObject:[self.class obtainItemDataWithKeyName:@"GravityCollision" descrip:@"仿重力碰撞的动画"]];
+    [array addObject:[self.class obtainItemDataWithKeyName:@"ProgressCircle" descrip:@"简易的圆形进度条"]];
+    [array addObject:[self.class obtainItemDataWithKeyName:@"SpringMotion" descrip:@"简易的弹簧运动动画"]];
     return array;
+}
+
++ (CUIDemoCellItemModel *)obtainItemDataWithKeyName:(NSString *)keyName descrip:(NSString *)description
+{
+    NSString *className = [NSString stringWithFormat:@"CUI%@View",keyName];
+    NSString *imageName = [NSString stringWithFormat:@"%@",[keyName lowercaseString]];
+    NSString *detailVCName = [NSString stringWithFormat:@"CUI%@ViewController",keyName];
+    CUIDemoCellItemModel *item = [CUIDemoCellItemModel new];
+    item.cellType = VideoItemCellType;
+    item.className = className;
+    item.imageName = imageName;
+    item.imageType = @"mov";
+    item.detailVCName = detailVCName;
+    item.descrip = description;
+    return item;
 }
 
 @end

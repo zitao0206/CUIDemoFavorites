@@ -1,19 +1,24 @@
 #!/bin/sh
 # 获取位置
-pwdPath="$( cd "$( dirname "$0"  )" && pwd  )"
-echo "当前文件位置 $pwdPath"
+if [ ! $1 ]; then
+    read -r -p "Please input your fileName: " className
+else
+    className=$1
+fi
+
+pwdPath=$2
+echo "当前文件位置 $2"
 
 targetPath="CUIDemoExamples/Classes/ViewControllers"
 echo "目标位置 $targetPath"
 
-read -r -p "Please input your fileName: " className
-
-fileType1="Controller.h"
-fileType2="Controller.m"
-classType="Controller"
-viewControllerName="${className}${classType}"
-fileName1="${className}${fileType1}"
-fileName2="${className}${fileType2}"
+filePrefix="CUI"
+fileType1="ViewController.h"
+fileType2="ViewController.m"
+classType="ViewController"
+viewControllerName="${filePrefix}${className}${classType}"
+fileName1="${filePrefix}${className}${fileType1}"
+fileName2="${filePrefix}${className}${fileType2}"
 allPath="${pwdPath}/${targetPath}/${className}"
 allName1="${pwdPath}/${targetPath}/${className}/${fileName1}"
 allName2="${pwdPath}/${targetPath}/${className}/${fileName2}"

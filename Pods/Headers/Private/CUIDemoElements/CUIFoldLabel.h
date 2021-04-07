@@ -1,1 +1,1 @@
-../../../../CUIDemoElements/Classes/ViewAnimation/FoldNumberView/CUIFoldLabel.h
+../../../../CUIDemoElements/Classes/Views/ViewAnimation/FoldNumberView/CUIFoldLabel.h

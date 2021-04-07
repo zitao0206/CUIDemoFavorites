@@ -13,17 +13,23 @@
 + (NSArray <CUIDemoCellItemModel *> *)obtainData
 {
     NSMutableArray *array = [[NSMutableArray alloc]init];
-    {
-        CUIDemoCellItemModel *item = [CUIDemoCellItemModel new];
-        item.cellType = ImageItemCellType;
-        item.className = @"CUIMultiLabelView";
-        item.imageName = @"cui_multi_label";
-        item.imageType = @"png";
-        item.author = @"Leon";
-        item.detailVCName = @"CUIMultiLabelViewController";
-        item.descrip = @"多标签展示";
-        [array addObject:item];
-    }
+    [array addObject:[self.class obtainItemDataWithKeyName:@"MultiLabel" descrip:@"多标签展示"]];
     return array;
 }
+
++ (CUIDemoCellItemModel *)obtainItemDataWithKeyName:(NSString *)keyName descrip:(NSString *)description
+{
+    NSString *className = [NSString stringWithFormat:@"CUI%@View",keyName];
+    NSString *imageName = [NSString stringWithFormat:@"%@",[keyName lowercaseString]];
+    NSString *detailVCName = [NSString stringWithFormat:@"CUI%@ViewController",keyName];
+    CUIDemoCellItemModel *item = [CUIDemoCellItemModel new];
+    item.cellType = VideoItemCellType;
+    item.className = className;
+    item.imageName = imageName;
+    item.imageType = @"png";
+    item.detailVCName = detailVCName;
+    item.descrip = description;
+    return item;
+}
+
 @end

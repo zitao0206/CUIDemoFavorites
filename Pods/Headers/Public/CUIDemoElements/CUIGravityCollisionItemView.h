@@ -1,1 +1,1 @@
-../../../../CUIDemoElements/Classes/ViewAnimation/GravityCollisionView/CUIGravityCollisionItemView.h
+../../../../CUIDemoElements/Classes/Views/ViewAnimation/GravityCollisionView/CUIGravityCollisionItemView.h
