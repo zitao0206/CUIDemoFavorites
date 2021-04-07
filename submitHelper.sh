@@ -1,6 +1,7 @@
 #!/bin/bash
 git status
 sleep 2
+
 echo "-------Begin-------"
 
 read -r -p "Please input your Video commit message: " input
