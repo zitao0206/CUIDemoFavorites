@@ -78,9 +78,9 @@
     if (!_titleLabel) {
         _titleLabel = [UILabel new];
         _titleLabel.textAlignment = NSTextAlignmentLeft;
-        _titleLabel.font = [UIFont systemFontOfSize:10];
-        _titleLabel.textColor = [[UIColor whiteColor]colorWithAlphaComponent:0.9];
-        _titleLabel.backgroundColor = [[UIColor blackColor]colorWithAlphaComponent:0.5];
+        _titleLabel.font = [UIFont systemFontOfSize:11];
+        _titleLabel.textColor = [[UIColor whiteColor]colorWithAlphaComponent:1.0];
+        _titleLabel.backgroundColor = [[UIColor blackColor]colorWithAlphaComponent:0.7];
     }
     return _titleLabel;
 }
@@ -90,9 +90,9 @@
     if (!_classLabel) {
         _classLabel = [UILabel new];
         _classLabel.textAlignment = NSTextAlignmentRight;
-        _classLabel.font = [UIFont systemFontOfSize:10];
-        _classLabel.textColor = [[UIColor whiteColor]colorWithAlphaComponent:0.9];
-        _classLabel.backgroundColor = [[UIColor blackColor]colorWithAlphaComponent:0.5];
+        _classLabel.font = [UIFont systemFontOfSize:11];
+        _classLabel.textColor = [[UIColor whiteColor]colorWithAlphaComponent:1.0];
+        _classLabel.backgroundColor = [[UIColor blackColor]colorWithAlphaComponent:0.7];
     }
     return _classLabel;
 }
