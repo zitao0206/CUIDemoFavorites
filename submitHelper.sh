@@ -3,8 +3,11 @@ git status
 sleep 2
 
 echo "-------Begin-------"
-
-read -r -p "Please input your Video commit message: " input
+if [ ! $1 ]; then
+    read -r -p "Please input your Video commit message: " input
+else
+    input=$1
+fi
 
 git add .
 if [ $input ]; then
