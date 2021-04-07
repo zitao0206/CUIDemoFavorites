@@ -1,1 +1,1 @@
-../../../../CUIDemoExamples/Classes/ViewControl/MultiLabelView/CUIMultiLabelViewController.h
+../../../../CUIDemoExamples/Classes/ViewControllers/ViewControl/MultiLabelView/CUIMultiLabelViewController.h

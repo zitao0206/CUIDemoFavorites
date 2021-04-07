@@ -1,1 +1,1 @@
-../../../../CUIDemoExamples/Classes/ViewAnimation/GravityCollisionView/CUIGravityCollisionViewController.h
+../../../../CUIDemoExamples/Classes/ViewControllers/ViewAnimation/GravityCollisionView/CUIGravityCollisionViewController.h
