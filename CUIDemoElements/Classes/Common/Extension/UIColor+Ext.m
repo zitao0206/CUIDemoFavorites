@@ -17,49 +17,47 @@
 
 + (UIColor *)colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha
 {
-    NSString *cString = [[hexString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
-    if ([cString hasPrefix:@"0X"]) cString = [cString substringFromIndex:2];
-    if ([cString hasPrefix:@"#"]) cString = [cString substringFromIndex:1];
+    if ([hexString hasPrefix:@"#"]) {
+        hexString = [hexString stringByReplacingOccurrencesOfString:@"#" withString:@""];
+    }
     
-    if (cString.length == 3) {
-        NSMutableString *rString = [[NSMutableString alloc] initWithCapacity:6];
-        [rString appendFormat:@"%C%C%C%C%C%C", [cString characterAtIndex:0], [cString characterAtIndex:0], [cString characterAtIndex:1], [cString characterAtIndex:1], [cString characterAtIndex:2], [cString characterAtIndex:2]];
-        cString = [NSString stringWithString:rString];
+    if (hexString.length == 3) {
+        NSUInteger value = 0;
+        if (sscanf(hexString.UTF8String, "%tx", &value)) {
+            NSUInteger r, g, b;
+            r = (value & 0x0f00) >> 8;
+            g = (value & 0x00f0) >> 4;
+            b = (value & 0x000f) >> 0;
+            return [UIColor colorWithRed:1.f * (r) / 0x0f
+                                   green:1.f * (g) / 0x0f
+                                    blue:1.f * (b) / 0x0f
+                                   alpha:alpha];
+        }
+        return nil;
     }
-    else if (cString.length == 4) {
-        NSMutableString *rString = [[NSMutableString alloc] initWithCapacity:8];
-        [rString appendFormat:@"%C%C%C%C%C%C%C%C", [cString characterAtIndex:0], [cString characterAtIndex:0], [cString characterAtIndex:1], [cString characterAtIndex:1], [cString characterAtIndex:2], [cString characterAtIndex:2], [cString characterAtIndex:3], [cString characterAtIndex:3]];
-        cString = [NSString stringWithString:rString];
+    else if (hexString.length == 6) {
+        NSUInteger value = 0;
+        if (sscanf(hexString.UTF8String, "%tx", &value)) {
+            return [self colorWithHex:value alpha:alpha];
+        }
+        return nil;
     }
-    if ([cString length] != 6 && [cString length] != 8) return [UIColor whiteColor];
-    NSRange range;
-    range.location = 0;
-    range.length = 2;
-    NSString *aString = @"ff";
-    if ([cString length] == 8) {
-        aString = [cString substringWithRange:range];
-        range.location += 2;
+    else {
+        return nil;
     }
-    NSString *rString = [cString substringWithRange:range];
-    range.location += 2;
-    NSString *gString = [cString substringWithRange:range];
-    range.location += 2;
-    NSString *bString = [cString substringWithRange:range];
-    unsigned r, g, b;
-    [[NSScanner scannerWithString:rString] scanHexInt:&r];
-    [[NSScanner scannerWithString:gString] scanHexInt:&g];
-    [[NSScanner scannerWithString:bString] scanHexInt:&b];
-    return [UIColor colorWithIntRed:r green:g blue:b alpha:alpha];
 }
 
-+ (UIColor *)colorWithIntRed:(NSInteger)r green:(NSInteger)g blue:(NSInteger)b
++ (UIColor *)colorWithHex:(NSUInteger)hexColor
 {
-    return [UIColor colorWithIntRed:r green:g blue:b alpha:255];
+    return [self colorWithHex:hexColor alpha:1.f];
 }
 
-+ (UIColor *)colorWithIntRed:(NSInteger)r green:(NSInteger)g blue:(NSInteger)b alpha:(NSInteger)a
++ (UIColor *)colorWithHex:(NSUInteger)hexColor alpha:(CGFloat)alpha
 {
-    return [UIColor colorWithRed:((CGFloat)r / 255.f) green:((CGFloat)g / 255.f) blue:((CGFloat)b / 255.f) alpha:((CGFloat)a / 255.f)];
+    return [UIColor colorWithRed:1.f * (hexColor >> 16 & 0xff) / 0xff
+                           green:1.f * (hexColor >>  8 & 0xff) / 0xff
+                            blue:1.f * (hexColor >>  0 & 0xff) / 0xff
+                           alpha:alpha];
 }
 
 @end

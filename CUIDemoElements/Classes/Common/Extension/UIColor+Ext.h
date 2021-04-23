@@ -10,10 +10,10 @@
 
 @interface UIColor (Ext)
 
++ (UIColor *)colorWithHex:(NSUInteger)hexColor;
++ (UIColor *)colorWithHex:(NSUInteger)hexColor alpha:(CGFloat)alpha;
 + (UIColor *)colorWithHexString:(NSString *)hexString;
 + (UIColor *)colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha;
-+ (UIColor *)colorWithIntRed:(NSInteger)r green:(NSInteger)g blue:(NSInteger)b;
-+ (UIColor *)colorWithIntRed:(NSInteger)r green:(NSInteger)g blue:(NSInteger)b alpha:(NSInteger)a;
 
 @end
 

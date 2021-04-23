@@ -23,7 +23,7 @@
     NSString *imageName = [NSString stringWithFormat:@"%@",[keyName lowercaseString]];
     NSString *detailVCName = [NSString stringWithFormat:@"CUI%@ViewController",keyName];
     CUIDemoCellItemModel *item = [CUIDemoCellItemModel new];
-    item.cellType = VideoItemCellType;
+    item.cellType = ImageItemCellType;
     item.className = className;
     item.imageName = imageName;
     item.imageType = @"png";

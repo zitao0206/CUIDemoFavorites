@@ -164,7 +164,7 @@
 		02AC2C091EC6FF0A0B2695633684FC91 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		0489E6D58016AFE25A56CF86385A7107 /* CUIDemoElements.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CUIDemoElements.release.xcconfig; sourceTree = "<group>"; };
 		06F74D0D066E9A1C494996740166E165 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		073E4CEEB0AD2BC1D253606DA5302435 /* libCUIDemoExamples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCUIDemoExamples.a; path = libCUIDemoExamples.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		073E4CEEB0AD2BC1D253606DA5302435 /* libCUIDemoExamples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCUIDemoExamples.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C76246EC1C4D035D697761AC3B90A1 /* CUIDemoCellItemModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CUIDemoCellItemModel.h; path = CUIDemoExamples/Classes/CUIDemoCellItemModel.h; sourceTree = "<group>"; };
 		10DDB3BD5E28EC2A5B16D623D96AA911 /* CUIDemoElements-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CUIDemoElements-dummy.m"; sourceTree = "<group>"; };
 		11BE960A0B9F943B23BAD51DA11C656C /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
@@ -177,11 +177,11 @@
 		1A114BC32F6B393EF33875E7908DE92D /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		1B0B785C5689CF45BD50E2D92E0F1C34 /* CUIFoldNumberView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIFoldNumberView.h; sourceTree = "<group>"; };
 		1EE8F389DD1A4D994143CCD5AEF30A32 /* CUIProgressCircleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIProgressCircleView.m; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		234733ADBEB5276D192F5584A18B9C53 /* CUIDemoViewControlData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CUIDemoViewControlData.m; path = CUIDemoExamples/Classes/CUIDemoViewControlData.m; sourceTree = "<group>"; };
 		25E9218EDD9E5F68767F9F148A2CA1D8 /* CUISpringMotionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUISpringMotionViewController.m; sourceTree = "<group>"; };
 		2880183692A539052CAB43E54D5B1E8A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		2AAC6C5F22B92BFE75A1B0D5F58F75E0 /* CUIDemoElements.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CUIDemoElements.bundle; path = "CUIDemoElements-CUIDemoElements.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAC6C5F22B92BFE75A1B0D5F58F75E0 /* CUIDemoElements.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CUIDemoElements.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C0D447940AC4B80762EB15B88F0C082 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		2FFE0D3E8CF347C95368DC88AF48C69B /* CUIDemoViewAnimationData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CUIDemoViewAnimationData.m; path = CUIDemoExamples/Classes/CUIDemoViewAnimationData.m; sourceTree = "<group>"; };
 		31A17E5D8B0BECDD0A8988DE2FCD9BA9 /* foldnumber.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; path = foldnumber.mov; sourceTree = "<group>"; };
@@ -195,23 +195,23 @@
 		3F406FE0FED18607864741F5D67802D5 /* Pods-CUIDemoFavorites_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CUIDemoFavorites_Example-resources.sh"; sourceTree = "<group>"; };
 		3FEB6620261F09B85709B32C85BEB4D5 /* Pods-CUIDemoFavorites_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CUIDemoFavorites_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		404116FA33F189FAAB4B4AFCB0483FE8 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		46AD835E498B21990ED5F7A618AFD2EE /* libPods-CUIDemoFavorites_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CUIDemoFavorites_Example.a"; path = "libPods-CUIDemoFavorites_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46AD835E498B21990ED5F7A618AFD2EE /* libPods-CUIDemoFavorites_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CUIDemoFavorites_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CFC4CA86BE49E29AEAB035A5A35F1CE /* CUIMultiLabelViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIMultiLabelViewController.h; sourceTree = "<group>"; };
 		4E287D333D73D962F4402BA1C94F9293 /* CUIDemoExamples-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CUIDemoExamples-dummy.m"; sourceTree = "<group>"; };
 		50BA3BA9B9328173F8EF7B0622B1D482 /* Pods-CUIDemoFavorites_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CUIDemoFavorites_Example.release.xcconfig"; sourceTree = "<group>"; };
 		539D27BF10D60A1AC6A01791E5DC36BB /* CUIGravityCollisionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIGravityCollisionViewController.h; sourceTree = "<group>"; };
-		54873302A3772C70DD2A56DE4661FAD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		54873302A3772C70DD2A56DE4661FAD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5ED2A0F777F2B276713F22BE9C03AF26 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		61ACB563EAEFFA52CA331AB527D30E39 /* CUIMultiLabelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIMultiLabelView.m; sourceTree = "<group>"; };
 		66F193AEDCE6368D109D9D402B3A3B67 /* CUIDemoExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CUIDemoExamples.debug.xcconfig; sourceTree = "<group>"; };
 		6727C60C1AF27C0D14F2F556E5498E59 /* ResourceBundle-CUIDemoExamples-CUIDemoExamples-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CUIDemoExamples-CUIDemoExamples-Info.plist"; sourceTree = "<group>"; };
 		6B0B0EA31C7114472CE210542B04AA0D /* UIImage+CUIBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CUIBundle.m"; sourceTree = "<group>"; };
-		6BC72AE41F821AB8F75322D25724FEB7 /* libCUIDemoElements.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCUIDemoElements.a; path = libCUIDemoElements.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC72AE41F821AB8F75322D25724FEB7 /* libCUIDemoElements.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCUIDemoElements.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C5273E0124A39B274A67FAAACD64359 /* NSBundle+CUIBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+CUIBundle.m"; sourceTree = "<group>"; };
 		6CCDF5CA0AC2BCABCF9D5AD86F561602 /* NSBundle+CUIBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+CUIBundle.h"; sourceTree = "<group>"; };
 		6ECD64E14294913969F051B1978F2BAF /* CUIDemoViewAnimationData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CUIDemoViewAnimationData.h; path = CUIDemoExamples/Classes/CUIDemoViewAnimationData.h; sourceTree = "<group>"; };
 		79DE928C87C599934AD923F7D473CEFA /* CUIMultiLabelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIMultiLabelView.h; sourceTree = "<group>"; };
-		7C43AFBB0DD54BCA8F9E327025723F5B /* CUIDemoExamples.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CUIDemoExamples.bundle; path = "CUIDemoExamples-CUIDemoExamples.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C43AFBB0DD54BCA8F9E327025723F5B /* CUIDemoExamples.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CUIDemoExamples.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C59C88C8975EAA631E90F46A9BCEED9 /* Pods-CUIDemoFavorites_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CUIDemoFavorites_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7D706F5747104B448D1231F7E2265562 /* springmotion.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; path = springmotion.mov; sourceTree = "<group>"; };
 		8119F42A62046A155B658F1AF44D7057 /* CUIGravityCollisionItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIGravityCollisionItemView.m; sourceTree = "<group>"; };
@@ -225,11 +225,11 @@
 		914FD8296D6FEC529B040177E2A15A3E /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		926E28EDF8E665D4A8E95BDF2FDCD4F5 /* gravitycollision.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; path = gravitycollision.mov; sourceTree = "<group>"; };
 		9446BEB8DD6899831C1438D30F1217F2 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		949C57E8262250314C409500BCDB4748 /* CUIDemoExamples.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CUIDemoExamples.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		949C57E8262250314C409500BCDB4748 /* CUIDemoExamples.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CUIDemoExamples.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9552EE8708ADC94D0545A9B63A846E26 /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		9860BCC6A3E4BE58E3993A0981CDA91C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		9C5F5EA3E5389C2F00A3C3AFDB8C4A8A /* CUIDemoElements.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CUIDemoElements.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C5F5EA3E5389C2F00A3C3AFDB8C4A8A /* CUIDemoElements.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CUIDemoElements.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E6BC8A1A6E78F8D6FB66C962FF1775C /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		9F42FDEAF8BACAFF1C384B1833F64176 /* CUIFoldLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIFoldLabel.h; sourceTree = "<group>"; };
 		9FE0F99324E79AE454C31C78D097539E /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
@@ -264,7 +264,7 @@
 		D7A4508FAD7B158E84BDB62656708025 /* CUIDemoExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CUIDemoExamples.release.xcconfig; sourceTree = "<group>"; };
 		DE49EC85DF2520D2483BCC6C1DCBB41F /* CUISpringMotionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUISpringMotionViewController.h; sourceTree = "<group>"; };
 		E87AA648F0CE75B3C5ABA2FB11C26271 /* UIColor+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Ext.m"; sourceTree = "<group>"; };
-		E97D43C46A45EE515A4DA3AF94398441 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97D43C46A45EE515A4DA3AF94398441 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB603AD6A36FBA771B274240126CC2B /* CUIProgressCircleViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIProgressCircleViewController.m; sourceTree = "<group>"; };
 		EDFEF4676F59077FEC974169DDE1F38C /* CUIFoldNumberView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIFoldNumberView.m; sourceTree = "<group>"; };
 		EF3B0B7DCDD391106CFC3599C4A91400 /* progresscircle.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; path = progresscircle.mov; sourceTree = "<group>"; };
@@ -346,7 +346,6 @@
 				2A1744EB2FEBC7F2093A906B19F94E44 /* GravityCollisionView */,
 				3F40C3D6E7EF0330DBAAC7AD36B0F968 /* ProgressCircleView */,
 			);
-			name = ViewAnimation;
 			path = ViewAnimation;
 			sourceTree = "<group>";
 		};
@@ -367,7 +366,6 @@
 				539D27BF10D60A1AC6A01791E5DC36BB /* CUIGravityCollisionViewController.h */,
 				CFBAE357C2EEB3FB16F2DCE59071330C /* CUIGravityCollisionViewController.m */,
 			);
-			name = GravityCollisionView;
 			path = GravityCollisionView;
 			sourceTree = "<group>";
 		};
@@ -377,7 +375,6 @@
 				B140BCAD1C53EE0C91B0F0BD991500B8 /* CUISpringMotionView.h */,
 				F3CC601B1038ED2D88322010BF3D72E4 /* CUISpringMotionView.m */,
 			);
-			name = SpringMotion;
 			path = SpringMotion;
 			sourceTree = "<group>";
 		};
@@ -387,7 +384,6 @@
 				79DE928C87C599934AD923F7D473CEFA /* CUIMultiLabelView.h */,
 				61ACB563EAEFFA52CA331AB527D30E39 /* CUIMultiLabelView.m */,
 			);
-			name = MultiLabelView;
 			path = MultiLabelView;
 			sourceTree = "<group>";
 		};
@@ -397,7 +393,6 @@
 				89498F2B09CAA38E65516E1EFD36BDFB /* CUIProgressCircleViewController.h */,
 				EDB603AD6A36FBA771B274240126CC2B /* CUIProgressCircleViewController.m */,
 			);
-			name = ProgressCircleView;
 			path = ProgressCircleView;
 			sourceTree = "<group>";
 		};
@@ -409,7 +404,6 @@
 				1B0B785C5689CF45BD50E2D92E0F1C34 /* CUIFoldNumberView.h */,
 				EDFEF4676F59077FEC974169DDE1F38C /* CUIFoldNumberView.m */,
 			);
-			name = FoldNumberView;
 			path = FoldNumberView;
 			sourceTree = "<group>";
 		};
@@ -439,7 +433,6 @@
 				69ACB8F1D36CFA031C81102A6B474987 /* GravityCollisionView */,
 				5E1E130E4A4A55DF1103C36488624347 /* ProgressCircleView */,
 			);
-			name = ViewAnimation;
 			path = ViewAnimation;
 			sourceTree = "<group>";
 		};
@@ -462,7 +455,6 @@
 				11F4D86775473A9A970561D751D5A246 /* CUIProgressCircleView.h */,
 				1EE8F389DD1A4D994143CCD5AEF30A32 /* CUIProgressCircleView.m */,
 			);
-			name = ProgressCircleView;
 			path = ProgressCircleView;
 			sourceTree = "<group>";
 		};
@@ -472,7 +464,6 @@
 				A0413438AB81B69C9212BC4C5FB9B358 /* CUIFoldNumberViewController.h */,
 				3B711FA6363808D317CB91489C436CEB /* CUIFoldNumberViewController.m */,
 			);
-			name = FoldNumberView;
 			path = FoldNumberView;
 			sourceTree = "<group>";
 		};
@@ -484,7 +475,6 @@
 				B6138BEDE3F9CA12EB60B7C83312D190 /* CUISenderGravityCollisionView.h */,
 				013AE4772AB7E5414A5061BF10E94838 /* CUISenderGravityCollisionView.m */,
 			);
-			name = GravityCollisionView;
 			path = GravityCollisionView;
 			sourceTree = "<group>";
 		};
@@ -503,7 +493,6 @@
 				DE49EC85DF2520D2483BCC6C1DCBB41F /* CUISpringMotionViewController.h */,
 				25E9218EDD9E5F68767F9F148A2CA1D8 /* CUISpringMotionViewController.m */,
 			);
-			name = SpringMotion;
 			path = SpringMotion;
 			sourceTree = "<group>";
 		};
@@ -525,7 +514,6 @@
 			children = (
 				BEC4BCBB41AE159DC544743623C5605C /* MultiLabelView */,
 			);
-			name = ViewControl;
 			path = ViewControl;
 			sourceTree = "<group>";
 		};
@@ -609,7 +597,6 @@
 				9446BEB8DD6899831C1438D30F1217F2 /* ViewController+MASAdditions.m */,
 				8A1EFCF8883286AA9C3B145B78DB4F14 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -653,7 +640,6 @@
 				4CFC4CA86BE49E29AEAB035A5A35F1CE /* CUIMultiLabelViewController.h */,
 				1862181910CCAD37AA80FDD0892D58B0 /* CUIMultiLabelViewController.m */,
 			);
-			name = MultiLabelView;
 			path = MultiLabelView;
 			sourceTree = "<group>";
 		};
@@ -719,7 +705,6 @@
 			children = (
 				3E88970C5E530E84A3595DF2CCF98FA1 /* MultiLabelView */,
 			);
-			name = ViewControl;
 			path = ViewControl;
 			sourceTree = "<group>";
 		};
@@ -742,7 +727,6 @@
 				BDDAD8EA345F6C63E14D0097A336614C /* UIView+EasyLayout.h */,
 				C5606EEC52020236C71771EF67549E69 /* UIView+EasyLayout.m */,
 			);
-			name = Extension;
 			path = Extension;
 			sourceTree = "<group>";
 		};
@@ -760,7 +744,6 @@
 				A8708CA504AB1FD4C4D4C5FCF019BBEE /* Resources */,
 				BE4DCEEE591F91E9C9DE8BA9527E3D5B /* Support Files */,
 			);
-			name = SVProgressHUD;
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -1425,8 +1408,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
