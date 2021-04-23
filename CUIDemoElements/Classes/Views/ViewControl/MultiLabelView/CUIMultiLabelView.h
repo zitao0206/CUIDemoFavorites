@@ -25,12 +25,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-typedef void(^CUIConfig)(CUIMultiLabelConfig *config);
+typedef void(^MultiLabelConfigBlock)(CUIMultiLabelConfig *config);
 
 @interface CUIMultiLabelView : UIView
 - (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initWithFrame:(CGRect)frame NS_UNAVAILABLE;
-- (instancetype)initWithConfig:(CUIConfig)config;
+- (instancetype)initWithConfig:(MultiLabelConfigBlock)config;
 - (void)refreshDataArray:(NSArray <NSString *> *)array;
 @end
 

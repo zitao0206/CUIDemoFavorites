@@ -2,14 +2,13 @@
   "name": "CUIDemoElements",
   "version": "0.1.0",
   "summary": "A short description of CUIDemoElements.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Leon/CUIDemoFavorites",
+  "homepage": "https://github.com/Leon0206/CUIDemoFavorites",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Leon": "63437613@qq.com"
+    "Leon0206": "63437613@qq.com"
   },
   "source": {
     "git": "https://github.com/Leon/CUIDemoFavorites.git",

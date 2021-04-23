@@ -65,7 +65,7 @@
     return self;
 }
 
-- (instancetype)initWithConfig:(CUIConfig)labelConfig
+- (instancetype)initWithConfig:(MultiLabelConfigBlock)labelConfig
 {
     self = [super init];
      if (self) {

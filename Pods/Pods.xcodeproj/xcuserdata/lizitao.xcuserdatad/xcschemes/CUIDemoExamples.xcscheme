@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3E871472620497BDB90A51415731DF46"
-               BuildableName = "libCUIDemoExamples.a"
+               BuildableName = "CUIDemoExamples.framework"
                BlueprintName = "CUIDemoExamples"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

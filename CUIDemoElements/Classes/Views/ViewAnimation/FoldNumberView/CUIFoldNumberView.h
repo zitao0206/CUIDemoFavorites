@@ -35,7 +35,7 @@ typedef NS_ENUM(NSInteger, CUIFoldNumberChangeMode) {
 
 @end
 
-typedef void(^CUIConfig)(CUIFoldNumberConfig *config);
+typedef void(^FoldNumberConfigBlock)(CUIFoldNumberConfig *config);
 
 @interface CUIFoldNumberView : UIView
 
@@ -43,7 +43,7 @@ typedef void(^CUIConfig)(CUIFoldNumberConfig *config);
 
 - (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initWithFrame:(CGRect)frame NS_UNAVAILABLE;
-- (instancetype)initWithConfig:(CUIConfig)foldNumberConfig;
+- (instancetype)initWithConfig:(FoldNumberConfigBlock)foldNumberConfig;
 
 @end
 

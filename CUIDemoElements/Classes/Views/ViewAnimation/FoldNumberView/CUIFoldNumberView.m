@@ -54,7 +54,7 @@
 
 @implementation CUIFoldNumberView
 
-- (instancetype)initWithConfig:(CUIConfig)foldNumberConfig
+- (instancetype)initWithConfig:(FoldNumberConfigBlock)foldNumberConfig
 {
     self = [super init];
         if (self) {

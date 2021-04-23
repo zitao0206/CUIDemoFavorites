@@ -2,7 +2,6 @@
   "name": "CUIDemoExamples",
   "version": "0.1.0",
   "summary": "A short description of CUIDemoExamples.",
-  "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Leon/CUIDemoFavorites",
   "license": {
     "type": "MIT",
@@ -29,9 +28,11 @@
       "CUIDemoExamples/Assets/Videos/*.*"
     ]
   },
+  "swift_versions": "4.1",
   "dependencies": {
     "CUIDemoElements": [
 
     ]
-  }
+  },
+  "swift_version": "4.1"
 }
