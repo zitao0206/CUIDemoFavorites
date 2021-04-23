@@ -10,10 +10,12 @@
 #define Header_h
 #import <Masonry/Masonry.h>
 #import <SVProgressHUD/SVProgressHUD.h>
+#import <BlocksKit/BlocksKit.h>
 #import "UIView+EasyLayout.h"
 #import "UIColor+Ext.h"
 #import "NSBundle+CUIBundle.h"
 #import "UIImage+CUIBundle.h"
+#import "UIImage+CUIKit.h"
 
 #endif /* Header_h */
 

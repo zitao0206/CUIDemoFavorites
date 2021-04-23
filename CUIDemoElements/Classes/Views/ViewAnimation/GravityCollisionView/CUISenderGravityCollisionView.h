@@ -2,7 +2,7 @@
 //  CUISenderGravityCollisionView.h
 //  Pods
 //
-//  Created by lizitao on 2020/5/9.
+//  Created by Leon0206 on 2020/5/9.
 //
 
 #import <UIKit/UIKit.h>

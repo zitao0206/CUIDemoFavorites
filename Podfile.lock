@@ -1,5 +1,21 @@
 PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
   - CUIDemoElements (0.1.0):
+    - BlocksKit
     - Masonry
     - SVProgressHUD
   - CUIDemoExamples (0.1.0):
@@ -13,6 +29,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - BlocksKit
     - Masonry
     - SVProgressHUD
 
@@ -23,11 +40,12 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  CUIDemoElements: b6afc32f46a59063458bf4c581c1e4a337f3ebd6
-  CUIDemoExamples: c02a33928c159daa5cc99eafdbdd09fb69ee7bdf
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CUIDemoElements: bd93ed82ed2cf2219c92e09552df8b20ed882054
+  CUIDemoExamples: 47410d68d1479fd0219e4618ae8c5820a7601798
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 30c981721ff6250cce0d54be1c0d5c1be414903a
+PODFILE CHECKSUM: c7bf5aaad695bcc0afe06586666ae05cbc03c3fb
 
 COCOAPODS: 1.10.0

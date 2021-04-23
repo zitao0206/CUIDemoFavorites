@@ -27,11 +27,15 @@
       "CUIDemoElements/Assets/**/*"
     ]
   },
+  "public_header_files": "CUIDemoElements/Classes/**/*.h",
   "dependencies": {
     "Masonry": [
 
     ],
     "SVProgressHUD": [
+
+    ],
+    "BlocksKit": [
 
     ]
   }

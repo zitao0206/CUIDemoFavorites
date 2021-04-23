@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D86A3C2F2632BF970049098F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A3C2E2632BF970049098F /* File.swift */; };
 		D8E8B3CF26132114003BD3DB /* CUIRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B3CD26132114003BD3DB /* CUIRuleViewController.m */; };
 		D8E8B424261328A4003BD3DB /* CUIHallListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B418261328A4003BD3DB /* CUIHallListViewController.m */; };
 		D8E8B4DB26134076003BD3DB /* CUIHallViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B4D626134076003BD3DB /* CUIHallViewAnimationViewController.m */; };
@@ -67,6 +68,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3FB76E7085CC3FD2BB57D9E /* Pods-CUIDemoFavorites.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CUIDemoFavorites.debug.xcconfig"; path = "Target Support Files/Pods-CUIDemoFavorites/Pods-CUIDemoFavorites.debug.xcconfig"; sourceTree = "<group>"; };
+		D86A3C2E2632BF970049098F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		D86A3C322632C1400049098F /* CUIDemoFavorites-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CUIDemoFavorites-Bridging-Header.h"; sourceTree = "<group>"; };
 		D8E8B3CD26132114003BD3DB /* CUIRuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIRuleViewController.m; sourceTree = "<group>"; };
 		D8E8B3CE26132114003BD3DB /* CUIRuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIRuleViewController.h; sourceTree = "<group>"; };
 		D8E8B416261328A4003BD3DB /* CUIHallListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIHallListViewController.h; sourceTree = "<group>"; };
@@ -159,6 +162,8 @@
 				6003F59C195388D20070C39A /* CUIAppDelegate.h */,
 				6003F59D195388D20070C39A /* CUIAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				D86A3C2E2632BF970049098F /* File.swift */,
+				D86A3C322632C1400049098F /* CUIDemoFavorites-Bridging-Header.h */,
 				6003F5A5195388D20070C39A /* CUIViewController.h */,
 				6003F5A6195388D20070C39A /* CUIViewController.m */,
 				D8E8B414261328A4003BD3DB /* HallList */,
@@ -257,16 +262,27 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		D86A463D2632D3090049098F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		6003F589195388D20070C39A /* CUIDemoFavorites */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CUIDemoFavorites" */;
 			buildPhases = (
 				EB1E09D7E5DDA711FF783571 /* [CP] Check Pods Manifest.lock */,
+				D86A463D2632D3090049098F /* Headers */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				5F94BD5A29734016AED87D34 /* [CP] Copy Pods Resources */,
+				10149FDD175DE53B9AC5EEA6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -356,26 +372,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5F94BD5A29734016AED87D34 /* [CP] Copy Pods Resources */ = {
+		10149FDD175DE53B9AC5EEA6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CUIDemoFavorites/Pods-CUIDemoFavorites-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoElements/CUIDemoElements.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoExamples/CUIDemoExamples.bundle",
-				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-CUIDemoFavorites/Pods-CUIDemoFavorites-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BlocksKit/BlocksKit.framework",
+				"${BUILT_PRODUCTS_DIR}/CUIDemoElements/CUIDemoElements.framework",
+				"${BUILT_PRODUCTS_DIR}/CUIDemoExamples/CUIDemoExamples.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoElements.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoExamples.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlocksKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CUIDemoElements.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CUIDemoExamples.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CUIDemoFavorites/Pods-CUIDemoFavorites-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CUIDemoFavorites/Pods-CUIDemoFavorites-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EB1E09D7E5DDA711FF783571 /* [CP] Check Pods Manifest.lock */ = {
@@ -408,6 +428,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8E8B56626141B1F003BD3DB /* CUICollectionViewVideoCell.m in Sources */,
+				D86A3C2F2632BF970049098F /* File.swift in Sources */,
 				6003F59E195388D20070C39A /* CUIAppDelegate.m in Sources */,
 				D8E8B55C26134AC5003BD3DB /* CUIViewAnimationCollectionViewLayout.m in Sources */,
 				D8E8B4DC26134076003BD3DB /* CUIHallViewControlViewController.m in Sources */,
@@ -503,6 +524,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -535,6 +557,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				SDKROOT = iphoneos;
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -546,10 +569,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = NO;
+				DEFINES_MODULE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CUIDemoFavorites/CUIDemoFavorites-Prefix.pch";
 				INFOPLIST_FILE = "CUIDemoFavorites/CUIDemoFavorites-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -558,6 +582,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "CUIDemoFavorites/CUIDemoFavorites-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -568,16 +593,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = NO;
+				DEFINES_MODULE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CUIDemoFavorites/CUIDemoFavorites-Prefix.pch";
 				INFOPLIST_FILE = "CUIDemoFavorites/CUIDemoFavorites-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CUIDemoFavorites/CUIDemoFavorites-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -585,6 +612,7 @@
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -609,6 +637,7 @@
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
