@@ -21,13 +21,12 @@
     "GCC_PREPROCESSOR_DEFINITIONS": "__CUI_MODULE_NAME__=\\\"CUIDemoElements\\\" CUI_MODULE_NAME=@\\\"CUIDemoElements\\\""
   },
   "source_files": "CUIDemoElements/Classes/**/*",
-  "prefix_header_file": "CUIDemoElements/CUIDemoElements.pch",
   "resource_bundles": {
     "CUIDemoElements": [
       "CUIDemoElements/Assets/**/*"
     ]
   },
-  "public_header_files": "CUIDemoElements/Classes/**/*.h",
+  "prefix_header_file": "CUIDemoElements/CUIDemoElements.pch",
   "dependencies": {
     "Masonry": [
 

@@ -6,6 +6,7 @@
 //
 
 #import "CUISpringMotionView.h"
+#import "CommonKit.h"
 
 @interface CUISpringMotionView ()
 @property (nonatomic, strong) UIView *contentView;

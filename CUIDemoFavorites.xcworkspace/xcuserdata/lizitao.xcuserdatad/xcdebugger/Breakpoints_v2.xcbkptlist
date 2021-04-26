@@ -23,15 +23,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8104291B-D551-4ED6-B40C-9D8A247C6724"
+            uuid = "653F05B3-AAAC-4EE7-B171-E7ED7F31F635"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Example/CUIDemoFavorites/HallList/Cell/CUICollectionViewImageCell.m"
+            filePath = "Example/CUIDemoFavorites/HallList/Cell/CUICollectionViewVideoCell.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "-refreshData:"
             landmarkType = "7">
          </BreakpointContent>

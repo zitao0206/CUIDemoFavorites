@@ -8,6 +8,7 @@
 #ifndef CUIDemoFavorites_Bridging_Header_h
 #define CUIDemoFavorites_Bridging_Header_h
 
-#import <CUIDemoElements/CommonKit.h>
+//#import <CUIDemoElements/CommonKit.h>
+#import "CommonKit.h"
 
 #endif /* CUIDemoFavorites_Bridging_Header_h */

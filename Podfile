@@ -8,6 +8,7 @@ use_frameworks!
 target 'CUIDemoFavorites' do
   pod 'CUIDemoExamples', :path => './', :inhibit_warnings => false
   pod 'CUIDemoElements', :path => './', :inhibit_warnings => false
+
 end
 
 post_install do |installer|

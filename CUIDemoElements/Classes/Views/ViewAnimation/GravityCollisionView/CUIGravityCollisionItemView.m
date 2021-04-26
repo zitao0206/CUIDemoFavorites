@@ -9,6 +9,7 @@
 
 #import "CUIGravityCollisionItemView.h"
 #import <CoreMotion/CoreMotion.h>
+#import "CommonKit.h"
 
 @interface CUIGravityCollisionItemView() <UICollisionBehaviorDelegate>
 @property (nonatomic, strong) UIDynamicAnimator *animator;
