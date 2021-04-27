@@ -46,7 +46,7 @@ public class RecordIndicator: UIView {
     
      let recordingBgView: UIView = {
         let gradientView = UIView()
-        gradientView.backgroundColor = UIColor.cui_color(withHex: 0x3A5C8C, alpha: 0.3)
+        gradientView.backgroundColor = UIColor.cui_color(withHex: 0x3A5C8C, alpha: 0.7)
         gradientView.layer.cornerRadius = 40
         gradientView.layer.masksToBounds = true
         return gradientView
@@ -54,7 +54,7 @@ public class RecordIndicator: UIView {
     
      let cancelBgView: UIView = {
         let gradientView = UIView()
-        gradientView.backgroundColor = UIColor.cui_color(withHex: 0x672379, alpha: 0.3)
+        gradientView.backgroundColor = UIColor.cui_color(withHex: 0x672379, alpha: 0.7)
         gradientView.layer.cornerRadius = 40
         gradientView.layer.masksToBounds = true
         return gradientView
