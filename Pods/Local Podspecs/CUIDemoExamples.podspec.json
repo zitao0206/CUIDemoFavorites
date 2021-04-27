@@ -17,6 +17,9 @@
   "pod_target_xcconfig": {
     "GCC_PREPROCESSOR_DEFINITIONS": "__CUI_MODULE_NAME__=\\\"CUIDemoExamples\\\" CUI_MODULE_NAME=@\\\"CUIDemoExamples\\\""
   },
+  "platforms": {
+    "ios": "10.0"
+  },
   "source_files": "CUIDemoExamples/Classes/**/*",
   "public_header_files": "CUIDemoExamples/Classes/**/*.h",
   "prefix_header_file": "CUIDemoExamples/CUIDemoExamples.pch",
@@ -30,11 +33,5 @@
     "CUIDemoElements": [
 
     ]
-  },
-  "platforms": {
-    "osx": null,
-    "ios": null,
-    "tvos": null,
-    "watchos": null
   }
 }

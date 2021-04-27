@@ -12,16 +12,17 @@ import BlocksKit
 @objcMembers
 public class RecordButton: UIButton {
     
-    typealias Action = (RecordButton) -> Void
     
-    var shouldBeginAction: (RecordButton) -> Bool = { _ in
+    public typealias Action = (RecordButton) -> Void
+    @objc
+    public var shouldBeginAction: (RecordButton) -> Bool = { _ in
         return true
     }
-    var beginAction: Action?
-    var recordingAction: Action?
-    var cancelingAction: Action?
-    var cancelAction: Action?
-    var finishAction: Action?
+    public var beginAction: Action?
+    public var recordingAction: Action?
+    public var cancelingAction: Action?
+    public var cancelAction: Action?
+    public var finishAction: Action?
     
     private enum Status {
         case disable

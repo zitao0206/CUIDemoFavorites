@@ -11,7 +11,7 @@
 
 @implementation UIImage (CUIBundle)
 
-+ (UIImage *)imageNamed:(NSString *)name withBundleName:(NSString *)bundleName
++ (UIImage *)cui_imageNamed:(NSString *)name withBundleName:(NSString *)bundleName
 {
         
     if (! name) {
@@ -29,7 +29,7 @@
     NSInteger i = 0;
     UIImage *image = nil;
     do {
-        image = [self imageNamed:[NSString stringWithFormat:@"%@%zd", name, i++]
+        image = [self cui_imageNamed:[NSString stringWithFormat:@"%@%zd", name, i++]
                            withBundleName:bundleName];
         if (image) {
             [images addObject:image];

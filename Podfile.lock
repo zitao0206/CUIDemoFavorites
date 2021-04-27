@@ -17,10 +17,12 @@ PODS:
   - CUIDemoElements (0.1.0):
     - BlocksKit
     - Masonry
+    - SnapKit
     - SVProgressHUD
   - CUIDemoExamples (0.1.0):
     - CUIDemoElements
   - Masonry (1.1.0)
+  - SnapKit (5.0.1)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
@@ -31,6 +33,7 @@ SPEC REPOS:
   trunk:
     - BlocksKit
     - Masonry
+    - SnapKit
     - SVProgressHUD
 
 EXTERNAL SOURCES:
@@ -41,11 +44,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
-  CUIDemoElements: a9f86e3bd197deab53c57ad67e5ef96b4e76535a
-  CUIDemoExamples: 47410d68d1479fd0219e4618ae8c5820a7601798
+  CUIDemoElements: 50fd50b6cf803ab0eaca040abbd3de21885186d8
+  CUIDemoExamples: 2287765cb226396db14264479425cdc65b566446
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: b1bf51727938de6004ec08f4ddc492bd0b78125a
+PODFILE CHECKSUM: 41bd293f29928b25e5d1a637dfa0c140d928f7dc
 
 COCOAPODS: 1.10.0

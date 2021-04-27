@@ -18,8 +18,7 @@
     "ios": "10.0"
   },
   "pod_target_xcconfig": {
-    "GCC_PREPROCESSOR_DEFINITIONS": "__CUI_MODULE_NAME__=\\\"CUIDemoElements\\\" CUI_MODULE_NAME=@\\\"CUIDemoElements\\\"",
-    "OTHER_LDFLAGS": "\"-ObjC\""
+    "GCC_PREPROCESSOR_DEFINITIONS": "__CUI_MODULE_NAME__=\\\"CUIDemoElements\\\" CUI_MODULE_NAME=@\\\"CUIDemoElements\\\""
   },
   "source_files": [
     "CUIDemoElements/CUIDemoElements.swift",
@@ -44,6 +43,9 @@
 
     ],
     "BlocksKit": [
+
+    ],
+    "SnapKit": [
 
     ]
   }

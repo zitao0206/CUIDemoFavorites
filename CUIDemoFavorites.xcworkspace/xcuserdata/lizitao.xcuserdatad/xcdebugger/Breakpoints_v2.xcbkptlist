@@ -7,33 +7,33 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "50F79CAF-BEEE-4E58-8742-8BFB42AF538C"
+            uuid = "912F948E-C405-48E3-9554-541EE1110635"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Example/CUIDemoFavorites/HallList/Cell/CUICollectionViewImageCell.m"
+            filePath = "CUIDemoElements/Classes/Views/ViewAnimation/InputAudio/RecordIndicator.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "-refreshData:"
-            landmarkType = "7">
+            startingLineNumber = "272"
+            endingLineNumber = "272"
+            landmarkName = "imageView"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "653F05B3-AAAC-4EE7-B171-E7ED7F31F635"
+            uuid = "AFE43B9E-CC75-4235-BDF8-ABCFAD3CFBB4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Example/CUIDemoFavorites/HallList/Cell/CUICollectionViewVideoCell.m"
+            filePath = "CUIDemoElements/Classes/Views/ViewAnimation/InputAudio/RecordIndicator.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "-refreshData:"
-            landmarkType = "7">
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "imageView"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

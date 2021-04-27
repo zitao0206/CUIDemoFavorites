@@ -54,9 +54,8 @@
         [self.classLabel sizeToFit];
         
         //本地视频路径
-        NSURL *bundleURL = [[NSBundle mainBundle] URLForResource:@"CUIDemoExamples" withExtension:@"bundle"];
-        NSBundle *bundle = [NSBundle bundleWithURL:bundleURL];
-        
+ 
+        NSBundle *bundle = [NSBundle cui_bundleWithPodName:@"CUIDemoExamples"];
         NSString *localFilePath = [bundle pathForResource:item.imageName ofType:item.imageType];
         NSAssert(localFilePath.length > 0, @"视频资源异常！！！");
         NSURL *localVideoUrl = [NSURL fileURLWithPath:localFilePath];

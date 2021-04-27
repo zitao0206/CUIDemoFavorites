@@ -1,9 +1,10 @@
 
 platform :ios, '10.0'
 inhibit_all_warnings!
+use_frameworks! :linkage => :static
+
 workspace 'CUIDemoFavorites'
 project 'Example/CUIDemoFavorites'
-use_frameworks!
 
 target 'CUIDemoFavorites' do
   pod 'CUIDemoExamples', :path => './', :inhibit_warnings => false

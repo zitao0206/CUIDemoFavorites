@@ -16,7 +16,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Leon/CUIDemoFavorites.git', :tag => s.version.to_s }
 
   s.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '__CUI_MODULE_NAME__=\"CUIDemoExamples\" CUI_MODULE_NAME=@\"CUIDemoExamples\"' }
-
+  
+  s.ios.deployment_target = '10.0'
+  
   s.source_files = 'CUIDemoExamples/Classes/**/*'
   s.public_header_files = 'CUIDemoExamples/Classes/**/*.h'
   s.prefix_header_file = 'CUIDemoExamples/CUIDemoExamples.pch'

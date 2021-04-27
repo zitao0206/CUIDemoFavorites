@@ -298,7 +298,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				D86DB4FD26354F160082039F /* Embed App Extensions */,
-				8F472508E95084C2DBE6AF50 /* [CP] Embed Pods Frameworks */,
+				10A6D7C5B8F96662630BF2D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -388,30 +388,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8F472508E95084C2DBE6AF50 /* [CP] Embed Pods Frameworks */ = {
+		10A6D7C5B8F96662630BF2D2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CUIDemoFavorites/Pods-CUIDemoFavorites-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BlocksKit/BlocksKit.framework",
-				"${BUILT_PRODUCTS_DIR}/CUIDemoElements/CUIDemoElements.framework",
-				"${BUILT_PRODUCTS_DIR}/CUIDemoExamples/CUIDemoExamples.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-CUIDemoFavorites/Pods-CUIDemoFavorites-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoElements/CUIDemoElements.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoExamples/CUIDemoExamples.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlocksKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CUIDemoElements.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CUIDemoExamples.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoElements.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoExamples.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CUIDemoFavorites/Pods-CUIDemoFavorites-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CUIDemoFavorites/Pods-CUIDemoFavorites-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EB1E09D7E5DDA711FF783571 /* [CP] Check Pods Manifest.lock */ = {
