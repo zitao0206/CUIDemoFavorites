@@ -1,5 +1,5 @@
 //
-//  UIImage+CUIKit.m
+//  UIImage+UIKit.m
 //  Pods
 //
 //  Created by Leon on 03/30/2021.
@@ -7,12 +7,11 @@
 //
 
 #import "UIImage+CUIKit.h"
-#import "NSBundle+CUIBundle.h"
 
 @implementation UIImage (CUIKit)
 
 
-+ (UIImage *)imageWithColor:(UIColor *)color
++ (UIImage *)cui_imageWithColor:(UIColor *)color
 {
     CGRect rect = CGRectMake(0, 0, 1, 1);
     UIGraphicsBeginImageContextWithOptions(rect.size, NO, 0.f);

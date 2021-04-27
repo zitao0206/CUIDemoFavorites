@@ -124,13 +124,13 @@ class RecordButton: UIButton {
         fatalError("init(coder:) has not been implemented")
     }
     
-    private func initialUI() {
+    func initialUI() {
         isExclusiveTouch = true
         titleLabel?.font = UIFont.systemFont(ofSize: 14, weight: .medium)
+        titleLabel?.left = 10
         titleLabel?.textAlignment = .center
         setTitleColor(UIColor.white.withAlphaComponent(0.8), for: .normal)
-//        setBackgroundImage(UIImage.image(with: UIColor(white: 1, alpha: 0.2)), for: .normal)
-//        setBackgroundImage(UIImage.image(with: UIColor(white: 1, alpha: 0.1)), for: .highlighted)
+        setBackgroundImage(UIImage.cui_image(with: UIColor(white: 1, alpha: 0.1)), for: .highlighted)
         setTitle(initialTitle, for: .normal)
     }
 }

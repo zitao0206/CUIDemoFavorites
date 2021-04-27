@@ -1,14 +1,14 @@
 //
-//  UIView+EasyLayout.m
+//  UIView+CUIEasyLayout.m
 //  Pods
 //
 //  Created by Leon on 03/30/2021.
 //  Copyright (c) 2021 Leon. All rights reserved.
 //
 
-#import "UIView+EasyLayout.h"
+#import "UIView+CUIEasyLayout.h"
 
-@implementation UIView (EasyLayout)
+@implementation UIView (CUIEasyLayout)
 
 - (CGFloat)left
 {

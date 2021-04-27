@@ -6,16 +6,16 @@
 //  Copyright (c) 2021 Leon. All rights reserved.
 //
 
-#import "UIColor+Ext.h"
+#import "UIColor+CUIExt.h"
 
-@implementation UIColor (Ext)
+@implementation UIColor (CUIExt)
 
-+ (UIColor *)colorWithHexString:(NSString *)hexString
++ (UIColor *)cui_colorWithHexString:(NSString *)hexString
 {
-    return [UIColor colorWithHexString:hexString alpha:1.0];
+    return [UIColor cui_colorWithHexString:hexString alpha:1.0];
 }
 
-+ (UIColor *)colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha
++ (UIColor *)cui_colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha
 {
     if ([hexString hasPrefix:@"#"]) {
         hexString = [hexString stringByReplacingOccurrencesOfString:@"#" withString:@""];
@@ -38,7 +38,7 @@
     else if (hexString.length == 6) {
         NSUInteger value = 0;
         if (sscanf(hexString.UTF8String, "%tx", &value)) {
-            return [self colorWithHex:value alpha:alpha];
+            return [self cui_colorWithHex:value alpha:alpha];
         }
         return nil;
     }
@@ -47,12 +47,12 @@
     }
 }
 
-+ (UIColor *)colorWithHex:(NSUInteger)hexColor
++ (UIColor *)cui_colorWithHex:(NSUInteger)hexColor
 {
-    return [self colorWithHex:hexColor alpha:1.f];
+    return [self cui_colorWithHex:hexColor alpha:1.f];
 }
 
-+ (UIColor *)colorWithHex:(NSUInteger)hexColor alpha:(CGFloat)alpha
++ (UIColor *)cui_colorWithHex:(NSUInteger)hexColor alpha:(CGFloat)alpha
 {
     return [UIColor colorWithRed:1.f * (hexColor >> 16 & 0xff) / 0xff
                            green:1.f * (hexColor >>  8 & 0xff) / 0xff

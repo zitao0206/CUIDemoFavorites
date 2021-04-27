@@ -11,8 +11,8 @@
 #import <Masonry/Masonry.h>
 #import <SVProgressHUD/SVProgressHUD.h>
 #import <BlocksKit/BlocksKit.h>
-#import "UIView+EasyLayout.h"
-#import "UIColor+Ext.h"
+#import "UIView+CUIEasyLayout.h"
+#import "UIColor+CUIExt.h"
 #import "NSBundle+CUIBundle.h"
 #import "UIImage+CUIBundle.h"
 #import "UIImage+CUIKit.h"

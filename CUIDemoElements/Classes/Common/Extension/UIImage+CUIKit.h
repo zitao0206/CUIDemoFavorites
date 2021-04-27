@@ -1,5 +1,5 @@
 //
-//  UIImage+CUIKit.h
+//  UIImage+UIKit.h
 //  Pods
 //
 //  Created by Leon on 03/30/2021.
@@ -8,11 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+#import <Foundation/Foundation.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImage (CUIKit)
 
-+ (UIImage *)imageWithColor:(nullable UIColor *)color;
++ (UIImage *)cui_imageWithColor:(UIColor *)color;
 
 @end
 

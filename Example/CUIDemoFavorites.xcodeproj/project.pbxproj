@@ -583,7 +583,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D3FB76E7085CC3FD2BB57D9E /* Pods-CUIDemoFavorites.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -608,7 +608,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE841D3736CC95BBC969AF0E /* Pods-CUIDemoFavorites.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;

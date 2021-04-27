@@ -19,7 +19,9 @@
     self = [super initWithFrame:frame];
     if (self) {
       
- 
+        UIImage *image = CUIImageNamed(@"");
+        UIImage *image1 = [UIImage cui_imageWithColor:[UIColor redColor]];
+        [UIColor cui_colorWithHex:0x333333];
     }
     return self;
 }

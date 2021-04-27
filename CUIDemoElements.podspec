@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   }
 #  s.public_header_files = 'CUIDemoElements/Classes/**/*.h'
   s.prefix_header_file = 'CUIDemoElements/CUIDemoElements.pch'
-#  s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Foundation', 'MapKit'
   s.dependency 'Masonry'
   s.dependency 'SVProgressHUD'
   s.dependency 'BlocksKit'

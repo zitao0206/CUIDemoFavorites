@@ -27,6 +27,11 @@
     ]
   },
   "prefix_header_file": "CUIDemoElements/CUIDemoElements.pch",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "MapKit"
+  ],
   "dependencies": {
     "Masonry": [
 
