@@ -18,9 +18,13 @@
     "ios": "10.0"
   },
   "pod_target_xcconfig": {
-    "GCC_PREPROCESSOR_DEFINITIONS": "__CUI_MODULE_NAME__=\\\"CUIDemoElements\\\" CUI_MODULE_NAME=@\\\"CUIDemoElements\\\""
+    "GCC_PREPROCESSOR_DEFINITIONS": "__CUI_MODULE_NAME__=\\\"CUIDemoElements\\\" CUI_MODULE_NAME=@\\\"CUIDemoElements\\\"",
+    "OTHER_LDFLAGS": "\"-ObjC\""
   },
-  "source_files": "CUIDemoElements/Classes/**/*",
+  "source_files": [
+    "CUIDemoElements/CUIDemoElements.swift",
+    "CUIDemoElements/Classes/**/*"
+  ],
   "resource_bundles": {
     "CUIDemoElements": [
       "CUIDemoElements/Assets/**/*"

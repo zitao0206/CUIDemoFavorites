@@ -9,7 +9,8 @@
 #import <CUIDemoElements/CUIDemoElements-Swift.h>
 
 @interface CUIInputAudioView ()
- 
+@property (nonatomic, strong) CUIRecordButton *recordBtn;
+
 @end
 
 @implementation CUIInputAudioView
@@ -19,9 +20,8 @@
     self = [super initWithFrame:frame];
     if (self) {
       
-        UIImage *image = CUIImageNamed(@"");
-        UIImage *image1 = [UIImage cui_imageWithColor:[UIColor redColor]];
-        [UIColor cui_colorWithHex:0x333333];
+        CUIOCTest *t =  [[CUIOCTest alloc] init];
+        [t show];
     }
     return self;
 }

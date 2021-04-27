@@ -8,8 +8,9 @@
 import Foundation
 import UIKit
 import BlocksKit
-
-class RecordButton: UIButton {
+@objc(CUIRecordButton)
+@objcMembers
+public class RecordButton: UIButton {
     
     typealias Action = (RecordButton) -> Void
     
