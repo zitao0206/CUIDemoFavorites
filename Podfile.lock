@@ -26,8 +26,8 @@ PODS:
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
-  - CUIDemoElements (from `./`)
-  - CUIDemoExamples (from `./`)
+  - CUIDemoElements (from `./LocalPods/CUIDemoElements`)
+  - CUIDemoExamples (from `./LocalPods/CUIDemoExamples`)
 
 SPEC REPOS:
   trunk:
@@ -38,18 +38,18 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   CUIDemoElements:
-    :path: "./"
+    :path: "./LocalPods/CUIDemoElements"
   CUIDemoExamples:
-    :path: "./"
+    :path: "./LocalPods/CUIDemoExamples"
 
 SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
-  CUIDemoElements: 50fd50b6cf803ab0eaca040abbd3de21885186d8
-  CUIDemoExamples: 2287765cb226396db14264479425cdc65b566446
+  CUIDemoElements: 94b162d39e72f13b70f949b7630612d195d60411
+  CUIDemoExamples: a99d155ae8876b9ef4bd6bc5c038af4da88cb28c
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 41bd293f29928b25e5d1a637dfa0c140d928f7dc
+PODFILE CHECKSUM: 45d7ccb550914c082f2c605790d0133c2e65262c
 
 COCOAPODS: 1.10.0

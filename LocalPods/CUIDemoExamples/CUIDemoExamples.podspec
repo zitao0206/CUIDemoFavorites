@@ -19,12 +19,12 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '10.0'
   
-  s.source_files = 'CUIDemoExamples/Classes/**/*'
-  s.public_header_files = 'CUIDemoExamples/Classes/**/*.h'
-  s.prefix_header_file = 'CUIDemoExamples/CUIDemoExamples.pch'
+  s.source_files = 'Classes/**/*'
+  s.public_header_files = 'Classes/**/*.h'
+  s.prefix_header_file = 'CUIDemoExamples.pch'
   
   s.resource_bundles = {
-     'CUIDemoExamples' => ['CUIDemoExamples/Assets/Images/*.*','CUIDemoExamples/Assets/Videos/*.*']
+     'CUIDemoExamples' => ['Assets/Images/*.*','Assets/Videos/*.*']
   }
   
   s.dependency 'CUIDemoElements'

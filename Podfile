@@ -3,12 +3,17 @@ platform :ios, '10.0'
 inhibit_all_warnings!
 use_frameworks! :linkage => :static
 
-workspace 'CUIDemoFavorites'
+workspace 'CUIDemoFavorites.xcworkspace'
 project 'Example/CUIDemoFavorites'
 
+#install! 'cocoapods',
+#         :preserve_pod_file_structure => true,
+#         :deterministic_uuids => false,
+#         :generate_multiple_pod_projects => true
+
 target 'CUIDemoFavorites' do
-  pod 'CUIDemoExamples', :path => './', :inhibit_warnings => false
-  pod 'CUIDemoElements', :path => './', :inhibit_warnings => false
+  pod 'CUIDemoExamples', :path => './LocalPods/CUIDemoExamples', :inhibit_warnings => false
+  pod 'CUIDemoElements', :path => './LocalPods/CUIDemoElements', :inhibit_warnings => false
 
 end
 

@@ -20,13 +20,13 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "CUIDemoExamples/Classes/**/*",
-  "public_header_files": "CUIDemoExamples/Classes/**/*.h",
-  "prefix_header_file": "CUIDemoExamples/CUIDemoExamples.pch",
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "prefix_header_file": "CUIDemoExamples.pch",
   "resource_bundles": {
     "CUIDemoExamples": [
-      "CUIDemoExamples/Assets/Images/*.*",
-      "CUIDemoExamples/Assets/Videos/*.*"
+      "Assets/Images/*.*",
+      "Assets/Videos/*.*"
     ]
   },
   "dependencies": {

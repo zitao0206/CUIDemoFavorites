@@ -21,15 +21,15 @@
     "GCC_PREPROCESSOR_DEFINITIONS": "__CUI_MODULE_NAME__=\\\"CUIDemoElements\\\" CUI_MODULE_NAME=@\\\"CUIDemoElements\\\""
   },
   "source_files": [
-    "CUIDemoElements/CUIDemoElements.swift",
-    "CUIDemoElements/Classes/**/*"
+    "CUIDemoElements.swift",
+    "Classes/**/*"
   ],
   "resource_bundles": {
     "CUIDemoElements": [
-      "CUIDemoElements/Assets/**/*"
+      "Assets/**/*"
     ]
   },
-  "prefix_header_file": "CUIDemoElements/CUIDemoElements.pch",
+  "prefix_header_file": "CUIDemoElements.pch",
   "frameworks": [
     "UIKit",
     "Foundation",

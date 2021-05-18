@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '__CUI_MODULE_NAME__=\"CUIDemoElements\" CUI_MODULE_NAME=@\"CUIDemoElements\"'}
 
   s.source_files = [
-    'CUIDemoElements/CUIDemoElements.swift',
-    'CUIDemoElements/Classes/**/*'
+    'CUIDemoElements.swift',
+    'Classes/**/*'
   ]
   
   s.resource_bundles = {
-     'CUIDemoElements' => ['CUIDemoElements/Assets/**/*']
+     'CUIDemoElements' => ['Assets/**/*']
   }
 #  s.public_header_files = 'CUIDemoElements/Classes/**/*.h'
-  s.prefix_header_file = 'CUIDemoElements/CUIDemoElements.pch'
+  s.prefix_header_file = 'CUIDemoElements.pch'
   s.frameworks = 'UIKit', 'Foundation', 'MapKit'
   s.dependency 'Masonry'
   s.dependency 'SVProgressHUD'
