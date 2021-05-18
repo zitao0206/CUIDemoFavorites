@@ -6,10 +6,24 @@ use_frameworks! :linkage => :static
 workspace 'CUIDemoFavorites.xcworkspace'
 project 'Example/CUIDemoFavorites'
 
-#install! 'cocoapods',
-#         :preserve_pod_file_structure => true,
-#         :deterministic_uuids => false,
-#         :generate_multiple_pod_projects => true
+fast_mode = ENV['fast_mode']
+
+if fast_mode
+  
+install! 'cocoapods',
+          :preserve_pod_file_structure => false,
+          :deterministic_uuids => false,
+          :generate_multiple_pod_projects => true,
+#          :skip_pods_project_generation => true,
+          :incremental_installation => true,
+          :lock_pod_sources => false
+else
+
+install! 'cocoapods',
+          :preserve_pod_file_structure => true,
+          :deterministic_uuids => false,
+          :generate_multiple_pod_projects => true
+end
 
 target 'CUIDemoFavorites' do
   pod 'CUIDemoExamples', :path => './LocalPods/CUIDemoExamples', :inhibit_warnings => false
