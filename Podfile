@@ -16,7 +16,8 @@ install! 'cocoapods',
           :generate_multiple_pod_projects => true,
 #          :skip_pods_project_generation => true,
           :incremental_installation => true,
-          :lock_pod_sources => false
+          :lock_pod_sources => false,
+          :disable_input_output_paths => true
 else
 
 install! 'cocoapods',
