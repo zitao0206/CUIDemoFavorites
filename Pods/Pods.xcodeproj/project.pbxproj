@@ -7,83 +7,657 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46EB2E000001D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E000001C0 /* Foundation.framework */; };
-		46EB2E00000240 /* Pods-CUIDemoFavorites-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000230 /* Pods-CUIDemoFavorites-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000290 /* Pods-CUIDemoFavorites-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000280 /* Pods-CUIDemoFavorites-dummy.m */; };
+		46EB2E00001080 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00001070 /* Foundation.framework */; };
+		46EB2E00001090 /* NSArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000170 /* NSArray+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000010A0 /* NSDictionary+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000190 /* NSDictionary+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000010B0 /* NSIndexSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001B0 /* NSIndexSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000010C0 /* NSInvocation+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001D0 /* NSInvocation+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000010D0 /* NSMutableArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001F0 /* NSMutableArray+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000010E0 /* NSMutableDictionary+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000210 /* NSMutableDictionary+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000010F0 /* NSMutableIndexSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000230 /* NSMutableIndexSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001100 /* NSMutableOrderedSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000250 /* NSMutableOrderedSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001110 /* NSMutableSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000270 /* NSMutableSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001120 /* NSObject+BKAssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000290 /* NSObject+BKAssociatedObjects.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001130 /* NSObject+BKBlockExecution.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002B0 /* NSObject+BKBlockExecution.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001140 /* NSObject+BKBlockObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002D0 /* NSObject+BKBlockObservation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001150 /* NSOrderedSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002F0 /* NSOrderedSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001160 /* NSSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000310 /* NSSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001170 /* NSTimer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000330 /* NSTimer+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001180 /* BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000130 /* BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001190 /* BKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000150 /* BKMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000011A0 /* NSArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000160 /* NSArray+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000011B0 /* NSDictionary+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000180 /* NSDictionary+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000011C0 /* NSIndexSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001A0 /* NSIndexSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000011D0 /* NSInvocation+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001C0 /* NSInvocation+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000011E0 /* NSMutableArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001E0 /* NSMutableArray+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000011F0 /* NSMutableDictionary+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000200 /* NSMutableDictionary+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001200 /* NSMutableIndexSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000220 /* NSMutableIndexSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001210 /* NSMutableOrderedSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000240 /* NSMutableOrderedSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001220 /* NSMutableSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000260 /* NSMutableSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001230 /* NSObject+BKAssociatedObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000280 /* NSObject+BKAssociatedObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001240 /* NSObject+BKBlockExecution.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000002A0 /* NSObject+BKBlockExecution.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001250 /* NSObject+BKBlockObservation.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000002C0 /* NSObject+BKBlockObservation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001260 /* NSOrderedSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000002E0 /* NSOrderedSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001270 /* NSSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000300 /* NSSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001280 /* NSTimer+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000320 /* NSTimer+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001290 /* A2BlockInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000360 /* A2BlockInvocation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000012A0 /* A2DynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000380 /* A2DynamicDelegate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000012B0 /* NSObject+A2BlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003A0 /* NSObject+A2BlockDelegate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000012C0 /* NSObject+A2DynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003C0 /* NSObject+A2DynamicDelegate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000012D0 /* NSCache+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003F0 /* NSCache+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000012E0 /* NSURLConnection+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000410 /* NSURLConnection+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000012F0 /* A2BlockInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000350 /* A2BlockInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001300 /* A2DynamicDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000370 /* A2DynamicDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001310 /* NSObject+A2BlockDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000390 /* NSObject+A2BlockDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001320 /* NSObject+A2DynamicDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000003B0 /* NSObject+A2DynamicDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001330 /* NSCache+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000003E0 /* NSCache+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001340 /* NSURLConnection+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000400 /* NSURLConnection+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001350 /* MFMailComposeViewController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000460 /* MFMailComposeViewController+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001360 /* MFMessageComposeViewController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000480 /* MFMessageComposeViewController+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001370 /* BlocksKit+MessageUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000430 /* BlocksKit+MessageUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001380 /* MFMailComposeViewController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000450 /* MFMailComposeViewController+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001390 /* MFMessageComposeViewController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000470 /* MFMessageComposeViewController+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000013A0 /* UIActionSheet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000004D0 /* UIActionSheet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000013B0 /* UIAlertView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000004F0 /* UIAlertView+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000013C0 /* UIBarButtonItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000510 /* UIBarButtonItem+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000013D0 /* UIControl+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000530 /* UIControl+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000013E0 /* UIGestureRecognizer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000550 /* UIGestureRecognizer+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000013F0 /* UIImagePickerController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000570 /* UIImagePickerController+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001400 /* UIPopoverController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000590 /* UIPopoverController+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001410 /* UITextField+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000005B0 /* UITextField+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001420 /* UIView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000005D0 /* UIView+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001430 /* UIWebView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000005F0 /* UIWebView+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001440 /* BlocksKit+UIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000004A0 /* BlocksKit+UIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001450 /* UIActionSheet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000004C0 /* UIActionSheet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001460 /* UIAlertView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000004E0 /* UIAlertView+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001470 /* UIBarButtonItem+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000500 /* UIBarButtonItem+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001480 /* UIControl+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000520 /* UIControl+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001490 /* UIGestureRecognizer+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000540 /* UIGestureRecognizer+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000014A0 /* UIImagePickerController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000560 /* UIImagePickerController+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000014B0 /* UIPopoverController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000580 /* UIPopoverController+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000014C0 /* UITextField+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000005A0 /* UITextField+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000014D0 /* UIView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000005C0 /* UIView+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000014E0 /* UIWebView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000005E0 /* UIWebView+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001540 /* BlocksKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00001530 /* BlocksKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001580 /* BlocksKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00001570 /* BlocksKit-dummy.m */; };
+		46EB2E00001620 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00001070 /* Foundation.framework */; };
+		46EB2E000016B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000EE0 /* Images.xcassets */; };
+		46EB2E000016E0 /* NSBundle+CUIBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000660 /* NSBundle+CUIBundle.m */; };
+		46EB2E000016F0 /* UIColor+CUIExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000680 /* UIColor+CUIExt.m */; };
+		46EB2E00001700 /* UIImage+CUIBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000006A0 /* UIImage+CUIBundle.m */; };
+		46EB2E00001710 /* UIImage+CUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000006C0 /* UIImage+CUIKit.m */; };
+		46EB2E00001720 /* UIView+CUIEasyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000006E0 /* UIView+CUIEasyLayout.m */; };
+		46EB2E00001730 /* CUIFoldLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000740 /* CUIFoldLabel.m */; };
+		46EB2E00001740 /* CUIFoldNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000760 /* CUIFoldNumberView.m */; };
+		46EB2E00001750 /* CUIGravityCollisionItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000790 /* CUIGravityCollisionItemView.m */; };
+		46EB2E00001760 /* CUISenderGravityCollisionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000007B0 /* CUISenderGravityCollisionView.m */; };
+		46EB2E00001770 /* CUIInputAudioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000007E0 /* CUIInputAudioView.m */; };
+		46EB2E00001780 /* CUIProgressCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000830 /* CUIProgressCircleView.m */; };
+		46EB2E00001790 /* CUISpringMotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000860 /* CUISpringMotionView.m */; };
+		46EB2E000017A0 /* CUIMultiLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000008A0 /* CUIMultiLabelView.m */; };
+		46EB2E000017B0 /* CUIDemoElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000600 /* CUIDemoElements.swift */; };
+		46EB2E000017C0 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000007F0 /* RecordButton.swift */; };
+		46EB2E000017D0 /* RecordIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000800 /* RecordIndicator.swift */; };
+		46EB2E000017E0 /* CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000630 /* CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000017F0 /* NSBundle+CUIBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000650 /* NSBundle+CUIBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001800 /* UIColor+CUIExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000670 /* UIColor+CUIExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001810 /* UIImage+CUIBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000690 /* UIImage+CUIBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001820 /* UIImage+CUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000006B0 /* UIImage+CUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001830 /* UIView+CUIEasyLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000006D0 /* UIView+CUIEasyLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001840 /* CUIDemoElements.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000006F0 /* CUIDemoElements.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001850 /* CUIFoldLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000730 /* CUIFoldLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001860 /* CUIFoldNumberView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000750 /* CUIFoldNumberView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001870 /* CUIGravityCollisionItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000780 /* CUIGravityCollisionItemView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001880 /* CUISenderGravityCollisionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000007A0 /* CUISenderGravityCollisionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001890 /* CUIInputAudioView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000007D0 /* CUIInputAudioView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000018A0 /* CUIProgressCircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000820 /* CUIProgressCircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000018B0 /* CUISpringMotionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000850 /* CUISpringMotionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000018C0 /* CUIMultiLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000890 /* CUIMultiLabelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001910 /* CUIDemoElements-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00001900 /* CUIDemoElements-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001950 /* CUIDemoElements-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00001940 /* CUIDemoElements-dummy.m */; };
+		46EB2E000019F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00001070 /* Foundation.framework */; };
+		46EB2E00001A80 /* multilabel.png in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000F00 /* multilabel.png */; };
+		46EB2E00001A90 /* foldnumber.mov in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000F20 /* foldnumber.mov */; };
+		46EB2E00001AA0 /* gravitycollision.mov in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000F30 /* gravitycollision.mov */; };
+		46EB2E00001AB0 /* inputaudio.mov in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000F40 /* inputaudio.mov */; };
+		46EB2E00001AC0 /* progresscircle.mov in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000F50 /* progresscircle.mov */; };
+		46EB2E00001AD0 /* springmotion.mov in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000F60 /* springmotion.mov */; };
+		46EB2E00001B00 /* CUIDemoCellItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000008C0 /* CUIDemoCellItemModel.m */; };
+		46EB2E00001B10 /* CUIDemoViewAnimationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000900 /* CUIDemoViewAnimationData.m */; };
+		46EB2E00001B20 /* CUIDemoViewControlData.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000920 /* CUIDemoViewControlData.m */; };
+		46EB2E00001B30 /* CUIInputAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000960 /* CUIInputAudioViewController.m */; };
+		46EB2E00001B40 /* CUISpringMotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000990 /* CUISpringMotionViewController.m */; };
+		46EB2E00001B50 /* CUIFoldNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000009D0 /* CUIFoldNumberViewController.m */; };
+		46EB2E00001B60 /* CUIGravityCollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000A00 /* CUIGravityCollisionViewController.m */; };
+		46EB2E00001B70 /* CUIProgressCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000A30 /* CUIProgressCircleViewController.m */; };
+		46EB2E00001B80 /* CUIMultiLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000A70 /* CUIMultiLabelViewController.m */; };
+		46EB2E00001B90 /* CUIDemoExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000008E0 /* CUIDemoExamples.swift */; };
+		46EB2E00001BA0 /* CUIDemoCellItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000008B0 /* CUIDemoCellItemModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001BB0 /* CUIDemoExamples.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000008D0 /* CUIDemoExamples.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001BC0 /* CUIDemoViewAnimationData.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000008F0 /* CUIDemoViewAnimationData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001BD0 /* CUIDemoViewControlData.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000910 /* CUIDemoViewControlData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001BE0 /* CUIInputAudioViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000950 /* CUIInputAudioViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001BF0 /* CUISpringMotionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000980 /* CUISpringMotionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001C00 /* CUIFoldNumberViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000009C0 /* CUIFoldNumberViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001C10 /* CUIGravityCollisionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000009F0 /* CUIGravityCollisionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001C20 /* CUIProgressCircleViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000A20 /* CUIProgressCircleViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001C30 /* CUIMultiLabelViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000A60 /* CUIMultiLabelViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001C80 /* CUIDemoExamples-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00001C70 /* CUIDemoExamples-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001CC0 /* CUIDemoExamples-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00001CB0 /* CUIDemoExamples-dummy.m */; };
+		46EB2E00001D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00001070 /* Foundation.framework */; };
+		46EB2E00001D70 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000A90 /* MASCompositeConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001D80 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000AC0 /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001D90 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000AE0 /* MASConstraintMaker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001DA0 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000B00 /* MASLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001DB0 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000B40 /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001DC0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000B60 /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001DD0 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000B80 /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001DE0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000BB0 /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001DF0 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000BD0 /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001E00 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000C00 /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00001E10 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000A80 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001E20 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000AA0 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001E30 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000AB0 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001E40 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000AD0 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001E50 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000AF0 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001E60 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000B10 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001E70 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000B20 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001E80 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000B30 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001E90 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000B50 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001EA0 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000B70 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001EB0 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000B90 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001EC0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000BA0 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001ED0 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000BC0 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001EE0 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000BE0 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001EF0 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000BF0 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001F50 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00001F40 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00001F90 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00001F80 /* Masonry-dummy.m */; };
+		46EB2E00002030 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00001070 /* Foundation.framework */; };
+		46EB2E00002040 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000C20 /* SVIndefiniteAnimatedView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00002050 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000C40 /* SVProgressAnimatedView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00002060 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000C60 /* SVProgressHUD.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00002070 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000C80 /* SVRadialGradientLayer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00002080 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000C10 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00002090 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000C30 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000020A0 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000C50 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000020B0 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000C70 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00002110 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00002100 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00002150 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00002140 /* SVProgressHUD-dummy.m */; };
+		46EB2E000021F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00001070 /* Foundation.framework */; };
+		46EB2E00002200 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000C90 /* Constraint.swift */; };
+		46EB2E00002210 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000CA0 /* ConstraintAttributes.swift */; };
+		46EB2E00002220 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000CB0 /* ConstraintConfig.swift */; };
+		46EB2E00002230 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000CC0 /* ConstraintConstantTarget.swift */; };
+		46EB2E00002240 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000CD0 /* ConstraintDescription.swift */; };
+		46EB2E00002250 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000CE0 /* ConstraintDirectionalInsets.swift */; };
+		46EB2E00002260 /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000CF0 /* ConstraintDirectionalInsetTarget.swift */; };
+		46EB2E00002270 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000D00 /* ConstraintDSL.swift */; };
+		46EB2E00002280 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000D10 /* ConstraintInsets.swift */; };
+		46EB2E00002290 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000D20 /* ConstraintInsetTarget.swift */; };
+		46EB2E000022A0 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000D30 /* ConstraintItem.swift */; };
+		46EB2E000022B0 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000D40 /* ConstraintLayoutGuide+Extensions.swift */; };
+		46EB2E000022C0 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000D50 /* ConstraintLayoutGuide.swift */; };
+		46EB2E000022D0 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000D60 /* ConstraintLayoutGuideDSL.swift */; };
+		46EB2E000022E0 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000D70 /* ConstraintLayoutSupport.swift */; };
+		46EB2E000022F0 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000D80 /* ConstraintLayoutSupportDSL.swift */; };
+		46EB2E00002300 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000D90 /* ConstraintMaker.swift */; };
+		46EB2E00002310 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000DA0 /* ConstraintMakerEditable.swift */; };
+		46EB2E00002320 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000DB0 /* ConstraintMakerExtendable.swift */; };
+		46EB2E00002330 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000DC0 /* ConstraintMakerFinalizable.swift */; };
+		46EB2E00002340 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000DD0 /* ConstraintMakerPriortizable.swift */; };
+		46EB2E00002350 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000DE0 /* ConstraintMakerRelatable.swift */; };
+		46EB2E00002360 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000DF0 /* ConstraintMultiplierTarget.swift */; };
+		46EB2E00002370 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000E00 /* ConstraintOffsetTarget.swift */; };
+		46EB2E00002380 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000E10 /* ConstraintPriority.swift */; };
+		46EB2E00002390 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000E20 /* ConstraintPriorityTarget.swift */; };
+		46EB2E000023A0 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000E30 /* ConstraintRelatableTarget.swift */; };
+		46EB2E000023B0 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000E40 /* ConstraintRelation.swift */; };
+		46EB2E000023C0 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000E50 /* ConstraintView+Extensions.swift */; };
+		46EB2E000023D0 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000E60 /* ConstraintView.swift */; };
+		46EB2E000023E0 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000E70 /* ConstraintViewDSL.swift */; };
+		46EB2E000023F0 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000E80 /* Debugging.swift */; };
+		46EB2E00002400 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000E90 /* LayoutConstraint.swift */; };
+		46EB2E00002410 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000EA0 /* LayoutConstraintItem.swift */; };
+		46EB2E00002420 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000EB0 /* Typealiases.swift */; };
+		46EB2E00002430 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000EC0 /* UILayoutSupport+Extensions.swift */; };
+		46EB2E00002490 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00002480 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000024D0 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000024C0 /* SnapKit-dummy.m */; };
+		46EB2E00002570 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00001070 /* Foundation.framework */; };
+		46EB2E000025E0 /* Pods-CUIDemoFavorites-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000025D0 /* Pods-CUIDemoFavorites-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00002630 /* Pods-CUIDemoFavorites-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00002620 /* Pods-CUIDemoFavorites-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46EB2E000002A0 /* PBXContainerItemProxy */ = {
+		46EB2E00002640 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E000000C0 /* BlocksKit.xcodeproj */;
+			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1AFD6C6DFBE1397861AE959AB2564518;
+			remoteGlobalIDString = B2777DC549C19A310651FBD3C87B71DF;
 			remoteInfo = BlocksKit;
 		};
-		46EB2E000002C0 /* PBXContainerItemProxy */ = {
+		46EB2E00002660 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E000000D0 /* CUIDemoElements.xcodeproj */;
+			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A3CC079D04DA931DD5F52564AB335D98;
+			remoteGlobalIDString = 2FBAD7EE174D6355E2EB97879561D0D6;
 			remoteInfo = CUIDemoElements;
 		};
-		46EB2E000002E0 /* PBXContainerItemProxy */ = {
+		46EB2E00002680 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E000000E0 /* CUIDemoExamples.xcodeproj */;
+			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6625C920346191321C958F36F91F82F9;
+			remoteGlobalIDString = 3E871472620497BDB90A51415731DF46;
 			remoteInfo = CUIDemoExamples;
 		};
-		46EB2E00000300 /* PBXContainerItemProxy */ = {
+		46EB2E000026A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E000000F0 /* Masonry.xcodeproj */;
+			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C0965FF775F51458AD4A8E41ABAB7D1E;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
-		46EB2E00000320 /* PBXContainerItemProxy */ = {
+		46EB2E000026C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000100 /* SVProgressHUD.xcodeproj */;
+			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8A902363E0683102423DADEA0C0D4541;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
 			remoteInfo = SVProgressHUD;
 		};
-		46EB2E00000340 /* PBXContainerItemProxy */ = {
+		46EB2E000026E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000110 /* SnapKit.xcodeproj */;
+			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6913FCF4B90C224E55FE5C821AFB90D2;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
 			remoteInfo = SnapKit;
+		};
+		46EB2E00002700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B7B69FB2FA1FE7A43904C2F8A2EA6D;
+			remoteInfo = "CUIDemoElements-CUIDemoElements";
+		};
+		46EB2E00002720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		46EB2E00002740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+		46EB2E00002760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2777DC549C19A310651FBD3C87B71DF;
+			remoteInfo = BlocksKit;
+		};
+		46EB2E00002780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		46EB2E000027A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 250A819199C136363F65619C43735474;
+			remoteInfo = "CUIDemoExamples-CUIDemoExamples";
+		};
+		46EB2E000027C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBAD7EE174D6355E2EB97879561D0D6;
+			remoteInfo = CUIDemoElements;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073E4CEEB0AD2BC1D253606DA5302435 /* CUIDemoExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CUIDemoExamples.framework; path = CUIDemoExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAC6C5F22B92BFE75A1B0D5F58F75E0 /* CUIDemoElements.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CUIDemoElements.bundle; path = "CUIDemoElements-CUIDemoElements.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8A6D3CF65E2EC91B8F1C717E3D5DC0 /* Pods_CUIDemoFavorites.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CUIDemoFavorites.framework; path = "Pods-CUIDemoFavorites.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46EB2E000000B0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		46EB2E000000C0 /* BlocksKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BlocksKit; path = BlocksKit.xcodeproj; sourceTree = "<group>"; };
-		46EB2E000000D0 /* CUIDemoElements */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CUIDemoElements; path = CUIDemoElements.xcodeproj; sourceTree = "<group>"; };
-		46EB2E000000E0 /* CUIDemoExamples */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CUIDemoExamples; path = CUIDemoExamples.xcodeproj; sourceTree = "<group>"; };
-		46EB2E000000F0 /* Masonry */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Masonry; path = Masonry.xcodeproj; sourceTree = "<group>"; };
-		46EB2E00000100 /* SVProgressHUD */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SVProgressHUD; path = SVProgressHUD.xcodeproj; sourceTree = "<group>"; };
-		46EB2E00000110 /* SnapKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit; path = SnapKit.xcodeproj; sourceTree = "<group>"; };
-		46EB2E000001C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		46EB2E000001F0 /* Pods-CUIDemoFavorites.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CUIDemoFavorites.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000200 /* Pods-CUIDemoFavorites.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CUIDemoFavorites.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000210 /* Pods-CUIDemoFavorites-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CUIDemoFavorites-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000220 /* Pods-CUIDemoFavorites.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CUIDemoFavorites.modulemap"; sourceTree = "<group>"; };
-		46EB2E00000230 /* Pods-CUIDemoFavorites-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CUIDemoFavorites-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00000250 /* Pods-CUIDemoFavorites-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CUIDemoFavorites-resources.sh"; sourceTree = "<group>"; };
-		46EB2E00000260 /* Pods-CUIDemoFavorites-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CUIDemoFavorites-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00000270 /* Pods-CUIDemoFavorites-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CUIDemoFavorites-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00000280 /* Pods-CUIDemoFavorites-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CUIDemoFavorites-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00000110 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E00000130 /* BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlocksKit.h; path = BlocksKit/BlocksKit.h; sourceTree = "<group>"; };
+		46EB2E00000150 /* BKMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BKMacros.h; sourceTree = "<group>"; };
+		46EB2E00000160 /* NSArray+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E00000170 /* NSArray+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000180 /* NSDictionary+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E00000190 /* NSDictionary+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E000001A0 /* NSIndexSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E000001B0 /* NSIndexSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E000001C0 /* NSInvocation+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E000001D0 /* NSInvocation+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E000001E0 /* NSMutableArray+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E000001F0 /* NSMutableArray+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000200 /* NSMutableDictionary+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E00000210 /* NSMutableDictionary+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000220 /* NSMutableIndexSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E00000230 /* NSMutableIndexSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableIndexSet+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000240 /* NSMutableOrderedSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableOrderedSet+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E00000250 /* NSMutableOrderedSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableOrderedSet+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000260 /* NSMutableSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E00000270 /* NSMutableSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000280 /* NSObject+BKAssociatedObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+BKAssociatedObjects.h"; sourceTree = "<group>"; };
+		46EB2E00000290 /* NSObject+BKAssociatedObjects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BKAssociatedObjects.m"; sourceTree = "<group>"; };
+		46EB2E000002A0 /* NSObject+BKBlockExecution.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+BKBlockExecution.h"; sourceTree = "<group>"; };
+		46EB2E000002B0 /* NSObject+BKBlockExecution.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BKBlockExecution.m"; sourceTree = "<group>"; };
+		46EB2E000002C0 /* NSObject+BKBlockObservation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+BKBlockObservation.h"; sourceTree = "<group>"; };
+		46EB2E000002D0 /* NSObject+BKBlockObservation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BKBlockObservation.m"; sourceTree = "<group>"; };
+		46EB2E000002E0 /* NSOrderedSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSOrderedSet+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E000002F0 /* NSOrderedSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSOrderedSet+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000300 /* NSSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSet+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E00000310 /* NSSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSSet+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000320 /* NSTimer+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E00000330 /* NSTimer+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000350 /* A2BlockInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A2BlockInvocation.h; path = BlocksKit/DynamicDelegate/A2BlockInvocation.h; sourceTree = "<group>"; };
+		46EB2E00000360 /* A2BlockInvocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A2BlockInvocation.m; path = BlocksKit/DynamicDelegate/A2BlockInvocation.m; sourceTree = "<group>"; };
+		46EB2E00000370 /* A2DynamicDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A2DynamicDelegate.h; path = BlocksKit/DynamicDelegate/A2DynamicDelegate.h; sourceTree = "<group>"; };
+		46EB2E00000380 /* A2DynamicDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A2DynamicDelegate.m; path = BlocksKit/DynamicDelegate/A2DynamicDelegate.m; sourceTree = "<group>"; };
+		46EB2E00000390 /* NSObject+A2BlockDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+A2BlockDelegate.h"; path = "BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.h"; sourceTree = "<group>"; };
+		46EB2E000003A0 /* NSObject+A2BlockDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+A2BlockDelegate.m"; path = "BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.m"; sourceTree = "<group>"; };
+		46EB2E000003B0 /* NSObject+A2DynamicDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+A2DynamicDelegate.h"; path = "BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.h"; sourceTree = "<group>"; };
+		46EB2E000003C0 /* NSObject+A2DynamicDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+A2DynamicDelegate.m"; path = "BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.m"; sourceTree = "<group>"; };
+		46EB2E000003E0 /* NSCache+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSCache+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E000003F0 /* NSCache+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSCache+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000400 /* NSURLConnection+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E00000410 /* NSURLConnection+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000430 /* BlocksKit+MessageUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BlocksKit+MessageUI.h"; path = "BlocksKit/BlocksKit+MessageUI.h"; sourceTree = "<group>"; };
+		46EB2E00000450 /* MFMailComposeViewController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MFMailComposeViewController+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E00000460 /* MFMailComposeViewController+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MFMailComposeViewController+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000470 /* MFMessageComposeViewController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MFMessageComposeViewController+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E00000480 /* MFMessageComposeViewController+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MFMessageComposeViewController+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E000004A0 /* BlocksKit+UIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BlocksKit+UIKit.h"; path = "BlocksKit/BlocksKit+UIKit.h"; sourceTree = "<group>"; };
+		46EB2E000004C0 /* UIActionSheet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E000004D0 /* UIActionSheet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E000004E0 /* UIAlertView+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E000004F0 /* UIAlertView+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000500 /* UIBarButtonItem+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E00000510 /* UIBarButtonItem+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000520 /* UIControl+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E00000530 /* UIControl+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000540 /* UIGestureRecognizer+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E00000550 /* UIGestureRecognizer+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000560 /* UIImagePickerController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E00000570 /* UIImagePickerController+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000580 /* UIPopoverController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E00000590 /* UIPopoverController+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E000005A0 /* UITextField+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E000005B0 /* UITextField+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E000005C0 /* UIView+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E000005D0 /* UIView+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E000005E0 /* UIWebView+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWebView+BlocksKit.h"; sourceTree = "<group>"; };
+		46EB2E000005F0 /* UIWebView+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+BlocksKit.m"; sourceTree = "<group>"; };
+		46EB2E00000600 /* CUIDemoElements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CUIDemoElements.swift; sourceTree = "<group>"; };
+		46EB2E00000630 /* CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CommonKit.h; sourceTree = "<group>"; };
+		46EB2E00000650 /* NSBundle+CUIBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+CUIBundle.h"; sourceTree = "<group>"; };
+		46EB2E00000660 /* NSBundle+CUIBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+CUIBundle.m"; sourceTree = "<group>"; };
+		46EB2E00000670 /* UIColor+CUIExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+CUIExt.h"; sourceTree = "<group>"; };
+		46EB2E00000680 /* UIColor+CUIExt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CUIExt.m"; sourceTree = "<group>"; };
+		46EB2E00000690 /* UIImage+CUIBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CUIBundle.h"; sourceTree = "<group>"; };
+		46EB2E000006A0 /* UIImage+CUIBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CUIBundle.m"; sourceTree = "<group>"; };
+		46EB2E000006B0 /* UIImage+CUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CUIKit.h"; sourceTree = "<group>"; };
+		46EB2E000006C0 /* UIImage+CUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CUIKit.m"; sourceTree = "<group>"; };
+		46EB2E000006D0 /* UIView+CUIEasyLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CUIEasyLayout.h"; sourceTree = "<group>"; };
+		46EB2E000006E0 /* UIView+CUIEasyLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CUIEasyLayout.m"; sourceTree = "<group>"; };
+		46EB2E000006F0 /* CUIDemoElements.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIDemoElements.h; sourceTree = "<group>"; };
+		46EB2E00000730 /* CUIFoldLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIFoldLabel.h; sourceTree = "<group>"; };
+		46EB2E00000740 /* CUIFoldLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIFoldLabel.m; sourceTree = "<group>"; };
+		46EB2E00000750 /* CUIFoldNumberView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIFoldNumberView.h; sourceTree = "<group>"; };
+		46EB2E00000760 /* CUIFoldNumberView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIFoldNumberView.m; sourceTree = "<group>"; };
+		46EB2E00000780 /* CUIGravityCollisionItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIGravityCollisionItemView.h; sourceTree = "<group>"; };
+		46EB2E00000790 /* CUIGravityCollisionItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIGravityCollisionItemView.m; sourceTree = "<group>"; };
+		46EB2E000007A0 /* CUISenderGravityCollisionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUISenderGravityCollisionView.h; sourceTree = "<group>"; };
+		46EB2E000007B0 /* CUISenderGravityCollisionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUISenderGravityCollisionView.m; sourceTree = "<group>"; };
+		46EB2E000007D0 /* CUIInputAudioView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIInputAudioView.h; sourceTree = "<group>"; };
+		46EB2E000007E0 /* CUIInputAudioView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIInputAudioView.m; sourceTree = "<group>"; };
+		46EB2E000007F0 /* RecordButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
+		46EB2E00000800 /* RecordIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecordIndicator.swift; sourceTree = "<group>"; };
+		46EB2E00000820 /* CUIProgressCircleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIProgressCircleView.h; sourceTree = "<group>"; };
+		46EB2E00000830 /* CUIProgressCircleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIProgressCircleView.m; sourceTree = "<group>"; };
+		46EB2E00000850 /* CUISpringMotionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUISpringMotionView.h; sourceTree = "<group>"; };
+		46EB2E00000860 /* CUISpringMotionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUISpringMotionView.m; sourceTree = "<group>"; };
+		46EB2E00000890 /* CUIMultiLabelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIMultiLabelView.h; sourceTree = "<group>"; };
+		46EB2E000008A0 /* CUIMultiLabelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIMultiLabelView.m; sourceTree = "<group>"; };
+		46EB2E000008B0 /* CUIDemoCellItemModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CUIDemoCellItemModel.h; path = Classes/CUIDemoCellItemModel.h; sourceTree = "<group>"; };
+		46EB2E000008C0 /* CUIDemoCellItemModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CUIDemoCellItemModel.m; path = Classes/CUIDemoCellItemModel.m; sourceTree = "<group>"; };
+		46EB2E000008D0 /* CUIDemoExamples.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CUIDemoExamples.h; path = Classes/CUIDemoExamples.h; sourceTree = "<group>"; };
+		46EB2E000008E0 /* CUIDemoExamples.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CUIDemoExamples.swift; path = Classes/CUIDemoExamples.swift; sourceTree = "<group>"; };
+		46EB2E000008F0 /* CUIDemoViewAnimationData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CUIDemoViewAnimationData.h; path = Classes/CUIDemoViewAnimationData.h; sourceTree = "<group>"; };
+		46EB2E00000900 /* CUIDemoViewAnimationData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CUIDemoViewAnimationData.m; path = Classes/CUIDemoViewAnimationData.m; sourceTree = "<group>"; };
+		46EB2E00000910 /* CUIDemoViewControlData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CUIDemoViewControlData.h; path = Classes/CUIDemoViewControlData.h; sourceTree = "<group>"; };
+		46EB2E00000920 /* CUIDemoViewControlData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CUIDemoViewControlData.m; path = Classes/CUIDemoViewControlData.m; sourceTree = "<group>"; };
+		46EB2E00000950 /* CUIInputAudioViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIInputAudioViewController.h; sourceTree = "<group>"; };
+		46EB2E00000960 /* CUIInputAudioViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIInputAudioViewController.m; sourceTree = "<group>"; };
+		46EB2E00000980 /* CUISpringMotionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUISpringMotionViewController.h; sourceTree = "<group>"; };
+		46EB2E00000990 /* CUISpringMotionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUISpringMotionViewController.m; sourceTree = "<group>"; };
+		46EB2E000009C0 /* CUIFoldNumberViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIFoldNumberViewController.h; sourceTree = "<group>"; };
+		46EB2E000009D0 /* CUIFoldNumberViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIFoldNumberViewController.m; sourceTree = "<group>"; };
+		46EB2E000009F0 /* CUIGravityCollisionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIGravityCollisionViewController.h; sourceTree = "<group>"; };
+		46EB2E00000A00 /* CUIGravityCollisionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIGravityCollisionViewController.m; sourceTree = "<group>"; };
+		46EB2E00000A20 /* CUIProgressCircleViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIProgressCircleViewController.h; sourceTree = "<group>"; };
+		46EB2E00000A30 /* CUIProgressCircleViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIProgressCircleViewController.m; sourceTree = "<group>"; };
+		46EB2E00000A60 /* CUIMultiLabelViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIMultiLabelViewController.h; sourceTree = "<group>"; };
+		46EB2E00000A70 /* CUIMultiLabelViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CUIMultiLabelViewController.m; sourceTree = "<group>"; };
+		46EB2E00000A80 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		46EB2E00000A90 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		46EB2E00000AA0 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		46EB2E00000AB0 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		46EB2E00000AC0 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		46EB2E00000AD0 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		46EB2E00000AE0 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		46EB2E00000AF0 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		46EB2E00000B00 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		46EB2E00000B10 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		46EB2E00000B20 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		46EB2E00000B30 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		46EB2E00000B40 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		46EB2E00000B50 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		46EB2E00000B60 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		46EB2E00000B70 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		46EB2E00000B80 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		46EB2E00000B90 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		46EB2E00000BA0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		46EB2E00000BB0 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		46EB2E00000BC0 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		46EB2E00000BD0 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		46EB2E00000BE0 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		46EB2E00000BF0 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		46EB2E00000C00 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		46EB2E00000C10 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		46EB2E00000C20 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		46EB2E00000C30 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		46EB2E00000C40 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		46EB2E00000C50 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		46EB2E00000C60 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		46EB2E00000C70 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		46EB2E00000C80 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		46EB2E00000C90 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		46EB2E00000CA0 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		46EB2E00000CB0 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		46EB2E00000CC0 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		46EB2E00000CD0 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		46EB2E00000CE0 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Source/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
+		46EB2E00000CF0 /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Source/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
+		46EB2E00000D00 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		46EB2E00000D10 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		46EB2E00000D20 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		46EB2E00000D30 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		46EB2E00000D40 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		46EB2E00000D50 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		46EB2E00000D60 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		46EB2E00000D70 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		46EB2E00000D80 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		46EB2E00000D90 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		46EB2E00000DA0 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		46EB2E00000DB0 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		46EB2E00000DC0 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		46EB2E00000DD0 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		46EB2E00000DE0 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		46EB2E00000DF0 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		46EB2E00000E00 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		46EB2E00000E10 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		46EB2E00000E20 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		46EB2E00000E30 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		46EB2E00000E40 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		46EB2E00000E50 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		46EB2E00000E60 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		46EB2E00000E70 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		46EB2E00000E80 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		46EB2E00000E90 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		46EB2E00000EA0 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		46EB2E00000EB0 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		46EB2E00000EC0 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		46EB2E00000ED0 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		46EB2E00000EE0 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Assets/Images.xcassets; sourceTree = "<group>"; };
+		46EB2E00000F00 /* multilabel.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = multilabel.png; sourceTree = "<group>"; };
+		46EB2E00000F20 /* foldnumber.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; path = foldnumber.mov; sourceTree = "<group>"; };
+		46EB2E00000F30 /* gravitycollision.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; path = gravitycollision.mov; sourceTree = "<group>"; };
+		46EB2E00000F40 /* inputaudio.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; path = inputaudio.mov; sourceTree = "<group>"; };
+		46EB2E00000F50 /* progresscircle.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; path = progresscircle.mov; sourceTree = "<group>"; };
+		46EB2E00000F60 /* springmotion.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; path = springmotion.mov; sourceTree = "<group>"; };
+		46EB2E00000F80 /* CUIDemoElements.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIDemoElements.pch; sourceTree = "<group>"; };
+		46EB2E00000F90 /* CUIDemoElements.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CUIDemoElements.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E00000FB0 /* CUIDemoExamples.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CUIDemoExamples.pch; sourceTree = "<group>"; };
+		46EB2E00000FC0 /* CUIDemoExamples.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CUIDemoExamples.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E00001070 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46EB2E00001500 /* BlocksKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlocksKit.debug.xcconfig; sourceTree = "<group>"; };
+		46EB2E00001510 /* BlocksKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlocksKit.release.xcconfig; sourceTree = "<group>"; };
+		46EB2E00001520 /* BlocksKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlocksKit.modulemap; sourceTree = "<group>"; };
+		46EB2E00001530 /* BlocksKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlocksKit-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00001550 /* BlocksKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BlocksKit-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00001560 /* BlocksKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlocksKit-prefix.pch"; sourceTree = "<group>"; };
+		46EB2E00001570 /* BlocksKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlocksKit-dummy.m"; sourceTree = "<group>"; };
+		46EB2E000016D0 /* ResourceBundle-CUIDemoElements-CUIDemoElements-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CUIDemoElements-CUIDemoElements-Info.plist"; sourceTree = "<group>"; };
+		46EB2E000018D0 /* CUIDemoElements.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CUIDemoElements.debug.xcconfig; sourceTree = "<group>"; };
+		46EB2E000018E0 /* CUIDemoElements.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CUIDemoElements.release.xcconfig; sourceTree = "<group>"; };
+		46EB2E000018F0 /* CUIDemoElements.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CUIDemoElements.modulemap; sourceTree = "<group>"; };
+		46EB2E00001900 /* CUIDemoElements-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CUIDemoElements-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00001920 /* CUIDemoElements-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CUIDemoElements-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00001930 /* CUIDemoElements-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CUIDemoElements-prefix.pch"; sourceTree = "<group>"; };
+		46EB2E00001940 /* CUIDemoElements-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CUIDemoElements-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00001AF0 /* ResourceBundle-CUIDemoExamples-CUIDemoExamples-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CUIDemoExamples-CUIDemoExamples-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00001C40 /* CUIDemoExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CUIDemoExamples.debug.xcconfig; sourceTree = "<group>"; };
+		46EB2E00001C50 /* CUIDemoExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CUIDemoExamples.release.xcconfig; sourceTree = "<group>"; };
+		46EB2E00001C60 /* CUIDemoExamples.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CUIDemoExamples.modulemap; sourceTree = "<group>"; };
+		46EB2E00001C70 /* CUIDemoExamples-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CUIDemoExamples-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00001C90 /* CUIDemoExamples-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CUIDemoExamples-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00001CA0 /* CUIDemoExamples-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CUIDemoExamples-prefix.pch"; sourceTree = "<group>"; };
+		46EB2E00001CB0 /* CUIDemoExamples-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CUIDemoExamples-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00001F10 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		46EB2E00001F20 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		46EB2E00001F30 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		46EB2E00001F40 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00001F60 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00001F70 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		46EB2E00001F80 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		46EB2E000020D0 /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		46EB2E000020E0 /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		46EB2E000020F0 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		46EB2E00002100 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00002120 /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00002130 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		46EB2E00002140 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00002450 /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
+		46EB2E00002460 /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
+		46EB2E00002470 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		46EB2E00002480 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E000024A0 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		46EB2E000024B0 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		46EB2E000024C0 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00002590 /* Pods-CUIDemoFavorites.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CUIDemoFavorites.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000025A0 /* Pods-CUIDemoFavorites.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CUIDemoFavorites.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000025B0 /* Pods-CUIDemoFavorites-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CUIDemoFavorites-Info.plist"; sourceTree = "<group>"; };
+		46EB2E000025C0 /* Pods-CUIDemoFavorites.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CUIDemoFavorites.modulemap"; sourceTree = "<group>"; };
+		46EB2E000025D0 /* Pods-CUIDemoFavorites-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CUIDemoFavorites-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E000025F0 /* Pods-CUIDemoFavorites-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CUIDemoFavorites-resources.sh"; sourceTree = "<group>"; };
+		46EB2E00002600 /* Pods-CUIDemoFavorites-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CUIDemoFavorites-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00002610 /* Pods-CUIDemoFavorites-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CUIDemoFavorites-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00002620 /* Pods-CUIDemoFavorites-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CUIDemoFavorites-dummy.m"; sourceTree = "<group>"; };
+		6BC72AE41F821AB8F75322D25724FEB7 /* CUIDemoElements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CUIDemoElements.framework; path = CUIDemoElements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F70BF603CE98579EE97E286801E741E /* BlocksKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BlocksKit.framework; path = BlocksKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C43AFBB0DD54BCA8F9E327025723F5B /* CUIDemoExamples.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CUIDemoExamples.bundle; path = "CUIDemoExamples-CUIDemoExamples.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		46EB2E00000190 /* Frameworks */ = {
+		46EB2E00001040 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000001D0 /* Foundation.framework in Frameworks */,
+				46EB2E00001080 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00001600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00001620 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00001690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E000019D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E000019F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00001A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00001D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00001D60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00002010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00002030 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E000021D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E000021F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00002550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00002570 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +667,7 @@
 		46EB2E00000010 = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000000B0 /* Podfile */,
+				46EB2E00000110 /* Podfile */,
 				46EB2E00000090 /* Development Pods */,
 				46EB2E00000060 /* Frameworks */,
 				46EB2E00000080 /* Pods */,
@@ -105,7 +679,15 @@
 		46EB2E00000020 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				6F70BF603CE98579EE97E286801E741E /* BlocksKit.framework */,
+				2AAC6C5F22B92BFE75A1B0D5F58F75E0 /* CUIDemoElements.bundle */,
+				6BC72AE41F821AB8F75322D25724FEB7 /* CUIDemoElements.framework */,
+				7C43AFBB0DD54BCA8F9E327025723F5B /* CUIDemoExamples.bundle */,
+				073E4CEEB0AD2BC1D253606DA5302435 /* CUIDemoExamples.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
 				2E8A6D3CF65E2EC91B8F1C717E3D5DC0 /* Pods_CUIDemoFavorites.framework */,
+				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
+				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,7 +695,7 @@
 		46EB2E00000060 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000001B0 /* iOS */,
+				46EB2E00001060 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,7 +703,7 @@
 		46EB2E00000070 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000001E0 /* Pods-CUIDemoFavorites */,
+				46EB2E00002580 /* Pods-CUIDemoFavorites */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -129,10 +711,10 @@
 		46EB2E00000080 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000000C0 /* BlocksKit */,
-				46EB2E000000F0 /* Masonry */,
-				46EB2E00000110 /* SnapKit */,
-				46EB2E00000100 /* SVProgressHUD */,
+				46EB2E000000B0 /* BlocksKit */,
+				46EB2E000000E0 /* Masonry */,
+				46EB2E00000100 /* SnapKit */,
+				46EB2E000000F0 /* SVProgressHUD */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -140,32 +722,671 @@
 		46EB2E00000090 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000000D0 /* CUIDemoElements */,
-				46EB2E000000E0 /* CUIDemoExamples */,
+				46EB2E000000C0 /* CUIDemoElements */,
+				46EB2E000000D0 /* CUIDemoExamples */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		46EB2E000001B0 /* iOS */ = {
+		46EB2E000000B0 /* BlocksKit */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000001C0 /* Foundation.framework */,
+				46EB2E00000120 /* Core */,
+				46EB2E00000340 /* DynamicDelegate */,
+				46EB2E00000420 /* MessageUI */,
+				46EB2E000014F0 /* Support Files */,
+				46EB2E00000490 /* UIKit */,
+			);
+			name = BlocksKit;
+			path = BlocksKit;
+			sourceTree = "<group>";
+		};
+		46EB2E000000C0 /* CUIDemoElements */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000600 /* CUIDemoElements.swift */,
+				46EB2E00000EE0 /* Images.xcassets */,
+				46EB2E00000610 /* Classes */,
+				46EB2E00000F70 /* Pod */,
+				46EB2E000016C0 /* Support Files */,
+			);
+			name = CUIDemoElements;
+			path = ../LocalPods/CUIDemoElements;
+			sourceTree = "<group>";
+		};
+		46EB2E000000D0 /* CUIDemoExamples */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000008B0 /* CUIDemoCellItemModel.h */,
+				46EB2E000008C0 /* CUIDemoCellItemModel.m */,
+				46EB2E000008D0 /* CUIDemoExamples.h */,
+				46EB2E000008E0 /* CUIDemoExamples.swift */,
+				46EB2E000008F0 /* CUIDemoViewAnimationData.h */,
+				46EB2E00000900 /* CUIDemoViewAnimationData.m */,
+				46EB2E00000910 /* CUIDemoViewControlData.h */,
+				46EB2E00000920 /* CUIDemoViewControlData.m */,
+				46EB2E00000EF0 /* Images */,
+				46EB2E00000FA0 /* Pod */,
+				46EB2E00001AE0 /* Support Files */,
+				46EB2E00000F10 /* Videos */,
+				46EB2E00000930 /* ViewControllers */,
+			);
+			name = CUIDemoExamples;
+			path = ../LocalPods/CUIDemoExamples;
+			sourceTree = "<group>";
+		};
+		46EB2E000000E0 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000A80 /* MASCompositeConstraint.h */,
+				46EB2E00000A90 /* MASCompositeConstraint.m */,
+				46EB2E00000AB0 /* MASConstraint.h */,
+				46EB2E00000AC0 /* MASConstraint.m */,
+				46EB2E00000AA0 /* MASConstraint+Private.h */,
+				46EB2E00000AD0 /* MASConstraintMaker.h */,
+				46EB2E00000AE0 /* MASConstraintMaker.m */,
+				46EB2E00000AF0 /* MASLayoutConstraint.h */,
+				46EB2E00000B00 /* MASLayoutConstraint.m */,
+				46EB2E00000B10 /* Masonry.h */,
+				46EB2E00000B20 /* MASUtilities.h */,
+				46EB2E00000B30 /* MASViewAttribute.h */,
+				46EB2E00000B40 /* MASViewAttribute.m */,
+				46EB2E00000B50 /* MASViewConstraint.h */,
+				46EB2E00000B60 /* MASViewConstraint.m */,
+				46EB2E00000B70 /* NSArray+MASAdditions.h */,
+				46EB2E00000B80 /* NSArray+MASAdditions.m */,
+				46EB2E00000B90 /* NSArray+MASShorthandAdditions.h */,
+				46EB2E00000BA0 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				46EB2E00000BB0 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				46EB2E00000BC0 /* View+MASAdditions.h */,
+				46EB2E00000BD0 /* View+MASAdditions.m */,
+				46EB2E00000BE0 /* View+MASShorthandAdditions.h */,
+				46EB2E00000BF0 /* ViewController+MASAdditions.h */,
+				46EB2E00000C00 /* ViewController+MASAdditions.m */,
+				46EB2E00001F00 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		46EB2E000000F0 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000C10 /* SVIndefiniteAnimatedView.h */,
+				46EB2E00000C20 /* SVIndefiniteAnimatedView.m */,
+				46EB2E00000C30 /* SVProgressAnimatedView.h */,
+				46EB2E00000C40 /* SVProgressAnimatedView.m */,
+				46EB2E00000ED0 /* SVProgressHUD.bundle */,
+				46EB2E00000C50 /* SVProgressHUD.h */,
+				46EB2E00000C60 /* SVProgressHUD.m */,
+				46EB2E00000C70 /* SVRadialGradientLayer.h */,
+				46EB2E00000C80 /* SVRadialGradientLayer.m */,
+				46EB2E000020C0 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		46EB2E00000100 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000C90 /* Constraint.swift */,
+				46EB2E00000CA0 /* ConstraintAttributes.swift */,
+				46EB2E00000CB0 /* ConstraintConfig.swift */,
+				46EB2E00000CC0 /* ConstraintConstantTarget.swift */,
+				46EB2E00000CD0 /* ConstraintDescription.swift */,
+				46EB2E00000CE0 /* ConstraintDirectionalInsets.swift */,
+				46EB2E00000CF0 /* ConstraintDirectionalInsetTarget.swift */,
+				46EB2E00000D00 /* ConstraintDSL.swift */,
+				46EB2E00000D10 /* ConstraintInsets.swift */,
+				46EB2E00000D20 /* ConstraintInsetTarget.swift */,
+				46EB2E00000D30 /* ConstraintItem.swift */,
+				46EB2E00000D50 /* ConstraintLayoutGuide.swift */,
+				46EB2E00000D40 /* ConstraintLayoutGuide+Extensions.swift */,
+				46EB2E00000D60 /* ConstraintLayoutGuideDSL.swift */,
+				46EB2E00000D70 /* ConstraintLayoutSupport.swift */,
+				46EB2E00000D80 /* ConstraintLayoutSupportDSL.swift */,
+				46EB2E00000D90 /* ConstraintMaker.swift */,
+				46EB2E00000DA0 /* ConstraintMakerEditable.swift */,
+				46EB2E00000DB0 /* ConstraintMakerExtendable.swift */,
+				46EB2E00000DC0 /* ConstraintMakerFinalizable.swift */,
+				46EB2E00000DD0 /* ConstraintMakerPriortizable.swift */,
+				46EB2E00000DE0 /* ConstraintMakerRelatable.swift */,
+				46EB2E00000DF0 /* ConstraintMultiplierTarget.swift */,
+				46EB2E00000E00 /* ConstraintOffsetTarget.swift */,
+				46EB2E00000E10 /* ConstraintPriority.swift */,
+				46EB2E00000E20 /* ConstraintPriorityTarget.swift */,
+				46EB2E00000E30 /* ConstraintRelatableTarget.swift */,
+				46EB2E00000E40 /* ConstraintRelation.swift */,
+				46EB2E00000E60 /* ConstraintView.swift */,
+				46EB2E00000E50 /* ConstraintView+Extensions.swift */,
+				46EB2E00000E70 /* ConstraintViewDSL.swift */,
+				46EB2E00000E80 /* Debugging.swift */,
+				46EB2E00000E90 /* LayoutConstraint.swift */,
+				46EB2E00000EA0 /* LayoutConstraintItem.swift */,
+				46EB2E00000EB0 /* Typealiases.swift */,
+				46EB2E00000EC0 /* UILayoutSupport+Extensions.swift */,
+				46EB2E00002440 /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		46EB2E00000120 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000130 /* BlocksKit.h */,
+				46EB2E00000140 /* Core */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		46EB2E00000140 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000150 /* BKMacros.h */,
+				46EB2E00000160 /* NSArray+BlocksKit.h */,
+				46EB2E00000170 /* NSArray+BlocksKit.m */,
+				46EB2E00000180 /* NSDictionary+BlocksKit.h */,
+				46EB2E00000190 /* NSDictionary+BlocksKit.m */,
+				46EB2E000001A0 /* NSIndexSet+BlocksKit.h */,
+				46EB2E000001B0 /* NSIndexSet+BlocksKit.m */,
+				46EB2E000001C0 /* NSInvocation+BlocksKit.h */,
+				46EB2E000001D0 /* NSInvocation+BlocksKit.m */,
+				46EB2E000001E0 /* NSMutableArray+BlocksKit.h */,
+				46EB2E000001F0 /* NSMutableArray+BlocksKit.m */,
+				46EB2E00000200 /* NSMutableDictionary+BlocksKit.h */,
+				46EB2E00000210 /* NSMutableDictionary+BlocksKit.m */,
+				46EB2E00000220 /* NSMutableIndexSet+BlocksKit.h */,
+				46EB2E00000230 /* NSMutableIndexSet+BlocksKit.m */,
+				46EB2E00000240 /* NSMutableOrderedSet+BlocksKit.h */,
+				46EB2E00000250 /* NSMutableOrderedSet+BlocksKit.m */,
+				46EB2E00000260 /* NSMutableSet+BlocksKit.h */,
+				46EB2E00000270 /* NSMutableSet+BlocksKit.m */,
+				46EB2E00000280 /* NSObject+BKAssociatedObjects.h */,
+				46EB2E00000290 /* NSObject+BKAssociatedObjects.m */,
+				46EB2E000002A0 /* NSObject+BKBlockExecution.h */,
+				46EB2E000002B0 /* NSObject+BKBlockExecution.m */,
+				46EB2E000002C0 /* NSObject+BKBlockObservation.h */,
+				46EB2E000002D0 /* NSObject+BKBlockObservation.m */,
+				46EB2E000002E0 /* NSOrderedSet+BlocksKit.h */,
+				46EB2E000002F0 /* NSOrderedSet+BlocksKit.m */,
+				46EB2E00000300 /* NSSet+BlocksKit.h */,
+				46EB2E00000310 /* NSSet+BlocksKit.m */,
+				46EB2E00000320 /* NSTimer+BlocksKit.h */,
+				46EB2E00000330 /* NSTimer+BlocksKit.m */,
+			);
+			name = Core;
+			path = BlocksKit/Core;
+			sourceTree = "<group>";
+		};
+		46EB2E00000340 /* DynamicDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000350 /* A2BlockInvocation.h */,
+				46EB2E00000360 /* A2BlockInvocation.m */,
+				46EB2E00000370 /* A2DynamicDelegate.h */,
+				46EB2E00000380 /* A2DynamicDelegate.m */,
+				46EB2E00000390 /* NSObject+A2BlockDelegate.h */,
+				46EB2E000003A0 /* NSObject+A2BlockDelegate.m */,
+				46EB2E000003B0 /* NSObject+A2DynamicDelegate.h */,
+				46EB2E000003C0 /* NSObject+A2DynamicDelegate.m */,
+				46EB2E000003D0 /* Foundation */,
+			);
+			name = DynamicDelegate;
+			sourceTree = "<group>";
+		};
+		46EB2E000003D0 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000003E0 /* NSCache+BlocksKit.h */,
+				46EB2E000003F0 /* NSCache+BlocksKit.m */,
+				46EB2E00000400 /* NSURLConnection+BlocksKit.h */,
+				46EB2E00000410 /* NSURLConnection+BlocksKit.m */,
+			);
+			name = Foundation;
+			path = BlocksKit/DynamicDelegate/Foundation;
+			sourceTree = "<group>";
+		};
+		46EB2E00000420 /* MessageUI */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000430 /* BlocksKit+MessageUI.h */,
+				46EB2E00000440 /* MessageUI */,
+			);
+			name = MessageUI;
+			sourceTree = "<group>";
+		};
+		46EB2E00000440 /* MessageUI */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000450 /* MFMailComposeViewController+BlocksKit.h */,
+				46EB2E00000460 /* MFMailComposeViewController+BlocksKit.m */,
+				46EB2E00000470 /* MFMessageComposeViewController+BlocksKit.h */,
+				46EB2E00000480 /* MFMessageComposeViewController+BlocksKit.m */,
+			);
+			name = MessageUI;
+			path = BlocksKit/MessageUI;
+			sourceTree = "<group>";
+		};
+		46EB2E00000490 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000004A0 /* BlocksKit+UIKit.h */,
+				46EB2E000004B0 /* UIKit */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		46EB2E000004B0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000004C0 /* UIActionSheet+BlocksKit.h */,
+				46EB2E000004D0 /* UIActionSheet+BlocksKit.m */,
+				46EB2E000004E0 /* UIAlertView+BlocksKit.h */,
+				46EB2E000004F0 /* UIAlertView+BlocksKit.m */,
+				46EB2E00000500 /* UIBarButtonItem+BlocksKit.h */,
+				46EB2E00000510 /* UIBarButtonItem+BlocksKit.m */,
+				46EB2E00000520 /* UIControl+BlocksKit.h */,
+				46EB2E00000530 /* UIControl+BlocksKit.m */,
+				46EB2E00000540 /* UIGestureRecognizer+BlocksKit.h */,
+				46EB2E00000550 /* UIGestureRecognizer+BlocksKit.m */,
+				46EB2E00000560 /* UIImagePickerController+BlocksKit.h */,
+				46EB2E00000570 /* UIImagePickerController+BlocksKit.m */,
+				46EB2E00000580 /* UIPopoverController+BlocksKit.h */,
+				46EB2E00000590 /* UIPopoverController+BlocksKit.m */,
+				46EB2E000005A0 /* UITextField+BlocksKit.h */,
+				46EB2E000005B0 /* UITextField+BlocksKit.m */,
+				46EB2E000005C0 /* UIView+BlocksKit.h */,
+				46EB2E000005D0 /* UIView+BlocksKit.m */,
+				46EB2E000005E0 /* UIWebView+BlocksKit.h */,
+				46EB2E000005F0 /* UIWebView+BlocksKit.m */,
+			);
+			name = UIKit;
+			path = BlocksKit/UIKit;
+			sourceTree = "<group>";
+		};
+		46EB2E00000610 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000006F0 /* CUIDemoElements.h */,
+				46EB2E00000620 /* Common */,
+				46EB2E00000700 /* Views */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		46EB2E00000620 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000630 /* CommonKit.h */,
+				46EB2E00000640 /* Extension */,
+			);
+			name = Common;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		46EB2E00000640 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000650 /* NSBundle+CUIBundle.h */,
+				46EB2E00000660 /* NSBundle+CUIBundle.m */,
+				46EB2E00000670 /* UIColor+CUIExt.h */,
+				46EB2E00000680 /* UIColor+CUIExt.m */,
+				46EB2E00000690 /* UIImage+CUIBundle.h */,
+				46EB2E000006A0 /* UIImage+CUIBundle.m */,
+				46EB2E000006B0 /* UIImage+CUIKit.h */,
+				46EB2E000006C0 /* UIImage+CUIKit.m */,
+				46EB2E000006D0 /* UIView+CUIEasyLayout.h */,
+				46EB2E000006E0 /* UIView+CUIEasyLayout.m */,
+			);
+			name = Extension;
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		46EB2E00000700 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000710 /* ViewAnimation */,
+				46EB2E00000870 /* ViewControl */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46EB2E00000710 /* ViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000720 /* FoldNumberView */,
+				46EB2E00000770 /* GravityCollisionView */,
+				46EB2E000007C0 /* InputAudio */,
+				46EB2E00000810 /* ProgressCircleView */,
+				46EB2E00000840 /* SpringMotion */,
+			);
+			name = ViewAnimation;
+			path = ViewAnimation;
+			sourceTree = "<group>";
+		};
+		46EB2E00000720 /* FoldNumberView */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000730 /* CUIFoldLabel.h */,
+				46EB2E00000740 /* CUIFoldLabel.m */,
+				46EB2E00000750 /* CUIFoldNumberView.h */,
+				46EB2E00000760 /* CUIFoldNumberView.m */,
+			);
+			name = FoldNumberView;
+			path = FoldNumberView;
+			sourceTree = "<group>";
+		};
+		46EB2E00000770 /* GravityCollisionView */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000780 /* CUIGravityCollisionItemView.h */,
+				46EB2E00000790 /* CUIGravityCollisionItemView.m */,
+				46EB2E000007A0 /* CUISenderGravityCollisionView.h */,
+				46EB2E000007B0 /* CUISenderGravityCollisionView.m */,
+			);
+			name = GravityCollisionView;
+			path = GravityCollisionView;
+			sourceTree = "<group>";
+		};
+		46EB2E000007C0 /* InputAudio */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000007D0 /* CUIInputAudioView.h */,
+				46EB2E000007E0 /* CUIInputAudioView.m */,
+				46EB2E000007F0 /* RecordButton.swift */,
+				46EB2E00000800 /* RecordIndicator.swift */,
+			);
+			name = InputAudio;
+			path = InputAudio;
+			sourceTree = "<group>";
+		};
+		46EB2E00000810 /* ProgressCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000820 /* CUIProgressCircleView.h */,
+				46EB2E00000830 /* CUIProgressCircleView.m */,
+			);
+			name = ProgressCircleView;
+			path = ProgressCircleView;
+			sourceTree = "<group>";
+		};
+		46EB2E00000840 /* SpringMotion */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000850 /* CUISpringMotionView.h */,
+				46EB2E00000860 /* CUISpringMotionView.m */,
+			);
+			name = SpringMotion;
+			path = SpringMotion;
+			sourceTree = "<group>";
+		};
+		46EB2E00000870 /* ViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000880 /* MultiLabelView */,
+			);
+			name = ViewControl;
+			path = ViewControl;
+			sourceTree = "<group>";
+		};
+		46EB2E00000880 /* MultiLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000890 /* CUIMultiLabelView.h */,
+				46EB2E000008A0 /* CUIMultiLabelView.m */,
+			);
+			name = MultiLabelView;
+			path = MultiLabelView;
+			sourceTree = "<group>";
+		};
+		46EB2E00000930 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000940 /* InputAudio */,
+				46EB2E00000970 /* SpringMotion */,
+				46EB2E000009A0 /* ViewAnimation */,
+				46EB2E00000A40 /* ViewControl */,
+			);
+			name = ViewControllers;
+			path = Classes/ViewControllers;
+			sourceTree = "<group>";
+		};
+		46EB2E00000940 /* InputAudio */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000950 /* CUIInputAudioViewController.h */,
+				46EB2E00000960 /* CUIInputAudioViewController.m */,
+			);
+			name = InputAudio;
+			path = InputAudio;
+			sourceTree = "<group>";
+		};
+		46EB2E00000970 /* SpringMotion */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000980 /* CUISpringMotionViewController.h */,
+				46EB2E00000990 /* CUISpringMotionViewController.m */,
+			);
+			name = SpringMotion;
+			path = SpringMotion;
+			sourceTree = "<group>";
+		};
+		46EB2E000009A0 /* ViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000009B0 /* FoldNumberView */,
+				46EB2E000009E0 /* GravityCollisionView */,
+				46EB2E00000A10 /* ProgressCircleView */,
+			);
+			name = ViewAnimation;
+			path = ViewAnimation;
+			sourceTree = "<group>";
+		};
+		46EB2E000009B0 /* FoldNumberView */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000009C0 /* CUIFoldNumberViewController.h */,
+				46EB2E000009D0 /* CUIFoldNumberViewController.m */,
+			);
+			name = FoldNumberView;
+			path = FoldNumberView;
+			sourceTree = "<group>";
+		};
+		46EB2E000009E0 /* GravityCollisionView */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000009F0 /* CUIGravityCollisionViewController.h */,
+				46EB2E00000A00 /* CUIGravityCollisionViewController.m */,
+			);
+			name = GravityCollisionView;
+			path = GravityCollisionView;
+			sourceTree = "<group>";
+		};
+		46EB2E00000A10 /* ProgressCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000A20 /* CUIProgressCircleViewController.h */,
+				46EB2E00000A30 /* CUIProgressCircleViewController.m */,
+			);
+			name = ProgressCircleView;
+			path = ProgressCircleView;
+			sourceTree = "<group>";
+		};
+		46EB2E00000A40 /* ViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000A50 /* MultiLabelView */,
+			);
+			name = ViewControl;
+			path = ViewControl;
+			sourceTree = "<group>";
+		};
+		46EB2E00000A50 /* MultiLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000A60 /* CUIMultiLabelViewController.h */,
+				46EB2E00000A70 /* CUIMultiLabelViewController.m */,
+			);
+			name = MultiLabelView;
+			path = MultiLabelView;
+			sourceTree = "<group>";
+		};
+		46EB2E00000EF0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000F00 /* multilabel.png */,
+			);
+			name = Images;
+			path = Assets/Images;
+			sourceTree = "<group>";
+		};
+		46EB2E00000F10 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000F20 /* foldnumber.mov */,
+				46EB2E00000F30 /* gravitycollision.mov */,
+				46EB2E00000F40 /* inputaudio.mov */,
+				46EB2E00000F50 /* progresscircle.mov */,
+				46EB2E00000F60 /* springmotion.mov */,
+			);
+			name = Videos;
+			path = Assets/Videos;
+			sourceTree = "<group>";
+		};
+		46EB2E00000F70 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000F80 /* CUIDemoElements.pch */,
+				46EB2E00000F90 /* CUIDemoElements.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		46EB2E00000FA0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000FB0 /* CUIDemoExamples.pch */,
+				46EB2E00000FC0 /* CUIDemoExamples.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		46EB2E00001060 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00001070 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		46EB2E000001E0 /* Pods-CUIDemoFavorites */ = {
+		46EB2E000014F0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000220 /* Pods-CUIDemoFavorites.modulemap */,
-				46EB2E00000270 /* Pods-CUIDemoFavorites-acknowledgements.markdown */,
-				46EB2E00000260 /* Pods-CUIDemoFavorites-acknowledgements.plist */,
-				46EB2E00000280 /* Pods-CUIDemoFavorites-dummy.m */,
-				46EB2E00000210 /* Pods-CUIDemoFavorites-Info.plist */,
-				46EB2E00000250 /* Pods-CUIDemoFavorites-resources.sh */,
-				46EB2E00000230 /* Pods-CUIDemoFavorites-umbrella.h */,
-				46EB2E00000200 /* Pods-CUIDemoFavorites.debug.xcconfig */,
-				46EB2E000001F0 /* Pods-CUIDemoFavorites.release.xcconfig */,
+				46EB2E00001520 /* BlocksKit.modulemap */,
+				46EB2E00001570 /* BlocksKit-dummy.m */,
+				46EB2E00001550 /* BlocksKit-Info.plist */,
+				46EB2E00001560 /* BlocksKit-prefix.pch */,
+				46EB2E00001530 /* BlocksKit-umbrella.h */,
+				46EB2E00001500 /* BlocksKit.debug.xcconfig */,
+				46EB2E00001510 /* BlocksKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BlocksKit";
+			sourceTree = "<group>";
+		};
+		46EB2E000016C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000018F0 /* CUIDemoElements.modulemap */,
+				46EB2E00001940 /* CUIDemoElements-dummy.m */,
+				46EB2E00001920 /* CUIDemoElements-Info.plist */,
+				46EB2E00001930 /* CUIDemoElements-prefix.pch */,
+				46EB2E00001900 /* CUIDemoElements-umbrella.h */,
+				46EB2E000018D0 /* CUIDemoElements.debug.xcconfig */,
+				46EB2E000018E0 /* CUIDemoElements.release.xcconfig */,
+				46EB2E000016D0 /* ResourceBundle-CUIDemoElements-CUIDemoElements-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/CUIDemoElements";
+			sourceTree = "<group>";
+		};
+		46EB2E00001AE0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00001C60 /* CUIDemoExamples.modulemap */,
+				46EB2E00001CB0 /* CUIDemoExamples-dummy.m */,
+				46EB2E00001C90 /* CUIDemoExamples-Info.plist */,
+				46EB2E00001CA0 /* CUIDemoExamples-prefix.pch */,
+				46EB2E00001C70 /* CUIDemoExamples-umbrella.h */,
+				46EB2E00001C40 /* CUIDemoExamples.debug.xcconfig */,
+				46EB2E00001C50 /* CUIDemoExamples.release.xcconfig */,
+				46EB2E00001AF0 /* ResourceBundle-CUIDemoExamples-CUIDemoExamples-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/CUIDemoExamples";
+			sourceTree = "<group>";
+		};
+		46EB2E00001F00 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00001F30 /* Masonry.modulemap */,
+				46EB2E00001F80 /* Masonry-dummy.m */,
+				46EB2E00001F60 /* Masonry-Info.plist */,
+				46EB2E00001F70 /* Masonry-prefix.pch */,
+				46EB2E00001F40 /* Masonry-umbrella.h */,
+				46EB2E00001F10 /* Masonry.debug.xcconfig */,
+				46EB2E00001F20 /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		46EB2E000020C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000020F0 /* SVProgressHUD.modulemap */,
+				46EB2E00002140 /* SVProgressHUD-dummy.m */,
+				46EB2E00002120 /* SVProgressHUD-Info.plist */,
+				46EB2E00002130 /* SVProgressHUD-prefix.pch */,
+				46EB2E00002100 /* SVProgressHUD-umbrella.h */,
+				46EB2E000020D0 /* SVProgressHUD.debug.xcconfig */,
+				46EB2E000020E0 /* SVProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		46EB2E00002440 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00002470 /* SnapKit.modulemap */,
+				46EB2E000024C0 /* SnapKit-dummy.m */,
+				46EB2E000024A0 /* SnapKit-Info.plist */,
+				46EB2E000024B0 /* SnapKit-prefix.pch */,
+				46EB2E00002480 /* SnapKit-umbrella.h */,
+				46EB2E00002450 /* SnapKit.debug.xcconfig */,
+				46EB2E00002460 /* SnapKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		46EB2E00002580 /* Pods-CUIDemoFavorites */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000025C0 /* Pods-CUIDemoFavorites.modulemap */,
+				46EB2E00002610 /* Pods-CUIDemoFavorites-acknowledgements.markdown */,
+				46EB2E00002600 /* Pods-CUIDemoFavorites-acknowledgements.plist */,
+				46EB2E00002620 /* Pods-CUIDemoFavorites-dummy.m */,
+				46EB2E000025B0 /* Pods-CUIDemoFavorites-Info.plist */,
+				46EB2E000025F0 /* Pods-CUIDemoFavorites-resources.sh */,
+				46EB2E000025D0 /* Pods-CUIDemoFavorites-umbrella.h */,
+				46EB2E000025A0 /* Pods-CUIDemoFavorites.debug.xcconfig */,
+				46EB2E00002590 /* Pods-CUIDemoFavorites.release.xcconfig */,
 			);
 			name = "Pods-CUIDemoFavorites";
 			path = "Target Support Files/Pods-CUIDemoFavorites";
@@ -174,40 +1395,318 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		46EB2E00000170 /* Headers */ = {
+		46EB2E00001020 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000240 /* Pods-CUIDemoFavorites-umbrella.h in Headers */,
+				46EB2E000012F0 /* A2BlockInvocation.h in Headers */,
+				46EB2E00001300 /* A2DynamicDelegate.h in Headers */,
+				46EB2E00001190 /* BKMacros.h in Headers */,
+				46EB2E00001370 /* BlocksKit+MessageUI.h in Headers */,
+				46EB2E00001440 /* BlocksKit+UIKit.h in Headers */,
+				46EB2E00001540 /* BlocksKit-umbrella.h in Headers */,
+				46EB2E00001180 /* BlocksKit.h in Headers */,
+				46EB2E00001380 /* MFMailComposeViewController+BlocksKit.h in Headers */,
+				46EB2E00001390 /* MFMessageComposeViewController+BlocksKit.h in Headers */,
+				46EB2E000011A0 /* NSArray+BlocksKit.h in Headers */,
+				46EB2E00001330 /* NSCache+BlocksKit.h in Headers */,
+				46EB2E000011B0 /* NSDictionary+BlocksKit.h in Headers */,
+				46EB2E000011C0 /* NSIndexSet+BlocksKit.h in Headers */,
+				46EB2E000011D0 /* NSInvocation+BlocksKit.h in Headers */,
+				46EB2E000011E0 /* NSMutableArray+BlocksKit.h in Headers */,
+				46EB2E000011F0 /* NSMutableDictionary+BlocksKit.h in Headers */,
+				46EB2E00001200 /* NSMutableIndexSet+BlocksKit.h in Headers */,
+				46EB2E00001210 /* NSMutableOrderedSet+BlocksKit.h in Headers */,
+				46EB2E00001220 /* NSMutableSet+BlocksKit.h in Headers */,
+				46EB2E00001310 /* NSObject+A2BlockDelegate.h in Headers */,
+				46EB2E00001320 /* NSObject+A2DynamicDelegate.h in Headers */,
+				46EB2E00001230 /* NSObject+BKAssociatedObjects.h in Headers */,
+				46EB2E00001240 /* NSObject+BKBlockExecution.h in Headers */,
+				46EB2E00001250 /* NSObject+BKBlockObservation.h in Headers */,
+				46EB2E00001260 /* NSOrderedSet+BlocksKit.h in Headers */,
+				46EB2E00001270 /* NSSet+BlocksKit.h in Headers */,
+				46EB2E00001280 /* NSTimer+BlocksKit.h in Headers */,
+				46EB2E00001340 /* NSURLConnection+BlocksKit.h in Headers */,
+				46EB2E00001450 /* UIActionSheet+BlocksKit.h in Headers */,
+				46EB2E00001460 /* UIAlertView+BlocksKit.h in Headers */,
+				46EB2E00001470 /* UIBarButtonItem+BlocksKit.h in Headers */,
+				46EB2E00001480 /* UIControl+BlocksKit.h in Headers */,
+				46EB2E00001490 /* UIGestureRecognizer+BlocksKit.h in Headers */,
+				46EB2E000014A0 /* UIImagePickerController+BlocksKit.h in Headers */,
+				46EB2E000014B0 /* UIPopoverController+BlocksKit.h in Headers */,
+				46EB2E000014C0 /* UITextField+BlocksKit.h in Headers */,
+				46EB2E000014D0 /* UIView+BlocksKit.h in Headers */,
+				46EB2E000014E0 /* UIWebView+BlocksKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E000015E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E000017E0 /* CommonKit.h in Headers */,
+				46EB2E00001910 /* CUIDemoElements-umbrella.h in Headers */,
+				46EB2E00001840 /* CUIDemoElements.h in Headers */,
+				46EB2E00001850 /* CUIFoldLabel.h in Headers */,
+				46EB2E00001860 /* CUIFoldNumberView.h in Headers */,
+				46EB2E00001870 /* CUIGravityCollisionItemView.h in Headers */,
+				46EB2E00001890 /* CUIInputAudioView.h in Headers */,
+				46EB2E000018C0 /* CUIMultiLabelView.h in Headers */,
+				46EB2E000018A0 /* CUIProgressCircleView.h in Headers */,
+				46EB2E00001880 /* CUISenderGravityCollisionView.h in Headers */,
+				46EB2E000018B0 /* CUISpringMotionView.h in Headers */,
+				46EB2E000017F0 /* NSBundle+CUIBundle.h in Headers */,
+				46EB2E00001800 /* UIColor+CUIExt.h in Headers */,
+				46EB2E00001810 /* UIImage+CUIBundle.h in Headers */,
+				46EB2E00001820 /* UIImage+CUIKit.h in Headers */,
+				46EB2E00001830 /* UIView+CUIEasyLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E000019B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00001BA0 /* CUIDemoCellItemModel.h in Headers */,
+				46EB2E00001C80 /* CUIDemoExamples-umbrella.h in Headers */,
+				46EB2E00001BB0 /* CUIDemoExamples.h in Headers */,
+				46EB2E00001BC0 /* CUIDemoViewAnimationData.h in Headers */,
+				46EB2E00001BD0 /* CUIDemoViewControlData.h in Headers */,
+				46EB2E00001C00 /* CUIFoldNumberViewController.h in Headers */,
+				46EB2E00001C10 /* CUIGravityCollisionViewController.h in Headers */,
+				46EB2E00001BE0 /* CUIInputAudioViewController.h in Headers */,
+				46EB2E00001C30 /* CUIMultiLabelViewController.h in Headers */,
+				46EB2E00001C20 /* CUIProgressCircleViewController.h in Headers */,
+				46EB2E00001BF0 /* CUISpringMotionViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00001D20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00001E10 /* MASCompositeConstraint.h in Headers */,
+				46EB2E00001E20 /* MASConstraint+Private.h in Headers */,
+				46EB2E00001E30 /* MASConstraint.h in Headers */,
+				46EB2E00001E40 /* MASConstraintMaker.h in Headers */,
+				46EB2E00001E50 /* MASLayoutConstraint.h in Headers */,
+				46EB2E00001F50 /* Masonry-umbrella.h in Headers */,
+				46EB2E00001E60 /* Masonry.h in Headers */,
+				46EB2E00001E70 /* MASUtilities.h in Headers */,
+				46EB2E00001E80 /* MASViewAttribute.h in Headers */,
+				46EB2E00001E90 /* MASViewConstraint.h in Headers */,
+				46EB2E00001EA0 /* NSArray+MASAdditions.h in Headers */,
+				46EB2E00001EB0 /* NSArray+MASShorthandAdditions.h in Headers */,
+				46EB2E00001EC0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				46EB2E00001ED0 /* View+MASAdditions.h in Headers */,
+				46EB2E00001EE0 /* View+MASShorthandAdditions.h in Headers */,
+				46EB2E00001EF0 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00001FF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00002080 /* SVIndefiniteAnimatedView.h in Headers */,
+				46EB2E00002090 /* SVProgressAnimatedView.h in Headers */,
+				46EB2E00002110 /* SVProgressHUD-umbrella.h in Headers */,
+				46EB2E000020A0 /* SVProgressHUD.h in Headers */,
+				46EB2E000020B0 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E000021B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00002490 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00002530 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E000025E0 /* Pods-CUIDemoFavorites-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2A2CD586B5DA0AD2B3B239FF81C79562 /* Pods-CUIDemoFavorites */ = {
+		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000130 /* Build configuration list for PBXNativeTarget "Pods-CUIDemoFavorites" */;
+			buildConfigurationList = 46EB2E00002170 /* Build configuration list for PBXNativeTarget "SnapKit" */;
 			buildPhases = (
-				46EB2E00000170 /* Headers */,
-				46EB2E00000180 /* Sources */,
-				46EB2E00000190 /* Frameworks */,
-				46EB2E000001A0 /* Resources */,
+				46EB2E000021B0 /* Headers */,
+				46EB2E000021C0 /* Sources */,
+				46EB2E000021D0 /* Frameworks */,
+				46EB2E000021E0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46EB2E000002B0 /* PBXTargetDependency */,
-				46EB2E000002D0 /* PBXTargetDependency */,
-				46EB2E000002F0 /* PBXTargetDependency */,
-				46EB2E00000310 /* PBXTargetDependency */,
-				46EB2E00000330 /* PBXTargetDependency */,
-				46EB2E00000350 /* PBXTargetDependency */,
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E00001FB0 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				46EB2E00001FF0 /* Headers */,
+				46EB2E00002000 /* Sources */,
+				46EB2E00002010 /* Frameworks */,
+				46EB2E00002020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		250A819199C136363F65619C43735474 /* CUIDemoExamples-CUIDemoExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E00001A10 /* Build configuration list for PBXNativeTarget "CUIDemoExamples-CUIDemoExamples" */;
+			buildPhases = (
+				46EB2E00001A50 /* Sources */,
+				46EB2E00001A60 /* Frameworks */,
+				46EB2E00001A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CUIDemoExamples-CUIDemoExamples";
+			productName = "CUIDemoExamples-CUIDemoExamples";
+			productReference = 7C43AFBB0DD54BCA8F9E327025723F5B /* CUIDemoExamples.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2A2CD586B5DA0AD2B3B239FF81C79562 /* Pods-CUIDemoFavorites */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E000024F0 /* Build configuration list for PBXNativeTarget "Pods-CUIDemoFavorites" */;
+			buildPhases = (
+				46EB2E00002530 /* Headers */,
+				46EB2E00002540 /* Sources */,
+				46EB2E00002550 /* Frameworks */,
+				46EB2E00002560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EB2E00002650 /* PBXTargetDependency */,
+				46EB2E00002670 /* PBXTargetDependency */,
+				46EB2E00002690 /* PBXTargetDependency */,
+				46EB2E000026B0 /* PBXTargetDependency */,
+				46EB2E000026D0 /* PBXTargetDependency */,
+				46EB2E000026F0 /* PBXTargetDependency */,
 			);
 			name = "Pods-CUIDemoFavorites";
 			productName = "Pods-CUIDemoFavorites";
 			productReference = 2E8A6D3CF65E2EC91B8F1C717E3D5DC0 /* Pods_CUIDemoFavorites.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		2FBAD7EE174D6355E2EB97879561D0D6 /* CUIDemoElements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E000015A0 /* Build configuration list for PBXNativeTarget "CUIDemoElements" */;
+			buildPhases = (
+				46EB2E000015E0 /* Headers */,
+				46EB2E000015F0 /* Sources */,
+				46EB2E00001600 /* Frameworks */,
+				46EB2E00001610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EB2E00002770 /* PBXTargetDependency */,
+				46EB2E00002710 /* PBXTargetDependency */,
+				46EB2E00002730 /* PBXTargetDependency */,
+				46EB2E00002750 /* PBXTargetDependency */,
+				46EB2E00002790 /* PBXTargetDependency */,
+			);
+			name = CUIDemoElements;
+			productName = CUIDemoElements;
+			productReference = 6BC72AE41F821AB8F75322D25724FEB7 /* CUIDemoElements.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E871472620497BDB90A51415731DF46 /* CUIDemoExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E00001970 /* Build configuration list for PBXNativeTarget "CUIDemoExamples" */;
+			buildPhases = (
+				46EB2E000019B0 /* Headers */,
+				46EB2E000019C0 /* Sources */,
+				46EB2E000019D0 /* Frameworks */,
+				46EB2E000019E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EB2E000027D0 /* PBXTargetDependency */,
+				46EB2E000027B0 /* PBXTargetDependency */,
+			);
+			name = CUIDemoExamples;
+			productName = CUIDemoExamples;
+			productReference = 073E4CEEB0AD2BC1D253606DA5302435 /* CUIDemoExamples.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E00001CE0 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				46EB2E00001D20 /* Headers */,
+				46EB2E00001D30 /* Sources */,
+				46EB2E00001D40 /* Frameworks */,
+				46EB2E00001D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2777DC549C19A310651FBD3C87B71DF /* BlocksKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E00000FE0 /* Build configuration list for PBXNativeTarget "BlocksKit" */;
+			buildPhases = (
+				46EB2E00001020 /* Headers */,
+				46EB2E00001030 /* Sources */,
+				46EB2E00001040 /* Frameworks */,
+				46EB2E00001050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlocksKit;
+			productName = BlocksKit;
+			productReference = 6F70BF603CE98579EE97E286801E741E /* BlocksKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5B7B69FB2FA1FE7A43904C2F8A2EA6D /* CUIDemoElements-CUIDemoElements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E00001640 /* Build configuration list for PBXNativeTarget "CUIDemoElements-CUIDemoElements" */;
+			buildPhases = (
+				46EB2E00001680 /* Sources */,
+				46EB2E00001690 /* Frameworks */,
+				46EB2E000016A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CUIDemoElements-CUIDemoElements";
+			productName = "CUIDemoElements-CUIDemoElements";
+			productReference = 2AAC6C5F22B92BFE75A1B0D5F58F75E0 /* CUIDemoElements.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -229,35 +1728,86 @@
 			mainGroup = 46EB2E00000010;
 			productRefGroup = 46EB2E00000020 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProjectRef = 46EB2E000000C0 /* BlocksKit */;
-				},
-				{
-					ProjectRef = 46EB2E000000D0 /* CUIDemoElements */;
-				},
-				{
-					ProjectRef = 46EB2E000000E0 /* CUIDemoExamples */;
-				},
-				{
-					ProjectRef = 46EB2E000000F0 /* Masonry */;
-				},
-				{
-					ProjectRef = 46EB2E00000100 /* SVProgressHUD */;
-				},
-				{
-					ProjectRef = 46EB2E00000110 /* SnapKit */;
-				},
-			);
 			projectRoot = "";
 			targets = (
+				B2777DC549C19A310651FBD3C87B71DF /* BlocksKit */,
+				2FBAD7EE174D6355E2EB97879561D0D6 /* CUIDemoElements */,
+				D5B7B69FB2FA1FE7A43904C2F8A2EA6D /* CUIDemoElements-CUIDemoElements */,
+				3E871472620497BDB90A51415731DF46 /* CUIDemoExamples */,
+				250A819199C136363F65619C43735474 /* CUIDemoExamples-CUIDemoExamples */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
 				2A2CD586B5DA0AD2B3B239FF81C79562 /* Pods-CUIDemoFavorites */,
+				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
+				1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46EB2E000001A0 /* Resources */ = {
+		46EB2E00001050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00001610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E000016A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E000016B0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E000019E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00001A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00001A90 /* foldnumber.mov in Resources */,
+				46EB2E00001AA0 /* gravitycollision.mov in Resources */,
+				46EB2E00001AB0 /* inputaudio.mov in Resources */,
+				46EB2E00001A80 /* multilabel.png in Resources */,
+				46EB2E00001AC0 /* progresscircle.mov in Resources */,
+				46EB2E00001AD0 /* springmotion.mov in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00001D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00002020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E000021E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00002560 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,46 +1817,265 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46EB2E00000180 /* Sources */ = {
+		46EB2E00001030 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000290 /* Pods-CUIDemoFavorites-dummy.m in Sources */,
+				46EB2E00001290 /* A2BlockInvocation.m in Sources */,
+				46EB2E000012A0 /* A2DynamicDelegate.m in Sources */,
+				46EB2E00001580 /* BlocksKit-dummy.m in Sources */,
+				46EB2E00001350 /* MFMailComposeViewController+BlocksKit.m in Sources */,
+				46EB2E00001360 /* MFMessageComposeViewController+BlocksKit.m in Sources */,
+				46EB2E00001090 /* NSArray+BlocksKit.m in Sources */,
+				46EB2E000012D0 /* NSCache+BlocksKit.m in Sources */,
+				46EB2E000010A0 /* NSDictionary+BlocksKit.m in Sources */,
+				46EB2E000010B0 /* NSIndexSet+BlocksKit.m in Sources */,
+				46EB2E000010C0 /* NSInvocation+BlocksKit.m in Sources */,
+				46EB2E000010D0 /* NSMutableArray+BlocksKit.m in Sources */,
+				46EB2E000010E0 /* NSMutableDictionary+BlocksKit.m in Sources */,
+				46EB2E000010F0 /* NSMutableIndexSet+BlocksKit.m in Sources */,
+				46EB2E00001100 /* NSMutableOrderedSet+BlocksKit.m in Sources */,
+				46EB2E00001110 /* NSMutableSet+BlocksKit.m in Sources */,
+				46EB2E000012B0 /* NSObject+A2BlockDelegate.m in Sources */,
+				46EB2E000012C0 /* NSObject+A2DynamicDelegate.m in Sources */,
+				46EB2E00001120 /* NSObject+BKAssociatedObjects.m in Sources */,
+				46EB2E00001130 /* NSObject+BKBlockExecution.m in Sources */,
+				46EB2E00001140 /* NSObject+BKBlockObservation.m in Sources */,
+				46EB2E00001150 /* NSOrderedSet+BlocksKit.m in Sources */,
+				46EB2E00001160 /* NSSet+BlocksKit.m in Sources */,
+				46EB2E00001170 /* NSTimer+BlocksKit.m in Sources */,
+				46EB2E000012E0 /* NSURLConnection+BlocksKit.m in Sources */,
+				46EB2E000013A0 /* UIActionSheet+BlocksKit.m in Sources */,
+				46EB2E000013B0 /* UIAlertView+BlocksKit.m in Sources */,
+				46EB2E000013C0 /* UIBarButtonItem+BlocksKit.m in Sources */,
+				46EB2E000013D0 /* UIControl+BlocksKit.m in Sources */,
+				46EB2E000013E0 /* UIGestureRecognizer+BlocksKit.m in Sources */,
+				46EB2E000013F0 /* UIImagePickerController+BlocksKit.m in Sources */,
+				46EB2E00001400 /* UIPopoverController+BlocksKit.m in Sources */,
+				46EB2E00001410 /* UITextField+BlocksKit.m in Sources */,
+				46EB2E00001420 /* UIView+BlocksKit.m in Sources */,
+				46EB2E00001430 /* UIWebView+BlocksKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E000015F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00001950 /* CUIDemoElements-dummy.m in Sources */,
+				46EB2E000017B0 /* CUIDemoElements.swift in Sources */,
+				46EB2E00001730 /* CUIFoldLabel.m in Sources */,
+				46EB2E00001740 /* CUIFoldNumberView.m in Sources */,
+				46EB2E00001750 /* CUIGravityCollisionItemView.m in Sources */,
+				46EB2E00001770 /* CUIInputAudioView.m in Sources */,
+				46EB2E000017A0 /* CUIMultiLabelView.m in Sources */,
+				46EB2E00001780 /* CUIProgressCircleView.m in Sources */,
+				46EB2E00001760 /* CUISenderGravityCollisionView.m in Sources */,
+				46EB2E00001790 /* CUISpringMotionView.m in Sources */,
+				46EB2E000016E0 /* NSBundle+CUIBundle.m in Sources */,
+				46EB2E000017C0 /* RecordButton.swift in Sources */,
+				46EB2E000017D0 /* RecordIndicator.swift in Sources */,
+				46EB2E000016F0 /* UIColor+CUIExt.m in Sources */,
+				46EB2E00001700 /* UIImage+CUIBundle.m in Sources */,
+				46EB2E00001710 /* UIImage+CUIKit.m in Sources */,
+				46EB2E00001720 /* UIView+CUIEasyLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00001680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E000019C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00001B00 /* CUIDemoCellItemModel.m in Sources */,
+				46EB2E00001CC0 /* CUIDemoExamples-dummy.m in Sources */,
+				46EB2E00001B90 /* CUIDemoExamples.swift in Sources */,
+				46EB2E00001B10 /* CUIDemoViewAnimationData.m in Sources */,
+				46EB2E00001B20 /* CUIDemoViewControlData.m in Sources */,
+				46EB2E00001B50 /* CUIFoldNumberViewController.m in Sources */,
+				46EB2E00001B60 /* CUIGravityCollisionViewController.m in Sources */,
+				46EB2E00001B30 /* CUIInputAudioViewController.m in Sources */,
+				46EB2E00001B80 /* CUIMultiLabelViewController.m in Sources */,
+				46EB2E00001B70 /* CUIProgressCircleViewController.m in Sources */,
+				46EB2E00001B40 /* CUISpringMotionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00001A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00001D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00001D70 /* MASCompositeConstraint.m in Sources */,
+				46EB2E00001D80 /* MASConstraint.m in Sources */,
+				46EB2E00001D90 /* MASConstraintMaker.m in Sources */,
+				46EB2E00001DA0 /* MASLayoutConstraint.m in Sources */,
+				46EB2E00001F90 /* Masonry-dummy.m in Sources */,
+				46EB2E00001DB0 /* MASViewAttribute.m in Sources */,
+				46EB2E00001DC0 /* MASViewConstraint.m in Sources */,
+				46EB2E00001DD0 /* NSArray+MASAdditions.m in Sources */,
+				46EB2E00001DE0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				46EB2E00001DF0 /* View+MASAdditions.m in Sources */,
+				46EB2E00001E00 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00002000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00002040 /* SVIndefiniteAnimatedView.m in Sources */,
+				46EB2E00002050 /* SVProgressAnimatedView.m in Sources */,
+				46EB2E00002150 /* SVProgressHUD-dummy.m in Sources */,
+				46EB2E00002060 /* SVProgressHUD.m in Sources */,
+				46EB2E00002070 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E000021C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00002200 /* Constraint.swift in Sources */,
+				46EB2E00002210 /* ConstraintAttributes.swift in Sources */,
+				46EB2E00002220 /* ConstraintConfig.swift in Sources */,
+				46EB2E00002230 /* ConstraintConstantTarget.swift in Sources */,
+				46EB2E00002240 /* ConstraintDescription.swift in Sources */,
+				46EB2E00002250 /* ConstraintDirectionalInsets.swift in Sources */,
+				46EB2E00002260 /* ConstraintDirectionalInsetTarget.swift in Sources */,
+				46EB2E00002270 /* ConstraintDSL.swift in Sources */,
+				46EB2E00002280 /* ConstraintInsets.swift in Sources */,
+				46EB2E00002290 /* ConstraintInsetTarget.swift in Sources */,
+				46EB2E000022A0 /* ConstraintItem.swift in Sources */,
+				46EB2E000022B0 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				46EB2E000022C0 /* ConstraintLayoutGuide.swift in Sources */,
+				46EB2E000022D0 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				46EB2E000022E0 /* ConstraintLayoutSupport.swift in Sources */,
+				46EB2E000022F0 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				46EB2E00002300 /* ConstraintMaker.swift in Sources */,
+				46EB2E00002310 /* ConstraintMakerEditable.swift in Sources */,
+				46EB2E00002320 /* ConstraintMakerExtendable.swift in Sources */,
+				46EB2E00002330 /* ConstraintMakerFinalizable.swift in Sources */,
+				46EB2E00002340 /* ConstraintMakerPriortizable.swift in Sources */,
+				46EB2E00002350 /* ConstraintMakerRelatable.swift in Sources */,
+				46EB2E00002360 /* ConstraintMultiplierTarget.swift in Sources */,
+				46EB2E00002370 /* ConstraintOffsetTarget.swift in Sources */,
+				46EB2E00002380 /* ConstraintPriority.swift in Sources */,
+				46EB2E00002390 /* ConstraintPriorityTarget.swift in Sources */,
+				46EB2E000023A0 /* ConstraintRelatableTarget.swift in Sources */,
+				46EB2E000023B0 /* ConstraintRelation.swift in Sources */,
+				46EB2E000023C0 /* ConstraintView+Extensions.swift in Sources */,
+				46EB2E000023D0 /* ConstraintView.swift in Sources */,
+				46EB2E000023E0 /* ConstraintViewDSL.swift in Sources */,
+				46EB2E000023F0 /* Debugging.swift in Sources */,
+				46EB2E00002400 /* LayoutConstraint.swift in Sources */,
+				46EB2E00002410 /* LayoutConstraintItem.swift in Sources */,
+				46EB2E000024D0 /* SnapKit-dummy.m in Sources */,
+				46EB2E00002420 /* Typealiases.swift in Sources */,
+				46EB2E00002430 /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00002540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00002630 /* Pods-CUIDemoFavorites-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46EB2E000002B0 /* PBXTargetDependency */ = {
+		46EB2E00002650 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BlocksKit;
-			targetProxy = 46EB2E000002A0 /* PBXContainerItemProxy */;
+			target = B2777DC549C19A310651FBD3C87B71DF /* BlocksKit */;
+			targetProxy = 46EB2E00002640 /* PBXContainerItemProxy */;
 		};
-		46EB2E000002D0 /* PBXTargetDependency */ = {
+		46EB2E00002670 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CUIDemoElements;
-			targetProxy = 46EB2E000002C0 /* PBXContainerItemProxy */;
+			target = 2FBAD7EE174D6355E2EB97879561D0D6 /* CUIDemoElements */;
+			targetProxy = 46EB2E00002660 /* PBXContainerItemProxy */;
 		};
-		46EB2E000002F0 /* PBXTargetDependency */ = {
+		46EB2E00002690 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CUIDemoExamples;
-			targetProxy = 46EB2E000002E0 /* PBXContainerItemProxy */;
+			target = 3E871472620497BDB90A51415731DF46 /* CUIDemoExamples */;
+			targetProxy = 46EB2E00002680 /* PBXContainerItemProxy */;
 		};
-		46EB2E00000310 /* PBXTargetDependency */ = {
+		46EB2E000026B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			targetProxy = 46EB2E00000300 /* PBXContainerItemProxy */;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 46EB2E000026A0 /* PBXContainerItemProxy */;
 		};
-		46EB2E00000330 /* PBXTargetDependency */ = {
+		46EB2E000026D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
-			targetProxy = 46EB2E00000320 /* PBXContainerItemProxy */;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = 46EB2E000026C0 /* PBXContainerItemProxy */;
 		};
-		46EB2E00000350 /* PBXTargetDependency */ = {
+		46EB2E000026F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
-			targetProxy = 46EB2E00000340 /* PBXContainerItemProxy */;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 46EB2E000026E0 /* PBXContainerItemProxy */;
+		};
+		46EB2E00002710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CUIDemoElements-CUIDemoElements";
+			target = D5B7B69FB2FA1FE7A43904C2F8A2EA6D /* CUIDemoElements-CUIDemoElements */;
+			targetProxy = 46EB2E00002700 /* PBXContainerItemProxy */;
+		};
+		46EB2E00002730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 46EB2E00002720 /* PBXContainerItemProxy */;
+		};
+		46EB2E00002750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = 46EB2E00002740 /* PBXContainerItemProxy */;
+		};
+		46EB2E00002770 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlocksKit;
+			target = B2777DC549C19A310651FBD3C87B71DF /* BlocksKit */;
+			targetProxy = 46EB2E00002760 /* PBXContainerItemProxy */;
+		};
+		46EB2E00002790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 46EB2E00002780 /* PBXContainerItemProxy */;
+		};
+		46EB2E000027B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CUIDemoExamples-CUIDemoExamples";
+			target = 250A819199C136363F65619C43735474 /* CUIDemoExamples-CUIDemoExamples */;
+			targetProxy = 46EB2E000027A0 /* PBXContainerItemProxy */;
+		};
+		46EB2E000027D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CUIDemoElements;
+			target = 2FBAD7EE174D6355E2EB97879561D0D6 /* CUIDemoElements */;
+			targetProxy = 46EB2E000027C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -439,9 +2208,457 @@
 			};
 			name = Release;
 		};
-		46EB2E00000140 /* Release */ = {
+		46EB2E00000FF0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000001F0 /* Pods-CUIDemoFavorites.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00001510 /* BlocksKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlocksKit/BlocksKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlocksKit/BlocksKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/BlocksKit/BlocksKit.modulemap";
+				PRODUCT_MODULE_NAME = BlocksKit;
+				PRODUCT_NAME = BlocksKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46EB2E00001000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00001500 /* BlocksKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlocksKit/BlocksKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlocksKit/BlocksKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/BlocksKit/BlocksKit.modulemap";
+				PRODUCT_MODULE_NAME = BlocksKit;
+				PRODUCT_NAME = BlocksKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46EB2E000015B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E000018E0 /* CUIDemoElements.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CUIDemoElements/CUIDemoElements-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CUIDemoElements/CUIDemoElements-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/CUIDemoElements/CUIDemoElements.modulemap";
+				PRODUCT_MODULE_NAME = CUIDemoElements;
+				PRODUCT_NAME = CUIDemoElements;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46EB2E000015C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E000018D0 /* CUIDemoElements.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CUIDemoElements/CUIDemoElements-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CUIDemoElements/CUIDemoElements-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/CUIDemoElements/CUIDemoElements.modulemap";
+				PRODUCT_MODULE_NAME = CUIDemoElements;
+				PRODUCT_NAME = CUIDemoElements;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46EB2E00001650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E000018E0 /* CUIDemoElements.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CUIDemoElements";
+				IBSC_MODULE = CUIDemoElements;
+				INFOPLIST_FILE = "Target Support Files/CUIDemoElements/ResourceBundle-CUIDemoElements-CUIDemoElements-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CUIDemoElements;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		46EB2E00001660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E000018D0 /* CUIDemoElements.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CUIDemoElements";
+				IBSC_MODULE = CUIDemoElements;
+				INFOPLIST_FILE = "Target Support Files/CUIDemoElements/ResourceBundle-CUIDemoElements-CUIDemoElements-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CUIDemoElements;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		46EB2E00001980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00001C50 /* CUIDemoExamples.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CUIDemoExamples/CUIDemoExamples-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CUIDemoExamples/CUIDemoExamples-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/CUIDemoExamples/CUIDemoExamples.modulemap";
+				PRODUCT_MODULE_NAME = CUIDemoExamples;
+				PRODUCT_NAME = CUIDemoExamples;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46EB2E00001990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00001C40 /* CUIDemoExamples.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CUIDemoExamples/CUIDemoExamples-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CUIDemoExamples/CUIDemoExamples-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/CUIDemoExamples/CUIDemoExamples.modulemap";
+				PRODUCT_MODULE_NAME = CUIDemoExamples;
+				PRODUCT_NAME = CUIDemoExamples;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46EB2E00001A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00001C50 /* CUIDemoExamples.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CUIDemoExamples";
+				IBSC_MODULE = CUIDemoExamples;
+				INFOPLIST_FILE = "Target Support Files/CUIDemoExamples/ResourceBundle-CUIDemoExamples-CUIDemoExamples-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CUIDemoExamples;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		46EB2E00001A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00001C40 /* CUIDemoExamples.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CUIDemoExamples";
+				IBSC_MODULE = CUIDemoExamples;
+				INFOPLIST_FILE = "Target Support Files/CUIDemoExamples/ResourceBundle-CUIDemoExamples-CUIDemoExamples-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CUIDemoExamples;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		46EB2E00001CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00001F20 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46EB2E00001D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00001F10 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46EB2E00001FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E000020E0 /* SVProgressHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46EB2E00001FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E000020D0 /* SVProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46EB2E00002180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00002460 /* SnapKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46EB2E00002190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00002450 /* SnapKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46EB2E00002500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00002590 /* Pods-CUIDemoFavorites.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -473,9 +2690,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00000150 /* Debug */ = {
+		46EB2E00002510 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000200 /* Pods-CUIDemoFavorites.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E000025A0 /* Pods-CUIDemoFavorites.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -518,11 +2735,83 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00000130 /* Build configuration list for PBXNativeTarget "Pods-CUIDemoFavorites" */ = {
+		46EB2E00000FE0 /* Build configuration list for PBXNativeTarget "BlocksKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E00000150 /* Debug */,
-				46EB2E00000140 /* Release */,
+				46EB2E00001000 /* Debug */,
+				46EB2E00000FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EB2E000015A0 /* Build configuration list for PBXNativeTarget "CUIDemoElements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E000015C0 /* Debug */,
+				46EB2E000015B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EB2E00001640 /* Build configuration list for PBXNativeTarget "CUIDemoElements-CUIDemoElements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E00001660 /* Debug */,
+				46EB2E00001650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EB2E00001970 /* Build configuration list for PBXNativeTarget "CUIDemoExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E00001990 /* Debug */,
+				46EB2E00001980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EB2E00001A10 /* Build configuration list for PBXNativeTarget "CUIDemoExamples-CUIDemoExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E00001A30 /* Debug */,
+				46EB2E00001A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EB2E00001CE0 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E00001D00 /* Debug */,
+				46EB2E00001CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EB2E00001FB0 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E00001FD0 /* Debug */,
+				46EB2E00001FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EB2E00002170 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E00002190 /* Debug */,
+				46EB2E00002180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EB2E000024F0 /* Build configuration list for PBXNativeTarget "Pods-CUIDemoFavorites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E00002510 /* Debug */,
+				46EB2E00002500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

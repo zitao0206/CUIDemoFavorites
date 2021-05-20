@@ -23,7 +23,7 @@ else
 install! 'cocoapods',
           :preserve_pod_file_structure => true,
           :deterministic_uuids => false,
-          :generate_multiple_pod_projects => true
+          :generate_multiple_pod_projects => false
 end
 
 target 'CUIDemoFavorites' do
