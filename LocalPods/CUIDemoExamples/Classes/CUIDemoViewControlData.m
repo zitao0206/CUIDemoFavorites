@@ -14,6 +14,7 @@
 {
     NSMutableArray *array = [[NSMutableArray alloc]init];
     [array addObject:[self.class obtainItemDataWithKeyName:@"MultiLabel" descrip:@"多标签展示"]];
+    [array addObject:[self.class obtainItemDataWithKeyName:@"TabSelect" descrip:@"分段选择"]];
     return array;
 }
 
