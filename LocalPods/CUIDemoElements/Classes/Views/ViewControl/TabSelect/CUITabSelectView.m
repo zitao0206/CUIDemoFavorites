@@ -59,6 +59,7 @@
 @property (nonatomic) NSInteger selectedIndex;
 @property (strong, nonatomic) CUITabSelectedCallback callback;
 @property (nonatomic) BOOL selectedCellExist;
+@property (nonatomic, assign) BOOL needFirstCallBack;
 @end
 
 @implementation CUITabSelectView
@@ -70,8 +71,8 @@
     if (self = [super initWithFrame:frame]) {
         _titles = [NSMutableArray array];
         [self addSubview:self.collectionView];
-        self.backgroundColor = [[UIColor redColor]colorWithAlphaComponent:0.3];
-        self.collectionView.backgroundColor = [[UIColor greenColor]colorWithAlphaComponent:0.3];
+        [self.collectionView addSubview:self.lineView];
+        self.selectedIndex = 0;
     }
     return self;
 }
@@ -81,21 +82,21 @@
     [super layoutSubviews];
     self.collectionView.top = 0;
     self.collectionView.left = 0;
+    self.lineView.top = self.collectionView.height - self.lineView.height + self.lineViewOffset;
+    self.lineView.centerX = (self.itemWidth * self.selectedIndex) + self.itemWidth / 2.0;
 }
 
 - (void)setTitles:(NSArray<NSString *> *)titles
 {
     _titles = titles;
-    [self updateLineView];
+    [self.collectionView reloadData];
+    [self setNeedsLayout];
 }
 
-- (void)updateLineView
+- (void)setupLineView
 {
     self.lineView.hidden = !self.showLineView;
     if (self.showLineView) {
-        
-        [self.collectionView addSubview:self.lineView];
-        
         self.lineView.backgroundColor = _lineColor;
         self.lineView.height = _lineHeight;
         self.lineView.width = _lineWidth;
@@ -115,16 +116,16 @@
         _selectedIndex = selectedIndex;
     }
     [self layoutAndScrollToSelectedItem];
+    [self setupLineView];
 }
 
-- (void)setupSelectedIndex:(NSUInteger)index withCallBack:(BOOL)needCallBack
+- (void)setupSelectedIndex:(NSInteger)index withCallBack:(BOOL)needCallBack
 {
     NSAssert(index < self.titles.count, @"index beyond the titles count !!!");
-    NSAssert(self.titles.count, @"Please call this method after init titles !!!");
-    self.selectedIndex = index;
-    if (needCallBack && _callback) {
-        _callback(index);
-    }
+    NSAssert(self.titles.count, @"please call this method after init titles !!!");
+    self.needFirstCallBack = needCallBack;
+    [self changeItemWithTargetIndex:index];
+    [self setupLineView];
 }
 
 #pragma mark - UICollectionViewDelegateFlowLayout
@@ -152,7 +153,7 @@
 
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
 {
-    return UIEdgeInsetsMake(0, 0, 0, 0);
+    return self.edgeInsets;
 }
 
 #pragma mark - UICollectionViewDataSource
@@ -172,12 +173,6 @@
         [self refreshTitleLabel:cell.titleLabel with:NO];
     }
     [cell refreshDataWith:title];
-    if (indexPath.row % 2 == 0) {
-        cell.contentView.backgroundColor = [[UIColor blueColor]colorWithAlphaComponent:0.1];
-    } else {
-        cell.contentView.backgroundColor = [[UIColor redColor]colorWithAlphaComponent:0.1];
-    }
-   
     return cell;
 }
 
@@ -187,9 +182,9 @@
     [self changeItemWithTargetIndex:indexPath.row];
 }
 
-- (void)changeItemWithTargetIndex:(NSUInteger)targetIndex
+- (void)changeItemWithTargetIndex:(NSInteger)targetIndex
 {
-    if (self.selectedIndex == targetIndex) {
+    if (self.selectedIndex == targetIndex && self.needFirstCallBack) {
         return;
     }
     CUITabSelectViewCell *selectedCell = [self obtainCellWith:self.selectedIndex];
@@ -229,6 +224,8 @@
         }
         if (self.itemBgColor) {
             label.backgroundColor = self.itemBgColor;
+        } else {
+            label.backgroundColor = [UIColor clearColor];
         }
         if (self.itemCornerRadius >= 0) {
             label.layer.cornerRadius = self.itemCornerRadius;
@@ -242,8 +239,14 @@
     [self.collectionView.collectionViewLayout invalidateLayout];
     [self.collectionView setNeedsLayout];
     [self.collectionView layoutIfNeeded];
-    
     [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:self.selectedIndex inSection:0] atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
+
+    if (self.needFirstCallBack) {
+        if (self.callback) {
+            self.callback(self.selectedIndex);
+        }
+    }
+    self.needFirstCallBack = YES;
     CUITabSelectViewCell *selectedCell = [self obtainCellWith:self.selectedIndex];
     if (selectedCell) {
         self.selectedCellExist = YES;
@@ -255,20 +258,16 @@
 
 - (void)updateLineViewLocation
 {
-    CUITabSelectViewCell *cell = [self obtainCellWith:self.selectedIndex];
-    [UIView animateWithDuration:0.3 animations:^{
-        [self.lineView mas_remakeConstraints:^(MASConstraintMaker *make) {
-            make.height.mas_equalTo(self.lineHeight);
-            make.width.mas_equalTo(self.lineWidth);
-            make.top.mas_equalTo(self.lineView.top = self.collectionView.height - self.lineView.height + self.lineViewOffset);
-            make.centerX.equalTo(cell.titleLabel);
-        }];
-        [self.collectionView setNeedsLayout];
-        [self.collectionView layoutIfNeeded];
+    if (self.lineView.hidden) return;
+    [UIView animateWithDuration:0.2 animations:^{
+        self.lineView.height = self.lineHeight;
+        self.lineView.width = self.lineWidth;
+        self.lineView.top = self.collectionView.height - self.lineView.height + self.lineViewOffset;
+        self.lineView.centerX = (self.itemWidth * self.selectedIndex) + self.itemWidth / 2.0;
     }];
 }
 
-- (CUITabSelectViewCell *)obtainCellWith:(NSUInteger)index
+- (CUITabSelectViewCell *)obtainCellWith:(NSInteger)index
 {
     return (CUITabSelectViewCell *)[self.collectionView cellForItemAtIndexPath:[NSIndexPath indexPathForRow:index inSection:0]];
 }
@@ -310,6 +309,5 @@
     }
     return _lineView;
 }
-
 
 @end

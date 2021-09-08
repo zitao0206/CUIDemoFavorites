@@ -24,6 +24,7 @@
     NSArray *itemArr = @[@"听听1", @"看看2", @"点唱3", @"互动4", @"心动5",@"新型6",@"新型7",@"新型8",@"新型9",@"新型10",@"新型11"];
     _tabSelectView.titles = itemArr;
     [_tabSelectView setupSelectedIndex:0 withCallBack:YES];
+    _tabSelectView.backgroundColor = [[UIColor redColor]colorWithAlphaComponent:0.3];
 
 }
 

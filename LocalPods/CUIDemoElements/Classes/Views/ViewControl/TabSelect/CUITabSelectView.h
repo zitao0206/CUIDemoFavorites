@@ -38,7 +38,9 @@ typedef void(^CUITabSelectedCallback)(NSUInteger idx);
 @property (nonatomic, assign) CGFloat lineViewOffset;
 @property (nonatomic, assign) CGFloat lineCornerRadius;
 
+@property (nonatomic, assign) UIEdgeInsets edgeInsets;
+
 - (void)tabSelectedCallback:(CUITabSelectedCallback)callback;
-- (void)setupSelectedIndex:(NSUInteger)index withCallBack:(BOOL)needCallBack;
+- (void)setupSelectedIndex:(NSInteger)index withCallBack:(BOOL)needCallBack;
 
 @end
