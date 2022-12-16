@@ -1,5 +1,8 @@
 
-source 'https://github.com/CocoaPods/Specs.git'
+ENV["COCOAPODS_DISABLE_STATS"] = "true"
+
+#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://cdn.cocoapods.org/'
 source 'https://github.com/Leon0206/MDSpecs.git'
 
 platform :ios, '10.0'
@@ -9,25 +12,10 @@ use_frameworks! :linkage => :static
 workspace 'CUIDemoFavorites.xcworkspace'
 project 'Example/CUIDemoFavorites'
 
-fast_mode = ENV['fast_mode']
-
-if fast_mode
-  
-install! 'cocoapods',
-          :preserve_pod_file_structure => false,
-          :deterministic_uuids => false,
-          :generate_multiple_pod_projects => true,
-#          :skip_pods_project_generation => true,
-          :incremental_installation => true,
-          :lock_pod_sources => false,
-          :disable_input_output_paths => true
-else
-
 install! 'cocoapods',
           :preserve_pod_file_structure => true,
           :deterministic_uuids => false,
           :generate_multiple_pod_projects => false
-end
 
 target 'CUIDemoFavorites' do
   pod 'CUIDemoExamples', :path => './LocalPods/CUIDemoExamples', :inhibit_warnings => false

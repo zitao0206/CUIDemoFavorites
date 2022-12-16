@@ -22,7 +22,7 @@ PODS:
   - CUIDemoExamples (0.1.0):
     - CUIDemoElements
   - Masonry (1.1.0)
-  - SnapKit (5.0.1)
+  - SnapKit (5.6.0)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
@@ -43,13 +43,13 @@ EXTERNAL SOURCES:
     :path: "./LocalPods/CUIDemoExamples"
 
 SPEC CHECKSUMS:
-  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  BlocksKit: 8639b2848dd51c35c957af4d9fbdc7a769a1fc12
   CUIDemoElements: 94b162d39e72f13b70f949b7630612d195d60411
   CUIDemoExamples: a99d155ae8876b9ef4bd6bc5c038af4da88cb28c
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 53e800275792020676b55cd743f8af2430adcd4a
+PODFILE CHECKSUM: 25e5c87268ce405a063a4d8ae4dabd9e6f1f20e3
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.11.3
