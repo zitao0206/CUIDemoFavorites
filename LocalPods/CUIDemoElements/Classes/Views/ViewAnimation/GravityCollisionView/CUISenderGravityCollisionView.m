@@ -2,7 +2,7 @@
 //  CUISenderGravityCollisionView.m
 //  Pods
 //
-//  Created by Leon0206 on 2020/5/9.
+//  Created by zitao0206 on 2020/5/9.
 //
 
 #import "CUISenderGravityCollisionView.h"

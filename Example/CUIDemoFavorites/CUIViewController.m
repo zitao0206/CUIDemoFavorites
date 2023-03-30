@@ -2,17 +2,20 @@
 //  CUIViewController.m
 //  CUIDemoFavorites
 //
-//  Created by Leon on 03/30/2021.
-//  Copyright (c) 2021 Leon. All rights reserved.
+//  Created by zitao on 03/30/2021.
+//  Copyright (c) 2021 zitao. All rights reserved.
 //
 
 #import "CUIViewController.h"
 #import "CUIRuleViewController.h"
 #import "CUIHallListViewController.h"
+#import "CUIDemoFavorites-swift.h"
 
 @interface CUIViewController ()
-@property (nonatomic, strong) UIButton *demoBtn;
+@property (nonatomic, strong) UIButton *demoForSwiftBtn;
+@property (nonatomic, strong) UIButton *demoForOCBtn;
 @property (nonatomic, strong) UIButton *ruleBtn;
+
 @end
 
 @implementation CUIViewController
@@ -20,26 +23,40 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.view addSubview:self.demoBtn];
-    [self.demoBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+    [self.view addSubview:self.demoForSwiftBtn];
+    [self.demoForSwiftBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.view).offset(200);
+        make.left.equalTo(self.view);
+        make.width.equalTo(self.view);
+        make.height.equalTo(@40);
+    }];
+    [self.view addSubview:self.demoForOCBtn];
+    [self.demoForOCBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.view).offset(300);
         make.left.equalTo(self.view);
         make.width.equalTo(self.view);
         make.height.equalTo(@40);
     }];
     [self.view addSubview:self.ruleBtn];
     [self.ruleBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-          make.top.equalTo(self.demoBtn).offset(100);
+          make.top.equalTo(self.demoForOCBtn).offset(100);
           make.left.equalTo(self.view);
           make.width.equalTo(self.view);
           make.height.equalTo(@40);
     }];
 }
 
-- (void)demoBtnClickAction
+- (void)demoForSwiftBtnClickAction
+{
+    CUIPlusHallListVC *vc = [[CUIPlusHallListVC alloc]init];
+    vc.title = @"Demos For Swift";
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)demoForOCBtnClickAction
 {
     CUIHallListViewController *vc = [[CUIHallListViewController alloc]init];
-    vc.title = @"Demos";
+    vc.title = @"Demos For OC";
     [self.navigationController pushViewController:vc animated:YES];
 }
 
@@ -50,15 +67,26 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
-- (UIButton *)demoBtn
+- (UIButton *)demoForSwiftBtn
 {
-    if (!_demoBtn) {
-        _demoBtn = [UIButton buttonWithType:UIButtonTypeSystem];
-        _demoBtn.titleLabel.font = [UIFont systemFontOfSize:20.0 weight:UIFontWeightRegular];
-        [_demoBtn setTitle:@"Demos" forState:UIControlStateNormal];
-        [_demoBtn addTarget:self action:@selector(demoBtnClickAction) forControlEvents:UIControlEventTouchUpInside];
+    if (!_demoForSwiftBtn) {
+        _demoForSwiftBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+        _demoForSwiftBtn.titleLabel.font = [UIFont systemFontOfSize:20.0 weight:UIFontWeightRegular];
+        [_demoForSwiftBtn setTitle:@"Demos For Swift" forState:UIControlStateNormal];
+        [_demoForSwiftBtn addTarget:self action:@selector(demoForSwiftBtnClickAction) forControlEvents:UIControlEventTouchUpInside];
     }
-    return _demoBtn;
+    return _demoForSwiftBtn;
+}
+
+- (UIButton *)demoForOCBtn
+{
+    if (!_demoForOCBtn) {
+        _demoForOCBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+        _demoForOCBtn.titleLabel.font = [UIFont systemFontOfSize:20.0 weight:UIFontWeightRegular];
+        [_demoForOCBtn setTitle:@"Demos For OC" forState:UIControlStateNormal];
+        [_demoForOCBtn addTarget:self action:@selector(demoForOCBtnClickAction) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _demoForOCBtn;
 }
 
 - (UIButton *)ruleBtn

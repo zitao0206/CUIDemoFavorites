@@ -23,15 +23,23 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D845A10129D5335A00CDDECB /* CUIHallListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D845A0EE29D5335A00CDDECB /* CUIHallListViewController.h */; };
+		D845A10229D5335A00CDDECB /* CUIHallViewControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D845A0F029D5335A00CDDECB /* CUIHallViewControlViewController.m */; };
+		D845A10329D5335A00CDDECB /* CUIViewControlCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D845A0F129D5335A00CDDECB /* CUIViewControlCollectionViewLayout.h */; };
+		D845A10429D5335A00CDDECB /* CUIViewControlCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D845A0F229D5335A00CDDECB /* CUIViewControlCollectionViewLayout.m */; };
+		D845A10529D5335A00CDDECB /* CUIHallViewControlViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D845A0F329D5335A00CDDECB /* CUIHallViewControlViewController.h */; };
+		D845A10629D5335A00CDDECB /* CUIHallViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D845A0F529D5335A00CDDECB /* CUIHallViewAnimationViewController.m */; };
+		D845A10729D5335A00CDDECB /* CUIViewAnimationCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D845A0F629D5335A00CDDECB /* CUIViewAnimationCollectionViewLayout.h */; };
+		D845A10829D5335A00CDDECB /* CUIHallViewAnimationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D845A0F729D5335A00CDDECB /* CUIHallViewAnimationViewController.h */; };
+		D845A10929D5335A00CDDECB /* CUIViewAnimationCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D845A0F829D5335A00CDDECB /* CUIViewAnimationCollectionViewLayout.m */; };
+		D845A10A29D5335A00CDDECB /* CUICollectionViewVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D845A0FA29D5335A00CDDECB /* CUICollectionViewVideoCell.m */; };
+		D845A10B29D5335A00CDDECB /* CUICollectionViewImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D845A0FB29D5335A00CDDECB /* CUICollectionViewImageCell.h */; };
+		D845A10C29D5335A00CDDECB /* CUICollectionViewVideoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D845A0FC29D5335A00CDDECB /* CUICollectionViewVideoCell.h */; };
+		D845A10D29D5335A00CDDECB /* CUICollectionViewImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D845A0FD29D5335A00CDDECB /* CUICollectionViewImageCell.m */; };
+		D845A10E29D5335A00CDDECB /* CUIHallListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D845A0FE29D5335A00CDDECB /* CUIHallListViewController.m */; };
+		D845A10F29D5335A00CDDECB /* CUIPlusHallListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845A10029D5335A00CDDECB /* CUIPlusHallListVC.swift */; };
 		D86A3C2F2632BF970049098F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A3C2E2632BF970049098F /* File.swift */; };
 		D8E8B3CF26132114003BD3DB /* CUIRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B3CD26132114003BD3DB /* CUIRuleViewController.m */; };
-		D8E8B424261328A4003BD3DB /* CUIHallListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B418261328A4003BD3DB /* CUIHallListViewController.m */; };
-		D8E8B4DB26134076003BD3DB /* CUIHallViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B4D626134076003BD3DB /* CUIHallViewAnimationViewController.m */; };
-		D8E8B4DC26134076003BD3DB /* CUIHallViewControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B4D926134076003BD3DB /* CUIHallViewControlViewController.m */; };
-		D8E8B55326134A96003BD3DB /* CUIViewControlCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B55226134A96003BD3DB /* CUIViewControlCollectionViewLayout.m */; };
-		D8E8B55C26134AC5003BD3DB /* CUIViewAnimationCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B55B26134AC5003BD3DB /* CUIViewAnimationCollectionViewLayout.m */; };
-		D8E8B56626141B1F003BD3DB /* CUICollectionViewVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B56226141B1F003BD3DB /* CUICollectionViewVideoCell.m */; };
-		D8E8B56726141B1F003BD3DB /* CUICollectionViewImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B56526141B1F003BD3DB /* CUICollectionViewImageCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,25 +89,26 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3FB76E7085CC3FD2BB57D9E /* Pods-CUIDemoFavorites.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CUIDemoFavorites.debug.xcconfig"; path = "Target Support Files/Pods-CUIDemoFavorites/Pods-CUIDemoFavorites.debug.xcconfig"; sourceTree = "<group>"; };
+		D845A0EE29D5335A00CDDECB /* CUIHallListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIHallListViewController.h; sourceTree = "<group>"; };
+		D845A0F029D5335A00CDDECB /* CUIHallViewControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIHallViewControlViewController.m; sourceTree = "<group>"; };
+		D845A0F129D5335A00CDDECB /* CUIViewControlCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIViewControlCollectionViewLayout.h; sourceTree = "<group>"; };
+		D845A0F229D5335A00CDDECB /* CUIViewControlCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIViewControlCollectionViewLayout.m; sourceTree = "<group>"; };
+		D845A0F329D5335A00CDDECB /* CUIHallViewControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIHallViewControlViewController.h; sourceTree = "<group>"; };
+		D845A0F529D5335A00CDDECB /* CUIHallViewAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIHallViewAnimationViewController.m; sourceTree = "<group>"; };
+		D845A0F629D5335A00CDDECB /* CUIViewAnimationCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIViewAnimationCollectionViewLayout.h; sourceTree = "<group>"; };
+		D845A0F729D5335A00CDDECB /* CUIHallViewAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIHallViewAnimationViewController.h; sourceTree = "<group>"; };
+		D845A0F829D5335A00CDDECB /* CUIViewAnimationCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIViewAnimationCollectionViewLayout.m; sourceTree = "<group>"; };
+		D845A0FA29D5335A00CDDECB /* CUICollectionViewVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUICollectionViewVideoCell.m; sourceTree = "<group>"; };
+		D845A0FB29D5335A00CDDECB /* CUICollectionViewImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUICollectionViewImageCell.h; sourceTree = "<group>"; };
+		D845A0FC29D5335A00CDDECB /* CUICollectionViewVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUICollectionViewVideoCell.h; sourceTree = "<group>"; };
+		D845A0FD29D5335A00CDDECB /* CUICollectionViewImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUICollectionViewImageCell.m; sourceTree = "<group>"; };
+		D845A0FE29D5335A00CDDECB /* CUIHallListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIHallListViewController.m; sourceTree = "<group>"; };
+		D845A10029D5335A00CDDECB /* CUIPlusHallListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIPlusHallListVC.swift; sourceTree = "<group>"; };
 		D86A3C2E2632BF970049098F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		D86A3C322632C1400049098F /* CUIDemoFavorites-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CUIDemoFavorites-Bridging-Header.h"; sourceTree = "<group>"; };
 		D86DB4F026354F160082039F /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		D8E8B3CD26132114003BD3DB /* CUIRuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIRuleViewController.m; sourceTree = "<group>"; };
 		D8E8B3CE26132114003BD3DB /* CUIRuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIRuleViewController.h; sourceTree = "<group>"; };
-		D8E8B416261328A4003BD3DB /* CUIHallListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIHallListViewController.h; sourceTree = "<group>"; };
-		D8E8B418261328A4003BD3DB /* CUIHallListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIHallListViewController.m; sourceTree = "<group>"; };
-		D8E8B4D626134076003BD3DB /* CUIHallViewAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIHallViewAnimationViewController.m; sourceTree = "<group>"; };
-		D8E8B4D726134076003BD3DB /* CUIHallViewAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIHallViewAnimationViewController.h; sourceTree = "<group>"; };
-		D8E8B4D926134076003BD3DB /* CUIHallViewControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIHallViewControlViewController.m; sourceTree = "<group>"; };
-		D8E8B4DA26134076003BD3DB /* CUIHallViewControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIHallViewControlViewController.h; sourceTree = "<group>"; };
-		D8E8B55126134A96003BD3DB /* CUIViewControlCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIViewControlCollectionViewLayout.h; sourceTree = "<group>"; };
-		D8E8B55226134A96003BD3DB /* CUIViewControlCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIViewControlCollectionViewLayout.m; sourceTree = "<group>"; };
-		D8E8B55726134A9F003BD3DB /* CUIViewAnimationCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIViewAnimationCollectionViewLayout.h; sourceTree = "<group>"; };
-		D8E8B55B26134AC5003BD3DB /* CUIViewAnimationCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIViewAnimationCollectionViewLayout.m; sourceTree = "<group>"; };
-		D8E8B56226141B1F003BD3DB /* CUICollectionViewVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUICollectionViewVideoCell.m; sourceTree = "<group>"; };
-		D8E8B56326141B1F003BD3DB /* CUICollectionViewImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUICollectionViewImageCell.h; sourceTree = "<group>"; };
-		D8E8B56426141B1F003BD3DB /* CUICollectionViewVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUICollectionViewVideoCell.h; sourceTree = "<group>"; };
-		D8E8B56526141B1F003BD3DB /* CUICollectionViewImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUICollectionViewImageCell.m; sourceTree = "<group>"; };
 		DE841D3736CC95BBC969AF0E /* Pods-CUIDemoFavorites.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CUIDemoFavorites.release.xcconfig"; path = "Target Support Files/Pods-CUIDemoFavorites/Pods-CUIDemoFavorites.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -181,7 +190,8 @@
 				D86A3C322632C1400049098F /* CUIDemoFavorites-Bridging-Header.h */,
 				6003F5A5195388D20070C39A /* CUIViewController.h */,
 				6003F5A6195388D20070C39A /* CUIViewController.m */,
-				D8E8B414261328A4003BD3DB /* HallList */,
+				D845A0ED29D5335A00CDDECB /* HallListForOC */,
+				D845A0FF29D5335A00CDDECB /* HallListForSwift */,
 				D8E8B3CC26132114003BD3DB /* Rule */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -221,6 +231,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D845A0ED29D5335A00CDDECB /* HallListForOC */ = {
+			isa = PBXGroup;
+			children = (
+				D845A0EE29D5335A00CDDECB /* CUIHallListViewController.h */,
+				D845A0EF29D5335A00CDDECB /* ViewControl */,
+				D845A0F429D5335A00CDDECB /* ViewAnimation */,
+				D845A0F929D5335A00CDDECB /* Cell */,
+				D845A0FE29D5335A00CDDECB /* CUIHallListViewController.m */,
+			);
+			path = HallListForOC;
+			sourceTree = "<group>";
+		};
+		D845A0EF29D5335A00CDDECB /* ViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				D845A0F029D5335A00CDDECB /* CUIHallViewControlViewController.m */,
+				D845A0F129D5335A00CDDECB /* CUIViewControlCollectionViewLayout.h */,
+				D845A0F229D5335A00CDDECB /* CUIViewControlCollectionViewLayout.m */,
+				D845A0F329D5335A00CDDECB /* CUIHallViewControlViewController.h */,
+			);
+			path = ViewControl;
+			sourceTree = "<group>";
+		};
+		D845A0F429D5335A00CDDECB /* ViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D845A0F529D5335A00CDDECB /* CUIHallViewAnimationViewController.m */,
+				D845A0F629D5335A00CDDECB /* CUIViewAnimationCollectionViewLayout.h */,
+				D845A0F729D5335A00CDDECB /* CUIHallViewAnimationViewController.h */,
+				D845A0F829D5335A00CDDECB /* CUIViewAnimationCollectionViewLayout.m */,
+			);
+			path = ViewAnimation;
+			sourceTree = "<group>";
+		};
+		D845A0F929D5335A00CDDECB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D845A0FA29D5335A00CDDECB /* CUICollectionViewVideoCell.m */,
+				D845A0FB29D5335A00CDDECB /* CUICollectionViewImageCell.h */,
+				D845A0FC29D5335A00CDDECB /* CUICollectionViewVideoCell.h */,
+				D845A0FD29D5335A00CDDECB /* CUICollectionViewImageCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D845A0FF29D5335A00CDDECB /* HallListForSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D845A10029D5335A00CDDECB /* CUIPlusHallListVC.swift */,
+			);
+			path = HallListForSwift;
+			sourceTree = "<group>";
+		};
 		D8E8B3CC26132114003BD3DB /* Rule */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,51 +293,6 @@
 			path = Rule;
 			sourceTree = "<group>";
 		};
-		D8E8B414261328A4003BD3DB /* HallList */ = {
-			isa = PBXGroup;
-			children = (
-				D8E8B56126141B1F003BD3DB /* Cell */,
-				D8E8B4D526134076003BD3DB /* ViewAnimation */,
-				D8E8B4D826134076003BD3DB /* ViewControl */,
-				D8E8B416261328A4003BD3DB /* CUIHallListViewController.h */,
-				D8E8B418261328A4003BD3DB /* CUIHallListViewController.m */,
-			);
-			path = HallList;
-			sourceTree = "<group>";
-		};
-		D8E8B4D526134076003BD3DB /* ViewAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				D8E8B55B26134AC5003BD3DB /* CUIViewAnimationCollectionViewLayout.m */,
-				D8E8B55726134A9F003BD3DB /* CUIViewAnimationCollectionViewLayout.h */,
-				D8E8B4D626134076003BD3DB /* CUIHallViewAnimationViewController.m */,
-				D8E8B4D726134076003BD3DB /* CUIHallViewAnimationViewController.h */,
-			);
-			path = ViewAnimation;
-			sourceTree = "<group>";
-		};
-		D8E8B4D826134076003BD3DB /* ViewControl */ = {
-			isa = PBXGroup;
-			children = (
-				D8E8B55126134A96003BD3DB /* CUIViewControlCollectionViewLayout.h */,
-				D8E8B55226134A96003BD3DB /* CUIViewControlCollectionViewLayout.m */,
-				D8E8B4D926134076003BD3DB /* CUIHallViewControlViewController.m */,
-				D8E8B4DA26134076003BD3DB /* CUIHallViewControlViewController.h */,
-			);
-			path = ViewControl;
-			sourceTree = "<group>";
-		};
-		D8E8B56126141B1F003BD3DB /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				D8E8B56226141B1F003BD3DB /* CUICollectionViewVideoCell.m */,
-				D8E8B56326141B1F003BD3DB /* CUICollectionViewImageCell.h */,
-				D8E8B56426141B1F003BD3DB /* CUICollectionViewVideoCell.h */,
-				D8E8B56526141B1F003BD3DB /* CUICollectionViewImageCell.m */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -282,6 +300,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D845A10329D5335A00CDDECB /* CUIViewControlCollectionViewLayout.h in Headers */,
+				D845A10729D5335A00CDDECB /* CUIViewAnimationCollectionViewLayout.h in Headers */,
+				D845A10829D5335A00CDDECB /* CUIHallViewAnimationViewController.h in Headers */,
+				D845A10529D5335A00CDDECB /* CUIHallViewControlViewController.h in Headers */,
+				D845A10C29D5335A00CDDECB /* CUICollectionViewVideoCell.h in Headers */,
+				D845A10129D5335A00CDDECB /* CUIHallListViewController.h in Headers */,
+				D845A10B29D5335A00CDDECB /* CUICollectionViewImageCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,17 +464,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8E8B56626141B1F003BD3DB /* CUICollectionViewVideoCell.m in Sources */,
+				D845A10A29D5335A00CDDECB /* CUICollectionViewVideoCell.m in Sources */,
+				D845A10929D5335A00CDDECB /* CUIViewAnimationCollectionViewLayout.m in Sources */,
 				D86A3C2F2632BF970049098F /* File.swift in Sources */,
+				D845A10E29D5335A00CDDECB /* CUIHallListViewController.m in Sources */,
 				6003F59E195388D20070C39A /* CUIAppDelegate.m in Sources */,
-				D8E8B55C26134AC5003BD3DB /* CUIViewAnimationCollectionViewLayout.m in Sources */,
-				D8E8B4DC26134076003BD3DB /* CUIHallViewControlViewController.m in Sources */,
-				D8E8B4DB26134076003BD3DB /* CUIHallViewAnimationViewController.m in Sources */,
+				D845A10229D5335A00CDDECB /* CUIHallViewControlViewController.m in Sources */,
+				D845A10629D5335A00CDDECB /* CUIHallViewAnimationViewController.m in Sources */,
+				D845A10F29D5335A00CDDECB /* CUIPlusHallListVC.swift in Sources */,
 				6003F5A7195388D20070C39A /* CUIViewController.m in Sources */,
-				D8E8B424261328A4003BD3DB /* CUIHallListViewController.m in Sources */,
-				D8E8B55326134A96003BD3DB /* CUIViewControlCollectionViewLayout.m in Sources */,
-				D8E8B56726141B1F003BD3DB /* CUICollectionViewImageCell.m in Sources */,
 				D8E8B3CF26132114003BD3DB /* CUIRuleViewController.m in Sources */,
+				D845A10D29D5335A00CDDECB /* CUICollectionViewImageCell.m in Sources */,
+				D845A10429D5335A00CDDECB /* CUIViewControlCollectionViewLayout.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,7 +2,7 @@
 //  RecordIndicator.swift
 //  Pods
 //
-//  Created by Leon0206 on 2021/4/18.
+//  Created by zitao0206 on 2021/4/18.
 //
 
 import Foundation

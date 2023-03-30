@@ -2,8 +2,8 @@
 //  UIImage+UIKit.m
 //  Pods
 //
-//  Created by Leon on 03/30/2021.
-//  Copyright (c) 2021 Leon. All rights reserved.
+//  Created by zitao on 03/30/2021.
+//  Copyright (c) 2021 zitao. All rights reserved.
 //
 
 #import "UIImage+CUIKit.h"

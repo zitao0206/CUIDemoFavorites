@@ -2,8 +2,8 @@
 //  CUIFoldNumberViewController.m
 //  CUIUIKit
 //
-//  Created by Leon on 03/05/2020.
-//  Copyright (c) 2020 Leon. All rights reserved.
+//  Created by zitao on 03/05/2020.
+//  Copyright (c) 2020 zitao. All rights reserved.
 //
 
 #import "CUIFoldNumberViewController.h"

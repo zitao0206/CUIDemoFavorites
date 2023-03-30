@@ -1,8 +1,8 @@
 //
 //  CUIFoldLabel.h
 //
-//  Created by Leon on 03/30/2021.
-//  Copyright (c) 2021 Leon. All rights reserved.
+//  Created by zitao on 03/30/2021.
+//  Copyright (c) 2021 zitao. All rights reserved.
 //
 
 #define kBackgroundColor [UIColor colorWithRed:46/255.0f green:43/255.0f blue:46/255.0f alpha:1]

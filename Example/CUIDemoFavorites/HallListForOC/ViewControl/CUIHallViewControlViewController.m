@@ -1,27 +1,27 @@
 //
-//  CUIHallViewAnimationViewController.m
+//  CUIHallViewControlViewController.m
 //
-//  Created by Leon on 03/30/2021.
-//  Copyright (c) 2021 Leon. All rights reserved.
+//  Created by zitao on 03/30/2021.
+//  Copyright (c) 2021 zitao. All rights reserved.
 //
 
-#import "CUIHallViewAnimationViewController.h"
+#import "CUIHallViewControlViewController.h"
 #import "CUICollectionViewImageCell.h"
 #import "CUICollectionViewVideoCell.h"
-#import "CUIViewAnimationCollectionViewLayout.h"
+#import "CUIViewControlCollectionViewLayout.h"
+#import "CUIDemoViewControlData.h"
 #import "CUIDemoCellItemModel.h"
-#import "CUIDemoViewAnimationData.h"
 
 #define ImageCellHeight   120
 #define VideoCellHeight   242
-#define Cellwidth (ScreenWidth - 2) / 2.0;
+#define Cellwidth (kScreenWidth - 2) / 2.0;
 
-@interface CUIHallViewAnimationViewController () <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@interface CUIHallViewControlViewController () <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 @property (strong, nonatomic) UICollectionView *collectionView;
 @property (strong, nonatomic) NSArray <CUIDemoCellItemModel *> *items;
 @end
 
-@implementation CUIHallViewAnimationViewController
+@implementation CUIHallViewControlViewController
 
 - (void)viewDidLoad
 {
@@ -29,7 +29,7 @@
     
     [self.view addSubview:self.collectionView];
     
-    self.items = [[CUIDemoViewAnimationData obtainData] mutableCopy];
+    self.items = [[CUIDemoViewControlData obtainData] mutableCopy];
     
     self.view.backgroundColor = [UIColor whiteColor];
 }
@@ -118,7 +118,7 @@
 - (UICollectionView *)collectionView
 {
     if (!_collectionView) {
-        CUIViewAnimationCollectionViewLayout *layout = [[CUIViewAnimationCollectionViewLayout alloc] init];
+        CUIViewControlCollectionViewLayout *layout = [[CUIViewControlCollectionViewLayout alloc] init];
         _collectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight) collectionViewLayout:layout];
         _collectionView.backgroundColor = [[UIColor brownColor]colorWithAlphaComponent:0.2];
         _collectionView.delegate = self;

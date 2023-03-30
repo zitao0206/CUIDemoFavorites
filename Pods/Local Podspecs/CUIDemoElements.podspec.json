@@ -2,16 +2,16 @@
   "name": "CUIDemoElements",
   "version": "0.1.0",
   "summary": "A short description of CUIDemoElements.",
-  "homepage": "https://github.com/Leon0206/CUIDemoFavorites",
+  "homepage": "https://github.com/zitao0206/CUIDemoFavorites",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Leon0206": "63437613@qq.com"
+    "zitao0206": "63437613@qq.com"
   },
   "source": {
-    "git": "https://github.com/Leon/CUIDemoFavorites.git",
+    "git": "https://github.com/zitao/CUIDemoFavorites.git",
     "tag": "0.1.0"
   },
   "platforms": {

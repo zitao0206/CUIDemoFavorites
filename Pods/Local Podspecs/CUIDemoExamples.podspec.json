@@ -2,16 +2,16 @@
   "name": "CUIDemoExamples",
   "version": "0.1.0",
   "summary": "A short description of CUIDemoExamples.",
-  "homepage": "https://github.com/Leon/CUIDemoFavorites",
+  "homepage": "https://github.com/zitao/CUIDemoFavorites",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Leon": "63437613@qq.com"
+    "zitao": "63437613@qq.com"
   },
   "source": {
-    "git": "https://github.com/Leon/CUIDemoFavorites.git",
+    "git": "https://github.com/zitao/CUIDemoFavorites.git",
     "tag": "0.1.0"
   },
   "pod_target_xcconfig": {

@@ -1,13 +1,13 @@
 //
-//  CUIViewControlCollectionViewLayout.m
+//  CUIViewAnimationCollectionViewLayout.m
 //
-//  Created by Leon on 03/30/2021.
-//  Copyright (c) 2021 Leon. All rights reserved.
+//  Created by zitao on 03/30/2021.
+//  Copyright (c) 2021 zitao. All rights reserved.
 //
 
-#import "CUIViewControlCollectionViewLayout.h"
+#import "CUIViewAnimationCollectionViewLayout.h"
 #import "CUIDemoCellItemModel.h"
-#import "CUIDemoViewControlData.h"
+#import "CUIDemoViewAnimationData.h"
 
 static const NSInteger ColumnCount = 2;
 static const CGFloat RowMagin = 5;
@@ -18,7 +18,7 @@ static const UIEdgeInsets edge = {0,5,0,5};
 #define VideoCellHeight   CellWidth * 1000/750
 #define ImageCellHeight   VideoCellHeight
 
-@interface CUIViewControlCollectionViewLayout()
+@interface CUIViewAnimationCollectionViewLayout()
 @property (strong, nonatomic) NSArray <CUIDemoCellItemModel *> *items;
 /** 存放每个item的属性数组 */
 @property (nonatomic, strong) NSMutableArray *array;
@@ -29,7 +29,7 @@ static const UIEdgeInsets edge = {0,5,0,5};
 
 @end
 
-@implementation CUIViewControlCollectionViewLayout
+@implementation CUIViewAnimationCollectionViewLayout
 
 - (NSMutableArray *)array
 {
@@ -53,14 +53,13 @@ static const UIEdgeInsets edge = {0,5,0,5};
 {
     [super prepareLayout];
     
-    self.items = [[CUIDemoViewControlData obtainData] mutableCopy];
+    self.items = [[CUIDemoViewAnimationData obtainData] mutableCopy];
     // 清除之前计算的所有高度
     [self.minheight removeAllObjects];
     //给数组初始化值，防止数组越界
     for (NSInteger i = 0; i < ColumnCount; i++) {
         [self.minheight addObject:@(edge.top)];
     }
-    
     // 清除之前所有的布局属性
     [self.array removeAllObjects];
     

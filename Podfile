@@ -3,7 +3,7 @@ ENV["COCOAPODS_DISABLE_STATS"] = "true"
 
 #source 'https://github.com/CocoaPods/Specs.git'
 source 'https://cdn.cocoapods.org/'
-source 'https://github.com/Leon0206/MDSpecs.git'
+source 'https://github.com/zitao0206/MDSpecs.git'
 
 platform :ios, '10.0'
 inhibit_all_warnings!
