@@ -60,5 +60,8 @@ public class CUIPlusHallListVC : UIViewController, UITableViewDelegate, UITableV
     // MARK: - TableView Delegate
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
        print("You tapped cell number \(indexPath.row).")
+        if indexPath.row == 0 {
+            navigationController?.pushViewController(CUIPlusElementsVC(), animated: true)
+        }
     }
 }

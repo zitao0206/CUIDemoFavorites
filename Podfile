@@ -5,7 +5,7 @@ ENV["COCOAPODS_DISABLE_STATS"] = "true"
 source 'https://cdn.cocoapods.org/'
 source 'https://github.com/zitao0206/MDSpecs.git'
 
-platform :ios, '10.0'
+platform :ios, '13.0'
 inhibit_all_warnings!
 use_frameworks! :linkage => :static
 
@@ -20,7 +20,9 @@ install! 'cocoapods',
 target 'CUIDemoFavorites' do
   pod 'CUIDemoExamples', :path => './LocalPods/CUIDemoExamples', :inhibit_warnings => false
   pod 'CUIDemoElements', :path => './LocalPods/CUIDemoElements', :inhibit_warnings => false
-
+#  pod 'AKOCommonToolsKit', '0.0.28'
+  pod 'AKOCommonToolsKit', :path => '/Users/lizitao/Desktop/MainProject/AKOCommonToolsKit', :inhibit_warnings => false
+ 
 end
 
 post_install do |installer|

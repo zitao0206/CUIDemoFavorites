@@ -11,11 +11,11 @@
     "zitao0206": "63437613@qq.com"
   },
   "source": {
-    "git": "https://github.com/zitao/CUIDemoFavorites.git",
+    "git": "https://github.com/zitao0206/CUIDemoFavorites.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
   "pod_target_xcconfig": {
     "GCC_PREPROCESSOR_DEFINITIONS": "__CUI_MODULE_NAME__=\\\"CUIDemoElements\\\" CUI_MODULE_NAME=@\\\"CUIDemoElements\\\""

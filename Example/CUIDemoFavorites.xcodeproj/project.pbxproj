@@ -38,6 +38,8 @@
 		D845A10D29D5335A00CDDECB /* CUICollectionViewImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D845A0FD29D5335A00CDDECB /* CUICollectionViewImageCell.m */; };
 		D845A10E29D5335A00CDDECB /* CUIHallListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D845A0FE29D5335A00CDDECB /* CUIHallListViewController.m */; };
 		D845A10F29D5335A00CDDECB /* CUIPlusHallListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845A10029D5335A00CDDECB /* CUIPlusHallListVC.swift */; };
+		D845A13D29D66D6900CDDECB /* CUIPlusElementsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845A13C29D66D6900CDDECB /* CUIPlusElementsVC.swift */; };
+		D845AC4B29D66F7500CDDECB /* CUIElementsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845AC4A29D66F7500CDDECB /* CUIElementsCell.swift */; };
 		D86A3C2F2632BF970049098F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A3C2E2632BF970049098F /* File.swift */; };
 		D8E8B3CF26132114003BD3DB /* CUIRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B3CD26132114003BD3DB /* CUIRuleViewController.m */; };
 /* End PBXBuildFile section */
@@ -104,6 +106,8 @@
 		D845A0FD29D5335A00CDDECB /* CUICollectionViewImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUICollectionViewImageCell.m; sourceTree = "<group>"; };
 		D845A0FE29D5335A00CDDECB /* CUIHallListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIHallListViewController.m; sourceTree = "<group>"; };
 		D845A10029D5335A00CDDECB /* CUIPlusHallListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIPlusHallListVC.swift; sourceTree = "<group>"; };
+		D845A13C29D66D6900CDDECB /* CUIPlusElementsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIPlusElementsVC.swift; sourceTree = "<group>"; };
+		D845AC4A29D66F7500CDDECB /* CUIElementsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUIElementsCell.swift; sourceTree = "<group>"; };
 		D86A3C2E2632BF970049098F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		D86A3C322632C1400049098F /* CUIDemoFavorites-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CUIDemoFavorites-Bridging-Header.h"; sourceTree = "<group>"; };
 		D86DB4F026354F160082039F /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
@@ -280,8 +284,34 @@
 			isa = PBXGroup;
 			children = (
 				D845A10029D5335A00CDDECB /* CUIPlusHallListVC.swift */,
+				D845A13A29D66D6900CDDECB /* Dynamic Views */,
+				D845A13B29D66D6900CDDECB /* Fundamental Elements */,
+				D845A13929D66D6900CDDECB /* Static Views */,
 			);
 			path = HallListForSwift;
+			sourceTree = "<group>";
+		};
+		D845A13929D66D6900CDDECB /* Static Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Static Views";
+			sourceTree = "<group>";
+		};
+		D845A13A29D66D6900CDDECB /* Dynamic Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Dynamic Views";
+			sourceTree = "<group>";
+		};
+		D845A13B29D66D6900CDDECB /* Fundamental Elements */ = {
+			isa = PBXGroup;
+			children = (
+				D845A13C29D66D6900CDDECB /* CUIPlusElementsVC.swift */,
+				D845AC4A29D66F7500CDDECB /* CUIElementsCell.swift */,
+			);
+			path = "Fundamental Elements";
 			sourceTree = "<group>";
 		};
 		D8E8B3CC26132114003BD3DB /* Rule */ = {
@@ -469,9 +499,11 @@
 				D86A3C2F2632BF970049098F /* File.swift in Sources */,
 				D845A10E29D5335A00CDDECB /* CUIHallListViewController.m in Sources */,
 				6003F59E195388D20070C39A /* CUIAppDelegate.m in Sources */,
+				D845AC4B29D66F7500CDDECB /* CUIElementsCell.swift in Sources */,
 				D845A10229D5335A00CDDECB /* CUIHallViewControlViewController.m in Sources */,
 				D845A10629D5335A00CDDECB /* CUIHallViewAnimationViewController.m in Sources */,
 				D845A10F29D5335A00CDDECB /* CUIPlusHallListVC.swift in Sources */,
+				D845A13D29D66D6900CDDECB /* CUIPlusElementsVC.swift in Sources */,
 				6003F5A7195388D20070C39A /* CUIViewController.m in Sources */,
 				D8E8B3CF26132114003BD3DB /* CUIRuleViewController.m in Sources */,
 				D845A10D29D5335A00CDDECB /* CUICollectionViewImageCell.m in Sources */,
@@ -612,7 +644,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CUIDemoFavorites/CUIDemoFavorites-Prefix.pch";
 				INFOPLIST_FILE = "CUIDemoFavorites/CUIDemoFavorites-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -637,7 +669,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CUIDemoFavorites/CUIDemoFavorites-Prefix.pch";
 				INFOPLIST_FILE = "CUIDemoFavorites/CUIDemoFavorites-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";

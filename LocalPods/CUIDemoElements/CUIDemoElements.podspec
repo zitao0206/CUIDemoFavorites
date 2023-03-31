@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/zitao0206/CUIDemoFavorites'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zitao0206' => '63437613@qq.com' }
-  s.source           = { :git => 'https://github.com/zitao/CUIDemoFavorites.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '10.0'
+  s.source           = { :git => 'https://github.com/zitao0206/CUIDemoFavorites.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '13.0'
   s.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '__CUI_MODULE_NAME__=\"CUIDemoElements\" CUI_MODULE_NAME=@\"CUIDemoElements\"'}
 
   s.source_files = [
