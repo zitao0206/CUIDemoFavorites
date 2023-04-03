@@ -7,12 +7,12 @@
 
 ## Operating:
 
-Clone the repo, and run `pod install` first, then run the CUIDemoFavorites.xcworkspace
+Clone the repo, and run `pod install` first, then run the CUIDemoFavorites.xcworkspace.
 
 ## Introduction to the project:
 CUIDemoFavorites means 'Custom User Interface Demo Favorites', that are used to collect all kinds of custom UI elements.
 
-There are thress Pods in the project, as follows: 
+There are three Pods in the project, as follows: 
 1. CUIDemoElements mainly contain the code of demo elements, that is, the actual demo code should be put here; 
 2. CUIDemoExamples mainly contain the corresponding demos code, here the demos in CUIDemoElements will be instantiated and various case scenarios are introduced, it is recommended to use code to interpret your demo elements; 
 3. CUIDemoBackups mainly contain the history demos that will be reorganized gradually. 
