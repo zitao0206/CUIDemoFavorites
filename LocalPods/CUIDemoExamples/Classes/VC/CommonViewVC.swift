@@ -2,19 +2,19 @@
 //  CommonViewVC.swift
 //  CUIDemoExamples
 //
-//  Created by lizitao on 2023/3/31.
+//  Created by zitao0206 on 2023/3/31.
 //
 
 import UIKit
 import SwiftUI
 import CUIDemoElements
 
-public class CommonViewVC: UIViewController {
+public class CommonViewVC<T: View>: UIViewController {
     
     public override func viewDidLoad() {
         super.viewDidLoad()
         
-        let rootView = CommonView()
+        let rootView = loadContentView()
         let hostingController = UIHostingController(rootView: rootView)
         addChild(hostingController)
         view.addSubview(hostingController.view)
@@ -28,12 +28,20 @@ public class CommonViewVC: UIViewController {
             hostingController.view.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])
     }
+    
+//    func loadContentView() -> AnyView {
+//        fatalError("loadContentView() has not been implemented!!!")
+//    }
+    
+    func loadContentView() -> T {
+        fatalError("loadContentView() has not been implemented")
+    }
 
 }
 
-public struct CommonView: View {
-    public var body: some View {
-        Text("Common View")
+extension View {
+    func eraseToAnyView() -> AnyView {
+        AnyView(self)
     }
 }
 

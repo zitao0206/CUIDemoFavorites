@@ -9,26 +9,32 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## 工程的简介
+## Introduction to the project
+CUIDemoFavorites means 'Custom User Interface Demo Favorites', that are used to collect all kinds of custom UI elements.
 
 工程里含有两个Pod仓库，如下：
 1. CUIDemoElements主要包含demo元素的代码，也就是真正的demo代码要放到这里；
 2. CUIDemoExamples主要包含对应的demo演示示例代码，在这里CUIDemoElements中的demo将会被实例化以及各种case的使用场景介绍等，推荐用代码来诠释你的demo元素；
 3. 如果要在你自己的项目中直接引用，可以 使用 pod 'CUIDemoElements'，当然强烈不推荐这么做，因为demo代码没人会保证它的安全性。
 
-## 入库步骤与方法：
+There are two Pods in the project, as follows: 
+1. CUIDemoElements mainly contain the code of demo elements, that is, the actual demo code should be put here; 
+2. CUIDemoExamples mainly contain the corresponding demos code, here the demos in CUIDemoElements will be instantiated and various case scenarios are introduced, it is recommended to use code to interpret your demo elements; 
+3. If you want to reference it directly in your own project, you can use pod 'CUIDemoElements', although this is highly discouraged because demo code is not guaranteed to be secure.
 
-1. 找到自己的demo分类，例如你的demo是个动画视图，那么现将你的代码CUIXXXAnimationView相关的代码放入CUIDemoElements对应的ViewAnimation目录下，
-最好建个属于自己的目录CUIXXXAnimationView；
-2. CUIDemoExamples中，添加自己的演示示例类CUIXXXAnimationViewController，里面应该包含你的CUIXXXAnimationView初始化，各种场景的使用等任何需要使用者知道的代码；
-3. CUIDemoExamples中，将提前准备好的演示视频或者图片资源放入Videos或Images目录下；
-4. CUIDemoExamples中，找到CUIDemoViewAnimationData类，参考添加自己的model，包括类名、将要演示的资源文件名、文件格式、作者、演示VC类、必要的描述；
-5. pod install/pod update运行查看。
+## Steps and methods:
 
-## 说明
+1. Find your own demo classification. For example, if your demo is an animated view, put your code CUIXXXAnimationView into the ViewAnimation directory corresponding to CUIDemoElements. 
+It is better to create your own directory CUIXXXAnimationView; 
+2. CUIDemoExamples, add your own demonstration example class CUIXXXAnimationViewController, it should contain your CUIXXXAnimationView initialization, the use of various scenarios such as any users need to know the code; 
+3. In CUIDemoExamples, put the prepared demo Videos or pictures into the videos or Images directory; 
+4. In CUIDemoExamples, find the CUIDemoViewAnimationData class and refer to add your own model, including class name, resource file name to be demonstrated, file format, author, presentation VC class, necessary description; 
+5. pod install/pod update check the installation.
 
-代码基本都来自作者的实际自己开发中，部分代码可能来自其他平台的“模改”，如有侵权，请及时告知，会及时删除。
+## Statement
+
+The code is basically from the author's actual development, part of the code may come from other platforms of "model modification", if there is infringement, please inform in time, will be deleted in time.
 
 ## 作者与Email
 
-Leon0206, 634376133@qq.com
+zitao0206, 634376133@qq.com
