@@ -1,27 +1,28 @@
 //
-//  CUIHallViewControlViewController.m
+//  CUIHallViewAnimationViewController.m
 //
 //  Created by zitao on 03/30/2021.
 //  Copyright (c) 2021 zitao. All rights reserved.
 //
 
-#import "CUIHallViewControlViewController.h"
+#import "CUIHallViewAnimationViewController.h"
 #import "CUICollectionViewImageCell.h"
 #import "CUICollectionViewVideoCell.h"
-#import "CUIViewControlCollectionViewLayout.h"
-#import "CUIDemoViewControlData.h"
+#import "CUIViewAnimationCollectionViewLayout.h"
 #import "CUIDemoCellItemModel.h"
+#import "CUIDemoViewAnimationData.h"
+#import "CommonKit.h"
 
 #define ImageCellHeight   120
 #define VideoCellHeight   242
-#define Cellwidth (kScreenWidth - 2) / 2.0;
+#define Cellwidth (ScreenWidth - 2) / 2.0;
 
-@interface CUIHallViewControlViewController () <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@interface CUIHallViewAnimationViewController () <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 @property (strong, nonatomic) UICollectionView *collectionView;
 @property (strong, nonatomic) NSArray <CUIDemoCellItemModel *> *items;
 @end
 
-@implementation CUIHallViewControlViewController
+@implementation CUIHallViewAnimationViewController
 
 - (void)viewDidLoad
 {
@@ -29,7 +30,7 @@
     
     [self.view addSubview:self.collectionView];
     
-    self.items = [[CUIDemoViewControlData obtainData] mutableCopy];
+    self.items = [[CUIDemoViewAnimationData obtainData] mutableCopy];
     
     self.view.backgroundColor = [UIColor whiteColor];
 }
@@ -118,7 +119,7 @@
 - (UICollectionView *)collectionView
 {
     if (!_collectionView) {
-        CUIViewControlCollectionViewLayout *layout = [[CUIViewControlCollectionViewLayout alloc] init];
+        CUIViewAnimationCollectionViewLayout *layout = [[CUIViewAnimationCollectionViewLayout alloc] init];
         _collectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight) collectionViewLayout:layout];
         _collectionView.backgroundColor = [[UIColor brownColor]colorWithAlphaComponent:0.2];
         _collectionView.delegate = self;

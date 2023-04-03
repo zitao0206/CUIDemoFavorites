@@ -8,7 +8,7 @@
 #import "CUICollectionViewImageCell.h"
 #import <Masonry/Masonry.h>
 #import "CUIDemoCellItemModel.h"
-
+#import "CommonKit.h"
 
 @interface CUICollectionViewImageCell()
 @property (nonatomic, strong) UILabel *titleLabel;

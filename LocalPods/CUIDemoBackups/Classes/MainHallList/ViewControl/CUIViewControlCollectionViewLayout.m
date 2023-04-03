@@ -8,6 +8,7 @@
 #import "CUIViewControlCollectionViewLayout.h"
 #import "CUIDemoCellItemModel.h"
 #import "CUIDemoViewControlData.h"
+#import "CommonKit.h"
 
 static const NSInteger ColumnCount = 2;
 static const CGFloat RowMagin = 5;

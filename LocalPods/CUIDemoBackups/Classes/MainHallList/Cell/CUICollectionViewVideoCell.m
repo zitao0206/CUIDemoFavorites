@@ -8,6 +8,7 @@
 #import "CUICollectionViewVideoCell.h"
 #import "CUIDemoCellItemModel.h"
 #import <AVFoundation/AVFoundation.h>
+#import "CommonKit.h"
 
 @interface CUICollectionViewVideoCell ()
 @property (nonatomic, strong) UILabel *titleLabel;
