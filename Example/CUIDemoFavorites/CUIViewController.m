@@ -56,7 +56,7 @@
 - (void)demoForOCBtnClickAction
 {
     CUIHallListViewController *vc = [[CUIHallListViewController alloc]init];
-    vc.title = @"Demos For OC";
+    vc.title = @"Demo Backups";
     [self.navigationController pushViewController:vc animated:YES];
 }
 
@@ -83,7 +83,7 @@
     if (!_demoForOCBtn) {
         _demoForOCBtn = [UIButton buttonWithType:UIButtonTypeSystem];
         _demoForOCBtn.titleLabel.font = [UIFont systemFontOfSize:20.0 weight:UIFontWeightRegular];
-        [_demoForOCBtn setTitle:@"Demos For OC" forState:UIControlStateNormal];
+        [_demoForOCBtn setTitle:@"Demo Backups" forState:UIControlStateNormal];
         [_demoForOCBtn addTarget:self action:@selector(demoForOCBtnClickAction) forControlEvents:UIControlEventTouchUpInside];
     }
     return _demoForOCBtn;

@@ -10,6 +10,5 @@
 #define CUIDemoElements_pch
 
 #import <Masonry/Masonry.h>
-#import "CommonKit.h"
 
 #endif /* CUIDemoElements_pch */

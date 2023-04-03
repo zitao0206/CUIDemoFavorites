@@ -22,6 +22,5 @@
 #define CUIDemoExamples_pch
 
 #import <Masonry/Masonry.h>
-#import "CommonKit.h"
 
 #endif /* CUIDemoExamples_pch */

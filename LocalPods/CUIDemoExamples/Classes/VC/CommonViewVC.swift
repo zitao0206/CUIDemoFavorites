@@ -7,7 +7,6 @@
 
 import UIKit
 import SwiftUI
-import CUIDemoElements
 
 public class CommonViewVC<T: View>: UIViewController {
     
