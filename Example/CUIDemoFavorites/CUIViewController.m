@@ -12,8 +12,8 @@
 #import "CUIDemoFavorites-swift.h"
 
 @interface CUIViewController ()
-@property (nonatomic, strong) UIButton *demoForSwiftBtn;
-@property (nonatomic, strong) UIButton *demoForOCBtn;
+@property (nonatomic, strong) UIButton *customUIDemoBtn;
+@property (nonatomic, strong) UIButton *demoForBackup;
 @property (nonatomic, strong) UIButton *ruleBtn;
 
 @end
@@ -23,37 +23,44 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.view addSubview:self.demoForSwiftBtn];
-    [self.demoForSwiftBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+    
+    [self.view addSubview:self.customUIDemoBtn];
+    [self.view addSubview:self.ruleBtn];
+    [self.view addSubview:self.demoForBackup];
+    
+    [self.customUIDemoBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.view).offset(200);
         make.left.equalTo(self.view);
         make.width.equalTo(self.view);
         make.height.equalTo(@40);
     }];
-    [self.view addSubview:self.demoForOCBtn];
-    [self.demoForOCBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+
+    
+    [self.ruleBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.view).offset(300);
         make.left.equalTo(self.view);
         make.width.equalTo(self.view);
         make.height.equalTo(@40);
     }];
-    [self.view addSubview:self.ruleBtn];
-    [self.ruleBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-          make.top.equalTo(self.demoForOCBtn).offset(100);
+
+    
+    [self.demoForBackup mas_makeConstraints:^(MASConstraintMaker *make) {
+          make.top.equalTo(self.view).offset(400);
           make.left.equalTo(self.view);
           make.width.equalTo(self.view);
           make.height.equalTo(@40);
     }];
+  
 }
 
-- (void)demoForSwiftBtnClickAction
+- (void)customUIDemoBtnClickAction
 {
     CUIPlusHallListVC *vc = [[CUIPlusHallListVC alloc]init];
-    vc.title = @"Demos For Swift";
+    vc.title = @"Custom UI Demos";
     [self.navigationController pushViewController:vc animated:YES];
 }
 
-- (void)demoForOCBtnClickAction
+- (void)demoForBackupClickAction
 {
     CUIHallListViewController *vc = [[CUIHallListViewController alloc]init];
     vc.title = @"Demo Backups";
@@ -67,26 +74,15 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
-- (UIButton *)demoForSwiftBtn
+- (UIButton *)customUIDemoBtn
 {
-    if (!_demoForSwiftBtn) {
-        _demoForSwiftBtn = [UIButton buttonWithType:UIButtonTypeSystem];
-        _demoForSwiftBtn.titleLabel.font = [UIFont systemFontOfSize:20.0 weight:UIFontWeightRegular];
-        [_demoForSwiftBtn setTitle:@"Demos For Swift" forState:UIControlStateNormal];
-        [_demoForSwiftBtn addTarget:self action:@selector(demoForSwiftBtnClickAction) forControlEvents:UIControlEventTouchUpInside];
+    if (!_customUIDemoBtn) {
+        _customUIDemoBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+        _customUIDemoBtn.titleLabel.font = [UIFont systemFontOfSize:20.0 weight:UIFontWeightRegular];
+        [_customUIDemoBtn setTitle:@"Custom UI Demos" forState:UIControlStateNormal];
+        [_customUIDemoBtn addTarget:self action:@selector(customUIDemoBtnClickAction) forControlEvents:UIControlEventTouchUpInside];
     }
-    return _demoForSwiftBtn;
-}
-
-- (UIButton *)demoForOCBtn
-{
-    if (!_demoForOCBtn) {
-        _demoForOCBtn = [UIButton buttonWithType:UIButtonTypeSystem];
-        _demoForOCBtn.titleLabel.font = [UIFont systemFontOfSize:20.0 weight:UIFontWeightRegular];
-        [_demoForOCBtn setTitle:@"Demo Backups" forState:UIControlStateNormal];
-        [_demoForOCBtn addTarget:self action:@selector(demoForOCBtnClickAction) forControlEvents:UIControlEventTouchUpInside];
-    }
-    return _demoForOCBtn;
+    return _customUIDemoBtn;
 }
 
 - (UIButton *)ruleBtn
@@ -99,5 +95,19 @@
     }
     return _ruleBtn;
 }
+
+- (UIButton *)demoForBackup
+{
+    if (!_demoForBackup) {
+        _demoForBackup = [UIButton buttonWithType:UIButtonTypeSystem];
+        _demoForBackup.titleLabel.font = [UIFont systemFontOfSize:20.0 weight:UIFontWeightRegular];
+        _demoForBackup.titleLabel.tintColor = [UIColor lightGrayColor];
+        [_demoForBackup setTitle:@"Demo Backups" forState:UIControlStateNormal];
+        [_demoForBackup addTarget:self action:@selector(demoForBackupClickAction) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _demoForBackup;
+}
+
+
 
 @end

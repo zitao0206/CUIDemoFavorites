@@ -38,7 +38,6 @@
     NSArray *array = @[
         @"Static View",
         @"Dynamic View",
-        @"Others",
     ];
     [self.titleArr addObjectsFromArray:array];
 }
