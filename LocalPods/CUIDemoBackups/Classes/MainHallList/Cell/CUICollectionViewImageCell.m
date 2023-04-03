@@ -47,7 +47,7 @@
         [self.titleLabel sizeToFit];
         self.classLabel.text = item.className;
         [self.classLabel sizeToFit];
-        NSBundle *bundle = [NSBundle cui_bundleWithPodName:@"CUIDemoExamples"];
+        NSBundle *bundle = [NSBundle cui_bundleWithPodName:@"CUIDemoBackups"];
         NSString *filePath = [bundle pathForResource:item.imageName ofType:item.imageType];
         NSAssert(filePath.length > 0, @"图片资源异常！！！");
         self.imageView.image = [UIImage imageWithContentsOfFile:filePath];

@@ -23,7 +23,8 @@ Pod::Spec.new do |s|
   ]
   
   s.resource_bundles = {
-     'CUIDemoElements' => ['Assets/**/*']
+     'CUIDemoElements-Assets' => ['Assets/**/*'],
+     'CUIDemoElements-Resources' => ['Resources/**/*']
   }
 #  s.public_header_files = 'CUIDemoElements/Classes/**/*.h'
   s.prefix_header_file = 'CUIDemoElements.pch'

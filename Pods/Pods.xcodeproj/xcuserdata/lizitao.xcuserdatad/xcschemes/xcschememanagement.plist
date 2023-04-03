@@ -14,7 +14,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>CUIDemoBackups-CUIDemoBackups.xcscheme</key>
+		<key>CUIDemoBackups-CUIDemoBackups-Assets.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CUIDemoBackups-CUIDemoBackups-Resources.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -24,7 +29,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>CUIDemoElements-CUIDemoElements.xcscheme</key>
+		<key>CUIDemoElements-CUIDemoElements-Assets.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CUIDemoElements-CUIDemoElements-Resources.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -34,7 +44,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>CUIDemoExamples-CUIDemoExamples.xcscheme</key>
+		<key>CUIDemoExamples-CUIDemoExamples-Assets.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CUIDemoExamples-CUIDemoExamples-Resources.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

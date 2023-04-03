@@ -24,9 +24,11 @@
   "public_header_files": "Classes/**/*.h",
   "prefix_header_file": "CUIDemoExamples.pch",
   "resource_bundles": {
-    "CUIDemoExamples": [
-      "Assets/Images/*.*",
-      "Assets/Videos/*.*"
+    "CUIDemoExamples-Assets": [
+      "Assets/**/*"
+    ],
+    "CUIDemoExamples-Resources": [
+      "Resources/**/*"
     ]
   },
   "dependencies": {

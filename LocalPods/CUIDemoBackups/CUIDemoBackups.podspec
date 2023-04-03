@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'CUIDemoBackups'
   s.version          = '0.1.0'
   s.summary          = 'A short description of CUIDemoExamples.'
-  s.homepage         = 'https://github.com/zitao0206/CUIDemoBackups'
+  s.homepage         = 'https://github.com/zitao0206/CUIDemoFavorites'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zitao0206' => '63437613@qq.com' }
   s.source           = { :git => 'https://github.com/zitao0206/CUIDemoFavorites.git', :tag => s.version.to_s }
@@ -25,7 +25,8 @@ Pod::Spec.new do |s|
   ]
 
   s.resource_bundles = {
-     'CUIDemoBackups' => ['Assets/**/*']
+     'CUIDemoBackups-Assets' => ['Assets/**/*'],
+     'CUIDemoBackups-Resources' => ['Resources/**/*']
   }
   
   s.dependency 'CUIDemoExamples'

@@ -369,16 +369,22 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CUIDemoFavorites/Pods-CUIDemoFavorites-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoBackups/CUIDemoBackups.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoElements/CUIDemoElements.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoExamples/CUIDemoExamples.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoBackups/CUIDemoBackups-Assets.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoBackups/CUIDemoBackups-Resources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoElements/CUIDemoElements-Assets.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoElements/CUIDemoElements-Resources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoExamples/CUIDemoExamples-Assets.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoExamples/CUIDemoExamples-Resources.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoBackups.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoElements.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoExamples.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoBackups-Assets.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoBackups-Resources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoElements-Assets.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoElements-Resources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoExamples-Assets.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoExamples-Resources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
