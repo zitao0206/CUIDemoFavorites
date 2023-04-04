@@ -32,7 +32,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit', 'Foundation', 'MapKit'
   s.dependency 'Masonry'
   s.dependency 'SVProgressHUD'
-  s.dependency 'BlocksKit'
-  s.dependency 'SnapKit'
-  
+
 end
