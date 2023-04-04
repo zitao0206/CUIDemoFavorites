@@ -16,7 +16,6 @@
     [array addObject:[self.class obtainItemDataWithKeyName:@"FoldNumber" descrip:@"滚动的数字"]];
     [array addObject:[self.class obtainItemDataWithKeyName:@"GravityCollision" descrip:@"仿重力碰撞的动画"]];
     [array addObject:[self.class obtainItemDataWithKeyName:@"ProgressCircle" descrip:@"简易的圆形进度条"]];
-    [array addObject:[self.class obtainItemDataWithKeyName:@"SpringMotion" descrip:@"简易的弹簧运动动画"]];
     [array addObject:[self.class obtainItemDataWithKeyName:@"InputAudio" descrip:@"语音聊天输入动画"]];
     return array;
 }

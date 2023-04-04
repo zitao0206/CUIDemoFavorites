@@ -63,5 +63,11 @@ public class CUIPlusHallListVC : UIViewController, UITableViewDelegate, UITableV
         if indexPath.row == 0 {
             navigationController?.pushViewController(CUIPlusElementsVC(), animated: true)
         }
+        if indexPath.row == 1 {
+            navigationController?.pushViewController(CUIPlusElementsVC(), animated: true)
+        }
+        if indexPath.row == 2 {
+            navigationController?.pushViewController(CUIDynamicViewVC(), animated: true)
+        }
     }
 }

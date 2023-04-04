@@ -24,8 +24,9 @@ Pod::Spec.new do |s|
   s.prefix_header_file = 'CUIDemoExamples.pch'
 
   s.resource_bundles = {
-     'CUIDemoExamples-Assets' => ['Assets/**/*'],
-     'CUIDemoExamples-Resources' => ['Resources/**/*']
+     'CUIDemoExamples' => ['Assets/**/*'],
+     'CUIDemoExamples-Images' => ['Resources/Images/**/*'],
+     'CUIDemoExamples-Videos' => ['Resources/Videos/**/*']
   }
   
   s.dependency 'CUIDemoElements'

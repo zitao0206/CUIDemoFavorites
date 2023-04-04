@@ -25,11 +25,14 @@
     "Classes/**/*"
   ],
   "resource_bundles": {
-    "CUIDemoElements-Assets": [
+    "CUIDemoElements": [
       "Assets/**/*"
     ],
-    "CUIDemoElements-Resources": [
-      "Resources/**/*"
+    "CUIDemoElements-Images": [
+      "Resources/Images/**/*"
+    ],
+    "CUIDemoElements-Videos": [
+      "Resources/Videos/**/*"
     ]
   },
   "prefix_header_file": "CUIDemoElements.pch",

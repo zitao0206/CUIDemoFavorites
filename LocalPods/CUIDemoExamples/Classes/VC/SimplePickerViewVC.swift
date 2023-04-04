@@ -10,11 +10,13 @@ import SwiftUI
 import CUIDemoElements
 
 @objc(SimplePickerViewVC)
-public class SimplePickerViewVC: CommonViewVC <SimplePickerView> {
+public class SimplePickerViewVC: SwiftUIViewVC <SimplePickerView> {
     
-    override func loadContentView() -> SimplePickerView {
+ 
+    public override func loadContentView() -> SimplePickerView {
         return SimplePickerView()
     }
+    
     
 }
 

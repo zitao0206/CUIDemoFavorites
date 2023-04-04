@@ -47,14 +47,21 @@ class CUIElementsCell: UICollectionViewCell {
         }
         titleLabel.text = item.className
         subtitleLabel.text = item.descrip
-        guard let bundle = Bundle.ako_bundle(withPodName: "CUIDemoExamples") else {
+        guard let bundle = Bundle.ako_bundle(withPodName: "CUIDemoExamples-Images") else {
             assertionFailure("Image resource exception！-------> \(item.imageName)")
             return
         }
-        guard let image = UIImage(named: item.imageName, in: bundle, compatibleWith: nil) else {
+      
+        guard let localFilePath = bundle.path(forResource: item.imageName, ofType: item.imageType) else {
             assertionFailure("Image resource exception！-------> \(item.imageName)")
             return
         }
+        
+        guard let image = UIImage(contentsOfFile: localFilePath) else {
+            assertionFailure("Image resource exception！-------> \(item.imageName)")
+            return
+        }
+        
         imageView.image = image
         setNeedsLayout()
     }

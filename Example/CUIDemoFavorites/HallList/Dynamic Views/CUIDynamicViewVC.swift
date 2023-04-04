@@ -10,16 +10,16 @@ import Foundation
 import AKOCommonToolsKit
 import CUIDemoExamples
 
-@objc(CUIPlusElementsVC)
+@objc(CUIDynamicViewVC)
 @objcMembers
-public class CUIPlusElementsVC : UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+public class CUIDynamicViewVC : UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
     var collectionView: UICollectionView!
 
-    let cellReuseIdentifier = "CUIElementsCell"
+    let cellReuseIdentifier = "CUIDynamicViewCell"
 
     lazy var items: [CUIDemoCellItemModel] = {
-        return CUIDemoElementsData.obtainData()
+        return CUIDemoDynamicViewData.obtainData()
     }()
     
     public override func viewDidLoad() {
@@ -29,16 +29,16 @@ public class CUIPlusElementsVC : UIViewController, UICollectionViewDelegate, UIC
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
     
-        layout.itemSize = CGSize(width: (UIDevice.ako.screenWidth - 20), height: 120)
+        layout.itemSize = CGSize(width: (UIDevice.ako.screenWidth - 20), height: 200)
         
         // 创建 UICollectionView 实例并设置其属性
         collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: layout)
         collectionView.contentInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         collectionView.delegate = self
         collectionView.dataSource = self
-        collectionView.register(CUIElementsCell.self, forCellWithReuseIdentifier: cellReuseIdentifier)
+        collectionView.register(CUIDynamicViewCell.self, forCellWithReuseIdentifier: cellReuseIdentifier)
         view.addSubview(collectionView)
-        collectionView.backgroundColor = .lightGray.withAlphaComponent(0.1)
+        collectionView.backgroundColor = .lightGray.withAlphaComponent(0.3)
         view.backgroundColor = .white
     }
     
@@ -49,8 +49,7 @@ public class CUIPlusElementsVC : UIViewController, UICollectionViewDelegate, UIC
     }
     
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellReuseIdentifier, for: indexPath) as! CUIElementsCell
-        cell.backgroundColor = .magenta.withAlphaComponent(0.1)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellReuseIdentifier, for: indexPath) as! CUIDynamicViewCell
         cell.refreshData(items[indexPath.row])
         return cell
     }

@@ -27,6 +27,8 @@
 		D845A13D29D66D6900CDDECB /* CUIPlusElementsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845A13C29D66D6900CDDECB /* CUIPlusElementsVC.swift */; };
 		D845AC4B29D66F7500CDDECB /* CUIElementsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845AC4A29D66F7500CDDECB /* CUIElementsCell.swift */; };
 		D86A3C2F2632BF970049098F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A3C2E2632BF970049098F /* File.swift */; };
+		D86AB5D329DBBBF500840A11 /* CUIDynamicViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86AB5D229DBBBF500840A11 /* CUIDynamicViewVC.swift */; };
+		D86AB5D529DBBD9900840A11 /* CUIDynamicViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86AB5D429DBBD9800840A11 /* CUIDynamicViewCell.swift */; };
 		D8E8B3CF26132114003BD3DB /* CUIRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B3CD26132114003BD3DB /* CUIRuleViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +84,8 @@
 		D845AC4A29D66F7500CDDECB /* CUIElementsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUIElementsCell.swift; sourceTree = "<group>"; };
 		D86A3C2E2632BF970049098F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		D86A3C322632C1400049098F /* CUIDemoFavorites-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CUIDemoFavorites-Bridging-Header.h"; sourceTree = "<group>"; };
+		D86AB5D229DBBBF500840A11 /* CUIDynamicViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIDynamicViewVC.swift; sourceTree = "<group>"; };
+		D86AB5D429DBBD9800840A11 /* CUIDynamicViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIDynamicViewCell.swift; sourceTree = "<group>"; };
 		D86DB4F026354F160082039F /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		D8E8B3CD26132114003BD3DB /* CUIRuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIRuleViewController.m; sourceTree = "<group>"; };
 		D8E8B3CE26132114003BD3DB /* CUIRuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIRuleViewController.h; sourceTree = "<group>"; };
@@ -227,6 +231,8 @@
 		D845A13A29D66D6900CDDECB /* Dynamic Views */ = {
 			isa = PBXGroup;
 			children = (
+				D86AB5D229DBBBF500840A11 /* CUIDynamicViewVC.swift */,
+				D86AB5D429DBBD9800840A11 /* CUIDynamicViewCell.swift */,
 			);
 			path = "Dynamic Views";
 			sourceTree = "<group>";
@@ -369,22 +375,28 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CUIDemoFavorites/Pods-CUIDemoFavorites-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoBackups/CUIDemoBackups-Assets.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoBackups/CUIDemoBackups-Resources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoElements/CUIDemoElements-Assets.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoElements/CUIDemoElements-Resources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoExamples/CUIDemoExamples-Assets.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoExamples/CUIDemoExamples-Resources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoBackups/CUIDemoBackups.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoBackups/CUIDemoBackups-Images.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoBackups/CUIDemoBackups-Videos.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoElements/CUIDemoElements.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoElements/CUIDemoElements-Images.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoElements/CUIDemoElements-Videos.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoExamples/CUIDemoExamples.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoExamples/CUIDemoExamples-Images.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoExamples/CUIDemoExamples-Videos.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoBackups-Assets.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoBackups-Resources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoElements-Assets.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoElements-Resources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoExamples-Assets.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoExamples-Resources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoBackups.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoBackups-Images.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoBackups-Videos.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoElements.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoElements-Images.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoElements-Videos.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoExamples.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoExamples-Images.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoExamples-Videos.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86AB5D529DBBD9900840A11 /* CUIDynamicViewCell.swift in Sources */,
 				D86A3C2F2632BF970049098F /* File.swift in Sources */,
 				6003F59E195388D20070C39A /* CUIAppDelegate.m in Sources */,
 				D845AC4B29D66F7500CDDECB /* CUIElementsCell.swift in Sources */,
@@ -428,6 +441,7 @@
 				D845A13D29D66D6900CDDECB /* CUIPlusElementsVC.swift in Sources */,
 				6003F5A7195388D20070C39A /* CUIViewController.m in Sources */,
 				D8E8B3CF26132114003BD3DB /* CUIRuleViewController.m in Sources */,
+				D86AB5D329DBBBF500840A11 /* CUIDynamicViewVC.swift in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

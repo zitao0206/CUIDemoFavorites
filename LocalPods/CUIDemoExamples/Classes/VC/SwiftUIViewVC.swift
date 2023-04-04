@@ -8,7 +8,7 @@
 import UIKit
 import SwiftUI
 
-public class CommonViewVC<T: View>: UIViewController {
+public class SwiftUIViewVC<T: View>: UIViewController {
     
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,16 +26,14 @@ public class CommonViewVC<T: View>: UIViewController {
             hostingController.view.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             hostingController.view.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])
+      
     }
     
-//    func loadContentView() -> AnyView {
-//        fatalError("loadContentView() has not been implemented!!!")
-//    }
-    
-    func loadContentView() -> T {
+    public func loadContentView() -> T {
         fatalError("loadContentView() has not been implemented")
     }
-
+    
+ 
 }
 
 extension View {

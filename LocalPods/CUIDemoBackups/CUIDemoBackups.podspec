@@ -25,8 +25,9 @@ Pod::Spec.new do |s|
   ]
 
   s.resource_bundles = {
-     'CUIDemoBackups-Assets' => ['Assets/**/*'],
-     'CUIDemoBackups-Resources' => ['Resources/**/*']
+      'CUIDemoBackups' => ['Assets/**/*'],
+      'CUIDemoBackups-Images' => ['Resources/Images/**/*'],
+      'CUIDemoBackups-Videos' => ['Resources/Videos/**/*']
   }
   
   s.dependency 'CUIDemoExamples'

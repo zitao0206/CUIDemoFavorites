@@ -1,5 +1,5 @@
 PODS:
-  - AKOCommonToolsKit (0.0.29)
+  - AKOCommonToolsKit (0.0.30)
   - BlocksKit (2.2.5):
     - BlocksKit/All (= 2.2.5)
   - BlocksKit/All (2.2.5):
@@ -32,14 +32,12 @@ PODS:
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
-  - AKOCommonToolsKit (= 0.0.29)
+  - AKOCommonToolsKit (from `/Users/lizitao/Desktop/MainProject/AKOCommonToolsKit/`)
   - CUIDemoBackups (from `./LocalPods/CUIDemoBackups`)
   - CUIDemoElements (from `./LocalPods/CUIDemoElements`)
   - CUIDemoExamples (from `./LocalPods/CUIDemoExamples`)
 
 SPEC REPOS:
-  https://github.com/zitao0206/MDSpecs.git:
-    - AKOCommonToolsKit
   trunk:
     - BlocksKit
     - Masonry
@@ -47,6 +45,8 @@ SPEC REPOS:
     - SVProgressHUD
 
 EXTERNAL SOURCES:
+  AKOCommonToolsKit:
+    :path: "/Users/lizitao/Desktop/MainProject/AKOCommonToolsKit/"
   CUIDemoBackups:
     :path: "./LocalPods/CUIDemoBackups"
   CUIDemoElements:
@@ -55,15 +55,15 @@ EXTERNAL SOURCES:
     :path: "./LocalPods/CUIDemoExamples"
 
 SPEC CHECKSUMS:
-  AKOCommonToolsKit: 5a08814b18af6f94be71d24d7dbd16f4c755e6c5
+  AKOCommonToolsKit: 2abd1f65bc151e94d9362b630166e59b1078a2ae
   BlocksKit: 8639b2848dd51c35c957af4d9fbdc7a769a1fc12
-  CUIDemoBackups: d0f903c1bd1d964b71a4bac1d764ea1020c3698c
-  CUIDemoElements: 13790996ab077e602b2904a2f72c82de00842458
-  CUIDemoExamples: 225d9859d9255ecd65bdbe57ef2a7d99bdd7025f
+  CUIDemoBackups: e577483e8e3ed62137d90372ca2c3d0328fe86e4
+  CUIDemoElements: c7a913b456dbf3386caa076c1fb994997b03cdc0
+  CUIDemoExamples: 0642c346ea3003e12948b85dbd9a87ad0a3a803b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 34edfd4889455033da6ddbfd1febe635021a7cfb
+PODFILE CHECKSUM: 1deeb86c2c27c3ef26ee0c325d0d43e95ab495eb
 
 COCOAPODS: 1.11.3
