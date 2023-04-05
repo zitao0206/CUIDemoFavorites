@@ -25,16 +25,18 @@ class CUIElementsCell: UICollectionViewCell {
         
         // 创建并添加 titleLabel 子视图
         titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: 15))
-        titleLabel.textColor = .blue
-        titleLabel.font = UIFont.systemFont(ofSize: 12)
+        titleLabel.textColor = .white.withAlphaComponent(1.0)
+        titleLabel.font = UIFont.systemFont(ofSize: 15)
         titleLabel.textAlignment = .left
+        titleLabel.backgroundColor = .black.withAlphaComponent(0.5)
         addSubview(titleLabel)
         
         // 创建并添加 subtitleLabel 子视图
         subtitleLabel = UILabel(frame: CGRect(x: 0, y: contentView.frame.height - 15, width: frame.size.width, height: 15))
-        subtitleLabel.textColor = .cyan
-        subtitleLabel.font = UIFont.systemFont(ofSize: 12)
+        subtitleLabel.textColor = .white.withAlphaComponent(1.0)
+        subtitleLabel.font = UIFont.systemFont(ofSize: 15)
         subtitleLabel.textAlignment = .right
+        subtitleLabel.backgroundColor = .black.withAlphaComponent(0.5)
         
         addSubview(subtitleLabel)
         
@@ -45,8 +47,8 @@ class CUIElementsCell: UICollectionViewCell {
         guard let item = data as? CUIDemoCellItemModel else {
             return
         }
-        titleLabel.text = item.className
-        subtitleLabel.text = item.descrip
+        titleLabel.text = item.descrip
+        subtitleLabel.text = item.className
         guard let bundle = Bundle.ako_bundle(withPodName: "CUIDemoExamples-Images") else {
             assertionFailure("Image resource exception！-------> \(item.imageName)")
             return
@@ -69,8 +71,10 @@ class CUIElementsCell: UICollectionViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         imageView.frame = CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height)
-        titleLabel.frame = CGRect(x: 0, y: 0, width: frame.size.width, height: 15)
-        subtitleLabel.frame = CGRect(x: 0, y: contentView.frame.height - 15, width: frame.size.width, height: 15)
+        titleLabel.sizeToFit()
+        
+        subtitleLabel.sizeToFit()
+        subtitleLabel.right = frame.size.width
         
     }
     

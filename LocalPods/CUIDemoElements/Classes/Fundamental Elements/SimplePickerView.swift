@@ -24,6 +24,7 @@ public struct SimplePickerView: View {
                         Text($0)
                     }
                 }
+//                .pickerStyle(.segmented)
             }
         }
     }

@@ -29,7 +29,7 @@ public class CUIPlusElementsVC : UIViewController, UICollectionViewDelegate, UIC
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
     
-        layout.itemSize = CGSize(width: (UIDevice.ako.screenWidth - 20), height: 120)
+        layout.itemSize = CGSize(width: (UIDevice.ako.screenWidth - 20), height: 200)
         
         // 创建 UICollectionView 实例并设置其属性
         collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: layout)

@@ -12,8 +12,9 @@ public class CUIDemoElementsData : NSObject {
     
     public static func obtainData() -> [CUIDemoCellItemModel] {
         var array = [CUIDemoCellItemModel]()
-        array.append(obtainItemData(withKeyName: "SimplePicker", descrip: "简单的选择器", imageType: "png"))
-        array.append(obtainItemData(withKeyName: "SimplePicker", descrip: "简单的选择器", imageType: "png"))
+        //图片像素比例：1115 * 571
+        array.append(obtainItemData(withKeyName: "SimplePicker", descrip: "简单的选择器･SwiftUI", imageType: "png"))
+        array.append(obtainItemData(withKeyName: "SimpleLine", descrip: "简单的线条･SwiftUI", imageType: "png"))
         return array
     }
 
@@ -38,8 +39,8 @@ public class CUIDemoDynamicViewData : NSObject {
     
     public static func obtainData() -> [CUIDemoCellItemModel] {
         var array = [CUIDemoCellItemModel]()
-        array.append(obtainItemData(withKeyName: "SpringMotion", descrip: "弹簧运动动画", imageType: "mov"))
-        array.append(obtainItemData(withKeyName: "SpringMotion", descrip: "弹簧运动动画", imageType: "mov"))
+        array.append(obtainItemData(withKeyName: "SpringMotion", descrip: "弹簧运动动画･UIKit", imageType: "mov"))
+        array.append(obtainItemData(withKeyName: "SpringMotion", descrip: "弹簧运动动画･UIKit", imageType: "mov"))
         return array
     }
 

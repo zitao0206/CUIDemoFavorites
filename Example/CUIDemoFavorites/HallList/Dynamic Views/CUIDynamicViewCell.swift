@@ -17,7 +17,7 @@ class CUIDynamicViewCell: UICollectionViewCell {
     label.textAlignment = .left
     label.font = UIFont.systemFont(ofSize: 15)
     label.textColor = UIColor.white.withAlphaComponent(1.0)
-    label.backgroundColor = UIColor.black.withAlphaComponent(0.7)
+    label.backgroundColor = UIColor.black.withAlphaComponent(0.5)
     return label
     }()
     
@@ -26,7 +26,7 @@ class CUIDynamicViewCell: UICollectionViewCell {
         label.textAlignment = .right
         label.font = UIFont.systemFont(ofSize: 15)
         label.textColor = UIColor.white.withAlphaComponent(1.0)
-        label.backgroundColor = UIColor.black.withAlphaComponent(0.7)
+        label.backgroundColor = UIColor.black.withAlphaComponent(0.5)
         return label
     }()
 
