@@ -16,12 +16,7 @@ use_frameworks! :linkage => :static
 
 
 workspace 'CUIDemoFavorites.xcworkspace'
-project 'Example/CUIDemoFavorites'
-
-install! 'cocoapods',
-          :preserve_pod_file_structure => true,
-          :deterministic_uuids => false,
-          :generate_multiple_pod_projects => false
+project 'CUIDemoFavorites.xcodeproj'
 
 target 'CUIDemoFavorites' do
   pod 'CUIDemoExamples', :path => './LocalPods/CUIDemoExamples', :inhibit_warnings => false
