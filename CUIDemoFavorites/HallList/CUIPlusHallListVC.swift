@@ -36,6 +36,9 @@ public class CUIPlusHallListVC : UIViewController, UITableViewDelegate, UITableV
         tableView.backgroundColor = .white
         view.addSubview(tableView)
         view.backgroundColor = .white
+        
+        navigationController?.navigationBar.topItem?.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+
     }
     
     // MARK: - TableView DataSource
@@ -47,7 +50,9 @@ public class CUIPlusHallListVC : UIViewController, UITableViewDelegate, UITableV
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier, for: indexPath)
         cell.textLabel?.text = items[indexPath.row]
-        cell.backgroundColor = .lightGray.withAlphaComponent(0.5)
+        cell.textLabel?.textAlignment = .center
+        cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 25)
+        cell.backgroundColor = .white
         return cell
     }
 
@@ -55,24 +60,28 @@ public class CUIPlusHallListVC : UIViewController, UITableViewDelegate, UITableV
         return 0.0
     }
     public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80.0
+        return 100.0
     }
     
     // MARK: - TableView Delegate
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
        print("You tapped cell number \(indexPath.row).")
+        var vc : UIViewController? = nil
         if indexPath.row == 0 {
-            navigationController?.pushViewController(CUIPlusElementsVC(), animated: true)
+            vc = CUIPlusElementsVC()
         }
         if indexPath.row == 1 {
-            navigationController?.pushViewController(CUIPlusElementsVC(), animated: true)
+            vc = CUIPlusElementsVC()
         }
         if indexPath.row == 2 {
-            navigationController?.pushViewController(CUIDynamicViewVC(), animated: true)
+            vc = CUIDynamicViewVC()
         }
         if indexPath.row == 3 {
-            navigationController?.pushViewController(CUIDynamicViewVC(), animated: true)
+            vc = CUIDynamicViewVC()
         }
-        
+        if let viewVC = vc {
+            viewVC.title = "CUIDemoFavorites";
+            navigationController?.pushViewController(viewVC, animated: true)
+        }
     }
 }

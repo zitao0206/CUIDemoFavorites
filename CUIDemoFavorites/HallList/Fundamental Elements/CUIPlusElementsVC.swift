@@ -40,6 +40,8 @@ public class CUIPlusElementsVC : UIViewController, UICollectionViewDelegate, UIC
         view.addSubview(collectionView)
         collectionView.backgroundColor = .lightGray.withAlphaComponent(0.1)
         view.backgroundColor = .white
+        
+        navigationController?.navigationBar.topItem?.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
     
     // MARK: - UICollectionViewDataSource

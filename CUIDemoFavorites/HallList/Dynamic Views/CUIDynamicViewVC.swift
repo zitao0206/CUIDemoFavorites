@@ -40,6 +40,9 @@ public class CUIDynamicViewVC : UIViewController, UICollectionViewDelegate, UICo
         view.addSubview(collectionView)
         collectionView.backgroundColor = .lightGray.withAlphaComponent(0.3)
         view.backgroundColor = .white
+       
+        navigationController?.navigationBar.topItem?.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+
     }
     
     // MARK: - UICollectionViewDataSource

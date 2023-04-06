@@ -35,7 +35,6 @@
         make.height.equalTo(@40);
     }];
 
-    
     [self.ruleBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.view).offset(300);
         make.left.equalTo(self.view);
@@ -43,20 +42,20 @@
         make.height.equalTo(@40);
     }];
 
-    
     [self.demoForBackup mas_makeConstraints:^(MASConstraintMaker *make) {
           make.top.equalTo(self.view).offset(400);
           make.left.equalTo(self.view);
           make.width.equalTo(self.view);
           make.height.equalTo(@40);
     }];
-  
+    
+    self.navigationController.navigationItem.backButtonTitle = @"";
 }
 
 - (void)customUIDemoBtnClickAction
 {
     CUIPlusHallListVC *vc = [[CUIPlusHallListVC alloc]init];
-    vc.title = @"Custom UI Demos";
+    vc.title = @"CUIDemoFavorites";
     [self.navigationController pushViewController:vc animated:YES];
 }
 
@@ -78,7 +77,7 @@
 {
     if (!_customUIDemoBtn) {
         _customUIDemoBtn = [UIButton buttonWithType:UIButtonTypeSystem];
-        _customUIDemoBtn.titleLabel.font = [UIFont systemFontOfSize:20.0 weight:UIFontWeightRegular];
+        _customUIDemoBtn.titleLabel.font = [UIFont systemFontOfSize:25.0 weight:UIFontWeightBold];
         [_customUIDemoBtn setTitle:@"Custom UI Demos" forState:UIControlStateNormal];
         [_customUIDemoBtn addTarget:self action:@selector(customUIDemoBtnClickAction) forControlEvents:UIControlEventTouchUpInside];
     }
@@ -89,7 +88,7 @@
 {
     if (!_ruleBtn) {
         _ruleBtn = [UIButton buttonWithType:UIButtonTypeSystem];
-        _ruleBtn.titleLabel.font = [UIFont systemFontOfSize:20.0 weight:UIFontWeightRegular];
+        _ruleBtn.titleLabel.font = [UIFont systemFontOfSize:25.0 weight:UIFontWeightBold];
         [_ruleBtn setTitle:@"ReadMe" forState:UIControlStateNormal];
         [_ruleBtn addTarget:self action:@selector(ruleBtnClickAction) forControlEvents:UIControlEventTouchUpInside];
     }
@@ -100,7 +99,7 @@
 {
     if (!_demoForBackup) {
         _demoForBackup = [UIButton buttonWithType:UIButtonTypeSystem];
-        _demoForBackup.titleLabel.font = [UIFont systemFontOfSize:20.0 weight:UIFontWeightRegular];
+        _demoForBackup.titleLabel.font = [UIFont systemFontOfSize:24.0 weight:UIFontWeightBold];
         _demoForBackup.titleLabel.tintColor = [UIColor lightGrayColor];
         [_demoForBackup setTitle:@"Demo Backups" forState:UIControlStateNormal];
         [_demoForBackup addTarget:self action:@selector(demoForBackupClickAction) forControlEvents:UIControlEventTouchUpInside];
