@@ -2,7 +2,7 @@
 //  SimpleLineViewVC.swift
 //  CUIDemoElements
 //
-//  Created by lizitao on 2023/4/5.
+//  Created by zitao0206 on 2023/4/5.
 //
 
 import UIKit

@@ -17,15 +17,32 @@ public struct SimplePickerView: View {
     @State private var selectedStudent = "Harry"
     
     public var body: some View {
-        NavigationView {
+        VStack {
             Form {
-                Picker("Select your student", selection: $selectedStudent) {
-                    ForEach(students, id: \.self) {
-                        Text($0)
+                VStack(alignment: .center, spacing: 20) {
+                    
+                    VStack {
+                        Picker("Select your student", selection: $selectedStudent) {
+                            ForEach(students, id: \.self) {
+                                Text($0)
+                            }
+                        }
+                        .pickerStyle(.segmented)
+                        .background(.red.opacity(0.3))
+                    }
+                    VStack {
+                        Picker("Select your student", selection: $selectedStudent) {
+                            ForEach(students, id: \.self) {
+                                Text($0)
+                            }
+                        }
+                        .background(.yellow.opacity(0.3))
                     }
                 }
-//                .pickerStyle(.segmented)
             }
         }
+        .frame(width: UIScreen.main.bounds.width, height: 500)
+        .background(.green.opacity(0.1))
+       
     }
 }

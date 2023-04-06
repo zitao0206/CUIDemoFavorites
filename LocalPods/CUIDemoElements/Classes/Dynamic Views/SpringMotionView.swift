@@ -2,7 +2,7 @@
 //  SpringMotionView.swift
 //  CUIDemoElements
 //
-//  Created by lizitao on 2023/4/4.
+//  Created by zitao0206 on 2023/4/4.
 //
 
 import Foundation

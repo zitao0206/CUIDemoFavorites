@@ -20,6 +20,7 @@ public class CUIPlusHallListVC : UIViewController, UITableViewDelegate, UITableV
             items.append("Fundamental Elements")
             items.append("Static Views")
             items.append("Dynamic Views")
+            items.append("Others")
             return items
     }()
     
@@ -69,5 +70,9 @@ public class CUIPlusHallListVC : UIViewController, UITableViewDelegate, UITableV
         if indexPath.row == 2 {
             navigationController?.pushViewController(CUIDynamicViewVC(), animated: true)
         }
+        if indexPath.row == 3 {
+            navigationController?.pushViewController(CUIDynamicViewVC(), animated: true)
+        }
+        
     }
 }

@@ -205,7 +205,6 @@
 				2CA0E32D58A5922F1AF01340 /* Pods-CUIDemoFavorites.debug.xcconfig */,
 				09ACA652F7B40D766BDAF05E /* Pods-CUIDemoFavorites.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -215,16 +214,8 @@
 				D845A10029D5335A00CDDECB /* CUIPlusHallListVC.swift */,
 				D845A13A29D66D6900CDDECB /* Dynamic Views */,
 				D845A13B29D66D6900CDDECB /* Fundamental Elements */,
-				D845A13929D66D6900CDDECB /* Static Views */,
 			);
 			path = HallList;
-			sourceTree = "<group>";
-		};
-		D845A13929D66D6900CDDECB /* Static Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Static Views";
 			sourceTree = "<group>";
 		};
 		D845A13A29D66D6900CDDECB /* Dynamic Views */ = {
@@ -577,7 +568,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CUIDemoFavorites/CUIDemoFavorites-Prefix.pch";
 				INFOPLIST_FILE = "CUIDemoFavorites/CUIDemoFavorites-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -602,7 +593,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CUIDemoFavorites/CUIDemoFavorites-Prefix.pch";
 				INFOPLIST_FILE = "CUIDemoFavorites/CUIDemoFavorites-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";

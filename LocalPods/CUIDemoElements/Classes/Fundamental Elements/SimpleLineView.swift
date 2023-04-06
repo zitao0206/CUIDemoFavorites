@@ -2,7 +2,7 @@
 //  SimpleLineView.swift
 //  CUIDemoElements
 //
-//  Created by lizitao on 2023/4/5.
+//  Created by zitao0206 on 2023/4/5.
 //
 
 import SwiftUI
@@ -35,52 +35,50 @@ public struct SimpleLineView: View {
     public init() {}
     
     public var body: some View {
-        if #available(iOS 15.0, *) {
-            HStack(alignment: .center, spacing: 50) {
-                HStack {
-                    PELine(direction: .vertical)
-                        .stroke(style: StrokeStyle(lineWidth: 5))
-                        .foregroundColor(.blue)
-                        .frame(width: 2.0, height: 180)
-                }
-                
-                HStack {
-                    PELine(direction: .vertical)
-                        .stroke(style: StrokeStyle(lineWidth: 1, dash: [3, 3]))
-                        .foregroundColor(.blue)
-                        .frame(width: 2.0, height: 180)
-                }
-                
-                HStack {
-                    PELine(direction: .vertical)
-                        .stroke(style: StrokeStyle(lineWidth: 1, dash: [3, 6]))
-                        .foregroundColor(.blue)
-                        .frame(width: 2.0, height: 180)
-                }
-                HStack {
-                    PELine(direction: .vertical)
-                        .stroke(style: StrokeStyle(lineWidth: 1, dash: [6, 6]))
-                        .foregroundColor(.blue)
-                        .frame(width: 2.0, height: 180)
-                }
-                HStack {
-                    PELine(direction: .vertical)
-                        .stroke(style: StrokeStyle(lineWidth: 1, dash: [0.1, 0.1]))
-                        .foregroundColor(.blue)
-                        .frame(width: 2.0, height: 180)
-                }
-                HStack {
-                    Rectangle()
-                        .fill(.red)
-                        .frame(width: 1.0, height: 180)
-                        .padding(.leading, 20)
-                }
+ 
+        HStack(alignment: .center, spacing: 50) {
+            HStack {
+                PELine(direction: .vertical)
+                    .stroke(style: StrokeStyle(lineWidth: 5))
+                    .foregroundColor(.blue)
+                    .frame(width: 2.0, height: 180)
             }
-            .frame(width: UIScreen.main.bounds.width - 20, height: 200)
-            .background(.red.opacity(0.1))
-        } else {
-            // Fallback on earlier versions
+            
+            HStack {
+                PELine(direction: .vertical)
+                    .stroke(style: StrokeStyle(lineWidth: 1, dash: [3, 3]))
+                    .foregroundColor(.blue)
+                    .frame(width: 2.0, height: 180)
+            }
+            
+            HStack {
+                PELine(direction: .vertical)
+                    .stroke(style: StrokeStyle(lineWidth: 1, dash: [3, 6]))
+                    .foregroundColor(.blue)
+                    .frame(width: 2.0, height: 180)
+            }
+            HStack {
+                PELine(direction: .vertical)
+                    .stroke(style: StrokeStyle(lineWidth: 1, dash: [6, 6]))
+                    .foregroundColor(.blue)
+                    .frame(width: 2.0, height: 180)
+            }
+            HStack {
+                PELine(direction: .vertical)
+                    .stroke(style: StrokeStyle(lineWidth: 1, dash: [0.1, 0.1]))
+                    .foregroundColor(.blue)
+                    .frame(width: 2.0, height: 180)
+            }
+            HStack {
+                Rectangle()
+                    .fill(.red)
+                    .frame(width: 1.0, height: 180)
+                    .padding(.leading, 20)
+            }
         }
+        .frame(width: UIScreen.main.bounds.width, height: 300)
+        .background(.red.opacity(0.1))
+         
 
    }
 }

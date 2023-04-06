@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '__CUI_MODULE_NAME__=\"CUIDemoExamples\" CUI_MODULE_NAME=@\"CUIDemoExamples\"' }
   
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '16.0'
   
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'

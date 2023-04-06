@@ -22,15 +22,20 @@ public class SwiftUIViewVC<T: View>: UIViewController {
         hostingController.view.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             hostingController.view.topAnchor.constraint(equalTo: view.topAnchor),
+//            hostingController.view.topAnchor.constraint(equalTo: view.topAnchor, constant: -100),
             hostingController.view.bottomAnchor.constraint(equalTo: view.bottomAnchor),
             hostingController.view.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             hostingController.view.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])
-      
+        view.backgroundColor = loadBackgroudColor()
     }
     
     public func loadContentView() -> T {
         fatalError("loadContentView() has not been implemented")
+    }
+    
+    public func loadBackgroudColor() -> UIColor {
+        return .white
     }
     
  

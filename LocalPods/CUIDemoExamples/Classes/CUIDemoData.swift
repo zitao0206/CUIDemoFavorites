@@ -12,9 +12,11 @@ public class CUIDemoElementsData : NSObject {
     
     public static func obtainData() -> [CUIDemoCellItemModel] {
         var array = [CUIDemoCellItemModel]()
-        //图片像素比例：1115 * 571
-        array.append(obtainItemData(withKeyName: "SimplePicker", descrip: "简单的选择器･SwiftUI", imageType: "png"))
+        //图片像素比例：1115 * 600
+        array.append(obtainItemData(withKeyName: "SimpleButton", descrip: "简单的按钮･SwiftUI", imageType: "png"))
         array.append(obtainItemData(withKeyName: "SimpleLine", descrip: "简单的线条･SwiftUI", imageType: "png"))
+        array.append(obtainItemData(withKeyName: "SimplePicker", descrip: "简单的选择器･SwiftUI", imageType: "png"))
+
         return array
     }
 
