@@ -52,7 +52,7 @@ public class CUIPlusElementsVC : UIViewController, UICollectionViewDelegate, UIC
     
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellReuseIdentifier, for: indexPath) as! CUIElementsCell
-        cell.backgroundColor = .magenta.withAlphaComponent(0.1)
+//        cell.backgroundColor = .magenta.withAlphaComponent(0.1)
         cell.refreshData(items[indexPath.row])
         return cell
     }

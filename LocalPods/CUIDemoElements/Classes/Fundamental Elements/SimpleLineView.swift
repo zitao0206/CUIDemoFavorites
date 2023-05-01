@@ -77,7 +77,7 @@ public struct SimpleLineView: View {
             }
         }
         .frame(width: UIScreen.main.bounds.width, height: 300)
-        .background(.red.opacity(0.1))
+        .background(.blue.opacity(0.1))
          
 
    }
