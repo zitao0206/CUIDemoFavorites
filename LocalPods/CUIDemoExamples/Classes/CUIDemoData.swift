@@ -18,7 +18,9 @@ public class CUIDemoElementsData : NSObject {
         array.append(obtainItemData(withKeyName: "SimpleLine", descrip: "简单的线条･SwiftUI", imageType: "png"))
         array.append(obtainItemData(withKeyName: "SimpleGradient", descrip: "简单的渐变背景･SwiftUI", imageType: "png"))
         array.append(obtainItemData(withKeyName: "SimpleShape", descrip: "简单的图形･SwiftUI", imageType: "png"))
-
+        
+        array.append(obtainItemData(withKeyName: "SimpleScroll", descrip: "简单的滚动视图･SwiftUI", imageType: "png"))
+        
         return array
     }
 
