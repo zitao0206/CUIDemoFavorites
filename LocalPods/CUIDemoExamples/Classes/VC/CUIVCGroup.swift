@@ -9,6 +9,14 @@ import Foundation
 import SwiftUI
 import CUIDemoElements
 
+@objc(SimpleListViewVC)
+public class SimpleListViewVC: SwiftUIViewVC <SimpleListView> {
+    
+    public override func loadContentView() -> SimpleListView {
+        return SimpleListView()
+    }
+}
+
 @objc(SimpleScrollViewVC)
 public class SimpleScrollViewVC: SwiftUIViewVC <SimpleScrollView> {
     
