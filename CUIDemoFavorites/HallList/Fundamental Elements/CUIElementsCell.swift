@@ -47,6 +47,9 @@ class CUIElementsCell: UICollectionViewCell {
         guard let item = data as? CUIDemoCellItemModel else {
             return
         }
+        if item.cellType != .ImageItemCellType {
+            return
+        }
         titleLabel.text = item.descrip
         subtitleLabel.text = item.className
         guard let bundle = Bundle.ako_bundle(withPodName: "CUIDemoExamples-Images") else {

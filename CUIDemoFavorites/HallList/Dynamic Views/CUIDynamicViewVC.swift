@@ -12,7 +12,7 @@ import CUIDemoExamples
 
 @objc(CUIDynamicViewVC)
 @objcMembers
-public class CUIDynamicViewVC : UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+public class CUIDynamicViewVC : UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UIScrollViewDelegate {
     
     var collectionView: UICollectionView!
 
@@ -53,7 +53,9 @@ public class CUIDynamicViewVC : UIViewController, UICollectionViewDelegate, UICo
     
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellReuseIdentifier, for: indexPath) as! CUIDynamicViewCell
+        
         cell.refreshData(items[indexPath.row])
+        
         return cell
     }
 
@@ -63,5 +65,34 @@ public class CUIDynamicViewVC : UIViewController, UICollectionViewDelegate, UICo
         if let vc = item.detailVC {
             self.navigationController?.pushViewController(vc, animated: true)
         }
+    }
+    
+    public func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+       // 当滚动开始时停止cell内部动画播放
+       for cell in collectionView.visibleCells {
+           if let showcell = cell as? CUIDynamicViewCell {
+               showcell.stopAnimation()
+           }
+       }
+    }
+
+    public func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+       // 当滚动结束时重新开始cell内部动画播放
+       if !decelerate {
+           for cell in collectionView.visibleCells {
+               if let showcell = cell as? CUIDynamicViewCell {
+                   showcell.startAnimation()
+               }
+           }
+       }
+    }
+
+    public func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+       // 当减速停止时重新开始cell内部动画播放
+       for cell in collectionView.visibleCells {
+           if let showcell = cell as? CUIDynamicViewCell {
+               showcell.startAnimation()
+           }
+       }
     }
 }

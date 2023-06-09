@@ -12,17 +12,18 @@ import CUIDemoExamples
 
 @objc(CUIPlusElementsVC)
 @objcMembers
-public class CUIPlusElementsVC : UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+public class CUIPlusElementsVC : UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UIScrollViewDelegate {
     
     var collectionView: UICollectionView!
 
-    let cellReuseIdentifier = "CUIElementsCell"
+    let cellElementsReuseIdentifier = "CUIElementsCell"
+    let cellDynamicReuseIdentifier = "CUIDynamicViewCell"
 
     lazy var items: [CUIDemoCellItemModel] = {
         return CUIDemoElementsData.obtainData()
     }()
-    
     public override func viewDidLoad() {
+        
         super.viewDidLoad()
   
         // 创建 UICollectionViewFlowLayout 实例并设置其属性
@@ -36,7 +37,8 @@ public class CUIPlusElementsVC : UIViewController, UICollectionViewDelegate, UIC
         collectionView.contentInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         collectionView.delegate = self
         collectionView.dataSource = self
-        collectionView.register(CUIElementsCell.self, forCellWithReuseIdentifier: cellReuseIdentifier)
+        collectionView.register(CUIElementsCell.self, forCellWithReuseIdentifier: cellElementsReuseIdentifier)
+        collectionView.register(CUIDynamicViewCell.self, forCellWithReuseIdentifier: cellDynamicReuseIdentifier)
         view.addSubview(collectionView)
         collectionView.backgroundColor = .lightGray.withAlphaComponent(0.1)
         view.backgroundColor = .white
@@ -45,16 +47,21 @@ public class CUIPlusElementsVC : UIViewController, UICollectionViewDelegate, UIC
     }
     
     // MARK: - UICollectionViewDataSource
-    
     public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return items.count
     }
     
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellReuseIdentifier, for: indexPath) as! CUIElementsCell
-//        cell.backgroundColor = .magenta.withAlphaComponent(0.1)
-        cell.refreshData(items[indexPath.row])
-        return cell
+        let item = items[indexPath.row]
+        if item.cellType == .VideoItemCellType {
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellDynamicReuseIdentifier, for: indexPath) as! CUIDynamicViewCell
+            cell.refreshData(item)
+            return cell
+        } else {
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellElementsReuseIdentifier, for: indexPath) as! CUIElementsCell
+            cell.refreshData(item)
+            return cell
+        }
     }
 
     // MARK: - UICollectionViewDelegate
@@ -63,5 +70,34 @@ public class CUIPlusElementsVC : UIViewController, UICollectionViewDelegate, UIC
         if let vc = item.detailVC {
             self.navigationController?.pushViewController(vc, animated: true)
         }
+    }
+    
+    public func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+       // 当滚动开始时停止cell内部动画播放
+       for cell in collectionView.visibleCells {
+           if let showcell = cell as? CUIDynamicViewCell {
+               showcell.stopAnimation()
+           }
+       }
+    }
+
+    public func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+       // 当滚动结束时重新开始cell内部动画播放
+       if !decelerate {
+           for cell in collectionView.visibleCells {
+               if let showcell = cell as? CUIDynamicViewCell {
+                   showcell.startAnimation()
+               }
+           }
+       }
+    }
+
+    public func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+       // 当减速停止时重新开始cell内部动画播放
+       for cell in collectionView.visibleCells {
+           if let showcell = cell as? CUIDynamicViewCell {
+               showcell.startAnimation()
+           }
+       }
     }
 }

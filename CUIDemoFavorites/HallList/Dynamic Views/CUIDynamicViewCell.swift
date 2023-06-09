@@ -32,6 +32,8 @@ class CUIDynamicViewCell: UICollectionViewCell {
 
     private var player: AVPlayer? // 播放器对象
     private var currentPlayerItem: AVPlayerItem?
+    
+    var isBeingPaused : Bool = false
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -52,6 +54,11 @@ class CUIDynamicViewCell: UICollectionViewCell {
 
     func refreshData(_ data: Any?) {
         if let item = data as? CUIDemoCellItemModel {
+            
+            if item.cellType != .VideoItemCellType {
+                return
+            }
+            
             titleLabel.text = item.descrip
             titleLabel.sizeToFit()
             classLabel.text = item.className
@@ -83,8 +90,8 @@ class CUIDynamicViewCell: UICollectionViewCell {
             
             contentView.bringSubviewToFront(titleLabel)
             contentView.bringSubviewToFront(classLabel)
-            
-            player?.play()
+
+            startAnimation()
             
             setNeedsLayout()
         }
@@ -92,9 +99,21 @@ class CUIDynamicViewCell: UICollectionViewCell {
 
     @objc private func moviePlayDidEnd(_ notification: Notification) {
         if let item = notification.object as? AVPlayerItem {
-            item.seek(to: CMTime.zero, completionHandler: nil)
-            player?.play()
+            if !isBeingPaused {
+                item.seek(to: CMTime.zero, completionHandler: nil)
+                player?.play()
+            }
         }
+    }
+    
+    func startAnimation() {
+        isBeingPaused = false
+        player?.play()
+    }
+    
+    func stopAnimation() {
+        isBeingPaused = true
+        player?.pause()
     }
 }
 
