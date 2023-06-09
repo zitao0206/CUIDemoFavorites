@@ -23,7 +23,8 @@ public class CUIDemoElementsData : NSObject {
         array.append(obtainItemData(withKeyName: "SimpleScroll", descrip: "简单的滚动视图･SwiftUI", imageType: "png"))
         array.append(obtainItemData(withKeyName: "SimpleList", descrip: "简单的列表･SwiftUI", imageType: "png"))
         
-        array.append(obtainItemData(withKeyName: "SimpleRotationAnimation", descrip: "简单的旋转动画･UIKit", imageType: "mov"))
+        array.append(obtainItemData(withKeyName: "SimpleRotationAnimation", descrip: "简单的旋转动画･SwiftUI", imageType: "mov"))
+        array.append(obtainItemData(withKeyName: "SimpleTransition", descrip: "简单的Transition动画･SwiftUI", imageType: "mov"))
         
         
         return array
