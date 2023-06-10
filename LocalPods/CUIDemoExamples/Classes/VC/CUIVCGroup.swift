@@ -9,6 +9,13 @@ import Foundation
 import SwiftUI
 import CUIDemoElements
 
+@objc(SimpleSheetsViewVC)
+public class SimpleSheetsViewVC: SwiftUIViewVC <SimpleSheetsView> {
+    public override func loadContentView() -> SimpleSheetsView {
+        return SimpleSheetsView()
+    }
+}
+
 @objc(SimpleTransitionViewVC)
 public class SimpleTransitionViewVC: SwiftUIViewVC <SimpleTransitionView> {
     public override func loadContentView() -> SimpleTransitionView {
@@ -16,10 +23,10 @@ public class SimpleTransitionViewVC: SwiftUIViewVC <SimpleTransitionView> {
     }
 }
 
-@objc(SimpleRotationAnimationViewVC)
-public class SimpleRotationAnimationViewVC: SwiftUIViewVC <SimpleRotationAnimationView> {
-    public override func loadContentView() -> SimpleRotationAnimationView {
-        return SimpleRotationAnimationView()
+@objc(SimpleRotationViewVC)
+public class SimpleRotationViewVC: SwiftUIViewVC <SimpleRotationView> {
+    public override func loadContentView() -> SimpleRotationView {
+        return SimpleRotationView()
     }
 }
 

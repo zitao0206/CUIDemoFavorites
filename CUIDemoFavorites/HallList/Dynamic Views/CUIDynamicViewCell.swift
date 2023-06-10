@@ -84,7 +84,7 @@ class CUIDynamicViewCell: UICollectionViewCell {
             currentPlayerItem = playerItem
             player = AVPlayer(playerItem: playerItem)
             let avLayer = AVPlayerLayer(player: player)
-            avLayer.videoGravity = .resizeAspectFill
+            avLayer.videoGravity = .resizeAspect
             avLayer.frame = contentView.bounds
             contentView.layer.addSublayer(avLayer)
             

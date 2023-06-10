@@ -1,5 +1,5 @@
 //
-//  SimpleRotationAnimationView.swift
+//  SimpleRotationView.swift
 //  CUIDemoElements
 //
 //  Created by lizitao on 2023/6/9.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public struct SimpleRotationAnimationView: View {
+public struct SimpleRotationView: View {
     
     public init() {}
     
@@ -35,8 +35,8 @@ public struct SimpleRotationAnimationView: View {
     }
 }
 
-struct SimpleRotationAnimationView_Previews: PreviewProvider {
+struct SimpleRotationView_Previews: PreviewProvider {
     static var previews: some View {
-        SimpleRotationAnimationView()
+        SimpleRotationView()
     }
 }

@@ -14,18 +14,20 @@ public class CUIDemoElementsData : NSObject {
         var array = [CUIDemoCellItemModel]()
         //图片像素比例：1116 * 594
         
-        array.append(obtainItemData(withKeyName: "SimplePicker", descrip: "简单的选择器･SwiftUI", imageType: "png"))
-        array.append(obtainItemData(withKeyName: "SimpleButton", descrip: "简单的按钮･SwiftUI", imageType: "png"))
-        array.append(obtainItemData(withKeyName: "SimpleLine", descrip: "简单的线条･SwiftUI", imageType: "png"))
-        array.append(obtainItemData(withKeyName: "SimpleGradient", descrip: "简单的渐变背景･SwiftUI", imageType: "png"))
-        array.append(obtainItemData(withKeyName: "SimpleShape", descrip: "简单的图形･SwiftUI", imageType: "png"))
+        array.append(obtainItemData(withKeyName: "SimpleSheets", descrip: "简单的Sheets控件･SwiftUI", imageType: "mov"))
         
-        array.append(obtainItemData(withKeyName: "SimpleScroll", descrip: "简单的滚动视图･SwiftUI", imageType: "png"))
-        array.append(obtainItemData(withKeyName: "SimpleList", descrip: "简单的列表･SwiftUI", imageType: "png"))
-        
-        array.append(obtainItemData(withKeyName: "SimpleRotationAnimation", descrip: "简单的旋转动画･SwiftUI", imageType: "mov"))
         array.append(obtainItemData(withKeyName: "SimpleTransition", descrip: "简单的Transition动画･SwiftUI", imageType: "mov"))
+        array.append(obtainItemData(withKeyName: "SimpleRotation", descrip: "简单的旋转动画･SwiftUI", imageType: "mov"))
         
+        
+        array.append(obtainItemData(withKeyName: "SimpleList", descrip: "简单的列表･SwiftUI", imageType: "png"))
+        array.append(obtainItemData(withKeyName: "SimpleScroll", descrip: "简单的滚动视图･SwiftUI", imageType: "png"))
+        array.append(obtainItemData(withKeyName: "SimpleShape", descrip: "简单的图形･SwiftUI", imageType: "png"))
+        array.append(obtainItemData(withKeyName: "SimpleGradient", descrip: "简单的渐变背景･SwiftUI", imageType: "png"))
+        array.append(obtainItemData(withKeyName: "SimpleLine", descrip: "简单的线条･SwiftUI", imageType: "png"))
+        array.append(obtainItemData(withKeyName: "SimpleButton", descrip: "简单的按钮･SwiftUI", imageType: "png"))
+        array.append(obtainItemData(withKeyName: "SimplePicker", descrip: "简单的选择器･SwiftUI", imageType: "png"))
+       
         
         return array
     }
