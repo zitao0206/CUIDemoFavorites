@@ -20,7 +20,7 @@ class CUIElementsCell: UICollectionViewCell {
      
         // 创建 imageView 子视图
         imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height))
-        imageView.contentMode = .scaleAspectFit
+        imageView.contentMode = .scaleAspectFill
         addSubview(imageView)
         
         // 创建并添加 titleLabel 子视图

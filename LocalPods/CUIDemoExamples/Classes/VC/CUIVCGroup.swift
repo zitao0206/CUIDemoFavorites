@@ -9,6 +9,13 @@ import Foundation
 import SwiftUI
 import CUIDemoElements
 
+@objc(SimpleAlertViewVC)
+public class SimpleAlertViewVC: SwiftUIViewVC <SimpleAlertView> {
+    public override func loadContentView() -> SimpleAlertView {
+        return SimpleAlertView()
+    }
+}
+
 @objc(SimpleNavigationViewVC)
 public class SimpleNavigationViewVC: SwiftUIViewVC <SimpleNavigationView> {
     public override func loadContentView() -> SimpleNavigationView {
