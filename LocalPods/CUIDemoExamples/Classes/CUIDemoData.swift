@@ -13,7 +13,7 @@ public class CUIDemoElementsData : NSObject {
     public static func obtainData() -> [CUIDemoCellItemModel] {
         var array = [CUIDemoCellItemModel]()
         //图片像素比例：1116 * 594
-        
+        array.append(obtainItemData(withKeyName: "SimpleSlider", descrip: "简单的Slider･SwiftUI", imageType: "mov"))
         array.append(obtainItemData(withKeyName: "SimpleTextEditor", descrip: "简单的TextEditor･SwiftUI", imageType: "mov"))
         array.append(obtainItemData(withKeyName: "SimpleTextfield", descrip: "简单的Textfield･SwiftUI", imageType: "mov"))
         

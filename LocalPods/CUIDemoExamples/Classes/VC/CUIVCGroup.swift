@@ -9,6 +9,14 @@ import Foundation
 import SwiftUI
 import CUIDemoElements
 
+
+@objc(SimpleSliderViewVC)
+public class SimpleSliderViewVC: SwiftUIViewVC <SimpleSliderView> {
+    public override func loadContentView() -> SimpleSliderView {
+        return SimpleSliderView()
+    }
+}
+
 @objc(SimpleTextEditorViewVC)
 public class SimpleTextEditorViewVC: SwiftUIViewVC <SimpleTextEditorView> {
     public override func loadContentView() -> SimpleTextEditorView {
