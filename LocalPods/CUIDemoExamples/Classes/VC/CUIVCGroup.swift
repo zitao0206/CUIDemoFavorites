@@ -9,6 +9,12 @@ import Foundation
 import SwiftUI
 import CUIDemoElements
 
+@objc(SimpleTabViewVC)
+public class SimpleTabViewVC: SwiftUIViewVC <SimpleTabView> {
+    public override func loadContentView() -> SimpleTabView {
+        return SimpleTabView()
+    }
+}
 
 @objc(SimpleSliderViewVC)
 public class SimpleSliderViewVC: SwiftUIViewVC <SimpleSliderView> {
