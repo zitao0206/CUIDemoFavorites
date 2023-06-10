@@ -40,7 +40,6 @@ public class CUIPlusElementsVC : UIViewController, UICollectionViewDelegate, UIC
         collectionView.register(CUIElementsCell.self, forCellWithReuseIdentifier: cellElementsReuseIdentifier)
         collectionView.register(CUIDynamicViewCell.self, forCellWithReuseIdentifier: cellDynamicReuseIdentifier)
         view.addSubview(collectionView)
-        collectionView.backgroundColor = .lightGray.withAlphaComponent(0.1)
         view.backgroundColor = .white
         
         navigationController?.navigationBar.topItem?.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)

@@ -40,6 +40,7 @@ class CUIDynamicViewCell: UICollectionViewCell {
         contentView.addSubview(titleLabel)
         contentView.addSubview(classLabel)
         NotificationCenter.default.addObserver(self, selector: #selector(moviePlayDidEnd), name: .AVPlayerItemDidPlayToEndTime, object: player?.currentItem)
+        contentView.backgroundColor = .lightGray.withAlphaComponent(0.3)
     }
 
     required init?(coder aDecoder: NSCoder) {

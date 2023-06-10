@@ -9,6 +9,14 @@ import Foundation
 import SwiftUI
 import CUIDemoElements
 
+
+@objc(SimpleTextfieldViewVC)
+public class SimpleTextfieldViewVC: SwiftUIViewVC <SimpleTextfieldView> {
+    public override func loadContentView() -> SimpleTextfieldView {
+        return SimpleTextfieldView()
+    }
+}
+
 @objc(SimpleContextMenuViewVC)
 public class SimpleContextMenuViewVC: SwiftUIViewVC <SimpleContextMenuView> {
     public override func loadContentView() -> SimpleContextMenuView {
