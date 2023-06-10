@@ -2,7 +2,7 @@
 //  SimpleGradientView.swift
 //  CUIDemoElements
 //
-//  Created by lizitao on 2023/4/6.
+//  Created by zitao0206 on 2023/4/6.
 //
 
 import SwiftUI

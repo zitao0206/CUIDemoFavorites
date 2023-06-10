@@ -14,6 +14,8 @@ public class CUIDemoElementsData : NSObject {
         var array = [CUIDemoCellItemModel]()
         //图片像素比例：1116 * 594
         
+        array.append(obtainItemData(withKeyName: "SimpleActionSheet", descrip: "简单的ActionSheet･SwiftUI", imageType: "mov"))
+        
         array.append(obtainItemData(withKeyName: "SimpleAlert", descrip: "简单的Alert･SwiftUI", imageType: "png"))
         
         array.append(obtainItemData(withKeyName: "SimpleNavigation", descrip: "简单的导航栏･SwiftUI", imageType: "mov"))

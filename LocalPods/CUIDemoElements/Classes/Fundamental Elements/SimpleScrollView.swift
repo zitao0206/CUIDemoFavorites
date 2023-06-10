@@ -2,7 +2,7 @@
 //  SimpleScrollView.swift
 //  CUIDemoElements
 //
-//  Created by lizitao on 2023/6/3.
+//  Created by zitao0206 on 2023/6/3.
 //
 
 import SwiftUI

@@ -2,12 +2,19 @@
 //  CUIVCGroup.swift
 //  CUIDemoElements
 //
-//  Created by lizitao on 2023/5/1.
+//  Created by zitao0206 on 2023/5/1.
 //
 
 import Foundation
 import SwiftUI
 import CUIDemoElements
+
+@objc(SimpleActionSheetViewVC)
+public class SimpleActionSheetViewVC: SwiftUIViewVC <SimpleActionSheetView> {
+    public override func loadContentView() -> SimpleActionSheetView {
+        return SimpleActionSheetView()
+    }
+}
 
 @objc(SimpleAlertViewVC)
 public class SimpleAlertViewVC: SwiftUIViewVC <SimpleAlertView> {
