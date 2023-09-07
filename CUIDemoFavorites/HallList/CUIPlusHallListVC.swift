@@ -20,7 +20,7 @@ public class CUIPlusHallListVC : UIViewController, UITableViewDelegate, UITableV
             items.append("Fundamental Elements")
             items.append("Static Views")
             items.append("Dynamic Views")
-            items.append("Others")
+//            items.append("Others")
             return items
     }()
     
