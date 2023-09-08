@@ -1,11 +1,11 @@
 //
-//  CUIFoldNumberView.h
+//  FoldNumberView.h
 //
 //  Created by zitao on 03/30/2021.
 //  Copyright (c) 2021 zitao. All rights reserved.
 //
 
-#import "CUIFoldNumberView.h"
+#import "FoldNumberView.h"
 #import "CUIFoldLabel.h"
 
 #define   CUIFoldNumberMaxPlaces 15
@@ -27,7 +27,7 @@
 
 @end
 
-@interface CUIFoldNumberView ()
+@interface FoldNumberView ()
 
 @property (nonatomic, strong) CUIFoldNumberConfig *config;
 
@@ -52,7 +52,7 @@
 
 @end
 
-@implementation CUIFoldNumberView
+@implementation FoldNumberView
 
 - (instancetype)initWithConfig:(FoldNumberConfigBlock)foldNumberConfig
 {

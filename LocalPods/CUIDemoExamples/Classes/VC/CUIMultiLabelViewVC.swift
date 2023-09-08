@@ -78,11 +78,4 @@ public class CUIMultiLabelViewVC: UIViewController {
         }
 }
 
-//@objc(SimpleSliderViewVC)
-//public class SimpleSliderViewVC: SwiftUIViewVC <SimpleSliderView> {
-//    public override func loadContentView() -> SimpleSliderView {
-//        return SimpleSliderView()
-//    }
-//}
-
 

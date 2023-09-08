@@ -1,5 +1,5 @@
 //
-//  CUISenderGravityCollisionView.h
+//  SenderGravityCollisionView.h
 //  Pods
 //
 //  Created by zitao0206 on 2020/5/9.
@@ -17,7 +17,7 @@
 @end
 
 
-@interface CUISenderGravityCollisionView : UIView
+@interface SenderGravityCollisionView : UIView
  
 @property (nonatomic, weak) id<CUISenderGravityCollisionViewDelegate> delegate;
 

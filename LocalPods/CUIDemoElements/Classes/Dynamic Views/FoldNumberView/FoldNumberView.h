@@ -1,5 +1,5 @@
 //
-//  CUIFoldNumberView.h
+//  FoldNumberView.h
 //
 //  Created by zitao on 03/30/2021.
 //  Copyright (c) 2021 zitao. All rights reserved.
@@ -37,7 +37,7 @@ typedef NS_ENUM(NSInteger, CUIFoldNumberChangeMode) {
 
 typedef void(^FoldNumberConfigBlock)(CUIFoldNumberConfig *config);
 
-@interface CUIFoldNumberView : UIView
+@interface FoldNumberView : UIView
 
 @property (nonatomic, copy) NSString *numberValue;
 

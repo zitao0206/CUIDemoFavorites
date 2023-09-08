@@ -1,5 +1,5 @@
 //
-//  CUIGravityCollisionItemView.h
+//  GravityCollisionItemView.h
 //  Pods
 //
 //  Created by zitao on 03/30/2021.
@@ -7,11 +7,11 @@
 //
 
 
-#import "CUIGravityCollisionItemView.h"
+#import "GravityCollisionItemView.h"
 #import <CoreMotion/CoreMotion.h>
-#import "CommonKit.h"
+#import <AKOCommonToolsKit/AKOCommonToolsKit.h>
 
-@interface CUIGravityCollisionItemView() <UICollisionBehaviorDelegate>
+@interface GravityCollisionItemView() <UICollisionBehaviorDelegate>
 @property (nonatomic, strong) UIDynamicAnimator *animator;
 @property (nonatomic, strong) UICollisionBehavior *collision;
 @property (nonatomic, strong) UIGravityBehavior *gravity;
@@ -23,7 +23,7 @@
 @property (nonatomic, strong) NSTimer *timer;
 @end
 
-@implementation CUIGravityCollisionItemView
+@implementation GravityCollisionItemView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
@@ -121,7 +121,7 @@
 {
     if (!_ball) {
         _ball = [UIImageView new];
-        _ball.image = CUIImageNamed(@"cui_heard_icon");
+        _ball.image = [UIImage imageNamed:@"cui_heard_icon"];
         _ball.contentMode = UIViewContentModeScaleToFill;
         _ball.frame = CGRectMake(0, 0, 54, 44);
     }

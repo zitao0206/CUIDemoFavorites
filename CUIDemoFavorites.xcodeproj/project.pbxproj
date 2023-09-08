@@ -392,9 +392,6 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CUIDemoFavorites/Pods-CUIDemoFavorites-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoBackups/CUIDemoBackups.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoBackups/CUIDemoBackups-Images.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoBackups/CUIDemoBackups-Videos.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoElements/CUIDemoElements.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoElements/CUIDemoElements-Images.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/CUIDemoElements/CUIDemoElements-Videos.bundle",
@@ -405,9 +402,6 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoBackups.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoBackups-Images.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoBackups-Videos.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoElements.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoElements-Images.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CUIDemoElements-Videos.bundle",

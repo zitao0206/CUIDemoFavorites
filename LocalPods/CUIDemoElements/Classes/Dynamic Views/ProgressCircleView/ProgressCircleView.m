@@ -1,14 +1,14 @@
 //
-//  CUIProgressCircleView.m
+//  ProgressCircleView.m
 //  Pods
 //
 //  Created by zitao on 03/30/2021.
 //  Copyright (c) 2021 zitao. All rights reserved.
 //
 
-#import "CUIProgressCircleView.h"
+#import "ProgressCircleView.h"
 
-@interface CUIProgressCircleView ()
+@interface ProgressCircleView ()
 //进度条颜色
 @property(nonatomic, strong) UIColor *progerssColor;
 //进度条背景颜色
@@ -22,7 +22,7 @@
 
 @end
 
-@implementation CUIProgressCircleView
+@implementation ProgressCircleView
 
 
 - (instancetype)initWithFrame:(CGRect)frame

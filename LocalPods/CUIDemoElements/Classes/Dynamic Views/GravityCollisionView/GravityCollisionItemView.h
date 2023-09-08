@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface CUIGravityCollisionItemView : UIView
+@interface GravityCollisionItemView : UIView
 
 @property (nonatomic, weak) id<CUIGravityCollisionItemViewDelegate> delegate;
 

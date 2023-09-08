@@ -7,13 +7,13 @@
 //
 
 #import "CUIFoldNumberViewController.h"
-#import "CUIFoldNumberView.h"
+#import "FoldNumberView.h"
 #import <Masonry/Masonry.h>
 #import "CommonKit.h"
 
 @interface CUIFoldNumberViewController ()
-@property (nonatomic, strong) CUIFoldNumberView *foldNumber1;
-@property (nonatomic, strong) CUIFoldNumberView *foldNumber2;
+@property (nonatomic, strong) FoldNumberView *foldNumber1;
+@property (nonatomic, strong) FoldNumberView *foldNumber2;
 @property (nonatomic, strong) NSTimer *timer;
 @property (nonatomic, assign) NSInteger number;
 @end
@@ -25,7 +25,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.foldNumber1 = [[CUIFoldNumberView alloc]initWithConfig:^(CUIFoldNumberConfig *config) {
+    self.foldNumber1 = [[FoldNumberView alloc]initWithConfig:^(CUIFoldNumberConfig *config) {
         config.backgroundColor = [UIColor redColor];
         config.textColor = [UIColor blackColor];
         config.labelBgColor = [UIColor lightGrayColor];
@@ -36,7 +36,7 @@
     }];
     [self.view addSubview:self.foldNumber1];
     
-    self.foldNumber2 = [[CUIFoldNumberView alloc]initWithConfig:^(CUIFoldNumberConfig *config) {
+    self.foldNumber2 = [[FoldNumberView alloc]initWithConfig:^(CUIFoldNumberConfig *config) {
         config.backgroundColor = [UIColor redColor];
         config.textColor = [UIColor blackColor];
         config.labelBgColor = [UIColor lightGrayColor];

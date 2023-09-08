@@ -102,8 +102,13 @@ public class CUIDemoDynamicViewData : NSObject {
     public static func obtainData() -> [CUIDemoCellItemModel] {
         var array = [CUIDemoCellItemModel]()
         array.append(obtainItemData(withKeyName: "SpringMotion", descrip: "弹簧运动动画･UIKit", imageType: "mov"))
-        array.append(obtainItemData(withKeyName: "SimpleRotationAnimation", descrip: "简单的旋转动画･UIKit", imageType: "mov"))
-        
+        array.append(obtainItemData(withKeyName: "SimpleRotation", descrip: "简单的旋转动画･UIKit", imageType: "mov"))
+        array.append(obtainItemData(withKeyName: "FoldNumber", descrip: "滚动的数字･UIKit", imageType: "mov"))
+        array.append(obtainItemData(withKeyName: "GravityCollision", descrip: "仿重力碰撞･UIKit", imageType: "mov"))
+
+//        [array addObject:[self.class obtainItemDataWithKeyName:@"GravityCollision" descrip:@"仿重力碰撞的动画"]];
+//        [array addObject:[self.class obtainItemDataWithKeyName:@"ProgressCircle" descrip:@"简易的圆形进度条"]];
+//        [array addObject:[self.class obtainItemDataWithKeyName:@"InputAudio" descrip:@"语音聊天输入动画"]];
    
         return array
     }
@@ -113,7 +118,7 @@ public class CUIDemoDynamicViewData : NSObject {
         let imageName = "\(keyName.lowercased())"
         let detailVCName = "\(keyName)ViewVC"
         let item = CUIDemoCellItemModel()
-        item.cellType = .ImageItemCellType
+        item.cellType = .VideoItemCellType
         item.className = className
         item.imageName = imageName
         item.imageType = imageType

@@ -1,15 +1,15 @@
 //
-//  CUISenderGravityCollisionView.m
+//  SenderGravityCollisionView.m
 //  Pods
 //
 //  Created by zitao0206 on 2020/5/9.
 //
 
-#import "CUISenderGravityCollisionView.h"
-#import "CUIGravityCollisionItemView.h"
+#import "SenderGravityCollisionView.h"
+#import "GravityCollisionItemView.h"
 #import <AudioToolbox/AudioToolbox.h>
 
-@interface CUISenderGravityCollisionView () <CUIGravityCollisionItemViewDelegate>
+@interface SenderGravityCollisionView () <CUIGravityCollisionItemViewDelegate>
 @property (nonatomic, strong) NSTimer *timer;
 @property (nonatomic, assign) NSInteger number;
 @property (nonatomic, assign) CGPoint itemPoint;
@@ -17,7 +17,7 @@
 @end
 
 
-@implementation CUISenderGravityCollisionView
+@implementation SenderGravityCollisionView
 
 - (void)dealloc
 {
@@ -76,7 +76,7 @@
 - (void)longClick:(BOOL)shake
 {
     self.number ++;
-    CUIGravityCollisionItemView *itemView = [[CUIGravityCollisionItemView alloc]initWithFrame:CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height)];
+    GravityCollisionItemView *itemView = [[GravityCollisionItemView alloc]initWithFrame:CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height)];
     itemView.delegate = self;
     [itemView setupItemBeginPosition:_itemPoint];
     [self addSubview:itemView];
@@ -88,7 +88,7 @@
 - (void)onceClick:(BOOL)shake
 {
     self.number ++ ;
-    CUIGravityCollisionItemView *itemView = [[CUIGravityCollisionItemView alloc]initWithFrame:CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height)];
+    GravityCollisionItemView *itemView = [[GravityCollisionItemView alloc]initWithFrame:CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height)];
     itemView.delegate = self;
     [itemView setupItemBeginPosition:_itemPoint];
     [self addSubview:itemView];

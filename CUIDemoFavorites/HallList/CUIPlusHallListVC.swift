@@ -76,9 +76,6 @@ public class CUIPlusHallListVC : UIViewController, UITableViewDelegate, UITableV
         if indexPath.row == 2 {
             vc = CUIDynamicViewVC()
         }
-        if indexPath.row == 3 {
-            vc = CUIDynamicViewVC()
-        }
         if let viewVC = vc {
             viewVC.title = "CUIDemoFavorites";
             navigationController?.pushViewController(viewVC, animated: true)

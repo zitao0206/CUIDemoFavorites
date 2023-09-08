@@ -8,7 +8,7 @@
 
 #import "CUIViewController.h"
 #import "CUIRuleViewController.h"
-#import "CUIHallListViewController.h"
+//#import "CUIHallListViewController.h"
 #import "CUIDemoFavorites-swift.h"
 
 @interface CUIViewController ()
@@ -59,13 +59,6 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
-- (void)demoForBackupClickAction
-{
-    CUIHallListViewController *vc = [[CUIHallListViewController alloc]init];
-    vc.title = @"Demo Backups";
-    [self.navigationController pushViewController:vc animated:YES];
-}
-
 - (void)ruleBtnClickAction
 {
     CUIRuleViewController *vc = [[CUIRuleViewController alloc]init];
@@ -94,19 +87,6 @@
     }
     return _ruleBtn;
 }
-
-- (UIButton *)demoForBackup
-{
-    if (!_demoForBackup) {
-        _demoForBackup = [UIButton buttonWithType:UIButtonTypeSystem];
-        _demoForBackup.titleLabel.font = [UIFont systemFontOfSize:24.0 weight:UIFontWeightBold];
-        _demoForBackup.titleLabel.tintColor = [UIColor lightGrayColor];
-        [_demoForBackup setTitle:@"Demo Backups" forState:UIControlStateNormal];
-        [_demoForBackup addTarget:self action:@selector(demoForBackupClickAction) forControlEvents:UIControlEventTouchUpInside];
-    }
-    return _demoForBackup;
-}
-
 
 
 @end
