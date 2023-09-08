@@ -68,10 +68,10 @@ public class CUIPlusHallListVC : UIViewController, UITableViewDelegate, UITableV
        print("You tapped cell number \(indexPath.row).")
         var vc : UIViewController? = nil
         if indexPath.row == 0 {
-            vc = CUIPlusElementsVC()
+            vc = CUIPlusElementsVC(viewType: .elementsViewType)
         }
         if indexPath.row == 1 {
-            vc = CUIPlusElementsVC()
+            vc = CUIPlusElementsVC(viewType: .staticViewType)
         }
         if indexPath.row == 2 {
             vc = CUIDynamicViewVC()

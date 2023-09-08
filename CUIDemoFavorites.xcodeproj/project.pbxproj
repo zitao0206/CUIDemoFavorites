@@ -24,13 +24,14 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		D845A10F29D5335A00CDDECB /* CUIPlusHallListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845A10029D5335A00CDDECB /* CUIPlusHallListVC.swift */; };
-		D845A13D29D66D6900CDDECB /* CUIPlusElementsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845A13C29D66D6900CDDECB /* CUIPlusElementsVC.swift */; };
-		D845AC4B29D66F7500CDDECB /* CUIElementsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845AC4A29D66F7500CDDECB /* CUIElementsCell.swift */; };
 		D86A3C2F2632BF970049098F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A3C2E2632BF970049098F /* File.swift */; };
-		D86AB5D329DBBBF500840A11 /* CUIDynamicViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86AB5D229DBBBF500840A11 /* CUIDynamicViewVC.swift */; };
-		D86AB5D529DBBD9900840A11 /* CUIDynamicViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86AB5D429DBBD9800840A11 /* CUIDynamicViewCell.swift */; };
-		D8A129E52AAB86AC002940D2 /* launch00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8A129E12AAB86AC002940D2 /* launch00.jpg */; };
 		D8A129EC2AAB9148002940D2 /* launch05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8A129EB2AAB9148002940D2 /* launch05.jpg */; };
+		D8A129FA2AABAA68002940D2 /* CUIElementsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A129F42AABAA67002940D2 /* CUIElementsCell.swift */; };
+		D8A129FB2AABAA68002940D2 /* CUIPlusElementsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A129F52AABAA67002940D2 /* CUIPlusElementsVC.swift */; };
+		D8A129FC2AABAA68002940D2 /* CUIDynamicViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A129F82AABAA67002940D2 /* CUIDynamicViewVC.swift */; };
+		D8A129FD2AABAA68002940D2 /* CUIDynamicViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A129F92AABAA67002940D2 /* CUIDynamicViewCell.swift */; };
+		D8A12A002AABAAAC002940D2 /* CUIStaticViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A129FE2AABAAAC002940D2 /* CUIStaticViewCell.swift */; };
+		D8A12A012AABAAAC002940D2 /* CUIStaticViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A129FF2AABAAAC002940D2 /* CUIStaticViewVC.swift */; };
 		D8E8B3CF26132114003BD3DB /* CUIRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8B3CD26132114003BD3DB /* CUIRuleViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -83,15 +84,16 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D845A10029D5335A00CDDECB /* CUIPlusHallListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIPlusHallListVC.swift; sourceTree = "<group>"; };
-		D845A13C29D66D6900CDDECB /* CUIPlusElementsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIPlusElementsVC.swift; sourceTree = "<group>"; };
-		D845AC4A29D66F7500CDDECB /* CUIElementsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUIElementsCell.swift; sourceTree = "<group>"; };
 		D86A3C2E2632BF970049098F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		D86A3C322632C1400049098F /* CUIDemoFavorites-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CUIDemoFavorites-Bridging-Header.h"; sourceTree = "<group>"; };
-		D86AB5D229DBBBF500840A11 /* CUIDynamicViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIDynamicViewVC.swift; sourceTree = "<group>"; };
-		D86AB5D429DBBD9800840A11 /* CUIDynamicViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIDynamicViewCell.swift; sourceTree = "<group>"; };
 		D86DB4F026354F160082039F /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
-		D8A129E12AAB86AC002940D2 /* launch00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch00.jpg; sourceTree = "<group>"; };
 		D8A129EB2AAB9148002940D2 /* launch05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch05.jpg; sourceTree = "<group>"; };
+		D8A129F42AABAA67002940D2 /* CUIElementsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIElementsCell.swift; sourceTree = "<group>"; };
+		D8A129F52AABAA67002940D2 /* CUIPlusElementsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIPlusElementsVC.swift; sourceTree = "<group>"; };
+		D8A129F82AABAA67002940D2 /* CUIDynamicViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIDynamicViewVC.swift; sourceTree = "<group>"; };
+		D8A129F92AABAA67002940D2 /* CUIDynamicViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIDynamicViewCell.swift; sourceTree = "<group>"; };
+		D8A129FE2AABAAAC002940D2 /* CUIStaticViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIStaticViewCell.swift; sourceTree = "<group>"; };
+		D8A129FF2AABAAAC002940D2 /* CUIStaticViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIStaticViewVC.swift; sourceTree = "<group>"; };
 		D8E8B3CD26132114003BD3DB /* CUIRuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIRuleViewController.m; sourceTree = "<group>"; };
 		D8E8B3CE26132114003BD3DB /* CUIRuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIRuleViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -217,37 +219,46 @@
 			isa = PBXGroup;
 			children = (
 				D845A10029D5335A00CDDECB /* CUIPlusHallListVC.swift */,
-				D845A13A29D66D6900CDDECB /* Dynamic Views */,
-				D845A13B29D66D6900CDDECB /* Fundamental Elements */,
+				D8A129F72AABAA67002940D2 /* DynamicViews */,
+				D8A129F32AABAA67002940D2 /* FundamentalElements */,
+				D8A129F62AABAA67002940D2 /* StaticViews */,
 			);
 			path = HallList;
-			sourceTree = "<group>";
-		};
-		D845A13A29D66D6900CDDECB /* Dynamic Views */ = {
-			isa = PBXGroup;
-			children = (
-				D86AB5D229DBBBF500840A11 /* CUIDynamicViewVC.swift */,
-				D86AB5D429DBBD9800840A11 /* CUIDynamicViewCell.swift */,
-			);
-			path = "Dynamic Views";
-			sourceTree = "<group>";
-		};
-		D845A13B29D66D6900CDDECB /* Fundamental Elements */ = {
-			isa = PBXGroup;
-			children = (
-				D845A13C29D66D6900CDDECB /* CUIPlusElementsVC.swift */,
-				D845AC4A29D66F7500CDDECB /* CUIElementsCell.swift */,
-			);
-			path = "Fundamental Elements";
 			sourceTree = "<group>";
 		};
 		D8A129DE2AAB86AC002940D2 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				D8A129E12AAB86AC002940D2 /* launch00.jpg */,
 				D8A129EB2AAB9148002940D2 /* launch05.jpg */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		D8A129F32AABAA67002940D2 /* FundamentalElements */ = {
+			isa = PBXGroup;
+			children = (
+				D8A129F42AABAA67002940D2 /* CUIElementsCell.swift */,
+				D8A129F52AABAA67002940D2 /* CUIPlusElementsVC.swift */,
+			);
+			path = FundamentalElements;
+			sourceTree = "<group>";
+		};
+		D8A129F62AABAA67002940D2 /* StaticViews */ = {
+			isa = PBXGroup;
+			children = (
+				D8A129FE2AABAAAC002940D2 /* CUIStaticViewCell.swift */,
+				D8A129FF2AABAAAC002940D2 /* CUIStaticViewVC.swift */,
+			);
+			path = StaticViews;
+			sourceTree = "<group>";
+		};
+		D8A129F72AABAA67002940D2 /* DynamicViews */ = {
+			isa = PBXGroup;
+			children = (
+				D8A129F82AABAA67002940D2 /* CUIDynamicViewVC.swift */,
+				D8A129F92AABAA67002940D2 /* CUIDynamicViewCell.swift */,
+			);
+			path = DynamicViews;
 			sourceTree = "<group>";
 		};
 		D8E8B3CC26132114003BD3DB /* Rule */ = {
@@ -322,8 +333,8 @@
 				ORGANIZATIONNAME = Leon0206;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = VUC9NCVG44;
 						LastSwiftMigration = 1230;
+						ProvisioningStyle = Automatic;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -359,7 +370,6 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				D8A129E52AAB86AC002940D2 /* launch00.jpg in Resources */,
 				D8A129EC2AAB9148002940D2 /* launch05.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,15 +450,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D86AB5D529DBBD9900840A11 /* CUIDynamicViewCell.swift in Sources */,
+				D8A129FD2AABAA68002940D2 /* CUIDynamicViewCell.swift in Sources */,
+				D8A129FC2AABAA68002940D2 /* CUIDynamicViewVC.swift in Sources */,
 				D86A3C2F2632BF970049098F /* File.swift in Sources */,
+				D8A12A002AABAAAC002940D2 /* CUIStaticViewCell.swift in Sources */,
 				6003F59E195388D20070C39A /* CUIAppDelegate.m in Sources */,
-				D845AC4B29D66F7500CDDECB /* CUIElementsCell.swift in Sources */,
+				D8A12A012AABAAAC002940D2 /* CUIStaticViewVC.swift in Sources */,
 				D845A10F29D5335A00CDDECB /* CUIPlusHallListVC.swift in Sources */,
-				D845A13D29D66D6900CDDECB /* CUIPlusElementsVC.swift in Sources */,
 				6003F5A7195388D20070C39A /* CUIViewController.m in Sources */,
+				D8A129FA2AABAA68002940D2 /* CUIElementsCell.swift in Sources */,
+				D8A129FB2AABAA68002940D2 /* CUIPlusElementsVC.swift in Sources */,
 				D8E8B3CF26132114003BD3DB /* CUIRuleViewController.m in Sources */,
-				D86AB5D329DBBBF500840A11 /* CUIDynamicViewVC.swift in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -581,14 +593,16 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1000;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VUC9NCVG44;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CUIDemoFavorites/CUIDemoFavorites-Prefix.pch";
 				INFOPLIST_FILE = "CUIDemoFavorites/CUIDemoFavorites-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = DemoFavorites;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
@@ -597,6 +611,7 @@
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = org.cocoapods.demo.DemoFavorites;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:CUIDemoFavorites)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "CUIDemoFavorites/CUIDemoFavorites-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -612,14 +627,16 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1000;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VUC9NCVG44;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CUIDemoFavorites/CUIDemoFavorites-Prefix.pch";
 				INFOPLIST_FILE = "CUIDemoFavorites/CUIDemoFavorites-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = DemoFavorites;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
@@ -627,6 +644,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = org.cocoapods.demo.DemoFavorites;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "CUIDemoFavorites/CUIDemoFavorites-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

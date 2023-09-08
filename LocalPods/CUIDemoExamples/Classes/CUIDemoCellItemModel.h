@@ -20,7 +20,7 @@ typedef NS_ENUM(NSInteger, CUIDemoItemCellType) {
 @property (nonatomic, assign) CUIDemoItemCellType cellType;
 @property (nonatomic, copy) NSString *className; //控件类名
 @property (nonatomic, copy) NSString *imageName;
-@property (nonatomic, copy) NSString *imageType;//mp4
+@property (nonatomic, copy) NSString *imageType;//mp4,png
 @property (nonatomic, copy) NSString *author;
 @property (nonatomic, copy) NSString *detailVCName; //测试代码的VC
 @property (nonatomic, strong, nullable) UIViewController *detailVC; //测试代码的VC

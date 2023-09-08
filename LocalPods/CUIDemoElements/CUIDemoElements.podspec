@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
 #  s.public_header_files = 'CUIDemoElements/Classes/**/*.h'
   s.prefix_header_file = 'CUIDemoElements.pch'
   s.frameworks = 'UIKit', 'Foundation', 'MapKit'
+  s.dependency 'AKOCommonToolsKit'
   s.dependency 'Masonry'
   s.dependency 'SVProgressHUD'
 

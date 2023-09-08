@@ -8,7 +8,7 @@
 
 #import "CUITabSelectView.h"
 #import "Masonry.h"
-#import "CommonKit.h"
+#import "UIView+TabSelectEasyLayout.h"
 
 @interface CUITabSelectViewCell ()
 @property (nonatomic, strong) UILabel *titleLabel;

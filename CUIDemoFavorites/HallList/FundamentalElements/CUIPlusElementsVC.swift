@@ -10,18 +10,38 @@ import Foundation
 import AKOCommonToolsKit
 import CUIDemoExamples
 
+public enum StaticViewType {
+    case staticViewType, elementsViewType
+}
+
 @objc(CUIPlusElementsVC)
 @objcMembers
 public class CUIPlusElementsVC : UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UIScrollViewDelegate {
     
+    var viewType : StaticViewType!
     var collectionView: UICollectionView!
 
     let cellElementsReuseIdentifier = "CUIElementsCell"
     let cellDynamicReuseIdentifier = "CUIDynamicViewCell"
 
     lazy var items: [CUIDemoCellItemModel] = {
-        return CUIDemoElementsData.obtainData()
+        if viewType == .elementsViewType {
+            return CUIDemoElementsData.obtainData()
+        } else {
+            return CUIDemoStaticViewData.obtainData()
+        }
+        
     }()
+    
+    init(viewType: StaticViewType) {
+         self.viewType = viewType
+         super.init(nibName: nil, bundle: nil)
+     }
+
+     required init?(coder aDecoder: NSCoder) {
+         fatalError("init(coder:) has not been implemented")
+     }
+    
     public override func viewDidLoad() {
         
         super.viewDidLoad()

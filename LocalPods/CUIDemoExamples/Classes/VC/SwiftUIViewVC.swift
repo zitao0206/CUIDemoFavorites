@@ -37,8 +37,6 @@ public class SwiftUIViewVC<T: View>: UIViewController {
     public func loadBackgroudColor() -> UIColor {
         return .white
     }
-    
- 
 }
 
 extension View {
