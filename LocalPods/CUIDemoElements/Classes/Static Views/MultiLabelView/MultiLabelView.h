@@ -1,5 +1,5 @@
 //
-//  CUIMultiLabelView.h
+//  MultiLabelView.h
 //
 //  Created by zitao on 03/30/2021.
 //  Copyright (c) 2021 zitao. All rights reserved.
@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^MultiLabelConfigBlock)(CUIMultiLabelConfig *config);
 
-@interface CUIMultiLabelView : UIView
+@interface MultiLabelView : UIView
 - (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initWithFrame:(CGRect)frame NS_UNAVAILABLE;
 - (instancetype)initWithConfig:(MultiLabelConfigBlock)config;

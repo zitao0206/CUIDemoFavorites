@@ -1,5 +1,5 @@
 //
-//  CUITabSelectView.h
+//  TabSelectView.h
 //  Pods
 //
 //  Created by zitao on 09/01/2021.
@@ -14,7 +14,7 @@ typedef void(^CUITabSelectedCallback)(NSUInteger idx);
 
 @end;
 
-@interface CUITabSelectView : UIView
+@interface TabSelectView : UIView
 
 @property (nonatomic, copy) NSArray<NSString *> *titles;
 

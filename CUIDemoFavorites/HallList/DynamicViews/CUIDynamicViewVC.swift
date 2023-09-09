@@ -18,7 +18,7 @@ public class CUIDynamicViewVC : UIViewController, UICollectionViewDelegate, UICo
 
     let cellReuseIdentifier = "CUIDynamicViewCell"
 
-    lazy var items: [CUIDemoCellItemModel] = {
+    lazy var items: [CUIDemoItemModel] = {
         return CUIDemoDynamicViewData.obtainData()
     }()
     
@@ -62,8 +62,8 @@ public class CUIDynamicViewVC : UIViewController, UICollectionViewDelegate, UICo
     // MARK: - UICollectionViewDelegate
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let item = self.items[indexPath.row]
-        if let vc = item.detailVC {
-            self.navigationController?.pushViewController(vc, animated: true)
+        if let detailVC = item.detailVCName.obtainObj() as? UIViewController {
+            self.navigationController?.pushViewController(detailVC, animated: true)
         }
     }
     

@@ -12,8 +12,8 @@ import AKOCommonToolsKit
 
 @objc(CUITabSelectViewVC)
 public class CUITabSelectViewVC: UIViewController {
-    private lazy var tabSelectView: CUITabSelectView = {
-            let tabSelectView = CUITabSelectView(frame: CGRect(x: 15, y: 0, width: self.view.frame.width - 30, height: 30))
+    private lazy var tabSelectView: TabSelectView = {
+            let tabSelectView = TabSelectView(frame: CGRect(x: 15, y: 0, width: self.view.frame.width - 30, height: 30))
             tabSelectView.itemColor = UIColor.ako_color(withHexString: "000000", alpha: 0.6)
             tabSelectView.itemWidth = 54
             tabSelectView.itemHeight = 24

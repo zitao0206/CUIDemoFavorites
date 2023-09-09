@@ -1,12 +1,12 @@
 //
-//  CUITabSelectView.m
+//  TabSelectView.m
 //  Pods
 //
 //  Created by zitao on 09/01/2021.
 //  Copyright (c) 2021 zitao. All rights reserved.
 //
 
-#import "CUITabSelectView.h"
+#import "TabSelectView.h"
 #import <AKOCommonToolsKit/UIView+EasyLayout.h>
 
 @interface CUITabSelectViewCell ()
@@ -53,7 +53,7 @@
 
 @end
 
-@interface CUITabSelectView () <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@interface TabSelectView () <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) UIView *lineView;
 @property (nonatomic) NSInteger selectedIndex;
@@ -62,7 +62,7 @@
 @property (nonatomic, assign) BOOL needFirstCallBack;
 @end
 
-@implementation CUITabSelectView
+@implementation TabSelectView
 
 #pragma mark - Life Cycle
 

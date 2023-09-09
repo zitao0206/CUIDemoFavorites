@@ -54,9 +54,9 @@ class CUIDynamicViewCell: UICollectionViewCell {
     }
 
     func refreshData(_ data: Any?) {
-        if let item = data as? CUIDemoCellItemModel {
+        if let item = data as? CUIDemoItemModel {
             
-            if item.cellType != .VideoItemCellType {
+            if item.cellType != .videoItemType {
                 return
             }
             

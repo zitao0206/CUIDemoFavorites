@@ -10,8 +10,8 @@ import SwiftUI
 import CUIDemoElements
 import AKOCommonToolsKit
 
-@objc(RollingNumberVC)
-public class RollingNumberVC: UIViewController {
+@objc(RollingNumberViewVC)
+public class RollingNumberViewVC: UIViewController {
     
     var foldNumber1: RollingNumberView!
     var foldNumber2: RollingNumberView!

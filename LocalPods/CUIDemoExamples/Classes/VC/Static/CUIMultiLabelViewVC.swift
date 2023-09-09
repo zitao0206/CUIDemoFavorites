@@ -12,7 +12,7 @@ import CUIDemoElements
 @objc(CUIMultiLabelViewVC)
 public class CUIMultiLabelViewVC: UIViewController {
     
-    private lazy var multiLabelView1: CUIMultiLabelView = {
+    private lazy var multiLabelView1: MultiLabelView = {
         let config: (CUIMultiLabelConfig) -> Void = { config in
                config.width = 0
                config.templateLabel.textAlignment = .center
@@ -29,11 +29,11 @@ public class CUIMultiLabelViewVC: UIViewController {
                config.numberOflines = 1
            }
 
-        let multiLabelView = CUIMultiLabelView(config: config)
+        let multiLabelView = MultiLabelView(config: config)
             return multiLabelView
         }()
 
-        private lazy var multiLabelView2: CUIMultiLabelView = {
+        private lazy var multiLabelView2: MultiLabelView = {
             let config: (CUIMultiLabelConfig) -> Void = { config in
                 config.width = 200
                 config.templateLabel.textAlignment = .center
@@ -50,7 +50,7 @@ public class CUIMultiLabelViewVC: UIViewController {
                 config.numberOflines = 0
             }
 
-            let multiLabelView = CUIMultiLabelView(config: config)
+            let multiLabelView = MultiLabelView(config: config)
             return multiLabelView
         }()
     

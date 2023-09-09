@@ -17,9 +17,10 @@ public class CUIDemoStaticViewData : NSObject {
     }
 
     static func obtainItemData(withKeyName keyName: String, descrip description: String, imageType: String) -> CUIDemoCellItemModel {
-        let className = "CUI\(keyName)View"
+        let className = "\(keyName)View"
         let imageName = "\(keyName.lowercased())"
-        let detailVCName = "CUI\(keyName)ViewVC"
+        let detailVCName = "\(keyName)ViewVC"
+        
         let item = CUIDemoCellItemModel()
         item.imageType = imageType
         if imageType == "mp4" {

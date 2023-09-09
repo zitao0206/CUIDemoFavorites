@@ -1,11 +1,11 @@
 //
-//  CUIMultiLabelView.m
+//  MultiLabelView.m
 //
 //  Created by zitao on 03/30/2021.
 //  Copyright (c) 2021 zitao. All rights reserved.
 //
 
-#import "CUIMultiLabelView.h"
+#import "MultiLabelView.h"
 
 #define MDWidth [UIScreen mainScreen].bounds.size.width
 #define MDHeight [UIScreen mainScreen].bounds.size.height
@@ -51,11 +51,11 @@
 
 @end
 
-@interface CUIMultiLabelView ()
+@interface MultiLabelView ()
 @property (nonatomic, strong) CUIMultiLabelConfig *config;
 @end
 
-@implementation CUIMultiLabelView
+@implementation MultiLabelView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
