@@ -15,7 +15,7 @@ public class CUIDemoDynamicViewData : NSObject {
         array.append(obtainItemData(withKeyName: "SpringMotion", descrip: "Spring motion animation･UIKit", imageType: "mov"))
         array.append(obtainItemData(withKeyName: "SimpleRotation", descrip: "Simple rotation animation･UIKit", imageType: "mov"))
         array.append(obtainItemData(withKeyName: "RollingNumber", descrip: "Rolling numbers･UIKit", imageType: "mov"))
-        array.append(obtainItemData(withKeyName: "GravityCollision", descrip: "gravity-force imitation collision･UIKit", imageType: "mov"))
+        array.append(obtainItemData(withKeyName: "GravityCollision", descrip: "Gravity collision animation･UIKit", imageType: "mov"))
 
 //        [array addObject:[self.class obtainItemDataWithKeyName:@"ProgressCircle" descrip:@"简易的圆形进度条"]];
 //        [array addObject:[self.class obtainItemDataWithKeyName:@"InputAudio" descrip:@"语音聊天输入动画"]];

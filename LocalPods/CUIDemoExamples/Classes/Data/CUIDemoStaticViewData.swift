@@ -11,8 +11,8 @@ public class CUIDemoStaticViewData : NSObject {
     
     public static func obtainData() -> [CUIDemoCellItemModel] {
         var array = [CUIDemoCellItemModel]()
-        array.append(obtainItemData(withKeyName: "MultiLabel", descrip: "多标签展示･UIKit", imageType: "png"))
-        array.append(obtainItemData(withKeyName: "TabSelect", descrip: "分段选择･UIKit", imageType: "png"))
+        array.append(obtainItemData(withKeyName: "MultiLabel", descrip: "Multi label･UIKit", imageType: "png"))
+        array.append(obtainItemData(withKeyName: "TabSelect", descrip: "Tab selection･UIKit", imageType: "png"))
         return array
     }
 
