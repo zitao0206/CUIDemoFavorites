@@ -1,4 +1,4 @@
-*.* linguist-language=Objective-C
-*.js linguist-language=Objective-C
-*.css linguist-language=Objective-C
-*.html linguist-language=Objective-C
+*.* linguist-language=Swift
+*.js linguist-language=Swift
+*.css linguist-language=Swift
+*.html linguist-language=Swift
