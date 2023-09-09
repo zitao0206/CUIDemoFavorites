@@ -30,7 +30,7 @@ class CUIDynamicViewCell: UICollectionViewCell {
         return label
     }()
 
-    private var player: AVPlayer? // 播放器对象
+    private var player: AVPlayer? // player object
     private var currentPlayerItem: AVPlayerItem?
     
     var isBeingPaused : Bool = false
@@ -60,24 +60,24 @@ class CUIDynamicViewCell: UICollectionViewCell {
                 return
             }
             
-            titleLabel.text = item.descrip
+            titleLabel.text = item.className
             titleLabel.sizeToFit()
-            classLabel.text = item.className
+            classLabel.text = item.descrip
             classLabel.sizeToFit()
             
-            // 本地视频路径
+            // the path of local video
             guard let bundle = Bundle.ako_bundle(withPodName: "CUIDemoExamples-Videos") else {
-                assertionFailure("视频资源异常！！！")
+                assertionFailure("Video Resource Exception ！！！")
                 return
             }
             guard let localFilePath = bundle.path(forResource: item.imageName, ofType: item.imageType), !localFilePath.isEmpty else {
-                assertionFailure("视频资源异常！！！")
+                assertionFailure("Video Resource Exception ！！！")
                 return
             }
             
             let localVideoUrl = URL(fileURLWithPath: localFilePath)
             guard localVideoUrl.path.count > 0 else {
-                assertionFailure("视频资源异常！！！")
+                assertionFailure("Video Resource Exception ！！！")
                 return
             }
             

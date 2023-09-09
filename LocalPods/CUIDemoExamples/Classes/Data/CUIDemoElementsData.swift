@@ -1,12 +1,11 @@
 //
-//  CUIDemoData.swift
+//  CUIDemoElementsData.swift
 //  CUIDemoExamples
 //
-//  Created by zitao on 2023/3/31.
+//  Created by lizitao on 2023/9/9.
 //
 
 import Foundation
-import AKOCommonToolsKit
 
 public class CUIDemoElementsData : NSObject {
     
@@ -56,71 +55,6 @@ public class CUIDemoElementsData : NSObject {
         } else {
             item.cellType = .VideoItemCellType
         }
-        item.detailVCName = detailVCName
-        item.detailVC = detailVCName.obtainObj() as? UIViewController
-        item.descrip = description
-        return item
-    }
-
-}
-
-
-
-public class CUIDemoStaticViewData : NSObject {
-    
-    public static func obtainData() -> [CUIDemoCellItemModel] {
-        var array = [CUIDemoCellItemModel]()
-        array.append(obtainItemData(withKeyName: "MultiLabel", descrip: "多标签展示･UIKit", imageType: "png"))
-        array.append(obtainItemData(withKeyName: "TabSelect", descrip: "分段选择･UIKit", imageType: "png"))
-        return array
-    }
-
-    static func obtainItemData(withKeyName keyName: String, descrip description: String, imageType: String) -> CUIDemoCellItemModel {
-        let className = "CUI\(keyName)View"
-        let imageName = "\(keyName.lowercased())"
-        let detailVCName = "CUI\(keyName)ViewVC"
-        let item = CUIDemoCellItemModel()
-        item.imageType = imageType
-        if imageType == "mp4" {
-            item.cellType = .VideoItemCellType
-        } else {
-            item.cellType = .ImageItemCellType
-        }
-        item.className = className
-        item.imageName = imageName
-        item.detailVCName = detailVCName
-        item.detailVC = detailVCName.obtainObj() as? UIViewController
-        item.descrip = description
-        return item
-    }
-
-}
-
-
-public class CUIDemoDynamicViewData : NSObject {
-    
-    public static func obtainData() -> [CUIDemoCellItemModel] {
-        var array = [CUIDemoCellItemModel]()
-        array.append(obtainItemData(withKeyName: "SpringMotion", descrip: "弹簧运动动画･UIKit", imageType: "mov"))
-        array.append(obtainItemData(withKeyName: "SimpleRotation", descrip: "简单的旋转动画･UIKit", imageType: "mov"))
-        array.append(obtainItemData(withKeyName: "FoldNumber", descrip: "滚动的数字･UIKit", imageType: "mov"))
-        array.append(obtainItemData(withKeyName: "GravityCollision", descrip: "仿重力碰撞･UIKit", imageType: "mov"))
-
-//        [array addObject:[self.class obtainItemDataWithKeyName:@"ProgressCircle" descrip:@"简易的圆形进度条"]];
-//        [array addObject:[self.class obtainItemDataWithKeyName:@"InputAudio" descrip:@"语音聊天输入动画"]];
-   
-        return array
-    }
-
-    static func obtainItemData(withKeyName keyName: String, descrip description: String, imageType: String) -> CUIDemoCellItemModel {
-        let className = "\(keyName)View"
-        let imageName = "\(keyName.lowercased())"
-        let detailVCName = "\(keyName)ViewVC"
-        let item = CUIDemoCellItemModel()
-        item.cellType = .VideoItemCellType
-        item.className = className
-        item.imageName = imageName
-        item.imageType = imageType
         item.detailVCName = detailVCName
         item.detailVC = detailVCName.obtainObj() as? UIViewController
         item.descrip = description

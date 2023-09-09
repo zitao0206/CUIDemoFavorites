@@ -21,7 +21,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title = @"Custom UI Demos";
     
     [self.view addSubview:self.customUIDemoBtn];
     [self.view addSubview:self.ruleBtn];

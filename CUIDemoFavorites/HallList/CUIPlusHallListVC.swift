@@ -20,13 +20,13 @@ public class CUIPlusHallListVC : UIViewController, UITableViewDelegate, UITableV
             items.append("Fundamental Elements")
             items.append("Static Views")
             items.append("Dynamic Views")
-            items.append("ReadMe")
+//            items.append("ReadMe")
             return items
     }()
     
     public override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Custom UI Demos"
+//        self.title = "Custom UI Demos"
         let navBarHeight = navigationController?.navigationBar.frame.height ?? 0
         
         tableView = UITableView(frame: CGRect(x: 0, y: navBarHeight, width: view.bounds.width, height: view.bounds.height - navBarHeight), style: .plain)

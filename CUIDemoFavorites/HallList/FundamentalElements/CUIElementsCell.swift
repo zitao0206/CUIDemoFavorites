@@ -50,8 +50,8 @@ class CUIElementsCell: UICollectionViewCell {
         if item.cellType != .ImageItemCellType {
             return
         }
-        titleLabel.text = item.descrip
-        subtitleLabel.text = item.className
+        titleLabel.text = item.className
+        subtitleLabel.text = item.descrip
         guard let bundle = Bundle.ako_bundle(withPodName: "CUIDemoExamples-Images") else {
             assertionFailure("Image resource exception！-------> \(item.imageName)")
             return

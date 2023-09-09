@@ -30,8 +30,6 @@
 		D8A129FB2AABAA68002940D2 /* CUIPlusElementsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A129F52AABAA67002940D2 /* CUIPlusElementsVC.swift */; };
 		D8A129FC2AABAA68002940D2 /* CUIDynamicViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A129F82AABAA67002940D2 /* CUIDynamicViewVC.swift */; };
 		D8A129FD2AABAA68002940D2 /* CUIDynamicViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A129F92AABAA67002940D2 /* CUIDynamicViewCell.swift */; };
-		D8A12A002AABAAAC002940D2 /* CUIStaticViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A129FE2AABAAAC002940D2 /* CUIStaticViewCell.swift */; };
-		D8A12A012AABAAAC002940D2 /* CUIStaticViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A129FF2AABAAAC002940D2 /* CUIStaticViewVC.swift */; };
 		D8A12A2E2AAC5E99002940D2 /* CUIRuleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A12A2D2AAC5E99002940D2 /* CUIRuleVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -92,8 +90,6 @@
 		D8A129F52AABAA67002940D2 /* CUIPlusElementsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIPlusElementsVC.swift; sourceTree = "<group>"; };
 		D8A129F82AABAA67002940D2 /* CUIDynamicViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIDynamicViewVC.swift; sourceTree = "<group>"; };
 		D8A129F92AABAA67002940D2 /* CUIDynamicViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIDynamicViewCell.swift; sourceTree = "<group>"; };
-		D8A129FE2AABAAAC002940D2 /* CUIStaticViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIStaticViewCell.swift; sourceTree = "<group>"; };
-		D8A129FF2AABAAAC002940D2 /* CUIStaticViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIStaticViewVC.swift; sourceTree = "<group>"; };
 		D8A12A2D2AAC5E99002940D2 /* CUIRuleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUIRuleVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -220,7 +216,6 @@
 				D8A12A2D2AAC5E99002940D2 /* CUIRuleVC.swift */,
 				D8A129F72AABAA67002940D2 /* DynamicViews */,
 				D8A129F32AABAA67002940D2 /* FundamentalElements */,
-				D8A129F62AABAA67002940D2 /* StaticViews */,
 			);
 			path = HallList;
 			sourceTree = "<group>";
@@ -240,15 +235,6 @@
 				D8A129F52AABAA67002940D2 /* CUIPlusElementsVC.swift */,
 			);
 			path = FundamentalElements;
-			sourceTree = "<group>";
-		};
-		D8A129F62AABAA67002940D2 /* StaticViews */ = {
-			isa = PBXGroup;
-			children = (
-				D8A129FE2AABAAAC002940D2 /* CUIStaticViewCell.swift */,
-				D8A129FF2AABAAAC002940D2 /* CUIStaticViewVC.swift */,
-			);
-			path = StaticViews;
 			sourceTree = "<group>";
 		};
 		D8A129F72AABAA67002940D2 /* DynamicViews */ = {
@@ -437,9 +423,7 @@
 				D8A129FD2AABAA68002940D2 /* CUIDynamicViewCell.swift in Sources */,
 				D8A129FC2AABAA68002940D2 /* CUIDynamicViewVC.swift in Sources */,
 				D86A3C2F2632BF970049098F /* File.swift in Sources */,
-				D8A12A002AABAAAC002940D2 /* CUIStaticViewCell.swift in Sources */,
 				6003F59E195388D20070C39A /* CUIAppDelegate.m in Sources */,
-				D8A12A012AABAAAC002940D2 /* CUIStaticViewVC.swift in Sources */,
 				D845A10F29D5335A00CDDECB /* CUIPlusHallListVC.swift in Sources */,
 				6003F5A7195388D20070C39A /* CUIViewController.m in Sources */,
 				D8A12A2E2AAC5E99002940D2 /* CUIRuleVC.swift in Sources */,

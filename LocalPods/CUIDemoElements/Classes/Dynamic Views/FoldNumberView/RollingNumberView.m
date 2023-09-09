@@ -1,11 +1,11 @@
 //
-//  FoldNumberView.h
+//  RollingNumberView.h
 //
 //  Created by zitao on 03/30/2021.
 //  Copyright (c) 2021 zitao. All rights reserved.
 //
 
-#import "FoldNumberView.h"
+#import "RollingNumberView.h"
 #import "CUIFoldLabel.h"
 
 #define   CUIFoldNumberMaxPlaces 15
@@ -27,7 +27,7 @@
 
 @end
 
-@interface FoldNumberView ()
+@interface RollingNumberView ()
 
 @property (nonatomic, strong) CUIFoldNumberConfig *config;
 
@@ -52,7 +52,7 @@
 
 @end
 
-@implementation FoldNumberView
+@implementation RollingNumberView
 
 - (instancetype)initWithConfig:(FoldNumberConfigBlock)foldNumberConfig
 {

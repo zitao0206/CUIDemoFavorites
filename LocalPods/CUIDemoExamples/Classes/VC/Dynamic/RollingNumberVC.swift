@@ -10,11 +10,11 @@ import SwiftUI
 import CUIDemoElements
 import AKOCommonToolsKit
 
-@objc(FoldNumberViewVC)
-public class FoldNumberViewVC: UIViewController {
+@objc(RollingNumberVC)
+public class RollingNumberVC: UIViewController {
     
-    var foldNumber1: FoldNumberView!
-    var foldNumber2: FoldNumberView!
+    var foldNumber1: RollingNumberView!
+    var foldNumber2: RollingNumberView!
     var timer: Timer!
     var number: Int = 0
 
@@ -22,7 +22,7 @@ public class FoldNumberViewVC: UIViewController {
             super.viewDidLoad()
             view.backgroundColor = .white
 
-            foldNumber1 = FoldNumberView { config in
+            foldNumber1 = RollingNumberView { config in
                 config.backgroundColor = .red
                 config.textColor = .black
                 config.labelBgColor = .lightGray
@@ -33,7 +33,7 @@ public class FoldNumberViewVC: UIViewController {
             }
             view.addSubview(foldNumber1)
 
-            foldNumber2 = FoldNumberView { config in
+            foldNumber2 = RollingNumberView { config in
                 config.backgroundColor = .red
                 config.textColor = .black
                 config.labelBgColor = .lightGray
