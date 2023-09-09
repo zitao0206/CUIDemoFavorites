@@ -8,6 +8,7 @@
 
 #import "CUIAppDelegate.h"
 #import "CUIViewController.h"
+#import "CUIDemoFavorites-swift.h"
 
 @implementation CUIAppDelegate
 
@@ -15,7 +16,7 @@
 {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[CUIViewController new]];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[CUIPlusHallListVC new]];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;

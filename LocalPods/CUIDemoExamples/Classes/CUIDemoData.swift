@@ -106,7 +106,6 @@ public class CUIDemoDynamicViewData : NSObject {
         array.append(obtainItemData(withKeyName: "FoldNumber", descrip: "滚动的数字･UIKit", imageType: "mov"))
         array.append(obtainItemData(withKeyName: "GravityCollision", descrip: "仿重力碰撞･UIKit", imageType: "mov"))
 
-//        [array addObject:[self.class obtainItemDataWithKeyName:@"GravityCollision" descrip:@"仿重力碰撞的动画"]];
 //        [array addObject:[self.class obtainItemDataWithKeyName:@"ProgressCircle" descrip:@"简易的圆形进度条"]];
 //        [array addObject:[self.class obtainItemDataWithKeyName:@"InputAudio" descrip:@"语音聊天输入动画"]];
    

@@ -7,8 +7,6 @@
 //
 
 #import "CUIViewController.h"
-#import "CUIRuleViewController.h"
-//#import "CUIHallListViewController.h"
 #import "CUIDemoFavorites-swift.h"
 
 @interface CUIViewController ()
@@ -23,6 +21,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"Custom UI Demos";
     
     [self.view addSubview:self.customUIDemoBtn];
     [self.view addSubview:self.ruleBtn];
@@ -61,8 +60,7 @@
 
 - (void)ruleBtnClickAction
 {
-    CUIRuleViewController *vc = [[CUIRuleViewController alloc]init];
-    vc.title = @"ReadMe";
+    CUIRuleVC *vc = [[CUIRuleVC alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
