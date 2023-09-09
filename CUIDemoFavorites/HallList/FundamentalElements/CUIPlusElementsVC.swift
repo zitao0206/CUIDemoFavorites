@@ -24,7 +24,7 @@ public class CUIPlusElementsVC : UIViewController, UICollectionViewDelegate, UIC
     let cellElementsReuseIdentifier = "CUIElementsCell"
     let cellDynamicReuseIdentifier = "CUIDynamicViewCell"
 
-    lazy var items: [CUIDemoCellItemModel] = {
+    lazy var items: [CUIDemoItemModel] = {
         if viewType == .elementsViewType {
             return CUIDemoElementsData.obtainData()
         } else {
@@ -72,7 +72,7 @@ public class CUIPlusElementsVC : UIViewController, UICollectionViewDelegate, UIC
     
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let item = items[indexPath.row]
-        if item.cellType == .VideoItemCellType {
+        if item.cellType == .videoItemType {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellDynamicReuseIdentifier, for: indexPath) as! CUIDynamicViewCell
             cell.refreshData(item)
             return cell
@@ -86,8 +86,8 @@ public class CUIPlusElementsVC : UIViewController, UICollectionViewDelegate, UIC
     // MARK: - UICollectionViewDelegate
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let item = self.items[indexPath.row]
-        if let vc = item.detailVC {
-            self.navigationController?.pushViewController(vc, animated: true)
+        if let detailVC = item.detailVCName.obtainObj() as? UIViewController {
+            self.navigationController?.pushViewController(detailVC, animated: true)
         }
     }
     
