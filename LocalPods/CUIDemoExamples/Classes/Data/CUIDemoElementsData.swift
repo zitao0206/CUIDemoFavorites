@@ -30,7 +30,7 @@ public class CUIDemoElementsData : NSObject {
         array.append(obtainItemData(withKeyName: "SimpleRotation", descrip: "Simple Rotation Animation･SwiftUI", imageType: "mov"))
 
         array.append(obtainItemData(withKeyName: "SimpleList", descrip: "Simple List･SwiftUI", imageType: "png"))
-        array.append(obtainItemData(withKeyName: "SimpleScrollView", descrip: "Simple ScrollView･SwiftUI", imageType: "png"))
+        array.append(obtainItemData(withKeyName: "SimpleScroll", descrip: "Simple ScrollView･SwiftUI", imageType: "png"))
         array.append(obtainItemData(withKeyName: "SimpleShapes", descrip: "Simple Shapes･SwiftUI", imageType: "png"))
         array.append(obtainItemData(withKeyName: "SimpleGradient", descrip: "Simple Gradient Background･SwiftUI", imageType: "png"))
         array.append(obtainItemData(withKeyName: "SimpleLine", descrip: "Simple Line･SwiftUI", imageType: "png"))

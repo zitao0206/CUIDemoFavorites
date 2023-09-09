@@ -53,7 +53,6 @@
 - (void)customUIDemoBtnClickAction
 {
     CUIPlusHallListVC *vc = [[CUIPlusHallListVC alloc]init];
-    vc.title = @"CUIDemoFavorites";
     [self.navigationController pushViewController:vc animated:YES];
 }
 
