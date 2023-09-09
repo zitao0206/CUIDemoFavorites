@@ -24,19 +24,6 @@ public class CUIDemoDynamicViewData : NSObject {
     }
 
     static func obtainItemData(withKeyName keyName: String, descrip description: String, imageType: String) -> CUIDemoItemModel {
-//        let className = "\(keyName)View"
-//        let imageName = "\(keyName.lowercased())"
-//        let detailVCName = "\(keyName)ViewVC"
-//        let item = CUIDemoCellItemModel()
-//        item.cellType = .VideoItemCellType
-//        item.className = className
-//        item.imageName = imageName
-//        item.imageType = imageType
-//        item.detailVCName = detailVCName
-//        item.detailVC = detailVCName.obtainObj() as? UIViewController
-//        item.descrip = description
-//        return item
-        
         let classNameForModel = "\(keyName)View"
         let imageNameForModel = "\(keyName.lowercased())"
         let detailVCNameForModel = "\(keyName)ViewVC"

@@ -17,24 +17,6 @@ public class CUIDemoStaticViewData : NSObject {
     }
 
     static func obtainItemData(withKeyName keyName: String, descrip description: String, imageType: String) -> CUIDemoItemModel {
-//        let className = "\(keyName)View"
-//        let imageName = "\(keyName.lowercased())"
-//        let detailVCName = "\(keyName)ViewVC"
-//
-//        let item = CUIDemoCellItemModel()
-//        item.imageType = imageType
-//        if imageType == "mp4" {
-//            item.cellType = .VideoItemCellType
-//        } else {
-//            item.cellType = .ImageItemCellType
-//        }
-//        item.className = className
-//        item.imageName = imageName
-//        item.detailVCName = detailVCName
-//        item.detailVC = detailVCName.obtainObj() as? UIViewController
-//        item.descrip = description
-//        return item
-        
         let classNameForModel = "\(keyName)View"
         let imageNameForModel = "\(keyName.lowercased())"
         let detailVCNameForModel = "\(keyName)ViewVC"

@@ -22,8 +22,8 @@ target 'CUIDemoFavorites' do
   pod 'CUIDemoExamples', :path => './LocalPods/CUIDemoExamples', :inhibit_warnings => false
   pod 'CUIDemoElements', :path => './LocalPods/CUIDemoElements', :inhibit_warnings => false
 #  pod 'CUIDemoBackups', :path => './LocalPods/CUIDemoBackups', :inhibit_warnings => false
-#  pod 'AKOCommonToolsKit', '0.0.30'
-  pod 'AKOCommonToolsKit', :path => '/Users/lizitao/Desktop/MainProject/AKOCommonToolsKit/', :inhibit_warnings => false
+  pod 'AKOCommonToolsKit', '0.0.31'
+#  pod 'AKOCommonToolsKit', :path => '/Users/lizitao/Desktop/MainProject/AKOCommonToolsKit/', :inhibit_warnings => false
  
 end
 
