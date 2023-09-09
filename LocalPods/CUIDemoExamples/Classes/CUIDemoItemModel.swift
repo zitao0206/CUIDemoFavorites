@@ -1,5 +1,5 @@
 //
-//  CUIDemoCellItemModel.swift
+//  CUIDemoItemModel.swift
 //  CUIDemoExamples
 //
 //  Created by lizitao on 2023/9/9.

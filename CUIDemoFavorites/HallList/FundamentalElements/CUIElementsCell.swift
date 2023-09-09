@@ -18,12 +18,12 @@ class CUIElementsCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
      
-        // 创建 imageView 子视图
+        // Create an imageView subview
         imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height))
         imageView.contentMode = .scaleAspectFill
         addSubview(imageView)
         
-        // 创建并添加 titleLabel 子视图
+        // Create and add an titleLabel subview
         titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: 15))
         titleLabel.textColor = .white.withAlphaComponent(1.0)
         titleLabel.font = UIFont.systemFont(ofSize: 15)
@@ -31,7 +31,7 @@ class CUIElementsCell: UICollectionViewCell {
         titleLabel.backgroundColor = .black.withAlphaComponent(0.5)
         addSubview(titleLabel)
         
-        // 创建并添加 subtitleLabel 子视图
+        // Create and add an subtitleLabel subview
         subtitleLabel = UILabel(frame: CGRect(x: 0, y: contentView.frame.height - 15, width: frame.size.width, height: 15))
         subtitleLabel.textColor = .white.withAlphaComponent(1.0)
         subtitleLabel.font = UIFont.systemFont(ofSize: 15)
@@ -44,10 +44,10 @@ class CUIElementsCell: UICollectionViewCell {
     
     public func refreshData(_ data: Any) {
         
-        guard let item = data as? CUIDemoCellItemModel else {
+        guard let item = data as? CUIDemoItemModel else {
             return
         }
-        if item.cellType != .ImageItemCellType {
+        if item.cellType != .imageItemType {
             return
         }
         titleLabel.text = item.className
