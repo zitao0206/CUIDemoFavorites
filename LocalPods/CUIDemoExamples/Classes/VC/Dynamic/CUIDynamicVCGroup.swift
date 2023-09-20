@@ -16,6 +16,14 @@ public class PhaseTrafficLightViewVC: SwiftUIViewVC <PhaseTrafficLightView> {
     }
 }
 
+@objc(CircularProgressViewVC)
+public class CircularProgressViewVC: SwiftUIViewVC <CircularProgressView> {
+    public override func loadContentView() -> CircularProgressView {
+        return CircularProgressView()
+    }
+}
+
+
 
 
 
