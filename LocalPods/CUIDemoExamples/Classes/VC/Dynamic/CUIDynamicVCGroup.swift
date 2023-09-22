@@ -9,6 +9,13 @@ import Foundation
 import SwiftUI
 import CUIDemoElements
 
+@objc(RefreshLoadMoreViewVC)
+public class RefreshLoadMoreViewVC: SwiftUIViewVC <RefreshLoadMoreView> {
+    public override func loadContentView() -> RefreshLoadMoreView {
+        return RefreshLoadMoreView()
+    }
+}
+
 @objc(PhaseTrafficLightViewVC)
 public class PhaseTrafficLightViewVC: SwiftUIViewVC <PhaseTrafficLightView> {
     public override func loadContentView() -> PhaseTrafficLightView {
