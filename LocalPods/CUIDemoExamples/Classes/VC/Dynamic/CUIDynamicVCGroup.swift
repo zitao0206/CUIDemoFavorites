@@ -9,6 +9,13 @@ import Foundation
 import SwiftUI
 import CUIDemoElements
 
+@objc(WaterRippleViewVC)
+public class WaterRippleViewVC: SwiftUIViewVC <WaterRippleView> {
+    public override func loadContentView() -> WaterRippleView {
+        return WaterRippleView()
+    }
+}
+
 @objc(RefreshLoadMoreViewVC)
 public class RefreshLoadMoreViewVC: SwiftUIViewVC <RefreshLoadMoreView> {
     public override func loadContentView() -> RefreshLoadMoreView {

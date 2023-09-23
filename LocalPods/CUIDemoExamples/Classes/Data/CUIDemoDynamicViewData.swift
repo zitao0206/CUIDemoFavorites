@@ -13,6 +13,7 @@ public class CUIDemoDynamicViewData : NSObject {
     public static func obtainData() -> [CUIDemoItemModel] {
         var array = [CUIDemoItemModel]()
         
+        array.append(obtainItemData(withKeyName: "WaterRipple", descrip: "SwiftUI", imageType: "mov"))
         array.append(obtainItemData(withKeyName: "RefreshLoadMore", descrip: "SwiftUI", imageType: "mov"))
         array.append(obtainItemData(withKeyName: "CircularProgress", descrip: "SwiftUI", imageType: "mp4"))
         array.append(obtainItemData(withKeyName: "PhaseTrafficLight", descrip: "SwiftUI", imageType: "mov"))
