@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch05.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Kaw-pA-7lB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch04.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kaw-pA-7lB">
                                 <rect key="frame" x="-30" y="-30" width="490" height="992"/>
                             </imageView>
                         </subviews>
@@ -37,6 +37,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="launch05.jpg" width="665" height="1182"/>
+        <image name="launch04.png" width="750" height="1334"/>
     </resources>
 </document>

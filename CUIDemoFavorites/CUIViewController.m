@@ -9,6 +9,42 @@
 #import "CUIViewController.h"
 #import "CUIDemoFavorites-swift.h"
 
+typedef NS_OPTIONS(NSUInteger, CustomOptions) {
+    CustomOptionNone      = 0,
+    CustomOptionOption1   = 1 << 0,
+    CustomOptionOption2   = 1 << 1,
+    CustomOptionOption3   = 1 << 2
+};
+
+@interface CustomOptionHandler : NSObject
+
+// 添加方法，用于执行与选项相关联的代码
++ (void)performActionForOption:(CustomOptions)option;
+
+@end
+
+@implementation CustomOptionHandler
+
++ (void)performActionForOption:(CustomOptions)option {
+    if (option & CustomOptionOption1) {
+        // 执行与CustomOptionOption1相关的代码
+        NSLog(@"Option 1 is selected.");
+    }
+    
+    if (option & CustomOptionOption2) {
+        // 执行与CustomOptionOption2相关的代码
+        NSLog(@"Option 2 is selected.");
+    }
+    
+    if (option & CustomOptionOption3) {
+        // 执行与CustomOptionOption3相关的代码
+        NSLog(@"Option 3 is selected.");
+    }
+}
+
+@end
+
+
 @interface CUIViewController ()
 @property (nonatomic, strong) UIButton *customUIDemoBtn;
 @property (nonatomic, strong) UIButton *demoForBackup;
@@ -21,6 +57,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    CustomOptions selectedOptions = CustomOptionOption1 | CustomOptionOption3;
+    [CustomOptionHandler performActionForOption:selectedOptions];
     
     [self.view addSubview:self.customUIDemoBtn];
     [self.view addSubview:self.ruleBtn];

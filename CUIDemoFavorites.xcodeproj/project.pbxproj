@@ -25,7 +25,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		D845A10F29D5335A00CDDECB /* CUIPlusHallListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845A10029D5335A00CDDECB /* CUIPlusHallListVC.swift */; };
 		D86A3C2F2632BF970049098F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A3C2E2632BF970049098F /* File.swift */; };
-		D8A129EC2AAB9148002940D2 /* launch05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8A129EB2AAB9148002940D2 /* launch05.jpg */; };
+		D880E30E2AC214BF00D1634D /* launch04.png in Resources */ = {isa = PBXBuildFile; fileRef = D880E30D2AC214BF00D1634D /* launch04.png */; };
 		D8A129FA2AABAA68002940D2 /* CUIElementsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A129F42AABAA67002940D2 /* CUIElementsCell.swift */; };
 		D8A129FB2AABAA68002940D2 /* CUIPlusElementsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A129F52AABAA67002940D2 /* CUIPlusElementsVC.swift */; };
 		D8A129FC2AABAA68002940D2 /* CUIDynamicViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A129F82AABAA67002940D2 /* CUIDynamicViewVC.swift */; };
@@ -85,7 +85,7 @@
 		D86A3C2E2632BF970049098F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		D86A3C322632C1400049098F /* CUIDemoFavorites-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CUIDemoFavorites-Bridging-Header.h"; sourceTree = "<group>"; };
 		D86DB4F026354F160082039F /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
-		D8A129EB2AAB9148002940D2 /* launch05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch05.jpg; sourceTree = "<group>"; };
+		D880E30D2AC214BF00D1634D /* launch04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch04.png; sourceTree = "<group>"; };
 		D8A129F42AABAA67002940D2 /* CUIElementsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIElementsCell.swift; sourceTree = "<group>"; };
 		D8A129F52AABAA67002940D2 /* CUIPlusElementsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIPlusElementsVC.swift; sourceTree = "<group>"; };
 		D8A129F82AABAA67002940D2 /* CUIDynamicViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIDynamicViewVC.swift; sourceTree = "<group>"; };
@@ -223,7 +223,7 @@
 		D8A129DE2AAB86AC002940D2 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				D8A129EB2AAB9148002940D2 /* launch05.jpg */,
+				D880E30D2AC214BF00D1634D /* launch04.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -342,11 +342,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D880E30E2AC214BF00D1634D /* launch04.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				D8A129EC2AAB9148002940D2 /* launch05.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
