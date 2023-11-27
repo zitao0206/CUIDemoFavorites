@@ -11,8 +11,7 @@ public class CUIDemoStaticViewData : NSObject {
     
     public static func obtainData() -> [CUIDemoItemModel] {
         var array = [CUIDemoItemModel]()
-        //Size：1200 * 600
-        
+        //Recommended image ratio: 1200 * 600
         array.append(obtainItemData(withKeyName: "LineChart", descrip: "SwiftUI", imageType: "png"))
         array.append(obtainItemData(withKeyName: "BezierShapes", descrip: "SwiftUI", imageType: "png"))
         array.append(obtainItemData(withKeyName: "ShrinkingShapes", descrip: "SwiftUI", imageType: "png"))

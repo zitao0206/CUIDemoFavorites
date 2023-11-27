@@ -11,7 +11,7 @@ public class CUIDemoElementsData : NSObject {
     
     public static func obtainData() -> [CUIDemoItemModel] {
         var array = [CUIDemoItemModel]()
-        //图片像素比例：1116 * 594
+        //Recommended image pixel ratio: 1116 * 594
         array.append(obtainItemData(withKeyName: "SimpleTab", descrip: "Simple Tab Selection･SwiftUI", imageType: "mov"))
 
         array.append(obtainItemData(withKeyName: "SimpleSlider", descrip: "Simple Slider･SwiftUI", imageType: "mov"))
