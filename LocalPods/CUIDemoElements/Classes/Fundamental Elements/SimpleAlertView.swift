@@ -47,21 +47,21 @@ public struct SimpleAlertView: View {
     }
     
     func getAlert() -> Alert {
-        switch alertType {
-        case .error:
-            return Alert(title: Text("There was an error!"))
-        case .success:
-            return Alert(title: Text("This was a success!"), message: nil, dismissButton: .default(Text("OK"), action: {
-                backgroundColor = .green
-            }))
-        default:
-            return Alert(title: Text("ERROR"))
-        }
+//        switch alertType {
+//        case .error:
+//            return Alert(title: Text("There was an error!"))
+//        case .success:
+//            return Alert(title: Text("This was a success!"), message: nil, dismissButton: .default(Text("OK"), action: {
+//                backgroundColor = .green
+//            }))
+//        default:
+//            return Alert(title: Text("ERROR"))
+//        }
         
-//        return Alert(
-//            title: Text(alertTitle),
-//            message: Text(alertMessage),
-//            dismissButton: .default(Text("OK")))
+        return Alert(
+            title: Text(alertTitle),
+            message: Text(alertMessage),
+            dismissButton: .default(Text("OK")))
 //        return Alert(
 //            title: Text("This is the title"),
 //            message: Text("Here we will describe the error."),

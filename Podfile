@@ -22,6 +22,13 @@ target 'CUIDemoFavorites' do
   pod 'CUIDemoExamples', :path => './LocalPods/CUIDemoExamples', :inhibit_warnings => false
   pod 'CUIDemoElements', :path => './LocalPods/CUIDemoElements', :inhibit_warnings => false
   pod 'AKOCommonToolsKit', '0.0.31'
+  
+  pod 'HomePage', '1.0.31'
+  pod 'Feedback', '2.0.1'
+  pod 'Setting', '1.0.3'
+  
+  
+  
 #  pod 'AKOCommonToolsKit', :path => '/Users/lizitao/Desktop/MainProject/AKOCommonToolsKit/', :inhibit_warnings => false
  
 end
